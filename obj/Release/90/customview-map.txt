@@ -3,7 +3,6 @@ adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 android.support.design.widget.AppBarLayout;obj\Release\90\res\layout\app_bar_main.xml
 android.support.design.widget.CoordinatorLayout;obj\Release\90\res\layout\app_bar_main.xml
-android.support.design.widget.FloatingActionButton;obj\Release\90\res\layout\app_bar_main.xml
 android.support.design.widget.NavigationView;obj\Release\90\res\layout\activity_main.xml
 android.support.v4.widget.DrawerLayout;obj\Release\90\res\layout\activity_main.xml
 android.support.v7.widget.Toolbar;obj\Release\90\res\layout\app_bar_main.xml
@@ -17,9 +16,9 @@ external-cache-path;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\
 external-path;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+FrameLayout;obj\Release\90\res\layout\content_main.xml
 gradient;obj\Release\90\res\drawable\side_nav_bar.xml
 group;obj\Release\90\res\menu\activity_main_drawer.xml
-ImageView;obj\Release\90\res\layout\content_main.xml
 ImageView;obj\Release\90\res\layout\nav_header_main.xml
 include;obj\Release\90\res\layout\activity_main.xml
 include;obj\Release\90\res\layout\app_bar_main.xml
@@ -39,7 +38,11 @@ path;obj\Release\90\res\drawable-v21\ic_menu_send.xml
 path;obj\Release\90\res\drawable-v21\ic_menu_share.xml
 path;obj\Release\90\res\drawable-v21\ic_menu_slideshow.xml
 paths;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-RelativeLayout;obj\Release\90\res\layout\content_main.xml
+RelativeLayout;obj\Release\90\res\layout\databankfragment.xml
+RelativeLayout;obj\Release\90\res\layout\hangarfragment.xml
+RelativeLayout;obj\Release\90\res\layout\homefragment.xml
+RelativeLayout;obj\Release\90\res\layout\orgfragment.xml
+RelativeLayout;obj\Release\90\res\layout\tradefragment.xml
 resources;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\35\jl\res\values\strings.xml
 resources;obj\Release\90\res\values\colors.xml
 resources;obj\Release\90\res\values\dimens.xml
@@ -55,8 +58,12 @@ string;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\35\jl\res\val
 string;obj\Release\90\res\values\strings.xml
 style;obj\Release\90\res\values\styles.xml
 style;obj\Release\90\res\values-v21\styles.xml
-TextView;obj\Release\90\res\layout\content_main.xml
+TextView;obj\Release\90\res\layout\databankfragment.xml
+TextView;obj\Release\90\res\layout\hangarfragment.xml
+TextView;obj\Release\90\res\layout\homefragment.xml
 TextView;obj\Release\90\res\layout\nav_header_main.xml
+TextView;obj\Release\90\res\layout\orgfragment.xml
+TextView;obj\Release\90\res\layout\tradefragment.xml
 translate;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\35\jl\res\anim\slide_in_right.xml
 translate;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\35\jl\res\anim\slide_out_left.xml
 vector;obj\Release\90\res\drawable-v21\ic_menu_camera.xml
