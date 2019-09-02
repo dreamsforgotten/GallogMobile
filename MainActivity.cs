@@ -11,6 +11,7 @@ using SupportFragment = Android.Support.V4.App.Fragment;
 using Android.Support.V7.App;
 using Android.Views;
 using Gallog.Fragments;
+using Android.Widget;
 
 namespace Gallog
 {
@@ -25,6 +26,15 @@ namespace Gallog
         private OrgFragment mFragment3;
         private TradeFragment mFragment4;
         private DatabankFragment mFragment5;
+        private MissionsFragment mFragment6;
+        private TradeportsFragment mFragment7;
+        private CommadatiesFragment mFragment8;
+        private MiningFragment mFragment9;
+        private MyOrgFragment mFragment10;
+        private SearchFragment mFragment11;
+        private ShipsFragment mFragment12;
+        private ComponentsFragment mFragment13;
+        private StoresFragment mFragment14;
         private Stack<SupportFragment> mStackFragment;
         
         
@@ -50,9 +60,46 @@ namespace Gallog
             mFragment3 = new OrgFragment();
             mFragment4 = new TradeFragment();
             mFragment5 = new DatabankFragment();
-            mStackFragment = new Stack<SupportFragment>();
+            mFragment6 = new MissionsFragment();
+            mFragment7 = new TradeportsFragment();
+            mFragment8 = new CommadatiesFragment();
+            mFragment9 = new MiningFragment();
+            mFragment10 = new MyOrgFragment();
+            mFragment11 = new SearchFragment();
+            mFragment12 = new ShipsFragment();
+            mFragment13 = new ComponentsFragment();
+            mFragment14 = new StoresFragment();
+            mStackFragment = new Stack<SupportFragment>(); 
+            
 
-            var trans = SupportFragmentManager.BeginTransaction();
+             var trans = SupportFragmentManager.BeginTransaction();
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment14, "Stories Fragment");
+            trans.Hide(mFragment14);
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment13, "Components Fragment");
+            trans.Hide(mFragment13);
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment12, "Ships Fragment");
+            trans.Hide(mFragment12);
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment11, "Search Fragment");
+            trans.Hide(mFragment11);
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment10, "MyOrg Fragment");
+            trans.Hide(mFragment10);
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment9, "Mining Fragment");
+            trans.Hide(mFragment9);
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment8, "Commadaties Fragment");
+            trans.Hide(mFragment8);
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment7, "Tradeports Fragment");
+            trans.Hide(mFragment7);
+
+            trans.Add(Resource.Id.fragmentContainer, mFragment6, "Missions Fragment");
+            trans.Hide(mFragment6);
 
             trans.Add(Resource.Id.fragmentContainer, mFragment5, "Databank Fragment");
             trans.Hide(mFragment5);
@@ -143,14 +190,41 @@ namespace Gallog
                 ; ShowFragment(mFragment2);
                 return true;
             }
+            else if (id == Resource.Id.nav_org)
+            {
+
+            }
             else if (id == Resource.Id.nav_myorg)
             {
                 ShowFragment(mFragment3);
                 return true;
             }
+            else if (id == Resource.Id.nav_missions)
+            {
+                ShowFragment(mFragment6);
+                return true;
+            }
             else if (id == Resource.Id.nav_trade)
             {
+            }
+            else if (id == Resource.Id.nav_trading)
+            {
                 ShowFragment(mFragment4);
+                return true;
+            }
+            else if (id == Resource.Id.nav_tradeports)
+            {
+                ShowFragment(mFragment7);
+                return true;
+            }
+            else if (id == Resource.Id.nav_commadaties)
+            {
+                ShowFragment(mFragment8);
+                return true;
+            }
+            else if (id == Resource.Id.nav_mining)
+            {
+                ShowFragment(mFragment9);
                 return true;
             }
             else if (id == Resource.Id.nav_databank)
@@ -158,6 +232,27 @@ namespace Gallog
                 ShowFragment(mFragment5);
                 return true;
             }
+            else if (id == Resource.Id.nav_search)
+            {
+                ShowFragment(mFragment11);
+                return true;
+            }
+            else if (id == Resource.Id.nav_ships)
+            {
+                ShowFragment(mFragment12);
+                return true;
+            }
+            else if (id == Resource.Id.nav_components)
+            {
+                ShowFragment(mFragment13);
+                return true;
+            }
+            else if (id == Resource.Id.nav_stores)
+            {
+                ShowFragment(mFragment14);
+                return true;
+            }
+
 
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             drawer.CloseDrawer(GravityCompat.Start);

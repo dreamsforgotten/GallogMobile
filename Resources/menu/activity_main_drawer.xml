@@ -14,17 +14,59 @@
             android:icon="@drawable/flight_takeoff_b"
             android:title="Hangar" />
         <item
-            android:id="@+id/nav_myorg"
-            android:icon="@drawable/account_b"
+            android:id="@+id/nav_org"
+            android:icon="@drawable/account_w"
             android:title="Organization" />
         <item
-            android:id="@+id/nav_databank"
-            android:icon="@drawable/dns_b"
-            android:title="Databank" />
+            android:id="@+id/nav_myorg"
+            android:icon="@drawable/account_w"
+            android:title="My Organization" />
+         <item
+          android:id="@+id/nav_missions"
+          android:icon="@drawable/account_b"
+          android:title="Missions" />
+         <item
+          android:id="@+id/nav_trade"
+          android:icon="@drawable/store_w"
+          android:title="Trade" />
+         <item
+          android:id="@+id/nav_trading"
+          android:icon="@drawable/store_w"
+          android:title="Trading" />
         <item
-            android:id="@+id/nav_trade"
-            android:icon="@drawable/store_b"
-            android:title="Trade" />
+          android:id="@+id/nav_tradeports"
+          android:icon="@drawable/store_w"
+          android:title="Trade Ports" />
+      <item
+          android:id="@+id/nav_commadaties"
+          android:icon="@drawable/store_w"
+          android:title="Commadaties" />
+      <item
+          android:id="@+id/nav_mining"
+          android:icon="@drawable/store_w"
+          android:title="Mining" />
+        <item
+          android:id="@+id/nav_databank"
+          android:icon="@drawable/dns_w"
+          android:title="Databank" />
+        <item
+          android:id="@+id/nav_search"
+          android:icon="@drawable/dns_w"
+          android:title="Search" />
+        <item
+          android:id="@+id/nav_ships"
+          android:icon="@drawable/flight_takeoff_b"
+          android:title="Ships" />
+        <item
+          android:id="@+id/nav_components"
+          android:icon="@drawable/dns_w"
+          android:title="Components" />
+       <item
+          android:id="@+id/nav_stores"
+          android:icon="@drawable/dns_w"
+          android:title="Stores" />
+     
+        
     </group>
 
 </menu>
