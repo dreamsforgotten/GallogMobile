@@ -65,8 +65,8 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.4,"aMS",%progbits,1
 	.type	.L.str.4, %object
 .L.str.4:
-	.asciz	"major=marksweep-conc"
-	.size	.L.str.4, 21
+	.asciz	"major=marksweep"
+	.size	.L.str.4, 16
 	.section	.rodata..L.str.5,"aMS",%progbits,1
 	.type	.L.str.5, %object
 .L.str.5:
@@ -75,7 +75,7 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.6,"aMS",%progbits,1
 	.type	.L.str.6, %object
 .L.str.6:
-	.asciz	"74d6ad8f-89fa-4ffc-b6aa-9a9295689c05"
+	.asciz	"9ceaf185-efca-4265-aa03-0e7c7668bd9d"
 	.size	.L.str.6, 37
 	.section	.rodata..L.str.7,"aMS",%progbits,1
 	.type	.L.str.7, %object

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Android;
+﻿using System.Collections.Generic;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
@@ -12,6 +10,9 @@ using Android.Support.V7.App;
 using Android.Views;
 using Gallog.Fragments;
 using Android.Widget;
+using Android.Graphics;
+
+
 
 namespace Gallog
 {
@@ -36,13 +37,14 @@ namespace Gallog
         private ComponentsFragment mFragment13;
         private StoresFragment mFragment14;
         private Stack<SupportFragment> mStackFragment;
-        
-        
+
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+            ActionBar.Hide();
 
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
@@ -74,7 +76,7 @@ namespace Gallog
 
              var trans = SupportFragmentManager.BeginTransaction();
 
-            trans.Add(Resource.Id.fragmentContainer, mFragment14, "Stories Fragment");
+            trans.Add(Resource.Id.fragmentContainer, mFragment14, "Stores Fragment");
             trans.Hide(mFragment14);
 
             trans.Add(Resource.Id.fragmentContainer, mFragment13, "Components Fragment");
@@ -147,6 +149,7 @@ namespace Gallog
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
             MenuInflater.Inflate(Resource.Menu.menu_main, menu);
+
             return true;
         }
 
@@ -183,74 +186,75 @@ namespace Gallog
             if (id == Resource.Id.nav_home)
             {
                 ShowFragment(mFragment1);
-                return true;
+            //    return true;
             }
             else if (id == Resource.Id.nav_hangar)
             {
                 ; ShowFragment(mFragment2);
-                return true;
+             //   return true;
             }
             else if (id == Resource.Id.nav_org)
             {
-
+                return true;
             }
             else if (id == Resource.Id.nav_myorg)
             {
                 ShowFragment(mFragment3);
-                return true;
+             //   return true;
             }
             else if (id == Resource.Id.nav_missions)
             {
                 ShowFragment(mFragment6);
-                return true;
+             //   return true;
             }
             else if (id == Resource.Id.nav_trade)
             {
+                return true;
             }
             else if (id == Resource.Id.nav_trading)
             {
                 ShowFragment(mFragment4);
-                return true;
+            //    return true;
             }
             else if (id == Resource.Id.nav_tradeports)
             {
                 ShowFragment(mFragment7);
-                return true;
+             //   return true;
             }
             else if (id == Resource.Id.nav_commadaties)
             {
                 ShowFragment(mFragment8);
-                return true;
+            //    return true;
             }
             else if (id == Resource.Id.nav_mining)
             {
                 ShowFragment(mFragment9);
-                return true;
+             //   return true;
             }
             else if (id == Resource.Id.nav_databank)
             {
                 ShowFragment(mFragment5);
-                return true;
+            //    return true;
             }
             else if (id == Resource.Id.nav_search)
             {
                 ShowFragment(mFragment11);
-                return true;
+            //    return true;
             }
             else if (id == Resource.Id.nav_ships)
             {
                 ShowFragment(mFragment12);
-                return true;
+            //    return true;
             }
             else if (id == Resource.Id.nav_components)
             {
                 ShowFragment(mFragment13);
-                return true;
+             //   return true;
             }
             else if (id == Resource.Id.nav_stores)
             {
                 ShowFragment(mFragment14);
-                return true;
+             //   return true;
             }
 
 
