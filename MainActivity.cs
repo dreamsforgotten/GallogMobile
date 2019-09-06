@@ -44,7 +44,7 @@ namespace Gallog
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-            ActionBar.Hide();
+            ActionBar.Hide();     
 
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
@@ -120,6 +120,12 @@ namespace Gallog
 
             mCurrentFragment = mFragment1;
 
+        //    var gtx = FindViewById<TextView>(Resource.Id.gtxt);
+        //    gtx.Typeface = Typeface.CreateFromAsset(Assets, "font/zektonrg.ttf");
+        //    
+        //    var tvtx = FindViewById<TextView>(Resource.Id.tvtxt);
+        // tvtx.Typeface = Typeface.CreateFromAsset(Assets, "font/zektonrg.ttf");
+            
         }
 
 
@@ -193,10 +199,10 @@ namespace Gallog
                 ; ShowFragment(mFragment2);
              //   return true;
             }
-            else if (id == Resource.Id.nav_org)
-            {
-                return true;
-            }
+     //       else if (id == Resource.Id.nav_org)
+     //       {
+     //           return true;
+     //       }
             else if (id == Resource.Id.nav_myorg)
             {
                 ShowFragment(mFragment3);
@@ -207,10 +213,10 @@ namespace Gallog
                 ShowFragment(mFragment6);
              //   return true;
             }
-            else if (id == Resource.Id.nav_trade)
-            {
-                return true;
-            }
+        //    else if (id == Resource.Id.nav_trade)
+        //    {
+        //        return true;
+        //    }
             else if (id == Resource.Id.nav_trading)
             {
                 ShowFragment(mFragment4);
@@ -231,11 +237,11 @@ namespace Gallog
                 ShowFragment(mFragment9);
              //   return true;
             }
-            else if (id == Resource.Id.nav_databank)
-            {
-                ShowFragment(mFragment5);
+        //    else if (id == Resource.Id.nav_databank)
+        //    {
+        //        ShowFragment(mFragment5);
             //    return true;
-            }
+        //    }
             else if (id == Resource.Id.nav_search)
             {
                 ShowFragment(mFragment11);

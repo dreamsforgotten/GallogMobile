@@ -127,15 +127,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Resources\font\zektonrg.ttf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </AndroidAsset>
-    <AndroidAsset Include="Assets\zektonrg.ttf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </AndroidAsset>
+    <AndroidAsset Include="Assets\font\zektonrg.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
-    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Assets\font\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_main.xml">
@@ -511,9 +506,6 @@
     <AndroidResource Include="Resources\drawable-v21\trading.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\font\zektonrg.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\css\" />

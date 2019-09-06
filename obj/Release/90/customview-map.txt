@@ -14,7 +14,9 @@ color;obj\Release\90\res\values\ic_launcher_background.xml
 dimen;obj\Release\90\res\values\dimens.xml
 external-cache-path;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+font;obj\Release\90\res\font\sourcezektonrg.xml
 font;obj\Release\90\res\font\zektonrg.xml
+font-family;obj\Release\90\res\font\sourcezektonrg.xml
 font-family;obj\Release\90\res\font\zektonrg.xml
 foreground;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
