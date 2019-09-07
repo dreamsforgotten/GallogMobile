@@ -120,12 +120,14 @@ namespace Gallog
 
             mCurrentFragment = mFragment1;
 
-        //    var gtx = FindViewById<TextView>(Resource.Id.gtxt);
-        //    gtx.Typeface = Typeface.CreateFromAsset(Assets, "font/zektonrg.ttf");
-        //    
-        //    var tvtx = FindViewById<TextView>(Resource.Id.tvtxt);
-        // tvtx.Typeface = Typeface.CreateFromAsset(Assets, "font/zektonrg.ttf");
-            
+           
+
+            //    var gtx = FindViewById<TextView>(Resource.Id.gtxt);
+            //    gtx.Typeface = Typeface.CreateFromAsset(Assets, "font/zektonrg.ttf");
+            //    
+            //    var tvtx = FindViewById<TextView>(Resource.Id.tvtxt);
+            // tvtx.Typeface = Typeface.CreateFromAsset(Assets, "font/zektonrg.ttf");
+
         }
 
 

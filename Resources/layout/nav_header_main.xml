@@ -11,7 +11,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    android:theme="@style/AppCompat.Nav">
 
     <ImageView
         android:paddingTop="20dp"
@@ -27,12 +27,14 @@
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="Gallog"
+        android:fontFamily="@font/zekton_regular"
         android:textColor="@android:color/white"/>
 
     <TextView
         android:id="@+id/tvtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/zekton_regular"
         android:text="Your Galaxy Transversed!" android:textColor="@android:color/white"/>
 
 </LinearLayout>
