@@ -126,6 +126,7 @@
     <Compile Include="Fragments\HomeFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\ApiList.cs" />
     <Compile Include="Models\MyUser.cs" />
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Geo.cs" />
@@ -527,6 +528,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\font\zekton_regular.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\trade_list_view.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

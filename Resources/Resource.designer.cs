@@ -5642,49 +5642,52 @@ namespace Gallog
 			public const int touch_outside = 2131296460;
 			
 			// aapt resource value: 0x7F0900CD
-			public const int transition_current_scene = 2131296461;
+			public const int tradeTextView = 2131296461;
 			
 			// aapt resource value: 0x7F0900CE
-			public const int transition_layout_save = 2131296462;
+			public const int transition_current_scene = 2131296462;
 			
 			// aapt resource value: 0x7F0900CF
-			public const int transition_position = 2131296463;
+			public const int transition_layout_save = 2131296463;
 			
 			// aapt resource value: 0x7F0900D0
-			public const int transition_scene_layoutid_cache = 2131296464;
+			public const int transition_position = 2131296464;
 			
 			// aapt resource value: 0x7F0900D1
-			public const int transition_transform = 2131296465;
+			public const int transition_scene_layoutid_cache = 2131296465;
 			
 			// aapt resource value: 0x7F0900D2
-			public const int tvtxt = 2131296466;
+			public const int transition_transform = 2131296466;
 			
 			// aapt resource value: 0x7F0900D3
-			public const int uniform = 2131296467;
+			public const int tvtxt = 2131296467;
 			
 			// aapt resource value: 0x7F0900D4
-			public const int unlabeled = 2131296468;
+			public const int uniform = 2131296468;
 			
 			// aapt resource value: 0x7F0900D5
-			public const int up = 2131296469;
+			public const int unlabeled = 2131296469;
 			
 			// aapt resource value: 0x7F0900D6
-			public const int useLogo = 2131296470;
+			public const int up = 2131296470;
 			
 			// aapt resource value: 0x7F0900D7
-			public const int view_offset_helper = 2131296471;
+			public const int useLogo = 2131296471;
 			
 			// aapt resource value: 0x7F0900D8
-			public const int visible = 2131296472;
+			public const int view_offset_helper = 2131296472;
 			
 			// aapt resource value: 0x7F0900D9
-			public const int webview = 2131296473;
+			public const int visible = 2131296473;
 			
 			// aapt resource value: 0x7F0900DA
-			public const int withText = 2131296474;
+			public const int webview = 2131296474;
 			
 			// aapt resource value: 0x7F0900DB
-			public const int wrap_content = 2131296475;
+			public const int withText = 2131296475;
+			
+			// aapt resource value: 0x7F0900DC
+			public const int wrap_content = 2131296476;
 			
 			static Id()
 			{
@@ -6007,11 +6010,14 @@ namespace Gallog
 			// aapt resource value: 0x7F0C004A
 			public const int support_simple_spinner_dropdown_item = 2131492938;
 			
-			// aapt resource value: 0x7F0C004B
-			public const int tradefragment = 2131492939;
-			
 			// aapt resource value: 0x7F0C004C
-			public const int tradeportfragment = 2131492940;
+			public const int tradefragment = 2131492940;
+			
+			// aapt resource value: 0x7F0C004D
+			public const int tradeportfragment = 2131492941;
+			
+			// aapt resource value: 0x7F0C004B
+			public const int trade_list_view = 2131492939;
 			
 			static Layout()
 			{
@@ -7776,7 +7782,6 @@ namespace Gallog
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030037,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F0300A8,0x7F0300AD,0x7F0300AE,0x7F0300B9,0x7F0300E3,0x7F0300E8,0x7F0300ED,0x7F0300EE,0x7F0300F0,0x7F0300FA,0x7F030104,0x7F030127,0x7F030133,0x7F030144,0x7F030148,0x7F030149,0x7F030177,0x7F03017A,0x7F0301BF,0x7F0301C9 }
 			public static int[] ActionBar = new int[] {
 					2130903093,
 					2130903094,
@@ -7808,15 +7813,14 @@ namespace Gallog
 					2130903487,
 					2130903497};
 			
-			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x0
-			public const int ActionBarLayout_android_layout_gravity = 0;
+			// aapt resource value: 0x7F010033
+			public const int ActionBarLayout_android_layout_gravity = 2130772019;
 			
-			// aapt resource value: 0x0
-			public const int ActionBar_background = 0;
+			// aapt resource value: 0x7F010003
+			public const int ActionBar_background = 2130771971;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -7902,18 +7906,15 @@ namespace Gallog
 			// aapt resource value: 0x28
 			public const int ActionBar_titleTextStyle = 40;
 			
-			// aapt resource value: { 0x101013F }
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x0
-			public const int ActionMenuItemView_android_minWidth = 0;
+			// aapt resource value: 0x7F010035
+			public const int ActionMenuItemView_android_minWidth = 2130772021;
 			
-			// aapt resource value: { 0xFFFFFFFF }
 			public static int[] ActionMenuView = new int[] {
-					-1};
+					0};
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030082,0x7F0300E3,0x7F03017A,0x7F0301C9 }
 			public static int[] ActionMode = new int[] {
 					2130903093,
 					2130903094,
@@ -7922,8 +7923,8 @@ namespace Gallog
 					2130903418,
 					2130903497};
 			
-			// aapt resource value: 0x0
-			public const int ActionMode_background = 0;
+			// aapt resource value: 0x7F010038
+			public const int ActionMode_background = 2130772024;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -7940,18 +7941,16 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300BE,0x7F0300FB }
 			public static int[] ActivityChooserView = new int[] {
 					2130903230,
 					2130903291};
 			
-			// aapt resource value: 0x0
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
+			// aapt resource value: 0x7F010045
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2130772037;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030056,0x7F030057,0x7F03011E,0x7F03011F,0x7F030130,0x7F03015F,0x7F030160 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903126,
@@ -7962,8 +7961,8 @@ namespace Gallog
 					2130903391,
 					2130903392};
 			
-			// aapt resource value: 0x0
-			public const int AlertDialog_android_layout = 0;
+			// aapt resource value: 0x7F010048
+			public const int AlertDialog_android_layout = 2130772040;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonIconDimen = 1;
@@ -7986,7 +7985,6 @@ namespace Gallog
 			// aapt resource value: 0x7
 			public const int AlertDialog_singleChoiceItemLayout = 7;
 			
-			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] AnimatedStateListDrawableCompat = new int[] {
 					16843036,
 					16843156,
@@ -7998,8 +7996,8 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int AnimatedStateListDrawableCompat_android_constantSize = 3;
 			
-			// aapt resource value: 0x0
-			public const int AnimatedStateListDrawableCompat_android_dither = 0;
+			// aapt resource value: 0x7F010057
+			public const int AnimatedStateListDrawableCompat_android_dither = 2130772055;
 			
 			// aapt resource value: 0x4
 			public const int AnimatedStateListDrawableCompat_android_enterFadeDuration = 4;
@@ -8013,7 +8011,6 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableCompat_android_visible = 1;
 			
-			// aapt resource value: { 0x10100D0,0x1010199 }
 			public static int[] AnimatedStateListDrawableItem = new int[] {
 					16842960,
 					16843161};
@@ -8021,18 +8018,17 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableItem_android_drawable = 1;
 			
-			// aapt resource value: 0x0
-			public const int AnimatedStateListDrawableItem_android_id = 0;
+			// aapt resource value: 0x7F010064
+			public const int AnimatedStateListDrawableItem_android_id = 2130772068;
 			
-			// aapt resource value: { 0x1010199,0x1010449,0x101044A,0x101044B }
 			public static int[] AnimatedStateListDrawableTransition = new int[] {
 					16843161,
 					16843849,
 					16843850,
 					16843851};
 			
-			// aapt resource value: 0x0
-			public const int AnimatedStateListDrawableTransition_android_drawable = 0;
+			// aapt resource value: 0x7F010067
+			public const int AnimatedStateListDrawableTransition_android_drawable = 2130772071;
 			
 			// aapt resource value: 0x2
 			public const int AnimatedStateListDrawableTransition_android_fromId = 2;
@@ -8043,7 +8039,6 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300B9,0x7F0300BF,0x7F030119 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
@@ -8052,15 +8047,14 @@ namespace Gallog
 					2130903231,
 					2130903321};
 			
-			// aapt resource value: { 0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170 }
 			public static int[] AppBarLayoutStates = new int[] {
 					2130903405,
 					2130903406,
 					2130903407,
 					2130903408};
 			
-			// aapt resource value: 0x0
-			public const int AppBarLayoutStates_state_collapsed = 0;
+			// aapt resource value: 0x7F010079
+			public const int AppBarLayoutStates_state_collapsed = 2130772089;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
@@ -8071,8 +8065,8 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int AppBarLayoutStates_state_lifted = 3;
 			
-			// aapt resource value: 0x0
-			public const int AppBarLayout_android_background = 0;
+			// aapt resource value: 0x7F010072
+			public const int AppBarLayout_android_background = 2130772082;
 			
 			// aapt resource value: 0x2
 			public const int AppBarLayout_android_keyboardNavigationCluster = 2;
@@ -8086,13 +8080,12 @@ namespace Gallog
 			// aapt resource value: 0x4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030117,0x7F030118 }
 			public static int[] AppBarLayout_Layout = new int[] {
 					2130903319,
 					2130903320};
 			
-			// aapt resource value: 0x0
-			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
+			// aapt resource value: 0x7F010084
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2130772100;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -8100,15 +8093,14 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F03016A,0x7F0301BD,0x7F0301BE }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
 					2130903402,
 					2130903485,
 					2130903486};
 			
-			// aapt resource value: 0x0
-			public const int AppCompatImageView_android_src = 0;
+			// aapt resource value: 0x7F010087
+			public const int AppCompatImageView_android_src = 2130772103;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -8119,15 +8111,14 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301BA,0x7F0301BB,0x7F0301BC }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
 					2130903482,
 					2130903483,
 					2130903484};
 			
-			// aapt resource value: 0x0
-			public const int AppCompatSeekBar_android_thumb = 0;
+			// aapt resource value: 0x7F010092
+			public const int AppCompatSeekBar_android_thumb = 2130772114;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -8138,7 +8129,6 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int AppCompatSeekBar_tickMarkTintMode = 3;
 			
-			// aapt resource value: { 0x1010034,0x101016D,0x101016E,0x101016F,0x1010170,0x1010392,0x1010393 }
 			public static int[] AppCompatTextHelper = new int[] {
 					16842804,
 					16843117,
@@ -8166,10 +8156,9 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableTop = 1;
 			
-			// aapt resource value: 0x0
-			public const int AppCompatTextHelper_android_textAppearance = 0;
+			// aapt resource value: 0x7F010097
+			public const int AppCompatTextHelper_android_textAppearance = 2130772119;
 			
-			// aapt resource value: { 0x1010034,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F030034,0x7F0300D2,0x7F0300D5,0x7F03010C,0x7F03011A,0x7F03019A }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903088,
@@ -8183,8 +8172,8 @@ namespace Gallog
 					2130903322,
 					2130903450};
 			
-			// aapt resource value: 0x0
-			public const int AppCompatTextView_android_textAppearance = 0;
+			// aapt resource value: 0x7F010105
+			public const int AppCompatTextView_android_textAppearance = 2130772229;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -8216,7 +8205,6 @@ namespace Gallog
 			// aapt resource value: 0x10
 			public const int AppCompatTextView_textAllCaps = 16;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030025,0x7F030026,0x7F030027,0x7F030028,0x7F030029,0x7F03002F,0x7F030042,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030058,0x7F030059,0x7F030063,0x7F030068,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030092,0x7F0300A1,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AF,0x7F0300B1,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300ED,0x7F0300F9,0x7F03011C,0x7F03011D,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030126,0x7F03013B,0x7F03013C,0x7F03013D,0x7F030143,0x7F030145,0x7F03014C,0x7F03014D,0x7F03014E,0x7F03014F,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F030167,0x7F030168,0x7F03017E,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301B0,0x7F0301B1,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301D5,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -8448,8 +8436,8 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_android_windowAnimationStyle = 1;
 			
-			// aapt resource value: 0x0
-			public const int AppCompatTheme_android_windowIsFloating = 0;
+			// aapt resource value: 0x7F010117
+			public const int AppCompatTheme_android_windowIsFloating = 2130772247;
 			
 			// aapt resource value: 0x37
 			public const int AppCompatTheme_autoCompleteTextViewStyle = 55;
@@ -8703,7 +8691,6 @@ namespace Gallog
 			// aapt resource value: 0x120
 			public const int AppCompatTheme_windowNoTitle = 288;
 			
-			// aapt resource value: { 0x7F030038,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300E9 }
 			public static int[] BottomAppBar = new int[] {
 					2130903096,
 					2130903239,
@@ -8712,8 +8699,8 @@ namespace Gallog
 					2130903242,
 					2130903273};
 			
-			// aapt resource value: 0x0
-			public const int BottomAppBar_backgroundTint = 0;
+			// aapt resource value: 0x7F010239
+			public const int BottomAppBar_backgroundTint = 2130772537;
 			
 			// aapt resource value: 0x1
 			public const int BottomAppBar_fabAlignmentMode = 1;
@@ -8730,7 +8717,6 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300B9,0x7F0300FE,0x7F030100,0x7F030102,0x7F030103,0x7F030107,0x7F030108,0x7F030109,0x7F03010B,0x7F03012F }
 			public static int[] BottomNavigationView = new int[] {
 					2130903225,
 					2130903294,
@@ -8743,8 +8729,8 @@ namespace Gallog
 					2130903307,
 					2130903343};
 			
-			// aapt resource value: 0x0
-			public const int BottomNavigationView_elevation = 0;
+			// aapt resource value: 0x7F010246
+			public const int BottomNavigationView_elevation = 2130772550;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -8773,15 +8759,14 @@ namespace Gallog
 			// aapt resource value: 0x9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F03003F,0x7F030040 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					2130903100,
 					2130903101,
 					2130903103,
 					2130903104};
 			
-			// aapt resource value: 0x0
-			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
+			// aapt resource value: 0x7F010257
+			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2130772567;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
@@ -8792,14 +8777,12 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F03002A }
 			public static int[] ButtonBarLayout = new int[] {
 					2130903082};
 			
-			// aapt resource value: 0x0
-			public const int ButtonBarLayout_allowStacking = 0;
+			// aapt resource value: 0x7F010262
+			public const int ButtonBarLayout_allowStacking = 2130772578;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
@@ -8818,8 +8801,8 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int CardView_android_minHeight = 1;
 			
-			// aapt resource value: 0x0
-			public const int CardView_android_minWidth = 0;
+			// aapt resource value: 0x7F010264
+			public const int CardView_android_minWidth = 2130772580;
 			
 			// aapt resource value: 0x2
 			public const int CardView_cardBackgroundColor = 2;
@@ -8854,7 +8837,6 @@ namespace Gallog
 			// aapt resource value: 0x12
 			public const int CardView_contentPaddingTop = 18;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030065,0x7F030066,0x7F030067,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030077,0x7F030078,0x7F030079,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030080,0x7F030081,0x7F0300E7,0x7F0300F1,0x7F0300F5,0x7F030151,0x7F03015D,0x7F0301B2,0x7F0301B4 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
@@ -8891,7 +8873,6 @@ namespace Gallog
 					2130903474,
 					2130903476};
 			
-			// aapt resource value: { 0x7F030064,0x7F030073,0x7F030074,0x7F030075,0x7F030161,0x7F030162 }
 			public static int[] ChipGroup = new int[] {
 					2130903140,
 					2130903155,
@@ -8900,8 +8881,8 @@ namespace Gallog
 					2130903393,
 					2130903394};
 			
-			// aapt resource value: 0x0
-			public const int ChipGroup_checkedChip = 0;
+			// aapt resource value: 0x7F010313
+			public const int ChipGroup_checkedChip = 2130772755;
 			
 			// aapt resource value: 0x1
 			public const int ChipGroup_chipSpacing = 1;
@@ -8930,8 +8911,8 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int Chip_android_text = 3;
 			
-			// aapt resource value: 0x0
-			public const int Chip_android_textAppearance = 0;
+			// aapt resource value: 0x7F010278
+			public const int Chip_android_textAppearance = 2130772600;
 			
 			// aapt resource value: 0x5
 			public const int Chip_checkedIcon = 5;
@@ -9020,7 +9001,6 @@ namespace Gallog
 			// aapt resource value: 0x33
 			public const int Chip_textStartPadding = 51;
 			
-			// aapt resource value: { 0x7F030085,0x7F030086,0x7F0300A0,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F030152,0x7F030154,0x7F030172,0x7F0301BF,0x7F0301C0,0x7F0301CA }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903173,
 					2130903174,
@@ -9039,8 +9019,8 @@ namespace Gallog
 					2130903488,
 					2130903498};
 			
-			// aapt resource value: 0x0
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
+			// aapt resource value: 0x7F010320
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2130772768;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -9069,13 +9049,12 @@ namespace Gallog
 			// aapt resource value: 0x9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F030112,0x7F030113 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
 					2130903314,
 					2130903315};
 			
-			// aapt resource value: 0x0
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
+			// aapt resource value: 0x7F010337
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2130772791;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -9098,7 +9077,6 @@ namespace Gallog
 			// aapt resource value: 0x15
 			public const int CollapsingToolbarLayout_toolbarId = 21;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F03002B }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
@@ -9110,17 +9088,16 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
 			
-			// aapt resource value: 0x0
-			public const int ColorStateListItem_android_color = 0;
+			// aapt resource value: 0x7F010340
+			public const int ColorStateListItem_android_color = 2130772800;
 			
-			// aapt resource value: { 0x1010107,0x7F03005A,0x7F03005B }
 			public static int[] CompoundButton = new int[] {
 					16843015,
 					2130903130,
 					2130903131};
 			
-			// aapt resource value: 0x0
-			public const int CompoundButton_android_button = 0;
+			// aapt resource value: 0x7F010344
+			public const int CompoundButton_android_button = 2130772804;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -9128,15 +9105,13 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F03010A,0x7F030171 }
 			public static int[] CoordinatorLayout = new int[] {
 					2130903306,
 					2130903409};
 			
-			// aapt resource value: 0x0
-			public const int CoordinatorLayout_keylines = 0;
+			// aapt resource value: 0x7F010348
+			public const int CoordinatorLayout_keylines = 2130772808;
 			
-			// aapt resource value: { 0x10100B3,0x7F03010F,0x7F030110,0x7F030111,0x7F030114,0x7F030115,0x7F030116 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
 					2130903311,
@@ -9146,8 +9121,8 @@ namespace Gallog
 					2130903317,
 					2130903318};
 			
-			// aapt resource value: 0x0
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
+			// aapt resource value: 0x7F010351
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2130772817;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -9170,26 +9145,24 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030045,0x7F030046 }
 			public static int[] DesignTheme = new int[] {
 					2130903109,
 					2130903110};
 			
-			// aapt resource value: 0x0
-			public const int DesignTheme_bottomSheetDialogTheme = 0;
+			// aapt resource value: 0x7F010359
+			public const int DesignTheme_bottomSheetDialogTheme = 2130772825;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F030000,0x7F030001,0x7F030002,0x7F030003 }
 			public static int[] Dialog = new int[] {
 					2130903040,
 					2130903041,
 					2130903042,
 					2130903043};
 			
-			// aapt resource value: 0x0
-			public const int Dialog_DialogSpotColor = 0;
+			// aapt resource value: 0x7F010362
+			public const int Dialog_DialogSpotColor = 2130772834;
 			
 			// aapt resource value: 0x1
 			public const int Dialog_DialogSpotCount = 1;
@@ -9200,7 +9173,6 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int Dialog_DialogTitleText = 3;
 			
-			// aapt resource value: { 0x7F03002D,0x7F03002E,0x7F03003A,0x7F030087,0x7F0300B2,0x7F0300E0,0x7F030166,0x7F0301B6 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903085,
 					2130903086,
@@ -9211,8 +9183,8 @@ namespace Gallog
 					2130903398,
 					2130903478};
 			
-			// aapt resource value: 0x0
-			public const int DrawerArrowToggle_arrowHeadLength = 0;
+			// aapt resource value: 0x7F010367
+			public const int DrawerArrowToggle_arrowHeadLength = 2130772839;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -9235,7 +9207,6 @@ namespace Gallog
 			// aapt resource value: 0x7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030038,0x7F030039,0x7F030041,0x7F0300B9,0x7F0300CB,0x7F0300CC,0x7F0300E7,0x7F0300EF,0x7F03012D,0x7F030147,0x7F030151,0x7F03015D,0x7F0301D4 }
 			public static int[] FloatingActionButton = new int[] {
 					2130903096,
 					2130903097,
@@ -9251,18 +9222,17 @@ namespace Gallog
 					2130903389,
 					2130903508};
 			
-			// aapt resource value: 0x0
-			public const int FloatingActionButton_backgroundTint = 0;
+			// aapt resource value: 0x7F010376
+			public const int FloatingActionButton_backgroundTint = 2130772854;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F03003B }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130903099};
 			
-			// aapt resource value: 0x0
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
+			// aapt resource value: 0x7F010390
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2130772880;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -9297,18 +9267,16 @@ namespace Gallog
 			// aapt resource value: 0x12
 			public const int FloatingActionButton_useCompatPadding = 18;
 			
-			// aapt resource value: { 0x7F030105,0x7F03011B }
 			public static int[] FlowLayout = new int[] {
 					2130903301,
 					2130903323};
 			
-			// aapt resource value: 0x0
-			public const int FlowLayout_itemSpacing = 0;
+			// aapt resource value: 0x7F010392
+			public const int FlowLayout_itemSpacing = 2130772882;
 			
 			// aapt resource value: 0x1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB }
 			public static int[] FontFamily = new int[] {
 					2130903254,
 					2130903255,
@@ -9317,7 +9285,6 @@ namespace Gallog
 					2130903258,
 					2130903259};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D4,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0301D3 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -9330,8 +9297,8 @@ namespace Gallog
 					2130903262,
 					2130903507};
 			
-			// aapt resource value: 0x0
-			public const int FontFamilyFont_android_font = 0;
+			// aapt resource value: 0x7F010402
+			public const int FontFamilyFont_android_font = 2130772994;
 			
 			// aapt resource value: 0x2
 			public const int FontFamilyFont_android_fontStyle = 2;
@@ -9360,8 +9327,8 @@ namespace Gallog
 			// aapt resource value: 0x9
 			public const int FontFamilyFont_ttcIndex = 9;
 			
-			// aapt resource value: 0x0
-			public const int FontFamily_fontProviderAuthority = 0;
+			// aapt resource value: 0x7F010395
+			public const int FontFamily_fontProviderAuthority = 2130772885;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -9378,14 +9345,13 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300DF }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
 					2130903263};
 			
-			// aapt resource value: 0x0
-			public const int ForegroundLinearLayout_android_foreground = 0;
+			// aapt resource value: 0x7F010413
+			public const int ForegroundLinearLayout_android_foreground = 2130773011;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -9393,7 +9359,6 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
-			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
 			public static int[] GradientColor = new int[] {
 					16843165,
 					16843166,
@@ -9408,13 +9373,12 @@ namespace Gallog
 					16844050,
 					16844051};
 			
-			// aapt resource value: { 0x10101A5,0x1010514 }
 			public static int[] GradientColorItem = new int[] {
 					16843173,
 					16844052};
 			
-			// aapt resource value: 0x0
-			public const int GradientColorItem_android_color = 0;
+			// aapt resource value: 0x7F010430
+			public const int GradientColorItem_android_color = 2130773040;
 			
 			// aapt resource value: 0x1
 			public const int GradientColorItem_android_offset = 1;
@@ -9440,8 +9404,8 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int GradientColor_android_gradientRadius = 5;
 			
-			// aapt resource value: 0x0
-			public const int GradientColor_android_startColor = 0;
+			// aapt resource value: 0x7F010417
+			public const int GradientColor_android_startColor = 2130773015;
 			
 			// aapt resource value: 0x8
 			public const int GradientColor_android_startX = 8;
@@ -9455,7 +9419,6 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AE,0x7F0300B0,0x7F03012E,0x7F03015C }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -9473,8 +9436,8 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
 			
-			// aapt resource value: 0x0
-			public const int LinearLayoutCompat_android_gravity = 0;
+			// aapt resource value: 0x7F010433
+			public const int LinearLayoutCompat_android_gravity = 2130773043;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_orientation = 1;
@@ -9488,15 +9451,14 @@ namespace Gallog
 			// aapt resource value: 0x6
 			public const int LinearLayoutCompat_dividerPadding = 6;
 			
-			// aapt resource value: { 0x10100B3,0x10100F4,0x10100F5,0x1010181 }
 			public static int[] LinearLayoutCompat_Layout = new int[] {
 					16842931,
 					16842996,
 					16842997,
 					16843137};
 			
-			// aapt resource value: 0x0
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 0;
+			// aapt resource value: 0x7F010443
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2130773059;
 			
 			// aapt resource value: 0x2
 			public const int LinearLayoutCompat_Layout_android_layout_height = 2;
@@ -9513,18 +9475,16 @@ namespace Gallog
 			// aapt resource value: 0x8
 			public const int LinearLayoutCompat_showDividers = 8;
 			
-			// aapt resource value: { 0x10102AC,0x10102AD }
 			public static int[] ListPopupWindow = new int[] {
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x0
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 0;
+			// aapt resource value: 0x7F010448
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2130773064;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030038,0x7F030039,0x7F0300A3,0x7F0300F0,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F0300F6,0x7F0300F7,0x7F030151,0x7F030173,0x7F030174 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
@@ -9546,8 +9506,8 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int MaterialButton_android_insetBottom = 3;
 			
-			// aapt resource value: 0x0
-			public const int MaterialButton_android_insetLeft = 0;
+			// aapt resource value: 0x7F010451
+			public const int MaterialButton_android_insetLeft = 2130773073;
 			
 			// aapt resource value: 0x1
 			public const int MaterialButton_android_insetRight = 1;
@@ -9591,18 +9551,16 @@ namespace Gallog
 			// aapt resource value: 0x15
 			public const int MaterialButton_strokeWidth = 21;
 			
-			// aapt resource value: { 0x7F030173,0x7F030174 }
 			public static int[] MaterialCardView = new int[] {
 					2130903411,
 					2130903412};
 			
-			// aapt resource value: 0x0
-			public const int MaterialCardView_strokeColor = 0;
+			// aapt resource value: 0x7F010468
+			public const int MaterialCardView_strokeColor = 2130773096;
 			
 			// aapt resource value: 0x1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030045,0x7F030046,0x7F03006C,0x7F030076,0x7F03007A,0x7F030088,0x7F030089,0x7F03008F,0x7F030090,0x7F030091,0x7F0300B8,0x7F0300D3,0x7F030129,0x7F03012A,0x7F030134,0x7F030153,0x7F030163,0x7F030196,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A9,0x7F0301AE,0x7F0301AF,0x7F0301B3 }
 			public static int[] MaterialComponentsTheme = new int[] {
 					2130903109,
 					2130903110,
@@ -9637,8 +9595,8 @@ namespace Gallog
 					2130903471,
 					2130903475};
 			
-			// aapt resource value: 0x0
-			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
+			// aapt resource value: 0x7F010471
+			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2130773105;
 			
 			// aapt resource value: 0x1
 			public const int MaterialComponentsTheme_bottomSheetStyle = 1;
@@ -9733,7 +9691,6 @@ namespace Gallog
 			// aapt resource value: 0x31
 			public const int MaterialComponentsTheme_textInputStyle = 49;
 			
-			// aapt resource value: { 0x101000E,0x10100D0,0x1010194,0x10101DE,0x10101DF,0x10101E0 }
 			public static int[] MenuGroup = new int[] {
 					16842766,
 					16842960,
@@ -9745,8 +9702,8 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int MenuGroup_android_checkableBehavior = 5;
 			
-			// aapt resource value: 0x0
-			public const int MenuGroup_android_enabled = 0;
+			// aapt resource value: 0x7F010504
+			public const int MenuGroup_android_enabled = 2130773252;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_id = 1;
@@ -9760,7 +9717,6 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030023,0x7F030024,0x7F03002C,0x7F030094,0x7F0300F6,0x7F0300F7,0x7F030135,0x7F03015B,0x7F0301CF }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -9810,8 +9766,8 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int MenuItem_android_enabled = 1;
 			
-			// aapt resource value: 0x0
-			public const int MenuItem_android_icon = 0;
+			// aapt resource value: 0x7F010511
+			public const int MenuItem_android_icon = 2130773265;
 			
 			// aapt resource value: 0x2
 			public const int MenuItem_android_id = 2;
@@ -9855,7 +9811,6 @@ namespace Gallog
 			// aapt resource value: 0x22
 			public const int MenuItem_tooltipText = 34;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030146,0x7F030175 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -9885,8 +9840,8 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int MenuView_android_verticalDivider = 3;
 			
-			// aapt resource value: 0x0
-			public const int MenuView_android_windowAnimationStyle = 0;
+			// aapt resource value: 0x7F010535
+			public const int MenuView_android_windowAnimationStyle = 2130773301;
 			
 			// aapt resource value: 0x7
 			public const int MenuView_preserveIconSpacing = 7;
@@ -9894,7 +9849,6 @@ namespace Gallog
 			// aapt resource value: 0x8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300B9,0x7F0300E2,0x7F0300FE,0x7F0300FF,0x7F030101,0x7F030103,0x7F030106,0x7F030109,0x7F03012F }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
@@ -9909,8 +9863,8 @@ namespace Gallog
 					2130903305,
 					2130903343};
 			
-			// aapt resource value: 0x0
-			public const int NavigationView_android_background = 0;
+			// aapt resource value: 0x7F010545
+			public const int NavigationView_android_background = 2130773317;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -9945,40 +9899,36 @@ namespace Gallog
 			// aapt resource value: 0x11
 			public const int NavigationView_menu = 17;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030136 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
 					2130903350};
 			
-			// aapt resource value: { 0x7F03016C }
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130903404};
 			
-			// aapt resource value: 0x0
-			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			// aapt resource value: 0x7F010562
+			public const int PopupWindowBackgroundState_state_above_anchor = 2130773346;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupAnimationStyle = 1;
 			
-			// aapt resource value: 0x0
-			public const int PopupWindow_android_popupBackground = 0;
+			// aapt resource value: 0x7F010558
+			public const int PopupWindow_android_popupBackground = 2130773336;
 			
 			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030137,0x7F03013A }
 			public static int[] RecycleListView = new int[] {
 					2130903351,
 					2130903354};
 			
-			// aapt resource value: 0x0
-			public const int RecycleListView_paddingBottomNoButtons = 0;
+			// aapt resource value: 0x7F010564
+			public const int RecycleListView_paddingBottomNoButtons = 2130773348;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300CD,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F03010E,0x7F030150,0x7F030165,0x7F03016B }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
@@ -9995,8 +9945,8 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_descendantFocusability = 1;
 			
-			// aapt resource value: 0x0
-			public const int RecyclerView_android_orientation = 0;
+			// aapt resource value: 0x7F010567
+			public const int RecyclerView_android_orientation = 2130773351;
 			
 			// aapt resource value: 0x2
 			public const int RecyclerView_fastScrollEnabled = 2;
@@ -10025,21 +9975,18 @@ namespace Gallog
 			// aapt resource value: 0x10
 			public const int RecyclerView_stackFromEnd = 16;
 			
-			// aapt resource value: { 0x7F0300FC }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130903292};
 			
-			// aapt resource value: 0x0
-			public const int ScrimInsetsFrameLayout_insetForeground = 0;
+			// aapt resource value: 0x7F010579
+			public const int ScrimInsetsFrameLayout_insetForeground = 2130773369;
 			
-			// aapt resource value: { 0x7F03003E }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130903102};
 			
-			// aapt resource value: 0x0
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
+			// aapt resource value: 0x7F010581
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2130773377;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03007B,0x7F030093,0x7F0300A9,0x7F0300E1,0x7F0300F8,0x7F03010D,0x7F03014A,0x7F03014B,0x7F030155,0x7F030156,0x7F030176,0x7F03017B,0x7F0301D6 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -10059,8 +10006,8 @@ namespace Gallog
 					2130903419,
 					2130903510};
 			
-			// aapt resource value: 0x0
-			public const int SearchView_android_focusable = 0;
+			// aapt resource value: 0x7F010583
+			public const int SearchView_android_focusable = 2130773379;
 			
 			// aapt resource value: 0x3
 			public const int SearchView_android_imeOptions = 3;
@@ -10110,19 +10057,17 @@ namespace Gallog
 			// aapt resource value: 0x16
 			public const int SearchView_voiceIcon = 22;
 			
-			// aapt resource value: { 0x7F030163,0x7F030164 }
 			public static int[] Snackbar = new int[] {
 					2130903395,
 					2130903396};
 			
-			// aapt resource value: { 0x101011F,0x7F0300B9,0x7F03012B }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903225,
 					2130903339};
 			
-			// aapt resource value: 0x0
-			public const int SnackbarLayout_android_maxWidth = 0;
+			// aapt resource value: 0x7F010604
+			public const int SnackbarLayout_android_maxWidth = 2130773508;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -10130,13 +10075,12 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: 0x0
-			public const int Snackbar_snackbarButtonStyle = 0;
+			// aapt resource value: 0x7F010601
+			public const int Snackbar_snackbarButtonStyle = 2130773505;
 			
 			// aapt resource value: 0x1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030144 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
@@ -10147,8 +10091,8 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int Spinner_android_dropDownWidth = 3;
 			
-			// aapt resource value: 0x0
-			public const int Spinner_android_entries = 0;
+			// aapt resource value: 0x7F010608
+			public const int Spinner_android_entries = 2130773512;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_popupBackground = 1;
@@ -10159,7 +10103,6 @@ namespace Gallog
 			// aapt resource value: 0x4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
 					16843036,
 					16843156,
@@ -10168,18 +10111,17 @@ namespace Gallog
 					16843532,
 					16843533};
 			
-			// aapt resource value: { 0x1010199 }
 			public static int[] StateListDrawableItem = new int[] {
 					16843161};
 			
-			// aapt resource value: 0x0
-			public const int StateListDrawableItem_android_drawable = 0;
+			// aapt resource value: 0x7F010621
+			public const int StateListDrawableItem_android_drawable = 2130773537;
 			
 			// aapt resource value: 0x3
 			public const int StateListDrawable_android_constantSize = 3;
 			
-			// aapt resource value: 0x0
-			public const int StateListDrawable_android_dither = 0;
+			// aapt resource value: 0x7F010614
+			public const int StateListDrawable_android_dither = 2130773524;
 			
 			// aapt resource value: 0x4
 			public const int StateListDrawable_android_enterFadeDuration = 4;
@@ -10193,7 +10135,6 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03015E,0x7F030169,0x7F03017C,0x7F03017D,0x7F03017F,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301D0,0x7F0301D1,0x7F0301D2 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
@@ -10213,8 +10154,8 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOff = 1;
 			
-			// aapt resource value: 0x0
-			public const int SwitchCompat_android_textOn = 0;
+			// aapt resource value: 0x7F010623
+			public const int SwitchCompat_android_textOn = 2130773539;
 			
 			// aapt resource value: 0x2
 			public const int SwitchCompat_android_thumb = 2;
@@ -10252,14 +10193,13 @@ namespace Gallog
 			// aapt resource value: 0x13
 			public const int SwitchCompat_trackTintMode = 19;
 			
-			// aapt resource value: { 0x1010002,0x10100F2,0x101014F }
 			public static int[] TabItem = new int[] {
 					16842754,
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x0
-			public const int TabItem_android_icon = 0;
+			// aapt resource value: 0x7F010638
+			public const int TabItem_android_icon = 2130773560;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -10267,7 +10207,6 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030197,0x7F030198,0x7F030199 }
 			public static int[] TabLayout = new int[] {
 					2130903424,
 					2130903425,
@@ -10295,8 +10234,8 @@ namespace Gallog
 					2130903448,
 					2130903449};
 			
-			// aapt resource value: 0x0
-			public const int TabLayout_tabBackground = 0;
+			// aapt resource value: 0x7F010642
+			public const int TabLayout_tabBackground = 2130773570;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -10370,7 +10309,6 @@ namespace Gallog
 			// aapt resource value: 0x24
 			public const int TabLayout_tabUnboundedRipple = 36;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D5,0x7F03019A }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -10410,8 +10348,8 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int TextAppearance_android_textColorLink = 5;
 			
-			// aapt resource value: 0x0
-			public const int TextAppearance_android_textSize = 0;
+			// aapt resource value: 0x7F010668
+			public const int TextAppearance_android_textSize = 2130773608;
 			
 			// aapt resource value: 0x2
 			public const int TextAppearance_android_textStyle = 2;
@@ -10425,7 +10363,6 @@ namespace Gallog
 			// aapt resource value: 0x12
 			public const int TextAppearance_textAllCaps = 18;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300BC,0x7F0300BD,0x7F0300E4,0x7F0300E5,0x7F0300E6,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
@@ -10459,8 +10396,8 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_hint = 1;
 			
-			// aapt resource value: 0x0
-			public const int TextInputLayout_android_textColorHint = 0;
+			// aapt resource value: 0x7F010682
+			public const int TextInputLayout_android_textColorHint = 2130773634;
 			
 			// aapt resource value: 0x2
 			public const int TextInputLayout_boxBackgroundColor = 2;
@@ -10540,14 +10477,13 @@ namespace Gallog
 			// aapt resource value: 0x27
 			public const int TextInputLayout_passwordToggleTintMode = 39;
 			
-			// aapt resource value: { 0x1010034,0x7F0300BA,0x7F0300BB }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
 					2130903226,
 					2130903227};
 			
-			// aapt resource value: 0x0
-			public const int ThemeEnforcement_android_textAppearance = 0;
+			// aapt resource value: 0x7F010711
+			public const int ThemeEnforcement_android_textAppearance = 2130773777;
 			
 			// aapt resource value: 0x1
 			public const int ThemeEnforcement_enforceMaterialTheme = 1;
@@ -10555,7 +10491,6 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030055,0x7F030083,0x7F030084,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F030127,0x7F030128,0x7F03012C,0x7F030131,0x7F030132,0x7F030144,0x7F030177,0x7F030178,0x7F030179,0x7F0301BF,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C8 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -10587,8 +10522,8 @@ namespace Gallog
 					2130903495,
 					2130903496};
 			
-			// aapt resource value: 0x0
-			public const int Toolbar_android_gravity = 0;
+			// aapt resource value: 0x7F010715
+			public const int Toolbar_android_gravity = 2130773781;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -10674,7 +10609,6 @@ namespace Gallog
 			// aapt resource value: 0x28
 			public const int Toolbar_titleTextColor = 40;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030138,0x7F030139,0x7F0301B5 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
@@ -10682,14 +10616,13 @@ namespace Gallog
 					2130903353,
 					2130903477};
 			
-			// aapt resource value: { 0x10100D4,0x7F030038,0x7F030039 }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
 					2130903096,
 					2130903097};
 			
-			// aapt resource value: 0x0
-			public const int ViewBackgroundHelper_android_background = 0;
+			// aapt resource value: 0x7F010751
+			public const int ViewBackgroundHelper_android_background = 2130773841;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -10697,14 +10630,13 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
 			
-			// aapt resource value: { 0x10100D0,0x10100F2,0x10100F3 }
 			public static int[] ViewStubCompat = new int[] {
 					16842960,
 					16842994,
 					16842995};
 			
-			// aapt resource value: 0x0
-			public const int ViewStubCompat_android_id = 0;
+			// aapt resource value: 0x7F010755
+			public const int ViewStubCompat_android_id = 2130773845;
 			
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_inflatedId = 2;
@@ -10715,8 +10647,8 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int View_android_focusable = 1;
 			
-			// aapt resource value: 0x0
-			public const int View_android_theme = 0;
+			// aapt resource value: 0x7F010745
+			public const int View_android_theme = 2130773829;
 			
 			// aapt resource value: 0x2
 			public const int View_paddingEnd = 2;
