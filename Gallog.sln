@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gallog", "Gallog\Gallog.csproj", "{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Debug|x64.ActiveCfg = Debug|x64
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Debug|x64.Build.0 = Debug|x64
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Debug|x64.Deploy.0 = Debug|x64
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Release|x64.ActiveCfg = Release|x64
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Release|x64.Build.0 = Release|x64
+		{E82E68B4-3564-4D3C-BF05-F7B6CE1C58E3}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35E84FA0-A0D8-42FB-9247-315065527A9E}
+	EndGlobalSection
+EndGlobal
