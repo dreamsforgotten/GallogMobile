@@ -26,14 +26,22 @@ namespace Gallog.Fragments
         ListView mListUser;
         IAPIParser apiParser;
         private AlertDialog _dialog;
-
+        private Context _context;
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
         }
 
+        public override void OnActivityCreated(Bundle savedInstanceState)
+        {
+            base.OnActivityCreated(savedInstanceState);
+            
+
+        }
+
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
+            _context = container.Context;
             View view = inflater.Inflate(Resource.Layout.tradefragment, container, false);
             mButton = view.FindViewById<Button>(Resource.Id.btn_get_data);
             mListUser = view.FindViewById<ListView>(Resource.Id.list_user);
@@ -63,9 +71,9 @@ namespace Gallog.Fragments
                     List<string> user_name = new List<string>();
                     foreach (var user in users.entries)
                         user_name.Add(user.API);
-                    var adapter = new ArrayAdapter<string>(Context, Resource.Layout.trade_list_view,
-                    Resource.Id.tradeTextView, user_name.ToArray());
-
+                    var adapter = new ArrayAdapter<string>(Activity, Android.Resource.Layout.SimpleListItem1, user_name.ToArray());
+                    if (_dialog.IsShowing)
+                        _dialog.Dismiss();
                     mListUser.Adapter = adapter;
                     
                 }
@@ -73,8 +81,7 @@ namespace Gallog.Fragments
                 
 
                 
-                if (_dialog.IsShowing)
-                    _dialog.Dismiss();
+
             }
             catch (Exception ex)
             {
