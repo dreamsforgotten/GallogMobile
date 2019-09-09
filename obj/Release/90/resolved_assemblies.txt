@@ -1,10 +1,12 @@
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Gallog.dll
+C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\EDMTDialog.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Java.Interop.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Microsoft.Extensions.Primitives.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Microsoft.Net.Http.Headers.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Mono.Android.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\mscorlib.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Newtonsoft.Json.dll
+C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Refit.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\System.Buffers.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\System.Core.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\System.dll
@@ -51,5 +53,6 @@ C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Xamarin.
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Xamarin.Essentials.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\System.Data.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\System.Runtime.Serialization.dll
+C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\System.Web.Services.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\System.Xml.Linq.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Release\90\android\assets\Mono.Security.dll

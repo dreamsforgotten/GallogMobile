@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "EDMTDialog/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "SampleDependency": "1.0.0"
+        },
+        "compile": {
+          "lib/monoandroid81/EDMTDialog.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/EDMTDialog.dll": {}
+        }
+      },
+      "jQuery/2.1.1": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Primitives/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -35,6 +50,39 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.CurrentActivity/2.1.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        }
+      },
+      "Refit/4.7.51": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Refit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Refit.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard1.4/refit.targets": {}
+        }
+      },
+      "SampleDependency/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.1.1"
         }
       },
       "System.Buffers/4.5.0": {
@@ -854,6 +902,38 @@
     }
   },
   "libraries": {
+    "EDMTDialog/1.0.2": {
+      "sha512": "EPmOHnP2B1WxO8JpR76KLv/xiKqPvOL+0TRlWZBzjb9WgPTPajk4h0H0utZ6rtN+I2hUdgucVAT8y5pK/hrbbg==",
+      "type": "package",
+      "path": "edmtdialog/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "edmtdialog.1.0.2.nupkg.sha512",
+        "edmtdialog.nuspec",
+        "lib/monoandroid81/EDMTDialog.dll"
+      ]
+    },
+    "jQuery/2.1.1": {
+      "sha512": "/cy0NGAGBx0W6XLqrnehQAKeJhfnZLDdPnBvlNLq/k4mraD1a7rbHBYzV5PYBaz9t5wh+VrGhPUbPztvnFAOrQ==",
+      "type": "package",
+      "path": "jquery/2.1.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-2.1.1-vsdoc.js",
+        "Content/Scripts/jquery-2.1.1.js",
+        "Content/Scripts/jquery-2.1.1.min.js",
+        "Content/Scripts/jquery-2.1.1.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-2.1.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.2.1.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Primitives/2.2.0": {
       "sha512": "azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
       "type": "package",
@@ -908,6 +988,233 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.12.0.3-beta1.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Plugin.CurrentActivity/2.1.0.4": {
+      "sha512": "m8xaXvXUzBSqP6xRe5PeIG347WxsG/VWrZta7MnPpSvNuPf0RLB/S49UCCQyBKSsfu053+apvYm14BC7GU6Zzg==",
+      "type": "package",
+      "path": "plugin.currentactivity/2.1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Plugin.CurrentActivity.dll",
+        "lib/monoandroid44/Plugin.CurrentActivity.xml",
+        "plugin.currentactivity.2.1.0.4.nupkg.sha512",
+        "plugin.currentactivity.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Refit/4.7.51": {
+      "sha512": "QQ6CBA18lvFPCGAy9c9lLSkDpGSCJhTgH5IpeiUpvrkPVOJ4ROSKwej26ulFEwYQSEIkjC3ESZ/KGHe3WbK28g==",
+      "type": "package",
+      "path": "refit/4.7.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MSBuildCore20/GeneratedInterfaceStubTemplate.mustache",
+        "build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.deps.json",
+        "build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.dll",
+        "build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.pdb",
+        "build/MSBuildCore20/InterfaceStubGenerator.BuildTasks.xml",
+        "build/MSBuildCore20/InterfaceStubGenerator.Core.dll",
+        "build/MSBuildCore20/InterfaceStubGenerator.Core.pdb",
+        "build/MSBuildCore20/InterfaceStubGenerator.Core.xml",
+        "build/MSBuildCore20/Microsoft.CodeAnalysis.CSharp.dll",
+        "build/MSBuildCore20/Microsoft.CodeAnalysis.dll",
+        "build/MSBuildCore20/Nustache.Core.dll",
+        "build/MSBuildCore20/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/MSBuildCore20/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildCore20/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/cs/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/de/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/es/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/fr/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/it/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/ja/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/ko/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/pl/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/ru/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildCore20/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/tr/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildCore20/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildCore20/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/GeneratedInterfaceStubTemplate.mustache",
+        "build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.dll",
+        "build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.pdb",
+        "build/MSBuildFull46/InterfaceStubGenerator.BuildTasks.xml",
+        "build/MSBuildFull46/InterfaceStubGenerator.Core.dll",
+        "build/MSBuildFull46/InterfaceStubGenerator.Core.pdb",
+        "build/MSBuildFull46/InterfaceStubGenerator.Core.xml",
+        "build/MSBuildFull46/Microsoft.CodeAnalysis.CSharp.dll",
+        "build/MSBuildFull46/Microsoft.CodeAnalysis.dll",
+        "build/MSBuildFull46/Microsoft.Win32.Primitives.dll",
+        "build/MSBuildFull46/Nustache.Core.dll",
+        "build/MSBuildFull46/System.AppContext.dll",
+        "build/MSBuildFull46/System.Buffers.dll",
+        "build/MSBuildFull46/System.Collections.Concurrent.dll",
+        "build/MSBuildFull46/System.Collections.Immutable.dll",
+        "build/MSBuildFull46/System.Collections.NonGeneric.dll",
+        "build/MSBuildFull46/System.Collections.Specialized.dll",
+        "build/MSBuildFull46/System.Collections.dll",
+        "build/MSBuildFull46/System.ComponentModel.EventBasedAsync.dll",
+        "build/MSBuildFull46/System.ComponentModel.Primitives.dll",
+        "build/MSBuildFull46/System.ComponentModel.TypeConverter.dll",
+        "build/MSBuildFull46/System.ComponentModel.dll",
+        "build/MSBuildFull46/System.Console.dll",
+        "build/MSBuildFull46/System.Data.Common.dll",
+        "build/MSBuildFull46/System.Diagnostics.Contracts.dll",
+        "build/MSBuildFull46/System.Diagnostics.Debug.dll",
+        "build/MSBuildFull46/System.Diagnostics.FileVersionInfo.dll",
+        "build/MSBuildFull46/System.Diagnostics.Process.dll",
+        "build/MSBuildFull46/System.Diagnostics.StackTrace.dll",
+        "build/MSBuildFull46/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/MSBuildFull46/System.Diagnostics.Tools.dll",
+        "build/MSBuildFull46/System.Diagnostics.TraceSource.dll",
+        "build/MSBuildFull46/System.Diagnostics.Tracing.dll",
+        "build/MSBuildFull46/System.Drawing.Primitives.dll",
+        "build/MSBuildFull46/System.Dynamic.Runtime.dll",
+        "build/MSBuildFull46/System.Globalization.Calendars.dll",
+        "build/MSBuildFull46/System.Globalization.Extensions.dll",
+        "build/MSBuildFull46/System.Globalization.dll",
+        "build/MSBuildFull46/System.IO.Compression.ZipFile.dll",
+        "build/MSBuildFull46/System.IO.Compression.dll",
+        "build/MSBuildFull46/System.IO.FileSystem.DriveInfo.dll",
+        "build/MSBuildFull46/System.IO.FileSystem.Primitives.dll",
+        "build/MSBuildFull46/System.IO.FileSystem.Watcher.dll",
+        "build/MSBuildFull46/System.IO.FileSystem.dll",
+        "build/MSBuildFull46/System.IO.IsolatedStorage.dll",
+        "build/MSBuildFull46/System.IO.MemoryMappedFiles.dll",
+        "build/MSBuildFull46/System.IO.Pipes.dll",
+        "build/MSBuildFull46/System.IO.UnmanagedMemoryStream.dll",
+        "build/MSBuildFull46/System.IO.dll",
+        "build/MSBuildFull46/System.Linq.Expressions.dll",
+        "build/MSBuildFull46/System.Linq.Parallel.dll",
+        "build/MSBuildFull46/System.Linq.Queryable.dll",
+        "build/MSBuildFull46/System.Linq.dll",
+        "build/MSBuildFull46/System.Memory.dll",
+        "build/MSBuildFull46/System.Net.Http.dll",
+        "build/MSBuildFull46/System.Net.NameResolution.dll",
+        "build/MSBuildFull46/System.Net.NetworkInformation.dll",
+        "build/MSBuildFull46/System.Net.Ping.dll",
+        "build/MSBuildFull46/System.Net.Primitives.dll",
+        "build/MSBuildFull46/System.Net.Requests.dll",
+        "build/MSBuildFull46/System.Net.Security.dll",
+        "build/MSBuildFull46/System.Net.Sockets.dll",
+        "build/MSBuildFull46/System.Net.WebHeaderCollection.dll",
+        "build/MSBuildFull46/System.Net.WebSockets.Client.dll",
+        "build/MSBuildFull46/System.Net.WebSockets.dll",
+        "build/MSBuildFull46/System.Numerics.Vectors.dll",
+        "build/MSBuildFull46/System.ObjectModel.dll",
+        "build/MSBuildFull46/System.Reflection.Extensions.dll",
+        "build/MSBuildFull46/System.Reflection.Metadata.dll",
+        "build/MSBuildFull46/System.Reflection.Primitives.dll",
+        "build/MSBuildFull46/System.Reflection.dll",
+        "build/MSBuildFull46/System.Resources.Reader.dll",
+        "build/MSBuildFull46/System.Resources.ResourceManager.dll",
+        "build/MSBuildFull46/System.Resources.Writer.dll",
+        "build/MSBuildFull46/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/MSBuildFull46/System.Runtime.CompilerServices.VisualC.dll",
+        "build/MSBuildFull46/System.Runtime.Extensions.dll",
+        "build/MSBuildFull46/System.Runtime.Handles.dll",
+        "build/MSBuildFull46/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/MSBuildFull46/System.Runtime.InteropServices.dll",
+        "build/MSBuildFull46/System.Runtime.Numerics.dll",
+        "build/MSBuildFull46/System.Runtime.Serialization.Formatters.dll",
+        "build/MSBuildFull46/System.Runtime.Serialization.Json.dll",
+        "build/MSBuildFull46/System.Runtime.Serialization.Primitives.dll",
+        "build/MSBuildFull46/System.Runtime.Serialization.Xml.dll",
+        "build/MSBuildFull46/System.Runtime.dll",
+        "build/MSBuildFull46/System.Security.Claims.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.Algorithms.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.Csp.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.Encoding.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.Primitives.dll",
+        "build/MSBuildFull46/System.Security.Cryptography.X509Certificates.dll",
+        "build/MSBuildFull46/System.Security.Principal.dll",
+        "build/MSBuildFull46/System.Security.SecureString.dll",
+        "build/MSBuildFull46/System.Text.Encoding.CodePages.dll",
+        "build/MSBuildFull46/System.Text.Encoding.Extensions.dll",
+        "build/MSBuildFull46/System.Text.Encoding.dll",
+        "build/MSBuildFull46/System.Text.RegularExpressions.dll",
+        "build/MSBuildFull46/System.Threading.Overlapped.dll",
+        "build/MSBuildFull46/System.Threading.Tasks.Extensions.dll",
+        "build/MSBuildFull46/System.Threading.Tasks.Parallel.dll",
+        "build/MSBuildFull46/System.Threading.Tasks.dll",
+        "build/MSBuildFull46/System.Threading.Thread.dll",
+        "build/MSBuildFull46/System.Threading.ThreadPool.dll",
+        "build/MSBuildFull46/System.Threading.Timer.dll",
+        "build/MSBuildFull46/System.Threading.dll",
+        "build/MSBuildFull46/System.ValueTuple.dll",
+        "build/MSBuildFull46/System.Xml.ReaderWriter.dll",
+        "build/MSBuildFull46/System.Xml.XDocument.dll",
+        "build/MSBuildFull46/System.Xml.XPath.XDocument.dll",
+        "build/MSBuildFull46/System.Xml.XPath.dll",
+        "build/MSBuildFull46/System.Xml.XmlDocument.dll",
+        "build/MSBuildFull46/System.Xml.XmlSerializer.dll",
+        "build/MSBuildFull46/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/cs/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/de/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/es/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/fr/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/it/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/ja/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/ko/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/netstandard.dll",
+        "build/MSBuildFull46/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/pl/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/ru/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/tr/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "build/MSBuildFull46/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "build/MSBuildFull46/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "build/net461/refit.targets",
+        "build/netstandard1.4/refit.targets",
+        "buildTransitive/net461/refit.targets",
+        "buildTransitive/netstandard1.4/refit.targets",
+        "lib/net461/Refit.dll",
+        "lib/net461/Refit.xml",
+        "lib/netstandard1.4/Refit.dll",
+        "lib/netstandard1.4/Refit.xml",
+        "lib/netstandard2.0/Refit.dll",
+        "lib/netstandard2.0/Refit.xml",
+        "refit.4.7.51.nupkg.sha512",
+        "refit.nuspec"
+      ]
+    },
+    "SampleDependency/1.0.0": {
+      "sha512": "rkrKnTI2KT/L+BaaB6/xZbDiqyQ702TxYp5adqgC/GYU7KBufnNArz/5KNetThpOeXmVEMg0VlFU+9/cKz0L4w==",
+      "type": "package",
+      "path": "sampledependency/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Scripts/nugetexample.js",
+        "sampledependency.1.0.0.nupkg.sha512",
+        "sampledependency.nuspec"
       ]
     },
     "System.Buffers/4.5.0": {
@@ -1999,8 +2306,11 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "EDMTDialog >= 1.0.2",
       "Microsoft.Net.Http.Headers >= 2.2.0",
       "Newtonsoft.Json >= 12.0.3-beta1",
+      "Plugin.CurrentActivity >= 2.1.0.4",
+      "Refit >= 4.7.51",
       "System.Linq >= 4.3.0",
       "System.Net.Http >= 4.3.4",
       "System.Threading >= 4.3.0",
@@ -2049,6 +2359,10 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "EDMTDialog": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "Microsoft.Net.Http.Headers": {
             "target": "Package",
             "version": "[2.2.0, )"
@@ -2056,6 +2370,14 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3-beta1, )"
+          },
+          "Plugin.CurrentActivity": {
+            "target": "Package",
+            "version": "[2.1.0.4, )"
+          },
+          "Refit": {
+            "target": "Package",
+            "version": "[4.7.51, )"
           },
           "System.Linq": {
             "target": "Package",

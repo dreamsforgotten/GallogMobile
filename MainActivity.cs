@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
@@ -11,8 +12,12 @@ using Android.Views;
 using Gallog.Fragments;
 using Android.Widget;
 using Android.Graphics;
-
-
+using Refit;
+using Gallog.Interface;
+using EDMTDialog;
+using Gallog.Models;
+using System;
+using Plugin.CurrentActivity;
 
 namespace Gallog
 {
@@ -20,7 +25,6 @@ namespace Gallog
     [Activity(Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, NavigationView.IOnNavigationItemSelectedListener
     {
-
         private SupportFragment mCurrentFragment;
         private HomeFragment mFragment1;
         private HangarFragment mFragment2;
@@ -42,7 +46,8 @@ namespace Gallog
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            CrossCurrentActivity.Current.Init(this, savedInstanceState);
+          //  Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
             ActionBar.Hide();     
 
@@ -56,7 +61,7 @@ namespace Gallog
 
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.SetNavigationItemSelectedListener(this);
-
+                        
             mFragment1 = new HomeFragment();
             mFragment2 = new HangarFragment();
             mFragment3 = new OrgFragment();
@@ -72,9 +77,10 @@ namespace Gallog
             mFragment13 = new ComponentsFragment();
             mFragment14 = new StoresFragment();
             mStackFragment = new Stack<SupportFragment>(); 
+
             
 
-             var trans = SupportFragmentManager.BeginTransaction();
+            var trans = SupportFragmentManager.BeginTransaction();
 
             trans.Add(Resource.Id.fragmentContainer, mFragment14, "Stores Fragment");
             trans.Hide(mFragment14);
@@ -119,14 +125,6 @@ namespace Gallog
             trans.Commit();
 
             mCurrentFragment = mFragment1;
-
-           
-
-            //    var gtx = FindViewById<TextView>(Resource.Id.gtxt);
-            //    gtx.Typeface = Typeface.CreateFromAsset(Assets, "font/zektonrg.ttf");
-            //    
-            //    var tvtx = FindViewById<TextView>(Resource.Id.tvtxt);
-            // tvtx.Typeface = Typeface.CreateFromAsset(Assets, "font/zektonrg.ttf");
 
         }
 
@@ -186,8 +184,7 @@ namespace Gallog
 
         }
 
-
-        public bool OnNavigationItemSelected(IMenuItem item)
+public bool OnNavigationItemSelected(IMenuItem item)
         {
             int id = item.ItemId;
 
@@ -276,6 +273,7 @@ namespace Gallog
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
     }
 }
 

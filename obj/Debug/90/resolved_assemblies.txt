@@ -1,10 +1,13 @@
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\Gallog.dll
+C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\EDMTDialog.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\Java.Interop.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\Microsoft.Extensions.Primitives.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\Microsoft.Net.Http.Headers.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\mscorlib.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\Plugin.CurrentActivity.dll
+C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\Refit.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\System.Buffers.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\System.Core.dll
 C:\Users\Craze\source\repos\Gallog\Gallog\obj\Debug\90\android\assets\System.dll

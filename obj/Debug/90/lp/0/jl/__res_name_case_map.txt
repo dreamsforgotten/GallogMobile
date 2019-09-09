@@ -1,0 +1,6 @@
+values/strings.xml;values/strings.xml
+layout/my_dialog_layout.axml;layout/my_dialog_layout.xml
+values/attrs.xml;values/attrs.xml
+values/color.xml;values/color.xml
+values/dimens.xml;values/dimens.xml
+values/style.xml;values/style.xml

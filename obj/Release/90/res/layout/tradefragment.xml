@@ -1,1 +1,7 @@
-<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/crusader" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Trade Fragment" android:textColor="@android:color/white" android:layout_centerInParent="true" /></RelativeLayout>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><ListView android:id="@+id/list_user" android:layout_above="@+id/btn_get_data" android:layout_width="match_parent" android:layout_height="match_parent" /><!--<TextView
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="Trade Fragment"
+   android:textColor="@android:color/white"
+   android:layout_centerInParent="true"/>
+    --><Button android:layout_alignParentBottom="true" android:id="@+id/btn_get_data" android:text="Get Data" android:layout_width="match_parent" android:layout_height="wrap_content" /></RelativeLayout>

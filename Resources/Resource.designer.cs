@@ -26,6 +26,1511 @@ namespace Gallog
 		
 		public static void UpdateIdValues()
 		{
+			global::EDMTDialog.Resource.Animation.abc_fade_in = global::Gallog.Resource.Animation.abc_fade_in;
+			global::EDMTDialog.Resource.Animation.abc_fade_out = global::Gallog.Resource.Animation.abc_fade_out;
+			global::EDMTDialog.Resource.Animation.abc_grow_fade_in_from_bottom = global::Gallog.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::EDMTDialog.Resource.Animation.abc_popup_enter = global::Gallog.Resource.Animation.abc_popup_enter;
+			global::EDMTDialog.Resource.Animation.abc_popup_exit = global::Gallog.Resource.Animation.abc_popup_exit;
+			global::EDMTDialog.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Gallog.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_in_bottom = global::Gallog.Resource.Animation.abc_slide_in_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_in_top = global::Gallog.Resource.Animation.abc_slide_in_top;
+			global::EDMTDialog.Resource.Animation.abc_slide_out_bottom = global::Gallog.Resource.Animation.abc_slide_out_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_out_top = global::Gallog.Resource.Animation.abc_slide_out_top;
+			global::EDMTDialog.Resource.Attribute.DialogSpotColor = global::Gallog.Resource.Attribute.DialogSpotColor;
+			global::EDMTDialog.Resource.Attribute.DialogSpotCount = global::Gallog.Resource.Attribute.DialogSpotCount;
+			global::EDMTDialog.Resource.Attribute.DialogTitleAppearance = global::Gallog.Resource.Attribute.DialogTitleAppearance;
+			global::EDMTDialog.Resource.Attribute.DialogTitleText = global::Gallog.Resource.Attribute.DialogTitleText;
+			global::EDMTDialog.Resource.Attribute.actionBarDivider = global::Gallog.Resource.Attribute.actionBarDivider;
+			global::EDMTDialog.Resource.Attribute.actionBarItemBackground = global::Gallog.Resource.Attribute.actionBarItemBackground;
+			global::EDMTDialog.Resource.Attribute.actionBarPopupTheme = global::Gallog.Resource.Attribute.actionBarPopupTheme;
+			global::EDMTDialog.Resource.Attribute.actionBarSize = global::Gallog.Resource.Attribute.actionBarSize;
+			global::EDMTDialog.Resource.Attribute.actionBarSplitStyle = global::Gallog.Resource.Attribute.actionBarSplitStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarStyle = global::Gallog.Resource.Attribute.actionBarStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabBarStyle = global::Gallog.Resource.Attribute.actionBarTabBarStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabStyle = global::Gallog.Resource.Attribute.actionBarTabStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabTextStyle = global::Gallog.Resource.Attribute.actionBarTabTextStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTheme = global::Gallog.Resource.Attribute.actionBarTheme;
+			global::EDMTDialog.Resource.Attribute.actionBarWidgetTheme = global::Gallog.Resource.Attribute.actionBarWidgetTheme;
+			global::EDMTDialog.Resource.Attribute.actionButtonStyle = global::Gallog.Resource.Attribute.actionButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionDropDownStyle = global::Gallog.Resource.Attribute.actionDropDownStyle;
+			global::EDMTDialog.Resource.Attribute.actionLayout = global::Gallog.Resource.Attribute.actionLayout;
+			global::EDMTDialog.Resource.Attribute.actionMenuTextAppearance = global::Gallog.Resource.Attribute.actionMenuTextAppearance;
+			global::EDMTDialog.Resource.Attribute.actionMenuTextColor = global::Gallog.Resource.Attribute.actionMenuTextColor;
+			global::EDMTDialog.Resource.Attribute.actionModeBackground = global::Gallog.Resource.Attribute.actionModeBackground;
+			global::EDMTDialog.Resource.Attribute.actionModeCloseButtonStyle = global::Gallog.Resource.Attribute.actionModeCloseButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeCloseDrawable = global::Gallog.Resource.Attribute.actionModeCloseDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeCopyDrawable = global::Gallog.Resource.Attribute.actionModeCopyDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeCutDrawable = global::Gallog.Resource.Attribute.actionModeCutDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeFindDrawable = global::Gallog.Resource.Attribute.actionModeFindDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModePasteDrawable = global::Gallog.Resource.Attribute.actionModePasteDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModePopupWindowStyle = global::Gallog.Resource.Attribute.actionModePopupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeSelectAllDrawable = global::Gallog.Resource.Attribute.actionModeSelectAllDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeShareDrawable = global::Gallog.Resource.Attribute.actionModeShareDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeSplitBackground = global::Gallog.Resource.Attribute.actionModeSplitBackground;
+			global::EDMTDialog.Resource.Attribute.actionModeStyle = global::Gallog.Resource.Attribute.actionModeStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeWebSearchDrawable = global::Gallog.Resource.Attribute.actionModeWebSearchDrawable;
+			global::EDMTDialog.Resource.Attribute.actionOverflowButtonStyle = global::Gallog.Resource.Attribute.actionOverflowButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionOverflowMenuStyle = global::Gallog.Resource.Attribute.actionOverflowMenuStyle;
+			global::EDMTDialog.Resource.Attribute.actionProviderClass = global::Gallog.Resource.Attribute.actionProviderClass;
+			global::EDMTDialog.Resource.Attribute.actionViewClass = global::Gallog.Resource.Attribute.actionViewClass;
+			global::EDMTDialog.Resource.Attribute.activityChooserViewStyle = global::Gallog.Resource.Attribute.activityChooserViewStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogButtonGroupStyle = global::Gallog.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogCenterButtons = global::Gallog.Resource.Attribute.alertDialogCenterButtons;
+			global::EDMTDialog.Resource.Attribute.alertDialogStyle = global::Gallog.Resource.Attribute.alertDialogStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogTheme = global::Gallog.Resource.Attribute.alertDialogTheme;
+			global::EDMTDialog.Resource.Attribute.allowStacking = global::Gallog.Resource.Attribute.allowStacking;
+			global::EDMTDialog.Resource.Attribute.alpha = global::Gallog.Resource.Attribute.alpha;
+			global::EDMTDialog.Resource.Attribute.alphabeticModifiers = global::Gallog.Resource.Attribute.alphabeticModifiers;
+			global::EDMTDialog.Resource.Attribute.arrowHeadLength = global::Gallog.Resource.Attribute.arrowHeadLength;
+			global::EDMTDialog.Resource.Attribute.arrowShaftLength = global::Gallog.Resource.Attribute.arrowShaftLength;
+			global::EDMTDialog.Resource.Attribute.autoCompleteTextViewStyle = global::Gallog.Resource.Attribute.autoCompleteTextViewStyle;
+			global::EDMTDialog.Resource.Attribute.autoSizeMaxTextSize = global::Gallog.Resource.Attribute.autoSizeMaxTextSize;
+			global::EDMTDialog.Resource.Attribute.autoSizeMinTextSize = global::Gallog.Resource.Attribute.autoSizeMinTextSize;
+			global::EDMTDialog.Resource.Attribute.autoSizePresetSizes = global::Gallog.Resource.Attribute.autoSizePresetSizes;
+			global::EDMTDialog.Resource.Attribute.autoSizeStepGranularity = global::Gallog.Resource.Attribute.autoSizeStepGranularity;
+			global::EDMTDialog.Resource.Attribute.autoSizeTextType = global::Gallog.Resource.Attribute.autoSizeTextType;
+			global::EDMTDialog.Resource.Attribute.background = global::Gallog.Resource.Attribute.background;
+			global::EDMTDialog.Resource.Attribute.backgroundSplit = global::Gallog.Resource.Attribute.backgroundSplit;
+			global::EDMTDialog.Resource.Attribute.backgroundStacked = global::Gallog.Resource.Attribute.backgroundStacked;
+			global::EDMTDialog.Resource.Attribute.backgroundTint = global::Gallog.Resource.Attribute.backgroundTint;
+			global::EDMTDialog.Resource.Attribute.backgroundTintMode = global::Gallog.Resource.Attribute.backgroundTintMode;
+			global::EDMTDialog.Resource.Attribute.barLength = global::Gallog.Resource.Attribute.barLength;
+			global::EDMTDialog.Resource.Attribute.borderlessButtonStyle = global::Gallog.Resource.Attribute.borderlessButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarButtonStyle = global::Gallog.Resource.Attribute.buttonBarButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarNegativeButtonStyle = global::Gallog.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarNeutralButtonStyle = global::Gallog.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarPositiveButtonStyle = global::Gallog.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarStyle = global::Gallog.Resource.Attribute.buttonBarStyle;
+			global::EDMTDialog.Resource.Attribute.buttonGravity = global::Gallog.Resource.Attribute.buttonGravity;
+			global::EDMTDialog.Resource.Attribute.buttonPanelSideLayout = global::Gallog.Resource.Attribute.buttonPanelSideLayout;
+			global::EDMTDialog.Resource.Attribute.buttonStyle = global::Gallog.Resource.Attribute.buttonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonStyleSmall = global::Gallog.Resource.Attribute.buttonStyleSmall;
+			global::EDMTDialog.Resource.Attribute.buttonTint = global::Gallog.Resource.Attribute.buttonTint;
+			global::EDMTDialog.Resource.Attribute.buttonTintMode = global::Gallog.Resource.Attribute.buttonTintMode;
+			global::EDMTDialog.Resource.Attribute.checkboxStyle = global::Gallog.Resource.Attribute.checkboxStyle;
+			global::EDMTDialog.Resource.Attribute.checkedTextViewStyle = global::Gallog.Resource.Attribute.checkedTextViewStyle;
+			global::EDMTDialog.Resource.Attribute.closeIcon = global::Gallog.Resource.Attribute.closeIcon;
+			global::EDMTDialog.Resource.Attribute.closeItemLayout = global::Gallog.Resource.Attribute.closeItemLayout;
+			global::EDMTDialog.Resource.Attribute.collapseContentDescription = global::Gallog.Resource.Attribute.collapseContentDescription;
+			global::EDMTDialog.Resource.Attribute.collapseIcon = global::Gallog.Resource.Attribute.collapseIcon;
+			global::EDMTDialog.Resource.Attribute.color = global::Gallog.Resource.Attribute.color;
+			global::EDMTDialog.Resource.Attribute.colorAccent = global::Gallog.Resource.Attribute.colorAccent;
+			global::EDMTDialog.Resource.Attribute.colorBackgroundFloating = global::Gallog.Resource.Attribute.colorBackgroundFloating;
+			global::EDMTDialog.Resource.Attribute.colorButtonNormal = global::Gallog.Resource.Attribute.colorButtonNormal;
+			global::EDMTDialog.Resource.Attribute.colorControlActivated = global::Gallog.Resource.Attribute.colorControlActivated;
+			global::EDMTDialog.Resource.Attribute.colorControlHighlight = global::Gallog.Resource.Attribute.colorControlHighlight;
+			global::EDMTDialog.Resource.Attribute.colorControlNormal = global::Gallog.Resource.Attribute.colorControlNormal;
+			global::EDMTDialog.Resource.Attribute.colorError = global::Gallog.Resource.Attribute.colorError;
+			global::EDMTDialog.Resource.Attribute.colorPrimary = global::Gallog.Resource.Attribute.colorPrimary;
+			global::EDMTDialog.Resource.Attribute.colorPrimaryDark = global::Gallog.Resource.Attribute.colorPrimaryDark;
+			global::EDMTDialog.Resource.Attribute.colorSwitchThumbNormal = global::Gallog.Resource.Attribute.colorSwitchThumbNormal;
+			global::EDMTDialog.Resource.Attribute.commitIcon = global::Gallog.Resource.Attribute.commitIcon;
+			global::EDMTDialog.Resource.Attribute.contentDescription = global::Gallog.Resource.Attribute.contentDescription;
+			global::EDMTDialog.Resource.Attribute.contentInsetEnd = global::Gallog.Resource.Attribute.contentInsetEnd;
+			global::EDMTDialog.Resource.Attribute.contentInsetEndWithActions = global::Gallog.Resource.Attribute.contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Attribute.contentInsetLeft = global::Gallog.Resource.Attribute.contentInsetLeft;
+			global::EDMTDialog.Resource.Attribute.contentInsetRight = global::Gallog.Resource.Attribute.contentInsetRight;
+			global::EDMTDialog.Resource.Attribute.contentInsetStart = global::Gallog.Resource.Attribute.contentInsetStart;
+			global::EDMTDialog.Resource.Attribute.contentInsetStartWithNavigation = global::Gallog.Resource.Attribute.contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Attribute.controlBackground = global::Gallog.Resource.Attribute.controlBackground;
+			global::EDMTDialog.Resource.Attribute.customNavigationLayout = global::Gallog.Resource.Attribute.customNavigationLayout;
+			global::EDMTDialog.Resource.Attribute.defaultQueryHint = global::Gallog.Resource.Attribute.defaultQueryHint;
+			global::EDMTDialog.Resource.Attribute.dialogPreferredPadding = global::Gallog.Resource.Attribute.dialogPreferredPadding;
+			global::EDMTDialog.Resource.Attribute.dialogTheme = global::Gallog.Resource.Attribute.dialogTheme;
+			global::EDMTDialog.Resource.Attribute.displayOptions = global::Gallog.Resource.Attribute.displayOptions;
+			global::EDMTDialog.Resource.Attribute.divider = global::Gallog.Resource.Attribute.divider;
+			global::EDMTDialog.Resource.Attribute.dividerHorizontal = global::Gallog.Resource.Attribute.dividerHorizontal;
+			global::EDMTDialog.Resource.Attribute.dividerPadding = global::Gallog.Resource.Attribute.dividerPadding;
+			global::EDMTDialog.Resource.Attribute.dividerVertical = global::Gallog.Resource.Attribute.dividerVertical;
+			global::EDMTDialog.Resource.Attribute.drawableSize = global::Gallog.Resource.Attribute.drawableSize;
+			global::EDMTDialog.Resource.Attribute.drawerArrowStyle = global::Gallog.Resource.Attribute.drawerArrowStyle;
+			global::EDMTDialog.Resource.Attribute.dropDownListViewStyle = global::Gallog.Resource.Attribute.dropDownListViewStyle;
+			global::EDMTDialog.Resource.Attribute.dropdownListPreferredItemHeight = global::Gallog.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::EDMTDialog.Resource.Attribute.editTextBackground = global::Gallog.Resource.Attribute.editTextBackground;
+			global::EDMTDialog.Resource.Attribute.editTextColor = global::Gallog.Resource.Attribute.editTextColor;
+			global::EDMTDialog.Resource.Attribute.editTextStyle = global::Gallog.Resource.Attribute.editTextStyle;
+			global::EDMTDialog.Resource.Attribute.elevation = global::Gallog.Resource.Attribute.elevation;
+			global::EDMTDialog.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Gallog.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::EDMTDialog.Resource.Attribute.font = global::Gallog.Resource.Attribute.font;
+			global::EDMTDialog.Resource.Attribute.fontFamily = global::Gallog.Resource.Attribute.fontFamily;
+			global::EDMTDialog.Resource.Attribute.fontProviderAuthority = global::Gallog.Resource.Attribute.fontProviderAuthority;
+			global::EDMTDialog.Resource.Attribute.fontProviderCerts = global::Gallog.Resource.Attribute.fontProviderCerts;
+			global::EDMTDialog.Resource.Attribute.fontProviderFetchStrategy = global::Gallog.Resource.Attribute.fontProviderFetchStrategy;
+			global::EDMTDialog.Resource.Attribute.fontProviderFetchTimeout = global::Gallog.Resource.Attribute.fontProviderFetchTimeout;
+			global::EDMTDialog.Resource.Attribute.fontProviderPackage = global::Gallog.Resource.Attribute.fontProviderPackage;
+			global::EDMTDialog.Resource.Attribute.fontProviderQuery = global::Gallog.Resource.Attribute.fontProviderQuery;
+			global::EDMTDialog.Resource.Attribute.fontStyle = global::Gallog.Resource.Attribute.fontStyle;
+			global::EDMTDialog.Resource.Attribute.fontWeight = global::Gallog.Resource.Attribute.fontWeight;
+			global::EDMTDialog.Resource.Attribute.gapBetweenBars = global::Gallog.Resource.Attribute.gapBetweenBars;
+			global::EDMTDialog.Resource.Attribute.goIcon = global::Gallog.Resource.Attribute.goIcon;
+			global::EDMTDialog.Resource.Attribute.height = global::Gallog.Resource.Attribute.height;
+			global::EDMTDialog.Resource.Attribute.hideOnContentScroll = global::Gallog.Resource.Attribute.hideOnContentScroll;
+			global::EDMTDialog.Resource.Attribute.homeAsUpIndicator = global::Gallog.Resource.Attribute.homeAsUpIndicator;
+			global::EDMTDialog.Resource.Attribute.homeLayout = global::Gallog.Resource.Attribute.homeLayout;
+			global::EDMTDialog.Resource.Attribute.icon = global::Gallog.Resource.Attribute.icon;
+			global::EDMTDialog.Resource.Attribute.iconTint = global::Gallog.Resource.Attribute.iconTint;
+			global::EDMTDialog.Resource.Attribute.iconTintMode = global::Gallog.Resource.Attribute.iconTintMode;
+			global::EDMTDialog.Resource.Attribute.iconifiedByDefault = global::Gallog.Resource.Attribute.iconifiedByDefault;
+			global::EDMTDialog.Resource.Attribute.imageButtonStyle = global::Gallog.Resource.Attribute.imageButtonStyle;
+			global::EDMTDialog.Resource.Attribute.indeterminateProgressStyle = global::Gallog.Resource.Attribute.indeterminateProgressStyle;
+			global::EDMTDialog.Resource.Attribute.initialActivityCount = global::Gallog.Resource.Attribute.initialActivityCount;
+			global::EDMTDialog.Resource.Attribute.isLightTheme = global::Gallog.Resource.Attribute.isLightTheme;
+			global::EDMTDialog.Resource.Attribute.itemPadding = global::Gallog.Resource.Attribute.itemPadding;
+			global::EDMTDialog.Resource.Attribute.layout = global::Gallog.Resource.Attribute.layout;
+			global::EDMTDialog.Resource.Attribute.listChoiceBackgroundIndicator = global::Gallog.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::EDMTDialog.Resource.Attribute.listDividerAlertDialog = global::Gallog.Resource.Attribute.listDividerAlertDialog;
+			global::EDMTDialog.Resource.Attribute.listItemLayout = global::Gallog.Resource.Attribute.listItemLayout;
+			global::EDMTDialog.Resource.Attribute.listLayout = global::Gallog.Resource.Attribute.listLayout;
+			global::EDMTDialog.Resource.Attribute.listMenuViewStyle = global::Gallog.Resource.Attribute.listMenuViewStyle;
+			global::EDMTDialog.Resource.Attribute.listPopupWindowStyle = global::Gallog.Resource.Attribute.listPopupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeight = global::Gallog.Resource.Attribute.listPreferredItemHeight;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeightLarge = global::Gallog.Resource.Attribute.listPreferredItemHeightLarge;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeightSmall = global::Gallog.Resource.Attribute.listPreferredItemHeightSmall;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemPaddingLeft = global::Gallog.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemPaddingRight = global::Gallog.Resource.Attribute.listPreferredItemPaddingRight;
+			global::EDMTDialog.Resource.Attribute.logo = global::Gallog.Resource.Attribute.logo;
+			global::EDMTDialog.Resource.Attribute.logoDescription = global::Gallog.Resource.Attribute.logoDescription;
+			global::EDMTDialog.Resource.Attribute.maxButtonHeight = global::Gallog.Resource.Attribute.maxButtonHeight;
+			global::EDMTDialog.Resource.Attribute.measureWithLargestChild = global::Gallog.Resource.Attribute.measureWithLargestChild;
+			global::EDMTDialog.Resource.Attribute.multiChoiceItemLayout = global::Gallog.Resource.Attribute.multiChoiceItemLayout;
+			global::EDMTDialog.Resource.Attribute.navigationContentDescription = global::Gallog.Resource.Attribute.navigationContentDescription;
+			global::EDMTDialog.Resource.Attribute.navigationIcon = global::Gallog.Resource.Attribute.navigationIcon;
+			global::EDMTDialog.Resource.Attribute.navigationMode = global::Gallog.Resource.Attribute.navigationMode;
+			global::EDMTDialog.Resource.Attribute.numericModifiers = global::Gallog.Resource.Attribute.numericModifiers;
+			global::EDMTDialog.Resource.Attribute.overlapAnchor = global::Gallog.Resource.Attribute.overlapAnchor;
+			global::EDMTDialog.Resource.Attribute.paddingBottomNoButtons = global::Gallog.Resource.Attribute.paddingBottomNoButtons;
+			global::EDMTDialog.Resource.Attribute.paddingEnd = global::Gallog.Resource.Attribute.paddingEnd;
+			global::EDMTDialog.Resource.Attribute.paddingStart = global::Gallog.Resource.Attribute.paddingStart;
+			global::EDMTDialog.Resource.Attribute.paddingTopNoTitle = global::Gallog.Resource.Attribute.paddingTopNoTitle;
+			global::EDMTDialog.Resource.Attribute.panelBackground = global::Gallog.Resource.Attribute.panelBackground;
+			global::EDMTDialog.Resource.Attribute.panelMenuListTheme = global::Gallog.Resource.Attribute.panelMenuListTheme;
+			global::EDMTDialog.Resource.Attribute.panelMenuListWidth = global::Gallog.Resource.Attribute.panelMenuListWidth;
+			global::EDMTDialog.Resource.Attribute.popupMenuStyle = global::Gallog.Resource.Attribute.popupMenuStyle;
+			global::EDMTDialog.Resource.Attribute.popupTheme = global::Gallog.Resource.Attribute.popupTheme;
+			global::EDMTDialog.Resource.Attribute.popupWindowStyle = global::Gallog.Resource.Attribute.popupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.preserveIconSpacing = global::Gallog.Resource.Attribute.preserveIconSpacing;
+			global::EDMTDialog.Resource.Attribute.progressBarPadding = global::Gallog.Resource.Attribute.progressBarPadding;
+			global::EDMTDialog.Resource.Attribute.progressBarStyle = global::Gallog.Resource.Attribute.progressBarStyle;
+			global::EDMTDialog.Resource.Attribute.queryBackground = global::Gallog.Resource.Attribute.queryBackground;
+			global::EDMTDialog.Resource.Attribute.queryHint = global::Gallog.Resource.Attribute.queryHint;
+			global::EDMTDialog.Resource.Attribute.radioButtonStyle = global::Gallog.Resource.Attribute.radioButtonStyle;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyle = global::Gallog.Resource.Attribute.ratingBarStyle;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyleIndicator = global::Gallog.Resource.Attribute.ratingBarStyleIndicator;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyleSmall = global::Gallog.Resource.Attribute.ratingBarStyleSmall;
+			global::EDMTDialog.Resource.Attribute.searchHintIcon = global::Gallog.Resource.Attribute.searchHintIcon;
+			global::EDMTDialog.Resource.Attribute.searchIcon = global::Gallog.Resource.Attribute.searchIcon;
+			global::EDMTDialog.Resource.Attribute.searchViewStyle = global::Gallog.Resource.Attribute.searchViewStyle;
+			global::EDMTDialog.Resource.Attribute.seekBarStyle = global::Gallog.Resource.Attribute.seekBarStyle;
+			global::EDMTDialog.Resource.Attribute.selectableItemBackground = global::Gallog.Resource.Attribute.selectableItemBackground;
+			global::EDMTDialog.Resource.Attribute.selectableItemBackgroundBorderless = global::Gallog.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::EDMTDialog.Resource.Attribute.showAsAction = global::Gallog.Resource.Attribute.showAsAction;
+			global::EDMTDialog.Resource.Attribute.showDividers = global::Gallog.Resource.Attribute.showDividers;
+			global::EDMTDialog.Resource.Attribute.showText = global::Gallog.Resource.Attribute.showText;
+			global::EDMTDialog.Resource.Attribute.showTitle = global::Gallog.Resource.Attribute.showTitle;
+			global::EDMTDialog.Resource.Attribute.singleChoiceItemLayout = global::Gallog.Resource.Attribute.singleChoiceItemLayout;
+			global::EDMTDialog.Resource.Attribute.spinBars = global::Gallog.Resource.Attribute.spinBars;
+			global::EDMTDialog.Resource.Attribute.spinnerDropDownItemStyle = global::Gallog.Resource.Attribute.spinnerDropDownItemStyle;
+			global::EDMTDialog.Resource.Attribute.spinnerStyle = global::Gallog.Resource.Attribute.spinnerStyle;
+			global::EDMTDialog.Resource.Attribute.splitTrack = global::Gallog.Resource.Attribute.splitTrack;
+			global::EDMTDialog.Resource.Attribute.srcCompat = global::Gallog.Resource.Attribute.srcCompat;
+			global::EDMTDialog.Resource.Attribute.state_above_anchor = global::Gallog.Resource.Attribute.state_above_anchor;
+			global::EDMTDialog.Resource.Attribute.subMenuArrow = global::Gallog.Resource.Attribute.subMenuArrow;
+			global::EDMTDialog.Resource.Attribute.submitBackground = global::Gallog.Resource.Attribute.submitBackground;
+			global::EDMTDialog.Resource.Attribute.subtitle = global::Gallog.Resource.Attribute.subtitle;
+			global::EDMTDialog.Resource.Attribute.subtitleTextAppearance = global::Gallog.Resource.Attribute.subtitleTextAppearance;
+			global::EDMTDialog.Resource.Attribute.subtitleTextColor = global::Gallog.Resource.Attribute.subtitleTextColor;
+			global::EDMTDialog.Resource.Attribute.subtitleTextStyle = global::Gallog.Resource.Attribute.subtitleTextStyle;
+			global::EDMTDialog.Resource.Attribute.suggestionRowLayout = global::Gallog.Resource.Attribute.suggestionRowLayout;
+			global::EDMTDialog.Resource.Attribute.switchMinWidth = global::Gallog.Resource.Attribute.switchMinWidth;
+			global::EDMTDialog.Resource.Attribute.switchPadding = global::Gallog.Resource.Attribute.switchPadding;
+			global::EDMTDialog.Resource.Attribute.switchStyle = global::Gallog.Resource.Attribute.switchStyle;
+			global::EDMTDialog.Resource.Attribute.switchTextAppearance = global::Gallog.Resource.Attribute.switchTextAppearance;
+			global::EDMTDialog.Resource.Attribute.textAllCaps = global::Gallog.Resource.Attribute.textAllCaps;
+			global::EDMTDialog.Resource.Attribute.textAppearanceLargePopupMenu = global::Gallog.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItem = global::Gallog.Resource.Attribute.textAppearanceListItem;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItemSecondary = global::Gallog.Resource.Attribute.textAppearanceListItemSecondary;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItemSmall = global::Gallog.Resource.Attribute.textAppearanceListItemSmall;
+			global::EDMTDialog.Resource.Attribute.textAppearancePopupMenuHeader = global::Gallog.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Gallog.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSearchResultTitle = global::Gallog.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSmallPopupMenu = global::Gallog.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::EDMTDialog.Resource.Attribute.textColorAlertDialogListItem = global::Gallog.Resource.Attribute.textColorAlertDialogListItem;
+			global::EDMTDialog.Resource.Attribute.textColorSearchUrl = global::Gallog.Resource.Attribute.textColorSearchUrl;
+			global::EDMTDialog.Resource.Attribute.theme = global::Gallog.Resource.Attribute.theme;
+			global::EDMTDialog.Resource.Attribute.thickness = global::Gallog.Resource.Attribute.thickness;
+			global::EDMTDialog.Resource.Attribute.thumbTextPadding = global::Gallog.Resource.Attribute.thumbTextPadding;
+			global::EDMTDialog.Resource.Attribute.thumbTint = global::Gallog.Resource.Attribute.thumbTint;
+			global::EDMTDialog.Resource.Attribute.thumbTintMode = global::Gallog.Resource.Attribute.thumbTintMode;
+			global::EDMTDialog.Resource.Attribute.tickMark = global::Gallog.Resource.Attribute.tickMark;
+			global::EDMTDialog.Resource.Attribute.tickMarkTint = global::Gallog.Resource.Attribute.tickMarkTint;
+			global::EDMTDialog.Resource.Attribute.tickMarkTintMode = global::Gallog.Resource.Attribute.tickMarkTintMode;
+			global::EDMTDialog.Resource.Attribute.tint = global::Gallog.Resource.Attribute.tint;
+			global::EDMTDialog.Resource.Attribute.tintMode = global::Gallog.Resource.Attribute.tintMode;
+			global::EDMTDialog.Resource.Attribute.title = global::Gallog.Resource.Attribute.title;
+			global::EDMTDialog.Resource.Attribute.titleMargin = global::Gallog.Resource.Attribute.titleMargin;
+			global::EDMTDialog.Resource.Attribute.titleMarginBottom = global::Gallog.Resource.Attribute.titleMarginBottom;
+			global::EDMTDialog.Resource.Attribute.titleMarginEnd = global::Gallog.Resource.Attribute.titleMarginEnd;
+			global::EDMTDialog.Resource.Attribute.titleMarginStart = global::Gallog.Resource.Attribute.titleMarginStart;
+			global::EDMTDialog.Resource.Attribute.titleMarginTop = global::Gallog.Resource.Attribute.titleMarginTop;
+			global::EDMTDialog.Resource.Attribute.titleMargins = global::Gallog.Resource.Attribute.titleMargins;
+			global::EDMTDialog.Resource.Attribute.titleTextAppearance = global::Gallog.Resource.Attribute.titleTextAppearance;
+			global::EDMTDialog.Resource.Attribute.titleTextColor = global::Gallog.Resource.Attribute.titleTextColor;
+			global::EDMTDialog.Resource.Attribute.titleTextStyle = global::Gallog.Resource.Attribute.titleTextStyle;
+			global::EDMTDialog.Resource.Attribute.toolbarNavigationButtonStyle = global::Gallog.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::EDMTDialog.Resource.Attribute.toolbarStyle = global::Gallog.Resource.Attribute.toolbarStyle;
+			global::EDMTDialog.Resource.Attribute.tooltipForegroundColor = global::Gallog.Resource.Attribute.tooltipForegroundColor;
+			global::EDMTDialog.Resource.Attribute.tooltipFrameBackground = global::Gallog.Resource.Attribute.tooltipFrameBackground;
+			global::EDMTDialog.Resource.Attribute.tooltipText = global::Gallog.Resource.Attribute.tooltipText;
+			global::EDMTDialog.Resource.Attribute.track = global::Gallog.Resource.Attribute.track;
+			global::EDMTDialog.Resource.Attribute.trackTint = global::Gallog.Resource.Attribute.trackTint;
+			global::EDMTDialog.Resource.Attribute.trackTintMode = global::Gallog.Resource.Attribute.trackTintMode;
+			global::EDMTDialog.Resource.Attribute.voiceIcon = global::Gallog.Resource.Attribute.voiceIcon;
+			global::EDMTDialog.Resource.Attribute.windowActionBar = global::Gallog.Resource.Attribute.windowActionBar;
+			global::EDMTDialog.Resource.Attribute.windowActionBarOverlay = global::Gallog.Resource.Attribute.windowActionBarOverlay;
+			global::EDMTDialog.Resource.Attribute.windowActionModeOverlay = global::Gallog.Resource.Attribute.windowActionModeOverlay;
+			global::EDMTDialog.Resource.Attribute.windowFixedHeightMajor = global::Gallog.Resource.Attribute.windowFixedHeightMajor;
+			global::EDMTDialog.Resource.Attribute.windowFixedHeightMinor = global::Gallog.Resource.Attribute.windowFixedHeightMinor;
+			global::EDMTDialog.Resource.Attribute.windowFixedWidthMajor = global::Gallog.Resource.Attribute.windowFixedWidthMajor;
+			global::EDMTDialog.Resource.Attribute.windowFixedWidthMinor = global::Gallog.Resource.Attribute.windowFixedWidthMinor;
+			global::EDMTDialog.Resource.Attribute.windowMinWidthMajor = global::Gallog.Resource.Attribute.windowMinWidthMajor;
+			global::EDMTDialog.Resource.Attribute.windowMinWidthMinor = global::Gallog.Resource.Attribute.windowMinWidthMinor;
+			global::EDMTDialog.Resource.Attribute.windowNoTitle = global::Gallog.Resource.Attribute.windowNoTitle;
+			global::EDMTDialog.Resource.Boolean.abc_action_bar_embed_tabs = global::Gallog.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::EDMTDialog.Resource.Boolean.abc_allow_stacked_button_bar = global::Gallog.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::EDMTDialog.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Gallog.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::EDMTDialog.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Gallog.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::EDMTDialog.Resource.Color.abc_background_cache_hint_selector_material_light = global::Gallog.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::EDMTDialog.Resource.Color.abc_btn_colored_borderless_text_material = global::Gallog.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::EDMTDialog.Resource.Color.abc_btn_colored_text_material = global::Gallog.Resource.Color.abc_btn_colored_text_material;
+			global::EDMTDialog.Resource.Color.abc_color_highlight_material = global::Gallog.Resource.Color.abc_color_highlight_material;
+			global::EDMTDialog.Resource.Color.abc_hint_foreground_material_dark = global::Gallog.Resource.Color.abc_hint_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.abc_hint_foreground_material_light = global::Gallog.Resource.Color.abc_hint_foreground_material_light;
+			global::EDMTDialog.Resource.Color.abc_input_method_navigation_guard = global::Gallog.Resource.Color.abc_input_method_navigation_guard;
+			global::EDMTDialog.Resource.Color.abc_primary_text_disable_only_material_dark = global::Gallog.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::EDMTDialog.Resource.Color.abc_primary_text_disable_only_material_light = global::Gallog.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::EDMTDialog.Resource.Color.abc_primary_text_material_dark = global::Gallog.Resource.Color.abc_primary_text_material_dark;
+			global::EDMTDialog.Resource.Color.abc_primary_text_material_light = global::Gallog.Resource.Color.abc_primary_text_material_light;
+			global::EDMTDialog.Resource.Color.abc_search_url_text = global::Gallog.Resource.Color.abc_search_url_text;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_normal = global::Gallog.Resource.Color.abc_search_url_text_normal;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_pressed = global::Gallog.Resource.Color.abc_search_url_text_pressed;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_selected = global::Gallog.Resource.Color.abc_search_url_text_selected;
+			global::EDMTDialog.Resource.Color.abc_secondary_text_material_dark = global::Gallog.Resource.Color.abc_secondary_text_material_dark;
+			global::EDMTDialog.Resource.Color.abc_secondary_text_material_light = global::Gallog.Resource.Color.abc_secondary_text_material_light;
+			global::EDMTDialog.Resource.Color.abc_tint_btn_checkable = global::Gallog.Resource.Color.abc_tint_btn_checkable;
+			global::EDMTDialog.Resource.Color.abc_tint_default = global::Gallog.Resource.Color.abc_tint_default;
+			global::EDMTDialog.Resource.Color.abc_tint_edittext = global::Gallog.Resource.Color.abc_tint_edittext;
+			global::EDMTDialog.Resource.Color.abc_tint_seek_thumb = global::Gallog.Resource.Color.abc_tint_seek_thumb;
+			global::EDMTDialog.Resource.Color.abc_tint_spinner = global::Gallog.Resource.Color.abc_tint_spinner;
+			global::EDMTDialog.Resource.Color.abc_tint_switch_track = global::Gallog.Resource.Color.abc_tint_switch_track;
+			global::EDMTDialog.Resource.Color.accent_material_dark = global::Gallog.Resource.Color.accent_material_dark;
+			global::EDMTDialog.Resource.Color.accent_material_light = global::Gallog.Resource.Color.accent_material_light;
+			global::EDMTDialog.Resource.Color.background_floating_material_dark = global::Gallog.Resource.Color.background_floating_material_dark;
+			global::EDMTDialog.Resource.Color.background_floating_material_light = global::Gallog.Resource.Color.background_floating_material_light;
+			global::EDMTDialog.Resource.Color.background_material_dark = global::Gallog.Resource.Color.background_material_dark;
+			global::EDMTDialog.Resource.Color.background_material_light = global::Gallog.Resource.Color.background_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_disabled_material_dark = global::Gallog.Resource.Color.bright_foreground_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_disabled_material_light = global::Gallog.Resource.Color.bright_foreground_disabled_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_inverse_material_dark = global::Gallog.Resource.Color.bright_foreground_inverse_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_inverse_material_light = global::Gallog.Resource.Color.bright_foreground_inverse_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_material_dark = global::Gallog.Resource.Color.bright_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_material_light = global::Gallog.Resource.Color.bright_foreground_material_light;
+			global::EDMTDialog.Resource.Color.button_material_dark = global::Gallog.Resource.Color.button_material_dark;
+			global::EDMTDialog.Resource.Color.button_material_light = global::Gallog.Resource.Color.button_material_light;
+			global::EDMTDialog.Resource.Color.dim_foreground_disabled_material_dark = global::Gallog.Resource.Color.dim_foreground_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.dim_foreground_disabled_material_light = global::Gallog.Resource.Color.dim_foreground_disabled_material_light;
+			global::EDMTDialog.Resource.Color.dim_foreground_material_dark = global::Gallog.Resource.Color.dim_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.dim_foreground_material_light = global::Gallog.Resource.Color.dim_foreground_material_light;
+			global::EDMTDialog.Resource.Color.foreground_material_dark = global::Gallog.Resource.Color.foreground_material_dark;
+			global::EDMTDialog.Resource.Color.foreground_material_light = global::Gallog.Resource.Color.foreground_material_light;
+			global::EDMTDialog.Resource.Color.highlighted_text_material_dark = global::Gallog.Resource.Color.highlighted_text_material_dark;
+			global::EDMTDialog.Resource.Color.highlighted_text_material_light = global::Gallog.Resource.Color.highlighted_text_material_light;
+			global::EDMTDialog.Resource.Color.material_blue_grey_800 = global::Gallog.Resource.Color.material_blue_grey_800;
+			global::EDMTDialog.Resource.Color.material_blue_grey_900 = global::Gallog.Resource.Color.material_blue_grey_900;
+			global::EDMTDialog.Resource.Color.material_blue_grey_950 = global::Gallog.Resource.Color.material_blue_grey_950;
+			global::EDMTDialog.Resource.Color.material_deep_teal_200 = global::Gallog.Resource.Color.material_deep_teal_200;
+			global::EDMTDialog.Resource.Color.material_deep_teal_500 = global::Gallog.Resource.Color.material_deep_teal_500;
+			global::EDMTDialog.Resource.Color.material_grey_100 = global::Gallog.Resource.Color.material_grey_100;
+			global::EDMTDialog.Resource.Color.material_grey_300 = global::Gallog.Resource.Color.material_grey_300;
+			global::EDMTDialog.Resource.Color.material_grey_50 = global::Gallog.Resource.Color.material_grey_50;
+			global::EDMTDialog.Resource.Color.material_grey_600 = global::Gallog.Resource.Color.material_grey_600;
+			global::EDMTDialog.Resource.Color.material_grey_800 = global::Gallog.Resource.Color.material_grey_800;
+			global::EDMTDialog.Resource.Color.material_grey_850 = global::Gallog.Resource.Color.material_grey_850;
+			global::EDMTDialog.Resource.Color.material_grey_900 = global::Gallog.Resource.Color.material_grey_900;
+			global::EDMTDialog.Resource.Color.notification_action_color_filter = global::Gallog.Resource.Color.notification_action_color_filter;
+			global::EDMTDialog.Resource.Color.notification_icon_bg_color = global::Gallog.Resource.Color.notification_icon_bg_color;
+			global::EDMTDialog.Resource.Color.primary_dark_material_dark = global::Gallog.Resource.Color.primary_dark_material_dark;
+			global::EDMTDialog.Resource.Color.primary_dark_material_light = global::Gallog.Resource.Color.primary_dark_material_light;
+			global::EDMTDialog.Resource.Color.primary_material_dark = global::Gallog.Resource.Color.primary_material_dark;
+			global::EDMTDialog.Resource.Color.primary_material_light = global::Gallog.Resource.Color.primary_material_light;
+			global::EDMTDialog.Resource.Color.primary_text_default_material_dark = global::Gallog.Resource.Color.primary_text_default_material_dark;
+			global::EDMTDialog.Resource.Color.primary_text_default_material_light = global::Gallog.Resource.Color.primary_text_default_material_light;
+			global::EDMTDialog.Resource.Color.primary_text_disabled_material_dark = global::Gallog.Resource.Color.primary_text_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.primary_text_disabled_material_light = global::Gallog.Resource.Color.primary_text_disabled_material_light;
+			global::EDMTDialog.Resource.Color.ripple_material_dark = global::Gallog.Resource.Color.ripple_material_dark;
+			global::EDMTDialog.Resource.Color.ripple_material_light = global::Gallog.Resource.Color.ripple_material_light;
+			global::EDMTDialog.Resource.Color.secondary_text_default_material_dark = global::Gallog.Resource.Color.secondary_text_default_material_dark;
+			global::EDMTDialog.Resource.Color.secondary_text_default_material_light = global::Gallog.Resource.Color.secondary_text_default_material_light;
+			global::EDMTDialog.Resource.Color.secondary_text_disabled_material_dark = global::Gallog.Resource.Color.secondary_text_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.secondary_text_disabled_material_light = global::Gallog.Resource.Color.secondary_text_disabled_material_light;
+			global::EDMTDialog.Resource.Color.spots_dialog_color = global::Gallog.Resource.Color.spots_dialog_color;
+			global::EDMTDialog.Resource.Color.switch_thumb_disabled_material_dark = global::Gallog.Resource.Color.switch_thumb_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_disabled_material_light = global::Gallog.Resource.Color.switch_thumb_disabled_material_light;
+			global::EDMTDialog.Resource.Color.switch_thumb_material_dark = global::Gallog.Resource.Color.switch_thumb_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_material_light = global::Gallog.Resource.Color.switch_thumb_material_light;
+			global::EDMTDialog.Resource.Color.switch_thumb_normal_material_dark = global::Gallog.Resource.Color.switch_thumb_normal_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_normal_material_light = global::Gallog.Resource.Color.switch_thumb_normal_material_light;
+			global::EDMTDialog.Resource.Color.tooltip_background_dark = global::Gallog.Resource.Color.tooltip_background_dark;
+			global::EDMTDialog.Resource.Color.tooltip_background_light = global::Gallog.Resource.Color.tooltip_background_light;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_content_inset_material = global::Gallog.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Gallog.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_height_material = global::Gallog.Resource.Dimension.abc_action_bar_default_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Gallog.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Gallog.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_elevation_material = global::Gallog.Resource.Dimension.abc_action_bar_elevation_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Gallog.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Gallog.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Gallog.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_stacked_max_height = global::Gallog.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Gallog.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Gallog.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Gallog.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_height_material = global::Gallog.Resource.Dimension.abc_action_button_min_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_width_material = global::Gallog.Resource.Dimension.abc_action_button_min_width_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Gallog.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::EDMTDialog.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Gallog.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::EDMTDialog.Resource.Dimension.abc_button_inset_horizontal_material = global::Gallog.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_inset_vertical_material = global::Gallog.Resource.Dimension.abc_button_inset_vertical_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_padding_horizontal_material = global::Gallog.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_padding_vertical_material = global::Gallog.Resource.Dimension.abc_button_padding_vertical_material;
+			global::EDMTDialog.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Gallog.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::EDMTDialog.Resource.Dimension.abc_config_prefDialogWidth = global::Gallog.Resource.Dimension.abc_config_prefDialogWidth;
+			global::EDMTDialog.Resource.Dimension.abc_control_corner_material = global::Gallog.Resource.Dimension.abc_control_corner_material;
+			global::EDMTDialog.Resource.Dimension.abc_control_inset_material = global::Gallog.Resource.Dimension.abc_control_inset_material;
+			global::EDMTDialog.Resource.Dimension.abc_control_padding_material = global::Gallog.Resource.Dimension.abc_control_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_height_major = global::Gallog.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_height_minor = global::Gallog.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_width_major = global::Gallog.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_width_minor = global::Gallog.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Gallog.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Gallog.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_min_width_major = global::Gallog.Resource.Dimension.abc_dialog_min_width_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_min_width_minor = global::Gallog.Resource.Dimension.abc_dialog_min_width_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_padding_material = global::Gallog.Resource.Dimension.abc_dialog_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_padding_top_material = global::Gallog.Resource.Dimension.abc_dialog_padding_top_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_title_divider_material = global::Gallog.Resource.Dimension.abc_dialog_title_divider_material;
+			global::EDMTDialog.Resource.Dimension.abc_disabled_alpha_material_dark = global::Gallog.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.abc_disabled_alpha_material_light = global::Gallog.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_icon_width = global::Gallog.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Gallog.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Gallog.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Gallog.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Gallog.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_top_material = global::Gallog.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::EDMTDialog.Resource.Dimension.abc_floating_window_z = global::Gallog.Resource.Dimension.abc_floating_window_z;
+			global::EDMTDialog.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Gallog.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_panel_menu_list_width = global::Gallog.Resource.Dimension.abc_panel_menu_list_width;
+			global::EDMTDialog.Resource.Dimension.abc_progress_bar_height_material = global::Gallog.Resource.Dimension.abc_progress_bar_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_search_view_preferred_height = global::Gallog.Resource.Dimension.abc_search_view_preferred_height;
+			global::EDMTDialog.Resource.Dimension.abc_search_view_preferred_width = global::Gallog.Resource.Dimension.abc_search_view_preferred_width;
+			global::EDMTDialog.Resource.Dimension.abc_seekbar_track_background_height_material = global::Gallog.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Gallog.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_select_dialog_padding_start_material = global::Gallog.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_switch_padding = global::Gallog.Resource.Dimension.abc_switch_padding;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_body_1_material = global::Gallog.Resource.Dimension.abc_text_size_body_1_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_body_2_material = global::Gallog.Resource.Dimension.abc_text_size_body_2_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_button_material = global::Gallog.Resource.Dimension.abc_text_size_button_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_caption_material = global::Gallog.Resource.Dimension.abc_text_size_caption_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_1_material = global::Gallog.Resource.Dimension.abc_text_size_display_1_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_2_material = global::Gallog.Resource.Dimension.abc_text_size_display_2_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_3_material = global::Gallog.Resource.Dimension.abc_text_size_display_3_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_4_material = global::Gallog.Resource.Dimension.abc_text_size_display_4_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_headline_material = global::Gallog.Resource.Dimension.abc_text_size_headline_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_large_material = global::Gallog.Resource.Dimension.abc_text_size_large_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_medium_material = global::Gallog.Resource.Dimension.abc_text_size_medium_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_menu_header_material = global::Gallog.Resource.Dimension.abc_text_size_menu_header_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_menu_material = global::Gallog.Resource.Dimension.abc_text_size_menu_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_small_material = global::Gallog.Resource.Dimension.abc_text_size_small_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_subhead_material = global::Gallog.Resource.Dimension.abc_text_size_subhead_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Gallog.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_title_material = global::Gallog.Resource.Dimension.abc_text_size_title_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_title_material_toolbar = global::Gallog.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::EDMTDialog.Resource.Dimension.compat_button_inset_horizontal_material = global::Gallog.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_inset_vertical_material = global::Gallog.Resource.Dimension.compat_button_inset_vertical_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_padding_horizontal_material = global::Gallog.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_padding_vertical_material = global::Gallog.Resource.Dimension.compat_button_padding_vertical_material;
+			global::EDMTDialog.Resource.Dimension.compat_control_corner_material = global::Gallog.Resource.Dimension.compat_control_corner_material;
+			global::EDMTDialog.Resource.Dimension.disabled_alpha_material_dark = global::Gallog.Resource.Dimension.disabled_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.disabled_alpha_material_light = global::Gallog.Resource.Dimension.disabled_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_colored = global::Gallog.Resource.Dimension.highlight_alpha_material_colored;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_dark = global::Gallog.Resource.Dimension.highlight_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_light = global::Gallog.Resource.Dimension.highlight_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.hint_alpha_material_dark = global::Gallog.Resource.Dimension.hint_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.hint_alpha_material_light = global::Gallog.Resource.Dimension.hint_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.hint_pressed_alpha_material_dark = global::Gallog.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.hint_pressed_alpha_material_light = global::Gallog.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.notification_action_icon_size = global::Gallog.Resource.Dimension.notification_action_icon_size;
+			global::EDMTDialog.Resource.Dimension.notification_action_text_size = global::Gallog.Resource.Dimension.notification_action_text_size;
+			global::EDMTDialog.Resource.Dimension.notification_big_circle_margin = global::Gallog.Resource.Dimension.notification_big_circle_margin;
+			global::EDMTDialog.Resource.Dimension.notification_content_margin_start = global::Gallog.Resource.Dimension.notification_content_margin_start;
+			global::EDMTDialog.Resource.Dimension.notification_large_icon_height = global::Gallog.Resource.Dimension.notification_large_icon_height;
+			global::EDMTDialog.Resource.Dimension.notification_large_icon_width = global::Gallog.Resource.Dimension.notification_large_icon_width;
+			global::EDMTDialog.Resource.Dimension.notification_main_column_padding_top = global::Gallog.Resource.Dimension.notification_main_column_padding_top;
+			global::EDMTDialog.Resource.Dimension.notification_media_narrow_margin = global::Gallog.Resource.Dimension.notification_media_narrow_margin;
+			global::EDMTDialog.Resource.Dimension.notification_right_icon_size = global::Gallog.Resource.Dimension.notification_right_icon_size;
+			global::EDMTDialog.Resource.Dimension.notification_right_side_padding_top = global::Gallog.Resource.Dimension.notification_right_side_padding_top;
+			global::EDMTDialog.Resource.Dimension.notification_small_icon_background_padding = global::Gallog.Resource.Dimension.notification_small_icon_background_padding;
+			global::EDMTDialog.Resource.Dimension.notification_small_icon_size_as_large = global::Gallog.Resource.Dimension.notification_small_icon_size_as_large;
+			global::EDMTDialog.Resource.Dimension.notification_subtext_size = global::Gallog.Resource.Dimension.notification_subtext_size;
+			global::EDMTDialog.Resource.Dimension.notification_top_pad = global::Gallog.Resource.Dimension.notification_top_pad;
+			global::EDMTDialog.Resource.Dimension.notification_top_pad_large_text = global::Gallog.Resource.Dimension.notification_top_pad_large_text;
+			global::EDMTDialog.Resource.Dimension.progress_margin = global::Gallog.Resource.Dimension.progress_margin;
+			global::EDMTDialog.Resource.Dimension.progress_width = global::Gallog.Resource.Dimension.progress_width;
+			global::EDMTDialog.Resource.Dimension.spot_size = global::Gallog.Resource.Dimension.spot_size;
+			global::EDMTDialog.Resource.Dimension.title_margin = global::Gallog.Resource.Dimension.title_margin;
+			global::EDMTDialog.Resource.Dimension.title_padding = global::Gallog.Resource.Dimension.title_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_corner_radius = global::Gallog.Resource.Dimension.tooltip_corner_radius;
+			global::EDMTDialog.Resource.Dimension.tooltip_horizontal_padding = global::Gallog.Resource.Dimension.tooltip_horizontal_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_margin = global::Gallog.Resource.Dimension.tooltip_margin;
+			global::EDMTDialog.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Gallog.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::EDMTDialog.Resource.Dimension.tooltip_precise_anchor_threshold = global::Gallog.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::EDMTDialog.Resource.Dimension.tooltip_vertical_padding = global::Gallog.Resource.Dimension.tooltip_vertical_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_y_offset_non_touch = global::Gallog.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::EDMTDialog.Resource.Dimension.tooltip_y_offset_touch = global::Gallog.Resource.Dimension.tooltip_y_offset_touch;
+			global::EDMTDialog.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Gallog.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_action_bar_item_background_material = global::Gallog.Resource.Drawable.abc_action_bar_item_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_borderless_material = global::Gallog.Resource.Drawable.abc_btn_borderless_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_material = global::Gallog.Resource.Drawable.abc_btn_check_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Gallog.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Gallog.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::EDMTDialog.Resource.Drawable.abc_btn_colored_material = global::Gallog.Resource.Drawable.abc_btn_colored_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_default_mtrl_shape = global::Gallog.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_material = global::Gallog.Resource.Drawable.abc_btn_radio_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Gallog.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Gallog.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::EDMTDialog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Gallog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::EDMTDialog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Gallog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_internal_bg = global::Gallog.Resource.Drawable.abc_cab_background_internal_bg;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_top_material = global::Gallog.Resource.Drawable.abc_cab_background_top_material;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Gallog.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_control_background_material = global::Gallog.Resource.Drawable.abc_control_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_dialog_material_background = global::Gallog.Resource.Drawable.abc_dialog_material_background;
+			global::EDMTDialog.Resource.Drawable.abc_edit_text_material = global::Gallog.Resource.Drawable.abc_edit_text_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_ab_back_material = global::Gallog.Resource.Drawable.abc_ic_ab_back_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Gallog.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_clear_material = global::Gallog.Resource.Drawable.abc_ic_clear_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Gallog.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_go_search_api_material = global::Gallog.Resource.Drawable.abc_ic_go_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Gallog.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Gallog.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_overflow_material = global::Gallog.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Gallog.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Gallog.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Gallog.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_search_api_material = global::Gallog.Resource.Drawable.abc_ic_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_16dp = global::Gallog.Resource.Drawable.abc_ic_star_black_16dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_36dp = global::Gallog.Resource.Drawable.abc_ic_star_black_36dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_48dp = global::Gallog.Resource.Drawable.abc_ic_star_black_48dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_16dp = global::Gallog.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_36dp = global::Gallog.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_48dp = global::Gallog.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_voice_search_api_material = global::Gallog.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_item_background_holo_dark = global::Gallog.Resource.Drawable.abc_item_background_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_item_background_holo_light = global::Gallog.Resource.Drawable.abc_item_background_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Gallog.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_list_focused_holo = global::Gallog.Resource.Drawable.abc_list_focused_holo;
+			global::EDMTDialog.Resource.Drawable.abc_list_longpressed_holo = global::Gallog.Resource.Drawable.abc_list_longpressed_holo;
+			global::EDMTDialog.Resource.Drawable.abc_list_pressed_holo_dark = global::Gallog.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_pressed_holo_light = global::Gallog.Resource.Drawable.abc_list_pressed_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Gallog.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Gallog.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Gallog.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Gallog.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_holo_dark = global::Gallog.Resource.Drawable.abc_list_selector_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_holo_light = global::Gallog.Resource.Drawable.abc_list_selector_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Gallog.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::EDMTDialog.Resource.Drawable.abc_popup_background_mtrl_mult = global::Gallog.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_indicator_material = global::Gallog.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_material = global::Gallog.Resource.Drawable.abc_ratingbar_material;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_small_material = global::Gallog.Resource.Drawable.abc_ratingbar_small_material;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Gallog.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Gallog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Gallog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Gallog.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Gallog.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_thumb_material = global::Gallog.Resource.Drawable.abc_seekbar_thumb_material;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_tick_mark_material = global::Gallog.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_track_material = global::Gallog.Resource.Drawable.abc_seekbar_track_material;
+			global::EDMTDialog.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Gallog.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_spinner_textfield_background_material = global::Gallog.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_switch_thumb_material = global::Gallog.Resource.Drawable.abc_switch_thumb_material;
+			global::EDMTDialog.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Gallog.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_tab_indicator_material = global::Gallog.Resource.Drawable.abc_tab_indicator_material;
+			global::EDMTDialog.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Gallog.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_text_cursor_material = global::Gallog.Resource.Drawable.abc_text_cursor_material;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Gallog.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Gallog.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Gallog.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Gallog.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Gallog.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Gallog.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Gallog.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Gallog.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Gallog.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Gallog.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_material = global::Gallog.Resource.Drawable.abc_textfield_search_material;
+			global::EDMTDialog.Resource.Drawable.abc_vector_test = global::Gallog.Resource.Drawable.abc_vector_test;
+			global::EDMTDialog.Resource.Drawable.notification_action_background = global::Gallog.Resource.Drawable.notification_action_background;
+			global::EDMTDialog.Resource.Drawable.notification_bg = global::Gallog.Resource.Drawable.notification_bg;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low = global::Gallog.Resource.Drawable.notification_bg_low;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low_normal = global::Gallog.Resource.Drawable.notification_bg_low_normal;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low_pressed = global::Gallog.Resource.Drawable.notification_bg_low_pressed;
+			global::EDMTDialog.Resource.Drawable.notification_bg_normal = global::Gallog.Resource.Drawable.notification_bg_normal;
+			global::EDMTDialog.Resource.Drawable.notification_bg_normal_pressed = global::Gallog.Resource.Drawable.notification_bg_normal_pressed;
+			global::EDMTDialog.Resource.Drawable.notification_icon_background = global::Gallog.Resource.Drawable.notification_icon_background;
+			global::EDMTDialog.Resource.Drawable.notification_template_icon_bg = global::Gallog.Resource.Drawable.notification_template_icon_bg;
+			global::EDMTDialog.Resource.Drawable.notification_template_icon_low_bg = global::Gallog.Resource.Drawable.notification_template_icon_low_bg;
+			global::EDMTDialog.Resource.Drawable.notification_tile_bg = global::Gallog.Resource.Drawable.notification_tile_bg;
+			global::EDMTDialog.Resource.Drawable.notify_panel_notification_icon_bg = global::Gallog.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::EDMTDialog.Resource.Drawable.tooltip_frame_dark = global::Gallog.Resource.Drawable.tooltip_frame_dark;
+			global::EDMTDialog.Resource.Drawable.tooltip_frame_light = global::Gallog.Resource.Drawable.tooltip_frame_light;
+			global::EDMTDialog.Resource.Id.ALT = global::Gallog.Resource.Id.ALT;
+			global::EDMTDialog.Resource.Id.CTRL = global::Gallog.Resource.Id.CTRL;
+			global::EDMTDialog.Resource.Id.FUNCTION = global::Gallog.Resource.Id.FUNCTION;
+			global::EDMTDialog.Resource.Id.META = global::Gallog.Resource.Id.META;
+			global::EDMTDialog.Resource.Id.SHIFT = global::Gallog.Resource.Id.SHIFT;
+			global::EDMTDialog.Resource.Id.SYM = global::Gallog.Resource.Id.SYM;
+			global::EDMTDialog.Resource.Id.action_bar = global::Gallog.Resource.Id.action_bar;
+			global::EDMTDialog.Resource.Id.action_bar_activity_content = global::Gallog.Resource.Id.action_bar_activity_content;
+			global::EDMTDialog.Resource.Id.action_bar_container = global::Gallog.Resource.Id.action_bar_container;
+			global::EDMTDialog.Resource.Id.action_bar_root = global::Gallog.Resource.Id.action_bar_root;
+			global::EDMTDialog.Resource.Id.action_bar_spinner = global::Gallog.Resource.Id.action_bar_spinner;
+			global::EDMTDialog.Resource.Id.action_bar_subtitle = global::Gallog.Resource.Id.action_bar_subtitle;
+			global::EDMTDialog.Resource.Id.action_bar_title = global::Gallog.Resource.Id.action_bar_title;
+			global::EDMTDialog.Resource.Id.action_container = global::Gallog.Resource.Id.action_container;
+			global::EDMTDialog.Resource.Id.action_context_bar = global::Gallog.Resource.Id.action_context_bar;
+			global::EDMTDialog.Resource.Id.action_divider = global::Gallog.Resource.Id.action_divider;
+			global::EDMTDialog.Resource.Id.action_image = global::Gallog.Resource.Id.action_image;
+			global::EDMTDialog.Resource.Id.action_menu_divider = global::Gallog.Resource.Id.action_menu_divider;
+			global::EDMTDialog.Resource.Id.action_menu_presenter = global::Gallog.Resource.Id.action_menu_presenter;
+			global::EDMTDialog.Resource.Id.action_mode_bar = global::Gallog.Resource.Id.action_mode_bar;
+			global::EDMTDialog.Resource.Id.action_mode_bar_stub = global::Gallog.Resource.Id.action_mode_bar_stub;
+			global::EDMTDialog.Resource.Id.action_mode_close_button = global::Gallog.Resource.Id.action_mode_close_button;
+			global::EDMTDialog.Resource.Id.action_text = global::Gallog.Resource.Id.action_text;
+			global::EDMTDialog.Resource.Id.actions = global::Gallog.Resource.Id.actions;
+			global::EDMTDialog.Resource.Id.activity_chooser_view_content = global::Gallog.Resource.Id.activity_chooser_view_content;
+			global::EDMTDialog.Resource.Id.add = global::Gallog.Resource.Id.add;
+			global::EDMTDialog.Resource.Id.alertTitle = global::Gallog.Resource.Id.alertTitle;
+			global::EDMTDialog.Resource.Id.always = global::Gallog.Resource.Id.always;
+			global::EDMTDialog.Resource.Id.async = global::Gallog.Resource.Id.async;
+			global::EDMTDialog.Resource.Id.beginning = global::Gallog.Resource.Id.beginning;
+			global::EDMTDialog.Resource.Id.blocking = global::Gallog.Resource.Id.blocking;
+			global::EDMTDialog.Resource.Id.bottom = global::Gallog.Resource.Id.bottom;
+			global::EDMTDialog.Resource.Id.buttonPanel = global::Gallog.Resource.Id.buttonPanel;
+			global::EDMTDialog.Resource.Id.checkbox = global::Gallog.Resource.Id.checkbox;
+			global::EDMTDialog.Resource.Id.chronometer = global::Gallog.Resource.Id.chronometer;
+			global::EDMTDialog.Resource.Id.collapseActionView = global::Gallog.Resource.Id.collapseActionView;
+			global::EDMTDialog.Resource.Id.contentPanel = global::Gallog.Resource.Id.contentPanel;
+			global::EDMTDialog.Resource.Id.custom = global::Gallog.Resource.Id.custom;
+			global::EDMTDialog.Resource.Id.customPanel = global::Gallog.Resource.Id.customPanel;
+			global::EDMTDialog.Resource.Id.decor_content_parent = global::Gallog.Resource.Id.decor_content_parent;
+			global::EDMTDialog.Resource.Id.default_activity_button = global::Gallog.Resource.Id.default_activity_button;
+			global::EDMTDialog.Resource.Id.disableHome = global::Gallog.Resource.Id.disableHome;
+			global::EDMTDialog.Resource.Id.edit_query = global::Gallog.Resource.Id.edit_query;
+			global::EDMTDialog.Resource.Id.end = global::Gallog.Resource.Id.end;
+			global::EDMTDialog.Resource.Id.expand_activities_button = global::Gallog.Resource.Id.expand_activities_button;
+			global::EDMTDialog.Resource.Id.expanded_menu = global::Gallog.Resource.Id.expanded_menu;
+			global::EDMTDialog.Resource.Id.forever = global::Gallog.Resource.Id.forever;
+			global::EDMTDialog.Resource.Id.home = global::Gallog.Resource.Id.home;
+			global::EDMTDialog.Resource.Id.homeAsUp = global::Gallog.Resource.Id.homeAsUp;
+			global::EDMTDialog.Resource.Id.icon = global::Gallog.Resource.Id.icon;
+			global::EDMTDialog.Resource.Id.icon_group = global::Gallog.Resource.Id.icon_group;
+			global::EDMTDialog.Resource.Id.ifRoom = global::Gallog.Resource.Id.ifRoom;
+			global::EDMTDialog.Resource.Id.image = global::Gallog.Resource.Id.image;
+			global::EDMTDialog.Resource.Id.info = global::Gallog.Resource.Id.info;
+			global::EDMTDialog.Resource.Id.italic = global::Gallog.Resource.Id.italic;
+			global::EDMTDialog.Resource.Id.line1 = global::Gallog.Resource.Id.line1;
+			global::EDMTDialog.Resource.Id.line3 = global::Gallog.Resource.Id.line3;
+			global::EDMTDialog.Resource.Id.listMode = global::Gallog.Resource.Id.listMode;
+			global::EDMTDialog.Resource.Id.list_item = global::Gallog.Resource.Id.list_item;
+			global::EDMTDialog.Resource.Id.marker_progress = global::Gallog.Resource.Id.marker_progress;
+			global::EDMTDialog.Resource.Id.message = global::Gallog.Resource.Id.message;
+			global::EDMTDialog.Resource.Id.middle = global::Gallog.Resource.Id.middle;
+			global::EDMTDialog.Resource.Id.multiply = global::Gallog.Resource.Id.multiply;
+			global::EDMTDialog.Resource.Id.my_text_view = global::Gallog.Resource.Id.my_text_view;
+			global::EDMTDialog.Resource.Id.never = global::Gallog.Resource.Id.never;
+			global::EDMTDialog.Resource.Id.none = global::Gallog.Resource.Id.none;
+			global::EDMTDialog.Resource.Id.normal = global::Gallog.Resource.Id.normal;
+			global::EDMTDialog.Resource.Id.notification_background = global::Gallog.Resource.Id.notification_background;
+			global::EDMTDialog.Resource.Id.notification_main_column = global::Gallog.Resource.Id.notification_main_column;
+			global::EDMTDialog.Resource.Id.notification_main_column_container = global::Gallog.Resource.Id.notification_main_column_container;
+			global::EDMTDialog.Resource.Id.parentPanel = global::Gallog.Resource.Id.parentPanel;
+			global::EDMTDialog.Resource.Id.progress_circular = global::Gallog.Resource.Id.progress_circular;
+			global::EDMTDialog.Resource.Id.progress_horizontal = global::Gallog.Resource.Id.progress_horizontal;
+			global::EDMTDialog.Resource.Id.radio = global::Gallog.Resource.Id.radio;
+			global::EDMTDialog.Resource.Id.right_icon = global::Gallog.Resource.Id.right_icon;
+			global::EDMTDialog.Resource.Id.right_side = global::Gallog.Resource.Id.right_side;
+			global::EDMTDialog.Resource.Id.screen = global::Gallog.Resource.Id.screen;
+			global::EDMTDialog.Resource.Id.scrollIndicatorDown = global::Gallog.Resource.Id.scrollIndicatorDown;
+			global::EDMTDialog.Resource.Id.scrollIndicatorUp = global::Gallog.Resource.Id.scrollIndicatorUp;
+			global::EDMTDialog.Resource.Id.scrollView = global::Gallog.Resource.Id.scrollView;
+			global::EDMTDialog.Resource.Id.search_badge = global::Gallog.Resource.Id.search_badge;
+			global::EDMTDialog.Resource.Id.search_bar = global::Gallog.Resource.Id.search_bar;
+			global::EDMTDialog.Resource.Id.search_button = global::Gallog.Resource.Id.search_button;
+			global::EDMTDialog.Resource.Id.search_close_btn = global::Gallog.Resource.Id.search_close_btn;
+			global::EDMTDialog.Resource.Id.search_edit_frame = global::Gallog.Resource.Id.search_edit_frame;
+			global::EDMTDialog.Resource.Id.search_go_btn = global::Gallog.Resource.Id.search_go_btn;
+			global::EDMTDialog.Resource.Id.search_mag_icon = global::Gallog.Resource.Id.search_mag_icon;
+			global::EDMTDialog.Resource.Id.search_plate = global::Gallog.Resource.Id.search_plate;
+			global::EDMTDialog.Resource.Id.search_src_text = global::Gallog.Resource.Id.search_src_text;
+			global::EDMTDialog.Resource.Id.search_voice_btn = global::Gallog.Resource.Id.search_voice_btn;
+			global::EDMTDialog.Resource.Id.select_dialog_listview = global::Gallog.Resource.Id.select_dialog_listview;
+			global::EDMTDialog.Resource.Id.shortcut = global::Gallog.Resource.Id.shortcut;
+			global::EDMTDialog.Resource.Id.showCustom = global::Gallog.Resource.Id.showCustom;
+			global::EDMTDialog.Resource.Id.showHome = global::Gallog.Resource.Id.showHome;
+			global::EDMTDialog.Resource.Id.showTitle = global::Gallog.Resource.Id.showTitle;
+			global::EDMTDialog.Resource.Id.spacer = global::Gallog.Resource.Id.spacer;
+			global::EDMTDialog.Resource.Id.split_action_bar = global::Gallog.Resource.Id.split_action_bar;
+			global::EDMTDialog.Resource.Id.src_atop = global::Gallog.Resource.Id.src_atop;
+			global::EDMTDialog.Resource.Id.src_in = global::Gallog.Resource.Id.src_in;
+			global::EDMTDialog.Resource.Id.src_over = global::Gallog.Resource.Id.src_over;
+			global::EDMTDialog.Resource.Id.submenuarrow = global::Gallog.Resource.Id.submenuarrow;
+			global::EDMTDialog.Resource.Id.submit_area = global::Gallog.Resource.Id.submit_area;
+			global::EDMTDialog.Resource.Id.tabMode = global::Gallog.Resource.Id.tabMode;
+			global::EDMTDialog.Resource.Id.tag_transition_group = global::Gallog.Resource.Id.tag_transition_group;
+			global::EDMTDialog.Resource.Id.text = global::Gallog.Resource.Id.text;
+			global::EDMTDialog.Resource.Id.text2 = global::Gallog.Resource.Id.text2;
+			global::EDMTDialog.Resource.Id.textSpacerNoButtons = global::Gallog.Resource.Id.textSpacerNoButtons;
+			global::EDMTDialog.Resource.Id.textSpacerNoTitle = global::Gallog.Resource.Id.textSpacerNoTitle;
+			global::EDMTDialog.Resource.Id.time = global::Gallog.Resource.Id.time;
+			global::EDMTDialog.Resource.Id.title = global::Gallog.Resource.Id.title;
+			global::EDMTDialog.Resource.Id.titleDividerNoCustom = global::Gallog.Resource.Id.titleDividerNoCustom;
+			global::EDMTDialog.Resource.Id.title_template = global::Gallog.Resource.Id.title_template;
+			global::EDMTDialog.Resource.Id.top = global::Gallog.Resource.Id.top;
+			global::EDMTDialog.Resource.Id.topPanel = global::Gallog.Resource.Id.topPanel;
+			global::EDMTDialog.Resource.Id.uniform = global::Gallog.Resource.Id.uniform;
+			global::EDMTDialog.Resource.Id.up = global::Gallog.Resource.Id.up;
+			global::EDMTDialog.Resource.Id.useLogo = global::Gallog.Resource.Id.useLogo;
+			global::EDMTDialog.Resource.Id.withText = global::Gallog.Resource.Id.withText;
+			global::EDMTDialog.Resource.Id.wrap_content = global::Gallog.Resource.Id.wrap_content;
+			global::EDMTDialog.Resource.Integer.abc_config_activityDefaultDur = global::Gallog.Resource.Integer.abc_config_activityDefaultDur;
+			global::EDMTDialog.Resource.Integer.abc_config_activityShortDur = global::Gallog.Resource.Integer.abc_config_activityShortDur;
+			global::EDMTDialog.Resource.Integer.cancel_button_image_alpha = global::Gallog.Resource.Integer.cancel_button_image_alpha;
+			global::EDMTDialog.Resource.Integer.config_tooltipAnimTime = global::Gallog.Resource.Integer.config_tooltipAnimTime;
+			global::EDMTDialog.Resource.Integer.status_bar_notification_info_maxnum = global::Gallog.Resource.Integer.status_bar_notification_info_maxnum;
+			global::EDMTDialog.Resource.Layout.abc_action_bar_title_item = global::Gallog.Resource.Layout.abc_action_bar_title_item;
+			global::EDMTDialog.Resource.Layout.abc_action_bar_up_container = global::Gallog.Resource.Layout.abc_action_bar_up_container;
+			global::EDMTDialog.Resource.Layout.abc_action_menu_item_layout = global::Gallog.Resource.Layout.abc_action_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_action_menu_layout = global::Gallog.Resource.Layout.abc_action_menu_layout;
+			global::EDMTDialog.Resource.Layout.abc_action_mode_bar = global::Gallog.Resource.Layout.abc_action_mode_bar;
+			global::EDMTDialog.Resource.Layout.abc_action_mode_close_item_material = global::Gallog.Resource.Layout.abc_action_mode_close_item_material;
+			global::EDMTDialog.Resource.Layout.abc_activity_chooser_view = global::Gallog.Resource.Layout.abc_activity_chooser_view;
+			global::EDMTDialog.Resource.Layout.abc_activity_chooser_view_list_item = global::Gallog.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_button_bar_material = global::Gallog.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_material = global::Gallog.Resource.Layout.abc_alert_dialog_material;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_title_material = global::Gallog.Resource.Layout.abc_alert_dialog_title_material;
+			global::EDMTDialog.Resource.Layout.abc_dialog_title_material = global::Gallog.Resource.Layout.abc_dialog_title_material;
+			global::EDMTDialog.Resource.Layout.abc_expanded_menu_layout = global::Gallog.Resource.Layout.abc_expanded_menu_layout;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_checkbox = global::Gallog.Resource.Layout.abc_list_menu_item_checkbox;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_icon = global::Gallog.Resource.Layout.abc_list_menu_item_icon;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_layout = global::Gallog.Resource.Layout.abc_list_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_radio = global::Gallog.Resource.Layout.abc_list_menu_item_radio;
+			global::EDMTDialog.Resource.Layout.abc_popup_menu_header_item_layout = global::Gallog.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_popup_menu_item_layout = global::Gallog.Resource.Layout.abc_popup_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_screen_content_include = global::Gallog.Resource.Layout.abc_screen_content_include;
+			global::EDMTDialog.Resource.Layout.abc_screen_simple = global::Gallog.Resource.Layout.abc_screen_simple;
+			global::EDMTDialog.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Gallog.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::EDMTDialog.Resource.Layout.abc_screen_toolbar = global::Gallog.Resource.Layout.abc_screen_toolbar;
+			global::EDMTDialog.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Gallog.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::EDMTDialog.Resource.Layout.abc_search_view = global::Gallog.Resource.Layout.abc_search_view;
+			global::EDMTDialog.Resource.Layout.abc_select_dialog_material = global::Gallog.Resource.Layout.abc_select_dialog_material;
+			global::EDMTDialog.Resource.Layout.my_dialog_layout = global::Gallog.Resource.Layout.my_dialog_layout;
+			global::EDMTDialog.Resource.Layout.notification_action = global::Gallog.Resource.Layout.notification_action;
+			global::EDMTDialog.Resource.Layout.notification_action_tombstone = global::Gallog.Resource.Layout.notification_action_tombstone;
+			global::EDMTDialog.Resource.Layout.notification_template_custom_big = global::Gallog.Resource.Layout.notification_template_custom_big;
+			global::EDMTDialog.Resource.Layout.notification_template_icon_group = global::Gallog.Resource.Layout.notification_template_icon_group;
+			global::EDMTDialog.Resource.Layout.notification_template_part_chronometer = global::Gallog.Resource.Layout.notification_template_part_chronometer;
+			global::EDMTDialog.Resource.Layout.notification_template_part_time = global::Gallog.Resource.Layout.notification_template_part_time;
+			global::EDMTDialog.Resource.Layout.select_dialog_item_material = global::Gallog.Resource.Layout.select_dialog_item_material;
+			global::EDMTDialog.Resource.Layout.select_dialog_multichoice_material = global::Gallog.Resource.Layout.select_dialog_multichoice_material;
+			global::EDMTDialog.Resource.Layout.select_dialog_singlechoice_material = global::Gallog.Resource.Layout.select_dialog_singlechoice_material;
+			global::EDMTDialog.Resource.Layout.support_simple_spinner_dropdown_item = global::Gallog.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::EDMTDialog.Resource.String.abc_action_bar_home_description = global::Gallog.Resource.String.abc_action_bar_home_description;
+			global::EDMTDialog.Resource.String.abc_action_bar_up_description = global::Gallog.Resource.String.abc_action_bar_up_description;
+			global::EDMTDialog.Resource.String.abc_action_menu_overflow_description = global::Gallog.Resource.String.abc_action_menu_overflow_description;
+			global::EDMTDialog.Resource.String.abc_action_mode_done = global::Gallog.Resource.String.abc_action_mode_done;
+			global::EDMTDialog.Resource.String.abc_activity_chooser_view_see_all = global::Gallog.Resource.String.abc_activity_chooser_view_see_all;
+			global::EDMTDialog.Resource.String.abc_activitychooserview_choose_application = global::Gallog.Resource.String.abc_activitychooserview_choose_application;
+			global::EDMTDialog.Resource.String.abc_capital_off = global::Gallog.Resource.String.abc_capital_off;
+			global::EDMTDialog.Resource.String.abc_capital_on = global::Gallog.Resource.String.abc_capital_on;
+			global::EDMTDialog.Resource.String.abc_font_family_body_1_material = global::Gallog.Resource.String.abc_font_family_body_1_material;
+			global::EDMTDialog.Resource.String.abc_font_family_body_2_material = global::Gallog.Resource.String.abc_font_family_body_2_material;
+			global::EDMTDialog.Resource.String.abc_font_family_button_material = global::Gallog.Resource.String.abc_font_family_button_material;
+			global::EDMTDialog.Resource.String.abc_font_family_caption_material = global::Gallog.Resource.String.abc_font_family_caption_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_1_material = global::Gallog.Resource.String.abc_font_family_display_1_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_2_material = global::Gallog.Resource.String.abc_font_family_display_2_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_3_material = global::Gallog.Resource.String.abc_font_family_display_3_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_4_material = global::Gallog.Resource.String.abc_font_family_display_4_material;
+			global::EDMTDialog.Resource.String.abc_font_family_headline_material = global::Gallog.Resource.String.abc_font_family_headline_material;
+			global::EDMTDialog.Resource.String.abc_font_family_menu_material = global::Gallog.Resource.String.abc_font_family_menu_material;
+			global::EDMTDialog.Resource.String.abc_font_family_subhead_material = global::Gallog.Resource.String.abc_font_family_subhead_material;
+			global::EDMTDialog.Resource.String.abc_font_family_title_material = global::Gallog.Resource.String.abc_font_family_title_material;
+			global::EDMTDialog.Resource.String.abc_search_hint = global::Gallog.Resource.String.abc_search_hint;
+			global::EDMTDialog.Resource.String.abc_searchview_description_clear = global::Gallog.Resource.String.abc_searchview_description_clear;
+			global::EDMTDialog.Resource.String.abc_searchview_description_query = global::Gallog.Resource.String.abc_searchview_description_query;
+			global::EDMTDialog.Resource.String.abc_searchview_description_search = global::Gallog.Resource.String.abc_searchview_description_search;
+			global::EDMTDialog.Resource.String.abc_searchview_description_submit = global::Gallog.Resource.String.abc_searchview_description_submit;
+			global::EDMTDialog.Resource.String.abc_searchview_description_voice = global::Gallog.Resource.String.abc_searchview_description_voice;
+			global::EDMTDialog.Resource.String.abc_shareactionprovider_share_with = global::Gallog.Resource.String.abc_shareactionprovider_share_with;
+			global::EDMTDialog.Resource.String.abc_shareactionprovider_share_with_application = global::Gallog.Resource.String.abc_shareactionprovider_share_with_application;
+			global::EDMTDialog.Resource.String.abc_toolbar_collapse_description = global::Gallog.Resource.String.abc_toolbar_collapse_description;
+			global::EDMTDialog.Resource.String.app_name = global::Gallog.Resource.String.app_name;
+			global::EDMTDialog.Resource.String.hello = global::Gallog.Resource.String.hello;
+			global::EDMTDialog.Resource.String.search_menu_title = global::Gallog.Resource.String.search_menu_title;
+			global::EDMTDialog.Resource.String.status_bar_notification_info_overflow = global::Gallog.Resource.String.status_bar_notification_info_overflow;
+			global::EDMTDialog.Resource.Style.AlertDialog_AppCompat = global::Gallog.Resource.Style.AlertDialog_AppCompat;
+			global::EDMTDialog.Resource.Style.AlertDialog_AppCompat_Light = global::Gallog.Resource.Style.AlertDialog_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_Dialog = global::Gallog.Resource.Style.Animation_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_DropDownUp = global::Gallog.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_Tooltip = global::Gallog.Resource.Style.Animation_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_AlertDialog_AppCompat = global::Gallog.Resource.Style.Base_AlertDialog_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Gallog.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_Dialog = global::Gallog.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Gallog.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Gallog.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Gallog.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Gallog.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Gallog.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Gallog.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Gallog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Gallog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat = global::Gallog.Resource.Style.Base_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Gallog.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog = global::Gallog.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Gallog.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Gallog.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Gallog.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Gallog.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light = global::Gallog.Resource.Style.Base_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Gallog.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Gallog.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Gallog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Gallog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Gallog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Gallog.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat = global::Gallog.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Gallog.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Gallog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Gallog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Gallog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Gallog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Gallog.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat = global::Gallog.Resource.Style.Base_V21_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Gallog.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Gallog.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Gallog.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Gallog.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V22_Theme_AppCompat = global::Gallog.Resource.Style.Base_V22_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Gallog.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V23_Theme_AppCompat = global::Gallog.Resource.Style.Base_V23_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Gallog.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V26_Theme_AppCompat = global::Gallog.Resource.Style.Base_V26_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Gallog.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Gallog.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat = global::Gallog.Resource.Style.Base_V7_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Gallog.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Gallog.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Gallog.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Gallog.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Gallog.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Gallog.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Gallog.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Gallog.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Gallog.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button = global::Gallog.Resource.Style.Base_Widget_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Gallog.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Gallog.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Gallog.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Gallog.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Gallog.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Gallog.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Gallog.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Gallog.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Gallog.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Gallog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Gallog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Gallog.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_EditText = global::Gallog.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Gallog.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Gallog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Gallog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Gallog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Gallog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Gallog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Gallog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Gallog.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Gallog.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView = global::Gallog.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Gallog.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Gallog.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Gallog.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Gallog.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Gallog.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Gallog.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Gallog.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Gallog.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SearchView = global::Gallog.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Gallog.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Gallog.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Spinner = global::Gallog.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Gallog.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Gallog.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Gallog.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Gallog.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EDMTDialog.Resource.Style.Platform_AppCompat = global::Gallog.Resource.Style.Platform_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_AppCompat_Light = global::Gallog.Resource.Style.Platform_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Gallog.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Gallog.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Gallog.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V21_AppCompat = global::Gallog.Resource.Style.Platform_V21_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V21_AppCompat_Light = global::Gallog.Resource.Style.Platform_V21_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V25_AppCompat = global::Gallog.Resource.Style.Platform_V25_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V25_AppCompat_Light = global::Gallog.Resource.Style.Platform_V25_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Gallog.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Gallog.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Gallog.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::EDMTDialog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Gallog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Gallog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.SpotsDialogDefault = global::Gallog.Resource.Style.SpotsDialogDefault;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat = global::Gallog.Resource.Style.TextAppearance_AppCompat;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Body1 = global::Gallog.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Body2 = global::Gallog.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Button = global::Gallog.Resource.Style.TextAppearance_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Caption = global::Gallog.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display1 = global::Gallog.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display2 = global::Gallog.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display3 = global::Gallog.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display4 = global::Gallog.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Headline = global::Gallog.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Large = global::Gallog.Resource.Style.TextAppearance_AppCompat_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Gallog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Gallog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Gallog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Gallog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Medium = global::Gallog.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Menu = global::Gallog.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Gallog.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Gallog.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Small = global::Gallog.Resource.Style.TextAppearance_AppCompat_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Subhead = global::Gallog.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Title = global::Gallog.Resource.Style.TextAppearance_AppCompat_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Gallog.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Gallog.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification = global::Gallog.Resource.Style.TextAppearance_Compat_Notification;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Info = global::Gallog.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Gallog.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Time = global::Gallog.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Title = global::Gallog.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Gallog.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Gallog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Gallog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat = global::Gallog.Resource.Style.Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_CompactMenu = global::Gallog.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight = global::Gallog.Resource.Style.Theme_AppCompat_DayNight;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Gallog.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Gallog.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Gallog.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Gallog.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Gallog.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Gallog.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog = global::Gallog.Resource.Style.Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Gallog.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Gallog.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Gallog.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light = global::Gallog.Resource.Style.Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Gallog.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog = global::Gallog.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Gallog.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Gallog.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Gallog.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Gallog.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_NoActionBar = global::Gallog.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat = global::Gallog.Resource.Style.ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Gallog.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Gallog.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Gallog.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Gallog.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Gallog.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Light = global::Gallog.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar = global::Gallog.Resource.Style.Widget_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Gallog.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Gallog.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Gallog.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Gallog.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton = global::Gallog.Resource.Style.Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Gallog.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Gallog.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionMode = global::Gallog.Resource.Style.Widget_AppCompat_ActionMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Gallog.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Gallog.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button = global::Gallog.Resource.Style.Widget_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Borderless = global::Gallog.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Gallog.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Gallog.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Colored = global::Gallog.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Small = global::Gallog.Resource.Style.Widget_AppCompat_Button_Small;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ButtonBar = global::Gallog.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Gallog.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Gallog.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Gallog.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Gallog.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Gallog.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Gallog.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_EditText = global::Gallog.Resource.Style.Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ImageButton = global::Gallog.Resource.Style.Widget_AppCompat_ImageButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Gallog.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Gallog.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Gallog.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Gallog.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Gallog.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Gallog.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Gallog.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_SearchView = global::Gallog.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Gallog.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListMenuView = global::Gallog.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Gallog.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView = global::Gallog.Resource.Style.Widget_AppCompat_ListView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Gallog.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView_Menu = global::Gallog.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupMenu = global::Gallog.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Gallog.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupWindow = global::Gallog.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ProgressBar = global::Gallog.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Gallog.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar = global::Gallog.Resource.Style.Widget_AppCompat_RatingBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Gallog.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Gallog.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SearchView = global::Gallog.Resource.Style.Widget_AppCompat_SearchView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Gallog.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SeekBar = global::Gallog.Resource.Style.Widget_AppCompat_SeekBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Gallog.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner = global::Gallog.Resource.Style.Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Gallog.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Gallog.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Gallog.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Gallog.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Toolbar = global::Gallog.Resource.Style.Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Gallog.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EDMTDialog.Resource.Style.Widget_Compat_NotificationActionContainer = global::Gallog.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::EDMTDialog.Resource.Style.Widget_Compat_NotificationActionText = global::Gallog.Resource.Style.Widget_Compat_NotificationActionText;
+			global::EDMTDialog.Resource.Styleable.ActionBar = global::Gallog.Resource.Styleable.ActionBar;
+			global::EDMTDialog.Resource.Styleable.ActionBar_background = global::Gallog.Resource.Styleable.ActionBar_background;
+			global::EDMTDialog.Resource.Styleable.ActionBar_backgroundSplit = global::Gallog.Resource.Styleable.ActionBar_backgroundSplit;
+			global::EDMTDialog.Resource.Styleable.ActionBar_backgroundStacked = global::Gallog.Resource.Styleable.ActionBar_backgroundStacked;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetEnd = global::Gallog.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Gallog.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetLeft = global::Gallog.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetRight = global::Gallog.Resource.Styleable.ActionBar_contentInsetRight;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetStart = global::Gallog.Resource.Styleable.ActionBar_contentInsetStart;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Gallog.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Styleable.ActionBar_customNavigationLayout = global::Gallog.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBar_displayOptions = global::Gallog.Resource.Styleable.ActionBar_displayOptions;
+			global::EDMTDialog.Resource.Styleable.ActionBar_divider = global::Gallog.Resource.Styleable.ActionBar_divider;
+			global::EDMTDialog.Resource.Styleable.ActionBar_elevation = global::Gallog.Resource.Styleable.ActionBar_elevation;
+			global::EDMTDialog.Resource.Styleable.ActionBar_height = global::Gallog.Resource.Styleable.ActionBar_height;
+			global::EDMTDialog.Resource.Styleable.ActionBar_hideOnContentScroll = global::Gallog.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::EDMTDialog.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Gallog.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::EDMTDialog.Resource.Styleable.ActionBar_homeLayout = global::Gallog.Resource.Styleable.ActionBar_homeLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBar_icon = global::Gallog.Resource.Styleable.ActionBar_icon;
+			global::EDMTDialog.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Gallog.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_itemPadding = global::Gallog.Resource.Styleable.ActionBar_itemPadding;
+			global::EDMTDialog.Resource.Styleable.ActionBar_logo = global::Gallog.Resource.Styleable.ActionBar_logo;
+			global::EDMTDialog.Resource.Styleable.ActionBar_navigationMode = global::Gallog.Resource.Styleable.ActionBar_navigationMode;
+			global::EDMTDialog.Resource.Styleable.ActionBar_popupTheme = global::Gallog.Resource.Styleable.ActionBar_popupTheme;
+			global::EDMTDialog.Resource.Styleable.ActionBar_progressBarPadding = global::Gallog.Resource.Styleable.ActionBar_progressBarPadding;
+			global::EDMTDialog.Resource.Styleable.ActionBar_progressBarStyle = global::Gallog.Resource.Styleable.ActionBar_progressBarStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_subtitle = global::Gallog.Resource.Styleable.ActionBar_subtitle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_subtitleTextStyle = global::Gallog.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_title = global::Gallog.Resource.Styleable.ActionBar_title;
+			global::EDMTDialog.Resource.Styleable.ActionBar_titleTextStyle = global::Gallog.Resource.Styleable.ActionBar_titleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBarLayout = global::Gallog.Resource.Styleable.ActionBarLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Gallog.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::EDMTDialog.Resource.Styleable.ActionMenuItemView = global::Gallog.Resource.Styleable.ActionMenuItemView;
+			global::EDMTDialog.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Gallog.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::EDMTDialog.Resource.Styleable.ActionMenuView = global::Gallog.Resource.Styleable.ActionMenuView;
+			global::EDMTDialog.Resource.Styleable.ActionMode = global::Gallog.Resource.Styleable.ActionMode;
+			global::EDMTDialog.Resource.Styleable.ActionMode_background = global::Gallog.Resource.Styleable.ActionMode_background;
+			global::EDMTDialog.Resource.Styleable.ActionMode_backgroundSplit = global::Gallog.Resource.Styleable.ActionMode_backgroundSplit;
+			global::EDMTDialog.Resource.Styleable.ActionMode_closeItemLayout = global::Gallog.Resource.Styleable.ActionMode_closeItemLayout;
+			global::EDMTDialog.Resource.Styleable.ActionMode_height = global::Gallog.Resource.Styleable.ActionMode_height;
+			global::EDMTDialog.Resource.Styleable.ActionMode_subtitleTextStyle = global::Gallog.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionMode_titleTextStyle = global::Gallog.Resource.Styleable.ActionMode_titleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView = global::Gallog.Resource.Styleable.ActivityChooserView;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Gallog.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Gallog.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::EDMTDialog.Resource.Styleable.AlertDialog = global::Gallog.Resource.Styleable.AlertDialog;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_android_layout = global::Gallog.Resource.Styleable.AlertDialog_android_layout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Gallog.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_listItemLayout = global::Gallog.Resource.Styleable.AlertDialog_listItemLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_listLayout = global::Gallog.Resource.Styleable.AlertDialog_listLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Gallog.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_showTitle = global::Gallog.Resource.Styleable.AlertDialog_showTitle;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Gallog.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView = global::Gallog.Resource.Styleable.AppCompatImageView;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_android_src = global::Gallog.Resource.Styleable.AppCompatImageView_android_src;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_srcCompat = global::Gallog.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_tint = global::Gallog.Resource.Styleable.AppCompatImageView_tint;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_tintMode = global::Gallog.Resource.Styleable.AppCompatImageView_tintMode;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar = global::Gallog.Resource.Styleable.AppCompatSeekBar;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Gallog.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMark = global::Gallog.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Gallog.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Gallog.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper = global::Gallog.Resource.Styleable.AppCompatTextHelper;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Gallog.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Gallog.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Gallog.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Gallog.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Gallog.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Gallog.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Gallog.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView = global::Gallog.Resource.Styleable.AppCompatTextView;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Gallog.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Gallog.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Gallog.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Gallog.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Gallog.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Gallog.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_fontFamily = global::Gallog.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_textAllCaps = global::Gallog.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme = global::Gallog.Resource.Styleable.AppCompatTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarSize = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Gallog.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Gallog.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Gallog.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Gallog.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Gallog.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Gallog.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Gallog.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Gallog.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Gallog.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Gallog.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Gallog.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Gallog.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Gallog.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Gallog.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Gallog.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Gallog.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Gallog.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Gallog.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorAccent = global::Gallog.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Gallog.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Gallog.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Gallog.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Gallog.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Gallog.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorError = global::Gallog.Resource.Styleable.AppCompatTheme_colorError;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorPrimary = global::Gallog.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Gallog.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Gallog.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_controlBackground = global::Gallog.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Gallog.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dialogTheme = global::Gallog.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Gallog.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dividerVertical = global::Gallog.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Gallog.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Gallog.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextBackground = global::Gallog.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextColor = global::Gallog.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextStyle = global::Gallog.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Gallog.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Gallog.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Gallog.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Gallog.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Gallog.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Gallog.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Gallog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Gallog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Gallog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Gallog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelBackground = global::Gallog.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Gallog.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Gallog.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Gallog.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Gallog.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Gallog.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Gallog.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Gallog.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Gallog.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Gallog.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Gallog.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Gallog.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Gallog.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Gallog.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_switchStyle = global::Gallog.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Gallog.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Gallog.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Gallog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Gallog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Gallog.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Gallog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Gallog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Gallog.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Gallog.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Gallog.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Gallog.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Gallog.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Gallog.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Gallog.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionBar = global::Gallog.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Gallog.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Gallog.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Gallog.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Gallog.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Gallog.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Gallog.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Gallog.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Gallog.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Gallog.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::EDMTDialog.Resource.Styleable.ButtonBarLayout = global::Gallog.Resource.Styleable.ButtonBarLayout;
+			global::EDMTDialog.Resource.Styleable.ButtonBarLayout_allowStacking = global::Gallog.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem = global::Gallog.Resource.Styleable.ColorStateListItem;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_alpha = global::Gallog.Resource.Styleable.ColorStateListItem_alpha;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_android_alpha = global::Gallog.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_android_color = global::Gallog.Resource.Styleable.ColorStateListItem_android_color;
+			global::EDMTDialog.Resource.Styleable.CompoundButton = global::Gallog.Resource.Styleable.CompoundButton;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_android_button = global::Gallog.Resource.Styleable.CompoundButton_android_button;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_buttonTint = global::Gallog.Resource.Styleable.CompoundButton_buttonTint;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_buttonTintMode = global::Gallog.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::EDMTDialog.Resource.Styleable.Dialog = global::Gallog.Resource.Styleable.Dialog;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogSpotColor = global::Gallog.Resource.Styleable.Dialog_DialogSpotColor;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogSpotCount = global::Gallog.Resource.Styleable.Dialog_DialogSpotCount;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogTitleAppearance = global::Gallog.Resource.Styleable.Dialog_DialogTitleAppearance;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogTitleText = global::Gallog.Resource.Styleable.Dialog_DialogTitleText;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle = global::Gallog.Resource.Styleable.DrawerArrowToggle;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Gallog.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Gallog.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_barLength = global::Gallog.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_color = global::Gallog.Resource.Styleable.DrawerArrowToggle_color;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Gallog.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Gallog.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_spinBars = global::Gallog.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_thickness = global::Gallog.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::EDMTDialog.Resource.Styleable.FontFamily = global::Gallog.Resource.Styleable.FontFamily;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderAuthority = global::Gallog.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderCerts = global::Gallog.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Gallog.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Gallog.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderPackage = global::Gallog.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderQuery = global::Gallog.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont = global::Gallog.Resource.Styleable.FontFamilyFont;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_font = global::Gallog.Resource.Styleable.FontFamilyFont_android_font;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Gallog.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Gallog.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_font = global::Gallog.Resource.Styleable.FontFamilyFont_font;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_fontStyle = global::Gallog.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_fontWeight = global::Gallog.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat = global::Gallog.Resource.Styleable.LinearLayoutCompat;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Gallog.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Gallog.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Gallog.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Gallog.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Gallog.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_divider = global::Gallog.Resource.Styleable.LinearLayoutCompat_divider;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Gallog.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Gallog.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_showDividers = global::Gallog.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout = global::Gallog.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Gallog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Gallog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Gallog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Gallog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow = global::Gallog.Resource.Styleable.ListPopupWindow;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Gallog.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Gallog.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::EDMTDialog.Resource.Styleable.MenuGroup = global::Gallog.Resource.Styleable.MenuGroup;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Gallog.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_enabled = global::Gallog.Resource.Styleable.MenuGroup_android_enabled;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_id = global::Gallog.Resource.Styleable.MenuGroup_android_id;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_menuCategory = global::Gallog.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_orderInCategory = global::Gallog.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_visible = global::Gallog.Resource.Styleable.MenuGroup_android_visible;
+			global::EDMTDialog.Resource.Styleable.MenuItem = global::Gallog.Resource.Styleable.MenuItem;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionLayout = global::Gallog.Resource.Styleable.MenuItem_actionLayout;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionProviderClass = global::Gallog.Resource.Styleable.MenuItem_actionProviderClass;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionViewClass = global::Gallog.Resource.Styleable.MenuItem_actionViewClass;
+			global::EDMTDialog.Resource.Styleable.MenuItem_alphabeticModifiers = global::Gallog.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Gallog.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_checkable = global::Gallog.Resource.Styleable.MenuItem_android_checkable;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_checked = global::Gallog.Resource.Styleable.MenuItem_android_checked;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_enabled = global::Gallog.Resource.Styleable.MenuItem_android_enabled;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_icon = global::Gallog.Resource.Styleable.MenuItem_android_icon;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_id = global::Gallog.Resource.Styleable.MenuItem_android_id;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_menuCategory = global::Gallog.Resource.Styleable.MenuItem_android_menuCategory;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_numericShortcut = global::Gallog.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_onClick = global::Gallog.Resource.Styleable.MenuItem_android_onClick;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_orderInCategory = global::Gallog.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_title = global::Gallog.Resource.Styleable.MenuItem_android_title;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_titleCondensed = global::Gallog.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_visible = global::Gallog.Resource.Styleable.MenuItem_android_visible;
+			global::EDMTDialog.Resource.Styleable.MenuItem_contentDescription = global::Gallog.Resource.Styleable.MenuItem_contentDescription;
+			global::EDMTDialog.Resource.Styleable.MenuItem_iconTint = global::Gallog.Resource.Styleable.MenuItem_iconTint;
+			global::EDMTDialog.Resource.Styleable.MenuItem_iconTintMode = global::Gallog.Resource.Styleable.MenuItem_iconTintMode;
+			global::EDMTDialog.Resource.Styleable.MenuItem_numericModifiers = global::Gallog.Resource.Styleable.MenuItem_numericModifiers;
+			global::EDMTDialog.Resource.Styleable.MenuItem_showAsAction = global::Gallog.Resource.Styleable.MenuItem_showAsAction;
+			global::EDMTDialog.Resource.Styleable.MenuItem_tooltipText = global::Gallog.Resource.Styleable.MenuItem_tooltipText;
+			global::EDMTDialog.Resource.Styleable.MenuView = global::Gallog.Resource.Styleable.MenuView;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_headerBackground = global::Gallog.Resource.Styleable.MenuView_android_headerBackground;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_horizontalDivider = global::Gallog.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemBackground = global::Gallog.Resource.Styleable.MenuView_android_itemBackground;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Gallog.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemTextAppearance = global::Gallog.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_verticalDivider = global::Gallog.Resource.Styleable.MenuView_android_verticalDivider;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Gallog.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.MenuView_preserveIconSpacing = global::Gallog.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::EDMTDialog.Resource.Styleable.MenuView_subMenuArrow = global::Gallog.Resource.Styleable.MenuView_subMenuArrow;
+			global::EDMTDialog.Resource.Styleable.PopupWindow = global::Gallog.Resource.Styleable.PopupWindow;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Gallog.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_android_popupBackground = global::Gallog.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_overlapAnchor = global::Gallog.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::EDMTDialog.Resource.Styleable.PopupWindowBackgroundState = global::Gallog.Resource.Styleable.PopupWindowBackgroundState;
+			global::EDMTDialog.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Gallog.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::EDMTDialog.Resource.Styleable.RecycleListView = global::Gallog.Resource.Styleable.RecycleListView;
+			global::EDMTDialog.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Gallog.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::EDMTDialog.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Gallog.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::EDMTDialog.Resource.Styleable.SearchView = global::Gallog.Resource.Styleable.SearchView;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_focusable = global::Gallog.Resource.Styleable.SearchView_android_focusable;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_imeOptions = global::Gallog.Resource.Styleable.SearchView_android_imeOptions;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_inputType = global::Gallog.Resource.Styleable.SearchView_android_inputType;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_maxWidth = global::Gallog.Resource.Styleable.SearchView_android_maxWidth;
+			global::EDMTDialog.Resource.Styleable.SearchView_closeIcon = global::Gallog.Resource.Styleable.SearchView_closeIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_commitIcon = global::Gallog.Resource.Styleable.SearchView_commitIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_defaultQueryHint = global::Gallog.Resource.Styleable.SearchView_defaultQueryHint;
+			global::EDMTDialog.Resource.Styleable.SearchView_goIcon = global::Gallog.Resource.Styleable.SearchView_goIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_iconifiedByDefault = global::Gallog.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::EDMTDialog.Resource.Styleable.SearchView_layout = global::Gallog.Resource.Styleable.SearchView_layout;
+			global::EDMTDialog.Resource.Styleable.SearchView_queryBackground = global::Gallog.Resource.Styleable.SearchView_queryBackground;
+			global::EDMTDialog.Resource.Styleable.SearchView_queryHint = global::Gallog.Resource.Styleable.SearchView_queryHint;
+			global::EDMTDialog.Resource.Styleable.SearchView_searchHintIcon = global::Gallog.Resource.Styleable.SearchView_searchHintIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_searchIcon = global::Gallog.Resource.Styleable.SearchView_searchIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_submitBackground = global::Gallog.Resource.Styleable.SearchView_submitBackground;
+			global::EDMTDialog.Resource.Styleable.SearchView_suggestionRowLayout = global::Gallog.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::EDMTDialog.Resource.Styleable.SearchView_voiceIcon = global::Gallog.Resource.Styleable.SearchView_voiceIcon;
+			global::EDMTDialog.Resource.Styleable.Spinner = global::Gallog.Resource.Styleable.Spinner;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_dropDownWidth = global::Gallog.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_entries = global::Gallog.Resource.Styleable.Spinner_android_entries;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_popupBackground = global::Gallog.Resource.Styleable.Spinner_android_popupBackground;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_prompt = global::Gallog.Resource.Styleable.Spinner_android_prompt;
+			global::EDMTDialog.Resource.Styleable.Spinner_popupTheme = global::Gallog.Resource.Styleable.Spinner_popupTheme;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat = global::Gallog.Resource.Styleable.SwitchCompat;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_textOff = global::Gallog.Resource.Styleable.SwitchCompat_android_textOff;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_textOn = global::Gallog.Resource.Styleable.SwitchCompat_android_textOn;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_thumb = global::Gallog.Resource.Styleable.SwitchCompat_android_thumb;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_showText = global::Gallog.Resource.Styleable.SwitchCompat_showText;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_splitTrack = global::Gallog.Resource.Styleable.SwitchCompat_splitTrack;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchMinWidth = global::Gallog.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchPadding = global::Gallog.Resource.Styleable.SwitchCompat_switchPadding;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Gallog.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Gallog.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTint = global::Gallog.Resource.Styleable.SwitchCompat_thumbTint;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTintMode = global::Gallog.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_track = global::Gallog.Resource.Styleable.SwitchCompat_track;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_trackTint = global::Gallog.Resource.Styleable.SwitchCompat_trackTint;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_trackTintMode = global::Gallog.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::EDMTDialog.Resource.Styleable.TextAppearance = global::Gallog.Resource.Styleable.TextAppearance;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_fontFamily = global::Gallog.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowColor = global::Gallog.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowDx = global::Gallog.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowDy = global::Gallog.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowRadius = global::Gallog.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColor = global::Gallog.Resource.Styleable.TextAppearance_android_textColor;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColorHint = global::Gallog.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColorLink = global::Gallog.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textSize = global::Gallog.Resource.Styleable.TextAppearance_android_textSize;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textStyle = global::Gallog.Resource.Styleable.TextAppearance_android_textStyle;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_typeface = global::Gallog.Resource.Styleable.TextAppearance_android_typeface;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_fontFamily = global::Gallog.Resource.Styleable.TextAppearance_fontFamily;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_textAllCaps = global::Gallog.Resource.Styleable.TextAppearance_textAllCaps;
+			global::EDMTDialog.Resource.Styleable.Toolbar = global::Gallog.Resource.Styleable.Toolbar;
+			global::EDMTDialog.Resource.Styleable.Toolbar_android_gravity = global::Gallog.Resource.Styleable.Toolbar_android_gravity;
+			global::EDMTDialog.Resource.Styleable.Toolbar_android_minHeight = global::Gallog.Resource.Styleable.Toolbar_android_minHeight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_buttonGravity = global::Gallog.Resource.Styleable.Toolbar_buttonGravity;
+			global::EDMTDialog.Resource.Styleable.Toolbar_collapseContentDescription = global::Gallog.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_collapseIcon = global::Gallog.Resource.Styleable.Toolbar_collapseIcon;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetEnd = global::Gallog.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Gallog.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetLeft = global::Gallog.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetRight = global::Gallog.Resource.Styleable.Toolbar_contentInsetRight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetStart = global::Gallog.Resource.Styleable.Toolbar_contentInsetStart;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Gallog.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Styleable.Toolbar_logo = global::Gallog.Resource.Styleable.Toolbar_logo;
+			global::EDMTDialog.Resource.Styleable.Toolbar_logoDescription = global::Gallog.Resource.Styleable.Toolbar_logoDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_maxButtonHeight = global::Gallog.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_navigationContentDescription = global::Gallog.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_navigationIcon = global::Gallog.Resource.Styleable.Toolbar_navigationIcon;
+			global::EDMTDialog.Resource.Styleable.Toolbar_popupTheme = global::Gallog.Resource.Styleable.Toolbar_popupTheme;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitle = global::Gallog.Resource.Styleable.Toolbar_subtitle;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Gallog.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitleTextColor = global::Gallog.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::EDMTDialog.Resource.Styleable.Toolbar_title = global::Gallog.Resource.Styleable.Toolbar_title;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMargin = global::Gallog.Resource.Styleable.Toolbar_titleMargin;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginBottom = global::Gallog.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginEnd = global::Gallog.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginStart = global::Gallog.Resource.Styleable.Toolbar_titleMarginStart;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginTop = global::Gallog.Resource.Styleable.Toolbar_titleMarginTop;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMargins = global::Gallog.Resource.Styleable.Toolbar_titleMargins;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleTextAppearance = global::Gallog.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleTextColor = global::Gallog.Resource.Styleable.Toolbar_titleTextColor;
+			global::EDMTDialog.Resource.Styleable.View = global::Gallog.Resource.Styleable.View;
+			global::EDMTDialog.Resource.Styleable.View_android_focusable = global::Gallog.Resource.Styleable.View_android_focusable;
+			global::EDMTDialog.Resource.Styleable.View_android_theme = global::Gallog.Resource.Styleable.View_android_theme;
+			global::EDMTDialog.Resource.Styleable.View_paddingEnd = global::Gallog.Resource.Styleable.View_paddingEnd;
+			global::EDMTDialog.Resource.Styleable.View_paddingStart = global::Gallog.Resource.Styleable.View_paddingStart;
+			global::EDMTDialog.Resource.Styleable.View_theme = global::Gallog.Resource.Styleable.View_theme;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper = global::Gallog.Resource.Styleable.ViewBackgroundHelper;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_android_background = global::Gallog.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Gallog.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Gallog.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat = global::Gallog.Resource.Styleable.ViewStubCompat;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_id = global::Gallog.Resource.Styleable.ViewStubCompat_android_id;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Gallog.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_layout = global::Gallog.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Auth.Resource.Animation.slide_in_right = global::Gallog.Resource.Animation.slide_in_right;
 			global::Xamarin.Auth.Resource.Animation.slide_out_left = global::Gallog.Resource.Animation.slide_out_left;
 			global::Xamarin.Auth.Resource.Attribute.alpha = global::Gallog.Resource.Attribute.alpha;
@@ -473,1436 +1978,1448 @@ namespace Gallog
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F030000
-			public const int actionBarDivider = 2130903040;
-			
-			// aapt resource value: 0x7F030001
-			public const int actionBarItemBackground = 2130903041;
-			
-			// aapt resource value: 0x7F030002
-			public const int actionBarPopupTheme = 2130903042;
-			
-			// aapt resource value: 0x7F030003
-			public const int actionBarSize = 2130903043;
-			
 			// aapt resource value: 0x7F030004
-			public const int actionBarSplitStyle = 2130903044;
+			public const int actionBarDivider = 2130903044;
 			
 			// aapt resource value: 0x7F030005
-			public const int actionBarStyle = 2130903045;
+			public const int actionBarItemBackground = 2130903045;
 			
 			// aapt resource value: 0x7F030006
-			public const int actionBarTabBarStyle = 2130903046;
+			public const int actionBarPopupTheme = 2130903046;
 			
 			// aapt resource value: 0x7F030007
-			public const int actionBarTabStyle = 2130903047;
+			public const int actionBarSize = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int actionBarTabTextStyle = 2130903048;
+			public const int actionBarSplitStyle = 2130903048;
 			
 			// aapt resource value: 0x7F030009
-			public const int actionBarTheme = 2130903049;
+			public const int actionBarStyle = 2130903049;
 			
 			// aapt resource value: 0x7F03000A
-			public const int actionBarWidgetTheme = 2130903050;
+			public const int actionBarTabBarStyle = 2130903050;
 			
 			// aapt resource value: 0x7F03000B
-			public const int actionButtonStyle = 2130903051;
+			public const int actionBarTabStyle = 2130903051;
 			
 			// aapt resource value: 0x7F03000C
-			public const int actionDropDownStyle = 2130903052;
+			public const int actionBarTabTextStyle = 2130903052;
 			
 			// aapt resource value: 0x7F03000D
-			public const int actionLayout = 2130903053;
+			public const int actionBarTheme = 2130903053;
 			
 			// aapt resource value: 0x7F03000E
-			public const int actionMenuTextAppearance = 2130903054;
+			public const int actionBarWidgetTheme = 2130903054;
 			
 			// aapt resource value: 0x7F03000F
-			public const int actionMenuTextColor = 2130903055;
+			public const int actionButtonStyle = 2130903055;
 			
 			// aapt resource value: 0x7F030010
-			public const int actionModeBackground = 2130903056;
+			public const int actionDropDownStyle = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public const int actionModeCloseButtonStyle = 2130903057;
+			public const int actionLayout = 2130903057;
 			
 			// aapt resource value: 0x7F030012
-			public const int actionModeCloseDrawable = 2130903058;
+			public const int actionMenuTextAppearance = 2130903058;
 			
 			// aapt resource value: 0x7F030013
-			public const int actionModeCopyDrawable = 2130903059;
+			public const int actionMenuTextColor = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public const int actionModeCutDrawable = 2130903060;
+			public const int actionModeBackground = 2130903060;
 			
 			// aapt resource value: 0x7F030015
-			public const int actionModeFindDrawable = 2130903061;
+			public const int actionModeCloseButtonStyle = 2130903061;
 			
 			// aapt resource value: 0x7F030016
-			public const int actionModePasteDrawable = 2130903062;
+			public const int actionModeCloseDrawable = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public const int actionModePopupWindowStyle = 2130903063;
+			public const int actionModeCopyDrawable = 2130903063;
 			
 			// aapt resource value: 0x7F030018
-			public const int actionModeSelectAllDrawable = 2130903064;
+			public const int actionModeCutDrawable = 2130903064;
 			
 			// aapt resource value: 0x7F030019
-			public const int actionModeShareDrawable = 2130903065;
+			public const int actionModeFindDrawable = 2130903065;
 			
 			// aapt resource value: 0x7F03001A
-			public const int actionModeSplitBackground = 2130903066;
+			public const int actionModePasteDrawable = 2130903066;
 			
 			// aapt resource value: 0x7F03001B
-			public const int actionModeStyle = 2130903067;
+			public const int actionModePopupWindowStyle = 2130903067;
 			
 			// aapt resource value: 0x7F03001C
-			public const int actionModeWebSearchDrawable = 2130903068;
+			public const int actionModeSelectAllDrawable = 2130903068;
 			
 			// aapt resource value: 0x7F03001D
-			public const int actionOverflowButtonStyle = 2130903069;
+			public const int actionModeShareDrawable = 2130903069;
 			
 			// aapt resource value: 0x7F03001E
-			public const int actionOverflowMenuStyle = 2130903070;
+			public const int actionModeSplitBackground = 2130903070;
 			
 			// aapt resource value: 0x7F03001F
-			public const int actionProviderClass = 2130903071;
+			public const int actionModeStyle = 2130903071;
 			
 			// aapt resource value: 0x7F030020
-			public const int actionViewClass = 2130903072;
+			public const int actionModeWebSearchDrawable = 2130903072;
 			
 			// aapt resource value: 0x7F030021
-			public const int activityChooserViewStyle = 2130903073;
+			public const int actionOverflowButtonStyle = 2130903073;
 			
 			// aapt resource value: 0x7F030022
-			public const int alertDialogButtonGroupStyle = 2130903074;
+			public const int actionOverflowMenuStyle = 2130903074;
 			
 			// aapt resource value: 0x7F030023
-			public const int alertDialogCenterButtons = 2130903075;
+			public const int actionProviderClass = 2130903075;
 			
 			// aapt resource value: 0x7F030024
-			public const int alertDialogStyle = 2130903076;
+			public const int actionViewClass = 2130903076;
 			
 			// aapt resource value: 0x7F030025
-			public const int alertDialogTheme = 2130903077;
+			public const int activityChooserViewStyle = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int allowStacking = 2130903078;
+			public const int alertDialogButtonGroupStyle = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int alpha = 2130903079;
+			public const int alertDialogCenterButtons = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int alphabeticModifiers = 2130903080;
+			public const int alertDialogStyle = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int arrowHeadLength = 2130903081;
+			public const int alertDialogTheme = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int arrowShaftLength = 2130903082;
+			public const int allowStacking = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int autoCompleteTextViewStyle = 2130903083;
+			public const int alpha = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int autoSizeMaxTextSize = 2130903084;
+			public const int alphabeticModifiers = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int autoSizeMinTextSize = 2130903085;
+			public const int arrowHeadLength = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int autoSizePresetSizes = 2130903086;
+			public const int arrowShaftLength = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int autoSizeStepGranularity = 2130903087;
+			public const int autoCompleteTextViewStyle = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int autoSizeTextType = 2130903088;
+			public const int autoSizeMaxTextSize = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int background = 2130903089;
+			public const int autoSizeMinTextSize = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int backgroundSplit = 2130903090;
+			public const int autoSizePresetSizes = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int backgroundStacked = 2130903091;
+			public const int autoSizeStepGranularity = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int backgroundTint = 2130903092;
+			public const int autoSizeTextType = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int backgroundTintMode = 2130903093;
+			public const int background = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int barLength = 2130903094;
+			public const int backgroundSplit = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int behavior_autoHide = 2130903095;
+			public const int backgroundStacked = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int behavior_fitToContents = 2130903096;
+			public const int backgroundTint = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int behavior_hideable = 2130903097;
+			public const int backgroundTintMode = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int behavior_overlapTop = 2130903098;
+			public const int barLength = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int behavior_peekHeight = 2130903099;
+			public const int behavior_autoHide = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int behavior_skipCollapsed = 2130903100;
-			
-			// aapt resource value: 0x7F03003E
-			public const int borderlessButtonStyle = 2130903102;
+			public const int behavior_fitToContents = 2130903100;
 			
 			// aapt resource value: 0x7F03003D
-			public const int borderWidth = 2130903101;
+			public const int behavior_hideable = 2130903101;
+			
+			// aapt resource value: 0x7F03003E
+			public const int behavior_overlapTop = 2130903102;
 			
 			// aapt resource value: 0x7F03003F
-			public const int bottomAppBarStyle = 2130903103;
+			public const int behavior_peekHeight = 2130903103;
 			
 			// aapt resource value: 0x7F030040
-			public const int bottomNavigationStyle = 2130903104;
-			
-			// aapt resource value: 0x7F030041
-			public const int bottomSheetDialogTheme = 2130903105;
+			public const int behavior_skipCollapsed = 2130903104;
 			
 			// aapt resource value: 0x7F030042
-			public const int bottomSheetStyle = 2130903106;
+			public const int borderlessButtonStyle = 2130903106;
+			
+			// aapt resource value: 0x7F030041
+			public const int borderWidth = 2130903105;
 			
 			// aapt resource value: 0x7F030043
-			public const int boxBackgroundColor = 2130903107;
+			public const int bottomAppBarStyle = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int boxBackgroundMode = 2130903108;
+			public const int bottomNavigationStyle = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int boxCollapsedPaddingTop = 2130903109;
+			public const int bottomSheetDialogTheme = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int boxCornerRadiusBottomEnd = 2130903110;
+			public const int bottomSheetStyle = 2130903110;
 			
 			// aapt resource value: 0x7F030047
-			public const int boxCornerRadiusBottomStart = 2130903111;
+			public const int boxBackgroundColor = 2130903111;
 			
 			// aapt resource value: 0x7F030048
-			public const int boxCornerRadiusTopEnd = 2130903112;
+			public const int boxBackgroundMode = 2130903112;
 			
 			// aapt resource value: 0x7F030049
-			public const int boxCornerRadiusTopStart = 2130903113;
+			public const int boxCollapsedPaddingTop = 2130903113;
 			
 			// aapt resource value: 0x7F03004A
-			public const int boxStrokeColor = 2130903114;
+			public const int boxCornerRadiusBottomEnd = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int boxStrokeWidth = 2130903115;
+			public const int boxCornerRadiusBottomStart = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int buttonBarButtonStyle = 2130903116;
+			public const int boxCornerRadiusTopEnd = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int buttonBarNegativeButtonStyle = 2130903117;
+			public const int boxCornerRadiusTopStart = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int buttonBarNeutralButtonStyle = 2130903118;
+			public const int boxStrokeColor = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int buttonBarPositiveButtonStyle = 2130903119;
+			public const int boxStrokeWidth = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int buttonBarStyle = 2130903120;
+			public const int buttonBarButtonStyle = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int buttonGravity = 2130903121;
+			public const int buttonBarNegativeButtonStyle = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int buttonIconDimen = 2130903122;
+			public const int buttonBarNeutralButtonStyle = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int buttonPanelSideLayout = 2130903123;
+			public const int buttonBarPositiveButtonStyle = 2130903123;
 			
 			// aapt resource value: 0x7F030054
-			public const int buttonStyle = 2130903124;
+			public const int buttonBarStyle = 2130903124;
 			
 			// aapt resource value: 0x7F030055
-			public const int buttonStyleSmall = 2130903125;
+			public const int buttonGravity = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int buttonTint = 2130903126;
+			public const int buttonIconDimen = 2130903126;
 			
 			// aapt resource value: 0x7F030057
-			public const int buttonTintMode = 2130903127;
+			public const int buttonPanelSideLayout = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int cardBackgroundColor = 2130903128;
+			public const int buttonStyle = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int cardCornerRadius = 2130903129;
+			public const int buttonStyleSmall = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int cardElevation = 2130903130;
+			public const int buttonTint = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int cardMaxElevation = 2130903131;
+			public const int buttonTintMode = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int cardPreventCornerOverlap = 2130903132;
+			public const int cardBackgroundColor = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int cardUseCompatPadding = 2130903133;
+			public const int cardCornerRadius = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int cardViewStyle = 2130903134;
+			public const int cardElevation = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int checkboxStyle = 2130903135;
+			public const int cardMaxElevation = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int checkedChip = 2130903136;
+			public const int cardPreventCornerOverlap = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int checkedIcon = 2130903137;
+			public const int cardUseCompatPadding = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int checkedIconEnabled = 2130903138;
+			public const int cardViewStyle = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int checkedIconVisible = 2130903139;
+			public const int checkboxStyle = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int checkedTextViewStyle = 2130903140;
+			public const int checkedChip = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int chipBackgroundColor = 2130903141;
+			public const int checkedIcon = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int chipCornerRadius = 2130903142;
+			public const int checkedIconEnabled = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int chipEndPadding = 2130903143;
+			public const int checkedIconVisible = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int chipGroupStyle = 2130903144;
+			public const int checkedTextViewStyle = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int chipIcon = 2130903145;
+			public const int chipBackgroundColor = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int chipIconEnabled = 2130903146;
+			public const int chipCornerRadius = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int chipIconSize = 2130903147;
+			public const int chipEndPadding = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int chipIconTint = 2130903148;
+			public const int chipGroupStyle = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int chipIconVisible = 2130903149;
+			public const int chipIcon = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int chipMinHeight = 2130903150;
+			public const int chipIconEnabled = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int chipSpacing = 2130903151;
+			public const int chipIconSize = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int chipSpacingHorizontal = 2130903152;
+			public const int chipIconTint = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int chipSpacingVertical = 2130903153;
+			public const int chipIconVisible = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int chipStandaloneStyle = 2130903154;
+			public const int chipMinHeight = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int chipStartPadding = 2130903155;
+			public const int chipSpacing = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int chipStrokeColor = 2130903156;
+			public const int chipSpacingHorizontal = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int chipStrokeWidth = 2130903157;
+			public const int chipSpacingVertical = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int chipStyle = 2130903158;
+			public const int chipStandaloneStyle = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int closeIcon = 2130903159;
+			public const int chipStartPadding = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int closeIconEnabled = 2130903160;
+			public const int chipStrokeColor = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int closeIconEndPadding = 2130903161;
+			public const int chipStrokeWidth = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int closeIconSize = 2130903162;
+			public const int chipStyle = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int closeIconStartPadding = 2130903163;
+			public const int closeIcon = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int closeIconTint = 2130903164;
+			public const int closeIconEnabled = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int closeIconVisible = 2130903165;
+			public const int closeIconEndPadding = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int closeItemLayout = 2130903166;
+			public const int closeIconSize = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int collapseContentDescription = 2130903167;
-			
-			// aapt resource value: 0x7F030081
-			public const int collapsedTitleGravity = 2130903169;
-			
-			// aapt resource value: 0x7F030082
-			public const int collapsedTitleTextAppearance = 2130903170;
+			public const int closeIconStartPadding = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int collapseIcon = 2130903168;
+			public const int closeIconTint = 2130903168;
+			
+			// aapt resource value: 0x7F030081
+			public const int closeIconVisible = 2130903169;
+			
+			// aapt resource value: 0x7F030082
+			public const int closeItemLayout = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int color = 2130903171;
-			
-			// aapt resource value: 0x7F030084
-			public const int colorAccent = 2130903172;
+			public const int collapseContentDescription = 2130903171;
 			
 			// aapt resource value: 0x7F030085
-			public const int colorBackgroundFloating = 2130903173;
+			public const int collapsedTitleGravity = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int colorButtonNormal = 2130903174;
+			public const int collapsedTitleTextAppearance = 2130903174;
+			
+			// aapt resource value: 0x7F030084
+			public const int collapseIcon = 2130903172;
 			
 			// aapt resource value: 0x7F030087
-			public const int colorControlActivated = 2130903175;
+			public const int color = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int colorControlHighlight = 2130903176;
+			public const int colorAccent = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int colorControlNormal = 2130903177;
+			public const int colorBackgroundFloating = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int colorError = 2130903178;
+			public const int colorButtonNormal = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int colorPrimary = 2130903179;
+			public const int colorControlActivated = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int colorPrimaryDark = 2130903180;
+			public const int colorControlHighlight = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int colorSecondary = 2130903181;
+			public const int colorControlNormal = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int colorSwitchThumbNormal = 2130903182;
+			public const int colorError = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int commitIcon = 2130903183;
+			public const int colorPrimary = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int contentDescription = 2130903184;
+			public const int colorPrimaryDark = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int contentInsetEnd = 2130903185;
+			public const int colorSecondary = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int contentInsetEndWithActions = 2130903186;
+			public const int colorSwitchThumbNormal = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int contentInsetLeft = 2130903187;
+			public const int commitIcon = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int contentInsetRight = 2130903188;
+			public const int contentDescription = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int contentInsetStart = 2130903189;
+			public const int contentInsetEnd = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int contentInsetStartWithNavigation = 2130903190;
+			public const int contentInsetEndWithActions = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int contentPadding = 2130903191;
+			public const int contentInsetLeft = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int contentPaddingBottom = 2130903192;
+			public const int contentInsetRight = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int contentPaddingLeft = 2130903193;
+			public const int contentInsetStart = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int contentPaddingRight = 2130903194;
+			public const int contentInsetStartWithNavigation = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int contentPaddingTop = 2130903195;
+			public const int contentPadding = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int contentScrim = 2130903196;
+			public const int contentPaddingBottom = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int controlBackground = 2130903197;
+			public const int contentPaddingLeft = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int coordinatorLayoutStyle = 2130903198;
+			public const int contentPaddingRight = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int cornerRadius = 2130903199;
+			public const int contentPaddingTop = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int counterEnabled = 2130903200;
+			public const int contentScrim = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int counterMaxLength = 2130903201;
+			public const int controlBackground = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int counterOverflowTextAppearance = 2130903202;
+			public const int coordinatorLayoutStyle = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int counterTextAppearance = 2130903203;
+			public const int cornerRadius = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int customNavigationLayout = 2130903204;
+			public const int counterEnabled = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int defaultQueryHint = 2130903205;
+			public const int counterMaxLength = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int dialogCornerRadius = 2130903206;
+			public const int counterOverflowTextAppearance = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int dialogPreferredPadding = 2130903207;
+			public const int counterTextAppearance = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int dialogTheme = 2130903208;
+			public const int customNavigationLayout = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int displayOptions = 2130903209;
+			public const int defaultQueryHint = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int divider = 2130903210;
+			public const int dialogCornerRadius = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int dividerHorizontal = 2130903211;
+			public const int dialogPreferredPadding = 2130903211;
+			
+			// aapt resource value: 0x7F030000
+			public const int DialogSpotColor = 2130903040;
+			
+			// aapt resource value: 0x7F030001
+			public const int DialogSpotCount = 2130903041;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int dividerPadding = 2130903212;
+			public const int dialogTheme = 2130903212;
+			
+			// aapt resource value: 0x7F030002
+			public const int DialogTitleAppearance = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int DialogTitleText = 2130903043;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int dividerVertical = 2130903213;
+			public const int displayOptions = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int drawableSize = 2130903214;
+			public const int divider = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int drawerArrowStyle = 2130903215;
-			
-			// aapt resource value: 0x7F0300B1
-			public const int dropdownListPreferredItemHeight = 2130903217;
+			public const int dividerHorizontal = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int dropDownListViewStyle = 2130903216;
+			public const int dividerPadding = 2130903216;
+			
+			// aapt resource value: 0x7F0300B1
+			public const int dividerVertical = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int editTextBackground = 2130903218;
+			public const int drawableSize = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int editTextColor = 2130903219;
-			
-			// aapt resource value: 0x7F0300B4
-			public const int editTextStyle = 2130903220;
+			public const int drawerArrowStyle = 2130903219;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int elevation = 2130903221;
+			public const int dropdownListPreferredItemHeight = 2130903221;
+			
+			// aapt resource value: 0x7F0300B4
+			public const int dropDownListViewStyle = 2130903220;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int enforceMaterialTheme = 2130903222;
+			public const int editTextBackground = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int enforceTextAppearance = 2130903223;
+			public const int editTextColor = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int errorEnabled = 2130903224;
+			public const int editTextStyle = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int errorTextAppearance = 2130903225;
+			public const int elevation = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int expandActivityOverflowButtonDrawable = 2130903226;
+			public const int enforceMaterialTheme = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int expanded = 2130903227;
+			public const int enforceTextAppearance = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int expandedTitleGravity = 2130903228;
+			public const int errorEnabled = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int expandedTitleMargin = 2130903229;
+			public const int errorTextAppearance = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int expandedTitleMarginBottom = 2130903230;
+			public const int expandActivityOverflowButtonDrawable = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int expandedTitleMarginEnd = 2130903231;
+			public const int expanded = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int expandedTitleMarginStart = 2130903232;
+			public const int expandedTitleGravity = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int expandedTitleMarginTop = 2130903233;
+			public const int expandedTitleMargin = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int expandedTitleTextAppearance = 2130903234;
+			public const int expandedTitleMarginBottom = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int fabAlignmentMode = 2130903235;
+			public const int expandedTitleMarginEnd = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int fabCradleMargin = 2130903236;
+			public const int expandedTitleMarginStart = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int fabCradleRoundedCornerRadius = 2130903237;
+			public const int expandedTitleMarginTop = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int fabCradleVerticalOffset = 2130903238;
+			public const int expandedTitleTextAppearance = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int fabCustomSize = 2130903239;
+			public const int fabAlignmentMode = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int fabSize = 2130903240;
+			public const int fabCradleMargin = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int fastScrollEnabled = 2130903241;
+			public const int fabCradleRoundedCornerRadius = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int fastScrollHorizontalThumbDrawable = 2130903242;
+			public const int fabCradleVerticalOffset = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int fastScrollHorizontalTrackDrawable = 2130903243;
+			public const int fabCustomSize = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int fastScrollVerticalThumbDrawable = 2130903244;
+			public const int fabSize = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int fastScrollVerticalTrackDrawable = 2130903245;
+			public const int fastScrollEnabled = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int firstBaselineToTopHeight = 2130903246;
+			public const int fastScrollHorizontalThumbDrawable = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int floatingActionButtonStyle = 2130903247;
+			public const int fastScrollHorizontalTrackDrawable = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int font = 2130903248;
+			public const int fastScrollVerticalThumbDrawable = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int fontFamily = 2130903249;
+			public const int fastScrollVerticalTrackDrawable = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int fontProviderAuthority = 2130903250;
+			public const int firstBaselineToTopHeight = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int fontProviderCerts = 2130903251;
+			public const int floatingActionButtonStyle = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int fontProviderFetchStrategy = 2130903252;
+			public const int font = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int fontProviderFetchTimeout = 2130903253;
+			public const int fontFamily = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int fontProviderPackage = 2130903254;
+			public const int fontProviderAuthority = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int fontProviderQuery = 2130903255;
+			public const int fontProviderCerts = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int fontStyle = 2130903256;
+			public const int fontProviderFetchStrategy = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int fontVariationSettings = 2130903257;
+			public const int fontProviderFetchTimeout = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int fontWeight = 2130903258;
+			public const int fontProviderPackage = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int foregroundInsidePadding = 2130903259;
+			public const int fontProviderQuery = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int gapBetweenBars = 2130903260;
+			public const int fontStyle = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int goIcon = 2130903261;
+			public const int fontVariationSettings = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int headerLayout = 2130903262;
+			public const int fontWeight = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int height = 2130903263;
+			public const int foregroundInsidePadding = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int helperText = 2130903264;
+			public const int gapBetweenBars = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int helperTextEnabled = 2130903265;
+			public const int goIcon = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int helperTextTextAppearance = 2130903266;
+			public const int headerLayout = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int hideMotionSpec = 2130903267;
+			public const int height = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int hideOnContentScroll = 2130903268;
+			public const int helperText = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int hideOnScroll = 2130903269;
+			public const int helperTextEnabled = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int hintAnimationEnabled = 2130903270;
+			public const int helperTextTextAppearance = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int hintEnabled = 2130903271;
+			public const int hideMotionSpec = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int hintTextAppearance = 2130903272;
+			public const int hideOnContentScroll = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int homeAsUpIndicator = 2130903273;
+			public const int hideOnScroll = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int homeLayout = 2130903274;
+			public const int hintAnimationEnabled = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int hoveredFocusedTranslationZ = 2130903275;
+			public const int hintEnabled = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int icon = 2130903276;
+			public const int hintTextAppearance = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int iconEndPadding = 2130903277;
+			public const int homeAsUpIndicator = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int iconGravity = 2130903278;
-			
-			// aapt resource value: 0x7F0300F4
-			public const int iconifiedByDefault = 2130903284;
+			public const int homeLayout = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int iconPadding = 2130903279;
+			public const int hoveredFocusedTranslationZ = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int iconSize = 2130903280;
+			public const int icon = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int iconStartPadding = 2130903281;
+			public const int iconEndPadding = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int iconTint = 2130903282;
-			
-			// aapt resource value: 0x7F0300F3
-			public const int iconTintMode = 2130903283;
-			
-			// aapt resource value: 0x7F0300F5
-			public const int imageButtonStyle = 2130903285;
-			
-			// aapt resource value: 0x7F0300F6
-			public const int indeterminateProgressStyle = 2130903286;
-			
-			// aapt resource value: 0x7F0300F7
-			public const int initialActivityCount = 2130903287;
+			public const int iconGravity = 2130903282;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int insetForeground = 2130903288;
+			public const int iconifiedByDefault = 2130903288;
+			
+			// aapt resource value: 0x7F0300F3
+			public const int iconPadding = 2130903283;
+			
+			// aapt resource value: 0x7F0300F4
+			public const int iconSize = 2130903284;
+			
+			// aapt resource value: 0x7F0300F5
+			public const int iconStartPadding = 2130903285;
+			
+			// aapt resource value: 0x7F0300F6
+			public const int iconTint = 2130903286;
+			
+			// aapt resource value: 0x7F0300F7
+			public const int iconTintMode = 2130903287;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int isLightTheme = 2130903289;
+			public const int imageButtonStyle = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int itemBackground = 2130903290;
+			public const int indeterminateProgressStyle = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int itemHorizontalPadding = 2130903291;
+			public const int initialActivityCount = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int itemHorizontalTranslationEnabled = 2130903292;
+			public const int insetForeground = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int itemIconPadding = 2130903293;
+			public const int isLightTheme = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int itemIconSize = 2130903294;
+			public const int itemBackground = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int itemIconTint = 2130903295;
+			public const int itemHorizontalPadding = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int itemPadding = 2130903296;
+			public const int itemHorizontalTranslationEnabled = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int itemSpacing = 2130903297;
+			public const int itemIconPadding = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int itemTextAppearance = 2130903298;
+			public const int itemIconSize = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int itemTextAppearanceActive = 2130903299;
+			public const int itemIconTint = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int itemTextAppearanceInactive = 2130903300;
+			public const int itemPadding = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int itemTextColor = 2130903301;
+			public const int itemSpacing = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int keylines = 2130903302;
+			public const int itemTextAppearance = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int labelVisibilityMode = 2130903303;
+			public const int itemTextAppearanceActive = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int lastBaselineToBottomHeight = 2130903304;
+			public const int itemTextAppearanceInactive = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int layout = 2130903305;
+			public const int itemTextColor = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int layoutManager = 2130903306;
+			public const int keylines = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int layout_anchor = 2130903307;
+			public const int labelVisibilityMode = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int layout_anchorGravity = 2130903308;
+			public const int lastBaselineToBottomHeight = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int layout_behavior = 2130903309;
+			public const int layout = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int layout_collapseMode = 2130903310;
+			public const int layoutManager = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int layout_collapseParallaxMultiplier = 2130903311;
+			public const int layout_anchor = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int layout_dodgeInsetEdges = 2130903312;
+			public const int layout_anchorGravity = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int layout_insetEdge = 2130903313;
+			public const int layout_behavior = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int layout_keyline = 2130903314;
+			public const int layout_collapseMode = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int layout_scrollFlags = 2130903315;
+			public const int layout_collapseParallaxMultiplier = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int layout_scrollInterpolator = 2130903316;
+			public const int layout_dodgeInsetEdges = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int liftOnScroll = 2130903317;
+			public const int layout_insetEdge = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int lineHeight = 2130903318;
+			public const int layout_keyline = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int lineSpacing = 2130903319;
+			public const int layout_scrollFlags = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int listChoiceBackgroundIndicator = 2130903320;
+			public const int layout_scrollInterpolator = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int listDividerAlertDialog = 2130903321;
+			public const int liftOnScroll = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int listItemLayout = 2130903322;
+			public const int lineHeight = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int listLayout = 2130903323;
+			public const int lineSpacing = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int listMenuViewStyle = 2130903324;
+			public const int listChoiceBackgroundIndicator = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int listPopupWindowStyle = 2130903325;
+			public const int listDividerAlertDialog = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int listPreferredItemHeight = 2130903326;
+			public const int listItemLayout = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int listPreferredItemHeightLarge = 2130903327;
+			public const int listLayout = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int listPreferredItemHeightSmall = 2130903328;
+			public const int listMenuViewStyle = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int listPreferredItemPaddingLeft = 2130903329;
+			public const int listPopupWindowStyle = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int listPreferredItemPaddingRight = 2130903330;
+			public const int listPreferredItemHeight = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int logo = 2130903331;
+			public const int listPreferredItemHeightLarge = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int logoDescription = 2130903332;
+			public const int listPreferredItemHeightSmall = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int materialButtonStyle = 2130903333;
+			public const int listPreferredItemPaddingLeft = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int materialCardViewStyle = 2130903334;
+			public const int listPreferredItemPaddingRight = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int maxActionInlineWidth = 2130903335;
+			public const int logo = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int maxButtonHeight = 2130903336;
+			public const int logoDescription = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int maxImageSize = 2130903337;
+			public const int materialButtonStyle = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int measureWithLargestChild = 2130903338;
+			public const int materialCardViewStyle = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int menu = 2130903339;
+			public const int maxActionInlineWidth = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int multiChoiceItemLayout = 2130903340;
+			public const int maxButtonHeight = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int navigationContentDescription = 2130903341;
+			public const int maxImageSize = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int navigationIcon = 2130903342;
+			public const int measureWithLargestChild = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int navigationMode = 2130903343;
+			public const int menu = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int navigationViewStyle = 2130903344;
+			public const int multiChoiceItemLayout = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int numericModifiers = 2130903345;
+			public const int navigationContentDescription = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int overlapAnchor = 2130903346;
+			public const int navigationIcon = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int paddingBottomNoButtons = 2130903347;
+			public const int navigationMode = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int paddingEnd = 2130903348;
+			public const int navigationViewStyle = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int paddingStart = 2130903349;
+			public const int numericModifiers = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int paddingTopNoTitle = 2130903350;
+			public const int overlapAnchor = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int panelBackground = 2130903351;
+			public const int paddingBottomNoButtons = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int panelMenuListTheme = 2130903352;
+			public const int paddingEnd = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int panelMenuListWidth = 2130903353;
+			public const int paddingStart = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int passwordToggleContentDescription = 2130903354;
+			public const int paddingTopNoTitle = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int passwordToggleDrawable = 2130903355;
+			public const int panelBackground = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int passwordToggleEnabled = 2130903356;
+			public const int panelMenuListTheme = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int passwordToggleTint = 2130903357;
+			public const int panelMenuListWidth = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int passwordToggleTintMode = 2130903358;
+			public const int passwordToggleContentDescription = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int popupMenuStyle = 2130903359;
+			public const int passwordToggleDrawable = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int popupTheme = 2130903360;
+			public const int passwordToggleEnabled = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int popupWindowStyle = 2130903361;
+			public const int passwordToggleTint = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int preserveIconSpacing = 2130903362;
+			public const int passwordToggleTintMode = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int pressedTranslationZ = 2130903363;
+			public const int popupMenuStyle = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int progressBarPadding = 2130903364;
+			public const int popupTheme = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int progressBarStyle = 2130903365;
+			public const int popupWindowStyle = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int queryBackground = 2130903366;
+			public const int preserveIconSpacing = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int queryHint = 2130903367;
+			public const int pressedTranslationZ = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int radioButtonStyle = 2130903368;
+			public const int progressBarPadding = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int ratingBarStyle = 2130903369;
+			public const int progressBarStyle = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int ratingBarStyleIndicator = 2130903370;
+			public const int queryBackground = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int ratingBarStyleSmall = 2130903371;
+			public const int queryHint = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int reverseLayout = 2130903372;
+			public const int radioButtonStyle = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int rippleColor = 2130903373;
+			public const int ratingBarStyle = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int scrimAnimationDuration = 2130903374;
+			public const int ratingBarStyleIndicator = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int scrimBackground = 2130903375;
+			public const int ratingBarStyleSmall = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int scrimVisibleHeightTrigger = 2130903376;
+			public const int reverseLayout = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int searchHintIcon = 2130903377;
+			public const int rippleColor = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int searchIcon = 2130903378;
+			public const int scrimAnimationDuration = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int searchViewStyle = 2130903379;
+			public const int scrimBackground = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int seekBarStyle = 2130903380;
+			public const int scrimVisibleHeightTrigger = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int selectableItemBackground = 2130903381;
+			public const int searchHintIcon = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int selectableItemBackgroundBorderless = 2130903382;
+			public const int searchIcon = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int showAsAction = 2130903383;
+			public const int searchViewStyle = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int showDividers = 2130903384;
+			public const int seekBarStyle = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int showMotionSpec = 2130903385;
+			public const int selectableItemBackground = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int showText = 2130903386;
+			public const int selectableItemBackgroundBorderless = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int showTitle = 2130903387;
+			public const int showAsAction = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int singleChoiceItemLayout = 2130903388;
+			public const int showDividers = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int singleLine = 2130903389;
+			public const int showMotionSpec = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int singleSelection = 2130903390;
+			public const int showText = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int snackbarButtonStyle = 2130903391;
+			public const int showTitle = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int snackbarStyle = 2130903392;
+			public const int singleChoiceItemLayout = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int spanCount = 2130903393;
+			public const int singleLine = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int spinBars = 2130903394;
+			public const int singleSelection = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int spinnerDropDownItemStyle = 2130903395;
+			public const int snackbarButtonStyle = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int spinnerStyle = 2130903396;
+			public const int snackbarStyle = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int splitTrack = 2130903397;
+			public const int spanCount = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int srcCompat = 2130903398;
+			public const int spinBars = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int stackFromEnd = 2130903399;
+			public const int spinnerDropDownItemStyle = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int state_above_anchor = 2130903400;
+			public const int spinnerStyle = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int state_collapsed = 2130903401;
+			public const int splitTrack = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int state_collapsible = 2130903402;
+			public const int srcCompat = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int state_liftable = 2130903403;
+			public const int stackFromEnd = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int state_lifted = 2130903404;
+			public const int state_above_anchor = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int statusBarBackground = 2130903405;
+			public const int state_collapsed = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int statusBarScrim = 2130903406;
+			public const int state_collapsible = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int strokeColor = 2130903407;
+			public const int state_liftable = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int strokeWidth = 2130903408;
+			public const int state_lifted = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int subMenuArrow = 2130903409;
+			public const int statusBarBackground = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int submitBackground = 2130903410;
+			public const int statusBarScrim = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int subtitle = 2130903411;
+			public const int strokeColor = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int subtitleTextAppearance = 2130903412;
+			public const int strokeWidth = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int subtitleTextColor = 2130903413;
+			public const int subMenuArrow = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int subtitleTextStyle = 2130903414;
+			public const int submitBackground = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int suggestionRowLayout = 2130903415;
+			public const int subtitle = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int switchMinWidth = 2130903416;
+			public const int subtitleTextAppearance = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int switchPadding = 2130903417;
+			public const int subtitleTextColor = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int switchStyle = 2130903418;
+			public const int subtitleTextStyle = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int switchTextAppearance = 2130903419;
+			public const int suggestionRowLayout = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int tabBackground = 2130903420;
+			public const int switchMinWidth = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int tabContentStart = 2130903421;
+			public const int switchPadding = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int tabGravity = 2130903422;
+			public const int switchStyle = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int tabIconTint = 2130903423;
+			public const int switchTextAppearance = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int tabIconTintMode = 2130903424;
+			public const int tabBackground = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int tabIndicator = 2130903425;
+			public const int tabContentStart = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int tabIndicatorAnimationDuration = 2130903426;
+			public const int tabGravity = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int tabIndicatorColor = 2130903427;
+			public const int tabIconTint = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int tabIndicatorFullWidth = 2130903428;
+			public const int tabIconTintMode = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int tabIndicatorGravity = 2130903429;
+			public const int tabIndicator = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int tabIndicatorHeight = 2130903430;
+			public const int tabIndicatorAnimationDuration = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int tabInlineLabel = 2130903431;
+			public const int tabIndicatorColor = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int tabMaxWidth = 2130903432;
+			public const int tabIndicatorFullWidth = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int tabMinWidth = 2130903433;
+			public const int tabIndicatorGravity = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int tabMode = 2130903434;
+			public const int tabIndicatorHeight = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int tabPadding = 2130903435;
+			public const int tabInlineLabel = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int tabPaddingBottom = 2130903436;
+			public const int tabMaxWidth = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int tabPaddingEnd = 2130903437;
+			public const int tabMinWidth = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int tabPaddingStart = 2130903438;
+			public const int tabMode = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int tabPaddingTop = 2130903439;
+			public const int tabPadding = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int tabRippleColor = 2130903440;
+			public const int tabPaddingBottom = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int tabSelectedTextColor = 2130903441;
+			public const int tabPaddingEnd = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int tabStyle = 2130903442;
+			public const int tabPaddingStart = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int tabTextAppearance = 2130903443;
+			public const int tabPaddingTop = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int tabTextColor = 2130903444;
+			public const int tabRippleColor = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int tabUnboundedRipple = 2130903445;
+			public const int tabSelectedTextColor = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int textAllCaps = 2130903446;
+			public const int tabStyle = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int textAppearanceBody1 = 2130903447;
+			public const int tabTextAppearance = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int textAppearanceBody2 = 2130903448;
+			public const int tabTextColor = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int textAppearanceButton = 2130903449;
+			public const int tabUnboundedRipple = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int textAppearanceCaption = 2130903450;
+			public const int textAllCaps = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int textAppearanceHeadline1 = 2130903451;
+			public const int textAppearanceBody1 = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int textAppearanceHeadline2 = 2130903452;
+			public const int textAppearanceBody2 = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int textAppearanceHeadline3 = 2130903453;
+			public const int textAppearanceButton = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int textAppearanceHeadline4 = 2130903454;
+			public const int textAppearanceCaption = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int textAppearanceHeadline5 = 2130903455;
+			public const int textAppearanceHeadline1 = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int textAppearanceHeadline6 = 2130903456;
+			public const int textAppearanceHeadline2 = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int textAppearanceLargePopupMenu = 2130903457;
+			public const int textAppearanceHeadline3 = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int textAppearanceListItem = 2130903458;
+			public const int textAppearanceHeadline4 = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int textAppearanceListItemSecondary = 2130903459;
+			public const int textAppearanceHeadline5 = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int textAppearanceListItemSmall = 2130903460;
+			public const int textAppearanceHeadline6 = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int textAppearanceOverline = 2130903461;
+			public const int textAppearanceLargePopupMenu = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int textAppearancePopupMenuHeader = 2130903462;
+			public const int textAppearanceListItem = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int textAppearanceSearchResultSubtitle = 2130903463;
+			public const int textAppearanceListItemSecondary = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int textAppearanceSearchResultTitle = 2130903464;
+			public const int textAppearanceListItemSmall = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int textAppearanceSmallPopupMenu = 2130903465;
+			public const int textAppearanceOverline = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int textAppearanceSubtitle1 = 2130903466;
+			public const int textAppearancePopupMenuHeader = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int textAppearanceSubtitle2 = 2130903467;
+			public const int textAppearanceSearchResultSubtitle = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int textColorAlertDialogListItem = 2130903468;
+			public const int textAppearanceSearchResultTitle = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int textColorSearchUrl = 2130903469;
+			public const int textAppearanceSmallPopupMenu = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int textEndPadding = 2130903470;
+			public const int textAppearanceSubtitle1 = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int textInputStyle = 2130903471;
+			public const int textAppearanceSubtitle2 = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int textStartPadding = 2130903472;
+			public const int textColorAlertDialogListItem = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int theme = 2130903473;
+			public const int textColorSearchUrl = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int thickness = 2130903474;
+			public const int textEndPadding = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int thumbTextPadding = 2130903475;
+			public const int textInputStyle = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int thumbTint = 2130903476;
+			public const int textStartPadding = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int thumbTintMode = 2130903477;
+			public const int theme = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int tickMark = 2130903478;
+			public const int thickness = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int tickMarkTint = 2130903479;
+			public const int thumbTextPadding = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int tickMarkTintMode = 2130903480;
+			public const int thumbTint = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int tint = 2130903481;
+			public const int thumbTintMode = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int tintMode = 2130903482;
+			public const int tickMark = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int title = 2130903483;
+			public const int tickMarkTint = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int titleEnabled = 2130903484;
+			public const int tickMarkTintMode = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int titleMargin = 2130903485;
+			public const int tint = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int titleMarginBottom = 2130903486;
+			public const int tintMode = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int titleMarginEnd = 2130903487;
-			
-			// aapt resource value: 0x7F0301C2
-			public const int titleMargins = 2130903490;
+			public const int title = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int titleMarginStart = 2130903488;
+			public const int titleEnabled = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int titleMarginTop = 2130903489;
+			public const int titleMargin = 2130903489;
+			
+			// aapt resource value: 0x7F0301C2
+			public const int titleMarginBottom = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int titleTextAppearance = 2130903491;
-			
-			// aapt resource value: 0x7F0301C4
-			public const int titleTextColor = 2130903492;
-			
-			// aapt resource value: 0x7F0301C5
-			public const int titleTextStyle = 2130903493;
+			public const int titleMarginEnd = 2130903491;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int toolbarId = 2130903494;
+			public const int titleMargins = 2130903494;
+			
+			// aapt resource value: 0x7F0301C4
+			public const int titleMarginStart = 2130903492;
+			
+			// aapt resource value: 0x7F0301C5
+			public const int titleMarginTop = 2130903493;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int toolbarNavigationButtonStyle = 2130903495;
+			public const int titleTextAppearance = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int toolbarStyle = 2130903496;
+			public const int titleTextColor = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tooltipForegroundColor = 2130903497;
+			public const int titleTextStyle = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tooltipFrameBackground = 2130903498;
+			public const int toolbarId = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int tooltipText = 2130903499;
+			public const int toolbarNavigationButtonStyle = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int track = 2130903500;
+			public const int toolbarStyle = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int trackTint = 2130903501;
+			public const int tooltipForegroundColor = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int trackTintMode = 2130903502;
+			public const int tooltipFrameBackground = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int ttcIndex = 2130903503;
+			public const int tooltipText = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int useCompatPadding = 2130903504;
+			public const int track = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int viewInflaterClass = 2130903505;
+			public const int trackTint = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int voiceIcon = 2130903506;
+			public const int trackTintMode = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int windowActionBar = 2130903507;
+			public const int ttcIndex = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int windowActionBarOverlay = 2130903508;
+			public const int useCompatPadding = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int windowActionModeOverlay = 2130903509;
+			public const int viewInflaterClass = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int windowFixedHeightMajor = 2130903510;
+			public const int voiceIcon = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int windowFixedHeightMinor = 2130903511;
+			public const int windowActionBar = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int windowFixedWidthMajor = 2130903512;
+			public const int windowActionBarOverlay = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int windowFixedWidthMinor = 2130903513;
+			public const int windowActionModeOverlay = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int windowMinWidthMajor = 2130903514;
+			public const int windowFixedHeightMajor = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int windowMinWidthMinor = 2130903515;
+			public const int windowFixedHeightMinor = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int windowNoTitle = 2130903516;
+			public const int windowFixedWidthMajor = 2130903516;
+			
+			// aapt resource value: 0x7F0301DD
+			public const int windowFixedWidthMinor = 2130903517;
+			
+			// aapt resource value: 0x7F0301DE
+			public const int windowMinWidthMajor = 2130903518;
+			
+			// aapt resource value: 0x7F0301DF
+			public const int windowMinWidthMinor = 2130903519;
+			
+			// aapt resource value: 0x7F0301E0
+			public const int windowNoTitle = 2130903520;
 			
 			static Attribute()
 			{
@@ -2324,28 +3841,31 @@ namespace Gallog
 			public const int secondary_text_disabled_material_light = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int switch_thumb_disabled_material_dark = 2131034239;
+			public const int spots_dialog_color = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int switch_thumb_disabled_material_light = 2131034240;
+			public const int switch_thumb_disabled_material_dark = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int switch_thumb_material_dark = 2131034241;
+			public const int switch_thumb_disabled_material_light = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int switch_thumb_material_light = 2131034242;
+			public const int switch_thumb_material_dark = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_normal_material_dark = 2131034243;
+			public const int switch_thumb_material_light = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_normal_material_light = 2131034244;
+			public const int switch_thumb_normal_material_dark = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int tooltip_background_dark = 2131034245;
+			public const int switch_thumb_normal_material_light = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int tooltip_background_light = 2131034246;
+			public const int tooltip_background_dark = 2131034246;
+			
+			// aapt resource value: 0x7F050087
+			public const int tooltip_background_light = 2131034247;
 			
 			static Color()
 			{
@@ -3003,28 +4523,43 @@ namespace Gallog
 			public const int notification_top_pad_large_text = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int tooltip_corner_radius = 2131099862;
+			public const int progress_margin = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int tooltip_horizontal_padding = 2131099863;
+			public const int progress_width = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int tooltip_margin = 2131099864;
+			public const int spot_size = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int tooltip_precise_anchor_extra_offset = 2131099865;
+			public const int title_margin = 2131099865;
 			
 			// aapt resource value: 0x7F0600DA
-			public const int tooltip_precise_anchor_threshold = 2131099866;
+			public const int title_padding = 2131099866;
 			
 			// aapt resource value: 0x7F0600DB
-			public const int tooltip_vertical_padding = 2131099867;
+			public const int tooltip_corner_radius = 2131099867;
 			
 			// aapt resource value: 0x7F0600DC
-			public const int tooltip_y_offset_non_touch = 2131099868;
+			public const int tooltip_horizontal_padding = 2131099868;
 			
 			// aapt resource value: 0x7F0600DD
-			public const int tooltip_y_offset_touch = 2131099869;
+			public const int tooltip_margin = 2131099869;
+			
+			// aapt resource value: 0x7F0600DE
+			public const int tooltip_precise_anchor_extra_offset = 2131099870;
+			
+			// aapt resource value: 0x7F0600DF
+			public const int tooltip_precise_anchor_threshold = 2131099871;
+			
+			// aapt resource value: 0x7F0600E0
+			public const int tooltip_vertical_padding = 2131099872;
+			
+			// aapt resource value: 0x7F0600E1
+			public const int tooltip_y_offset_non_touch = 2131099873;
+			
+			// aapt resource value: 0x7F0600E2
+			public const int tooltip_y_offset_touch = 2131099874;
 			
 			static Dimension()
 			{
@@ -3597,547 +5132,559 @@ namespace Gallog
 			public const int browser_actions_menu_view = 2131296295;
 			
 			// aapt resource value: 0x7F090028
-			public const int buttonPanel = 2131296296;
+			public const int btn_get_data = 2131296296;
 			
 			// aapt resource value: 0x7F090029
-			public const int center = 2131296297;
+			public const int buttonPanel = 2131296297;
 			
 			// aapt resource value: 0x7F09002A
-			public const int center_horizontal = 2131296298;
+			public const int center = 2131296298;
 			
 			// aapt resource value: 0x7F09002B
-			public const int center_vertical = 2131296299;
+			public const int center_horizontal = 2131296299;
 			
 			// aapt resource value: 0x7F09002C
-			public const int checkbox = 2131296300;
+			public const int center_vertical = 2131296300;
 			
 			// aapt resource value: 0x7F09002D
-			public const int chronometer = 2131296301;
+			public const int checkbox = 2131296301;
 			
 			// aapt resource value: 0x7F09002E
-			public const int clip_horizontal = 2131296302;
+			public const int chronometer = 2131296302;
 			
 			// aapt resource value: 0x7F09002F
-			public const int clip_vertical = 2131296303;
+			public const int clip_horizontal = 2131296303;
 			
 			// aapt resource value: 0x7F090030
-			public const int collapseActionView = 2131296304;
+			public const int clip_vertical = 2131296304;
 			
 			// aapt resource value: 0x7F090031
-			public const int container = 2131296305;
+			public const int collapseActionView = 2131296305;
 			
 			// aapt resource value: 0x7F090032
-			public const int content = 2131296306;
+			public const int container = 2131296306;
 			
 			// aapt resource value: 0x7F090033
-			public const int contentPanel = 2131296307;
+			public const int content = 2131296307;
 			
 			// aapt resource value: 0x7F090034
-			public const int coordinator = 2131296308;
+			public const int contentPanel = 2131296308;
+			
+			// aapt resource value: 0x7F090035
+			public const int coordinator = 2131296309;
 			
 			// aapt resource value: 0x7F090001
 			public const int CTRL = 2131296257;
 			
-			// aapt resource value: 0x7F090035
-			public const int custom = 2131296309;
-			
 			// aapt resource value: 0x7F090036
-			public const int customPanel = 2131296310;
+			public const int custom = 2131296310;
 			
 			// aapt resource value: 0x7F090037
-			public const int decor_content_parent = 2131296311;
+			public const int customPanel = 2131296311;
 			
 			// aapt resource value: 0x7F090038
-			public const int default_activity_button = 2131296312;
+			public const int decor_content_parent = 2131296312;
 			
 			// aapt resource value: 0x7F090039
-			public const int design_bottom_sheet = 2131296313;
+			public const int default_activity_button = 2131296313;
 			
 			// aapt resource value: 0x7F09003A
-			public const int design_menu_item_action_area = 2131296314;
+			public const int design_bottom_sheet = 2131296314;
 			
 			// aapt resource value: 0x7F09003B
-			public const int design_menu_item_action_area_stub = 2131296315;
+			public const int design_menu_item_action_area = 2131296315;
 			
 			// aapt resource value: 0x7F09003C
-			public const int design_menu_item_text = 2131296316;
+			public const int design_menu_item_action_area_stub = 2131296316;
 			
 			// aapt resource value: 0x7F09003D
-			public const int design_navigation_view = 2131296317;
+			public const int design_menu_item_text = 2131296317;
 			
 			// aapt resource value: 0x7F09003E
-			public const int disableHome = 2131296318;
+			public const int design_navigation_view = 2131296318;
 			
 			// aapt resource value: 0x7F09003F
-			public const int drawer_layout = 2131296319;
+			public const int disableHome = 2131296319;
 			
 			// aapt resource value: 0x7F090040
-			public const int edit_query = 2131296320;
+			public const int drawer_layout = 2131296320;
 			
 			// aapt resource value: 0x7F090041
-			public const int end = 2131296321;
+			public const int edit_query = 2131296321;
 			
 			// aapt resource value: 0x7F090042
-			public const int enterAlways = 2131296322;
+			public const int end = 2131296322;
 			
 			// aapt resource value: 0x7F090043
-			public const int enterAlwaysCollapsed = 2131296323;
+			public const int enterAlways = 2131296323;
 			
 			// aapt resource value: 0x7F090044
-			public const int exitUntilCollapsed = 2131296324;
-			
-			// aapt resource value: 0x7F090046
-			public const int expanded_menu = 2131296326;
+			public const int enterAlwaysCollapsed = 2131296324;
 			
 			// aapt resource value: 0x7F090045
-			public const int expand_activities_button = 2131296325;
+			public const int exitUntilCollapsed = 2131296325;
 			
 			// aapt resource value: 0x7F090047
-			public const int fill = 2131296327;
+			public const int expanded_menu = 2131296327;
 			
-			// aapt resource value: 0x7F09004A
-			public const int filled = 2131296330;
+			// aapt resource value: 0x7F090046
+			public const int expand_activities_button = 2131296326;
 			
 			// aapt resource value: 0x7F090048
-			public const int fill_horizontal = 2131296328;
-			
-			// aapt resource value: 0x7F090049
-			public const int fill_vertical = 2131296329;
+			public const int fill = 2131296328;
 			
 			// aapt resource value: 0x7F09004B
-			public const int @fixed = 2131296331;
+			public const int filled = 2131296331;
+			
+			// aapt resource value: 0x7F090049
+			public const int fill_horizontal = 2131296329;
+			
+			// aapt resource value: 0x7F09004A
+			public const int fill_vertical = 2131296330;
 			
 			// aapt resource value: 0x7F09004C
-			public const int forever = 2131296332;
+			public const int @fixed = 2131296332;
 			
 			// aapt resource value: 0x7F09004D
-			public const int fragmentContainer = 2131296333;
+			public const int forever = 2131296333;
+			
+			// aapt resource value: 0x7F09004E
+			public const int fragmentContainer = 2131296334;
 			
 			// aapt resource value: 0x7F090002
 			public const int FUNCTION = 2131296258;
 			
-			// aapt resource value: 0x7F09004E
-			public const int ghost_view = 2131296334;
-			
 			// aapt resource value: 0x7F09004F
-			public const int group_divider = 2131296335;
+			public const int ghost_view = 2131296335;
 			
 			// aapt resource value: 0x7F090050
-			public const int grp1 = 2131296336;
+			public const int group_divider = 2131296336;
 			
 			// aapt resource value: 0x7F090051
-			public const int grp2 = 2131296337;
+			public const int grp1 = 2131296337;
 			
 			// aapt resource value: 0x7F090052
-			public const int grp3 = 2131296338;
+			public const int grp2 = 2131296338;
 			
 			// aapt resource value: 0x7F090053
-			public const int grp4 = 2131296339;
+			public const int grp3 = 2131296339;
 			
 			// aapt resource value: 0x7F090054
-			public const int grp5 = 2131296340;
+			public const int grp4 = 2131296340;
 			
 			// aapt resource value: 0x7F090055
-			public const int gtxt = 2131296341;
+			public const int grp5 = 2131296341;
 			
 			// aapt resource value: 0x7F090056
-			public const int home = 2131296342;
+			public const int gtxt = 2131296342;
 			
 			// aapt resource value: 0x7F090057
-			public const int homeAsUp = 2131296343;
+			public const int home = 2131296343;
 			
 			// aapt resource value: 0x7F090058
-			public const int icon = 2131296344;
+			public const int homeAsUp = 2131296344;
 			
 			// aapt resource value: 0x7F090059
-			public const int icon_group = 2131296345;
+			public const int icon = 2131296345;
 			
 			// aapt resource value: 0x7F09005A
-			public const int ifRoom = 2131296346;
+			public const int icon_group = 2131296346;
 			
 			// aapt resource value: 0x7F09005B
-			public const int image = 2131296347;
+			public const int ifRoom = 2131296347;
 			
 			// aapt resource value: 0x7F09005C
-			public const int info = 2131296348;
+			public const int image = 2131296348;
 			
 			// aapt resource value: 0x7F09005D
-			public const int italic = 2131296349;
+			public const int info = 2131296349;
 			
 			// aapt resource value: 0x7F09005E
-			public const int item_touch_helper_previous_elevation = 2131296350;
+			public const int italic = 2131296350;
 			
 			// aapt resource value: 0x7F09005F
-			public const int labeled = 2131296351;
+			public const int item_touch_helper_previous_elevation = 2131296351;
 			
 			// aapt resource value: 0x7F090060
-			public const int largeLabel = 2131296352;
+			public const int labeled = 2131296352;
 			
 			// aapt resource value: 0x7F090061
-			public const int left = 2131296353;
+			public const int largeLabel = 2131296353;
 			
 			// aapt resource value: 0x7F090062
-			public const int line1 = 2131296354;
+			public const int left = 2131296354;
 			
 			// aapt resource value: 0x7F090063
-			public const int line3 = 2131296355;
+			public const int line1 = 2131296355;
 			
 			// aapt resource value: 0x7F090064
-			public const int listMode = 2131296356;
+			public const int line3 = 2131296356;
 			
 			// aapt resource value: 0x7F090065
-			public const int list_item = 2131296357;
+			public const int listMode = 2131296357;
 			
 			// aapt resource value: 0x7F090066
-			public const int logo2 = 2131296358;
+			public const int list_item = 2131296358;
 			
 			// aapt resource value: 0x7F090067
-			public const int masked = 2131296359;
+			public const int list_user = 2131296359;
 			
 			// aapt resource value: 0x7F090068
-			public const int message = 2131296360;
+			public const int logo2 = 2131296360;
+			
+			// aapt resource value: 0x7F090069
+			public const int marker_progress = 2131296361;
+			
+			// aapt resource value: 0x7F09006A
+			public const int masked = 2131296362;
+			
+			// aapt resource value: 0x7F09006B
+			public const int message = 2131296363;
 			
 			// aapt resource value: 0x7F090003
 			public const int META = 2131296259;
 			
-			// aapt resource value: 0x7F090069
-			public const int middle = 2131296361;
-			
-			// aapt resource value: 0x7F09006A
-			public const int mini = 2131296362;
-			
-			// aapt resource value: 0x7F09006B
-			public const int mtrl_child_content_container = 2131296363;
-			
 			// aapt resource value: 0x7F09006C
-			public const int mtrl_internal_children_alpha_tag = 2131296364;
+			public const int middle = 2131296364;
 			
 			// aapt resource value: 0x7F09006D
-			public const int multiply = 2131296365;
-			
-			// aapt resource value: 0x7F09007B
-			public const int navigation_header_container = 2131296379;
+			public const int mini = 2131296365;
 			
 			// aapt resource value: 0x7F09006E
-			public const int nav_commadaties = 2131296366;
+			public const int mtrl_child_content_container = 2131296366;
 			
 			// aapt resource value: 0x7F09006F
-			public const int nav_components = 2131296367;
+			public const int mtrl_internal_children_alpha_tag = 2131296367;
 			
 			// aapt resource value: 0x7F090070
-			public const int nav_hangar = 2131296368;
+			public const int multiply = 2131296368;
 			
 			// aapt resource value: 0x7F090071
-			public const int nav_home = 2131296369;
-			
-			// aapt resource value: 0x7F090072
-			public const int nav_mining = 2131296370;
-			
-			// aapt resource value: 0x7F090073
-			public const int nav_missions = 2131296371;
-			
-			// aapt resource value: 0x7F090074
-			public const int nav_myorg = 2131296372;
-			
-			// aapt resource value: 0x7F090075
-			public const int nav_search = 2131296373;
-			
-			// aapt resource value: 0x7F090076
-			public const int nav_ships = 2131296374;
-			
-			// aapt resource value: 0x7F090077
-			public const int nav_stores = 2131296375;
-			
-			// aapt resource value: 0x7F090078
-			public const int nav_tradeports = 2131296376;
-			
-			// aapt resource value: 0x7F090079
-			public const int nav_trading = 2131296377;
-			
-			// aapt resource value: 0x7F09007A
-			public const int nav_view = 2131296378;
-			
-			// aapt resource value: 0x7F09007C
-			public const int never = 2131296380;
-			
-			// aapt resource value: 0x7F09007D
-			public const int none = 2131296381;
-			
-			// aapt resource value: 0x7F09007E
-			public const int normal = 2131296382;
+			public const int my_text_view = 2131296369;
 			
 			// aapt resource value: 0x7F09007F
-			public const int notification_background = 2131296383;
+			public const int navigation_header_container = 2131296383;
+			
+			// aapt resource value: 0x7F090072
+			public const int nav_commadaties = 2131296370;
+			
+			// aapt resource value: 0x7F090073
+			public const int nav_components = 2131296371;
+			
+			// aapt resource value: 0x7F090074
+			public const int nav_hangar = 2131296372;
+			
+			// aapt resource value: 0x7F090075
+			public const int nav_home = 2131296373;
+			
+			// aapt resource value: 0x7F090076
+			public const int nav_mining = 2131296374;
+			
+			// aapt resource value: 0x7F090077
+			public const int nav_missions = 2131296375;
+			
+			// aapt resource value: 0x7F090078
+			public const int nav_myorg = 2131296376;
+			
+			// aapt resource value: 0x7F090079
+			public const int nav_search = 2131296377;
+			
+			// aapt resource value: 0x7F09007A
+			public const int nav_ships = 2131296378;
+			
+			// aapt resource value: 0x7F09007B
+			public const int nav_stores = 2131296379;
+			
+			// aapt resource value: 0x7F09007C
+			public const int nav_tradeports = 2131296380;
+			
+			// aapt resource value: 0x7F09007D
+			public const int nav_trading = 2131296381;
+			
+			// aapt resource value: 0x7F09007E
+			public const int nav_view = 2131296382;
 			
 			// aapt resource value: 0x7F090080
-			public const int notification_main_column = 2131296384;
+			public const int never = 2131296384;
 			
 			// aapt resource value: 0x7F090081
-			public const int notification_main_column_container = 2131296385;
+			public const int none = 2131296385;
 			
 			// aapt resource value: 0x7F090082
-			public const int outline = 2131296386;
+			public const int normal = 2131296386;
 			
 			// aapt resource value: 0x7F090083
-			public const int parallax = 2131296387;
+			public const int notification_background = 2131296387;
 			
 			// aapt resource value: 0x7F090084
-			public const int parentPanel = 2131296388;
+			public const int notification_main_column = 2131296388;
 			
 			// aapt resource value: 0x7F090085
-			public const int parent_matrix = 2131296389;
+			public const int notification_main_column_container = 2131296389;
 			
 			// aapt resource value: 0x7F090086
-			public const int pin = 2131296390;
+			public const int outline = 2131296390;
 			
 			// aapt resource value: 0x7F090087
-			public const int progress_circular = 2131296391;
+			public const int parallax = 2131296391;
 			
 			// aapt resource value: 0x7F090088
-			public const int progress_horizontal = 2131296392;
+			public const int parentPanel = 2131296392;
 			
 			// aapt resource value: 0x7F090089
-			public const int radio = 2131296393;
+			public const int parent_matrix = 2131296393;
 			
 			// aapt resource value: 0x7F09008A
-			public const int right = 2131296394;
+			public const int pin = 2131296394;
 			
 			// aapt resource value: 0x7F09008B
-			public const int right_icon = 2131296395;
+			public const int progress_circular = 2131296395;
 			
 			// aapt resource value: 0x7F09008C
-			public const int right_side = 2131296396;
+			public const int progress_horizontal = 2131296396;
 			
 			// aapt resource value: 0x7F09008D
-			public const int save_image_matrix = 2131296397;
+			public const int radio = 2131296397;
 			
 			// aapt resource value: 0x7F09008E
-			public const int save_non_transition_alpha = 2131296398;
+			public const int right = 2131296398;
 			
 			// aapt resource value: 0x7F09008F
-			public const int save_scale_type = 2131296399;
+			public const int right_icon = 2131296399;
 			
 			// aapt resource value: 0x7F090090
-			public const int screen = 2131296400;
+			public const int right_side = 2131296400;
 			
 			// aapt resource value: 0x7F090091
-			public const int scroll = 2131296401;
-			
-			// aapt resource value: 0x7F090095
-			public const int scrollable = 2131296405;
+			public const int save_image_matrix = 2131296401;
 			
 			// aapt resource value: 0x7F090092
-			public const int scrollIndicatorDown = 2131296402;
+			public const int save_non_transition_alpha = 2131296402;
 			
 			// aapt resource value: 0x7F090093
-			public const int scrollIndicatorUp = 2131296403;
+			public const int save_scale_type = 2131296403;
 			
 			// aapt resource value: 0x7F090094
-			public const int scrollView = 2131296404;
+			public const int screen = 2131296404;
 			
-			// aapt resource value: 0x7F090096
-			public const int search_badge = 2131296406;
-			
-			// aapt resource value: 0x7F090097
-			public const int search_bar = 2131296407;
-			
-			// aapt resource value: 0x7F090098
-			public const int search_button = 2131296408;
+			// aapt resource value: 0x7F090095
+			public const int scroll = 2131296405;
 			
 			// aapt resource value: 0x7F090099
-			public const int search_close_btn = 2131296409;
+			public const int scrollable = 2131296409;
+			
+			// aapt resource value: 0x7F090096
+			public const int scrollIndicatorDown = 2131296406;
+			
+			// aapt resource value: 0x7F090097
+			public const int scrollIndicatorUp = 2131296407;
+			
+			// aapt resource value: 0x7F090098
+			public const int scrollView = 2131296408;
 			
 			// aapt resource value: 0x7F09009A
-			public const int search_edit_frame = 2131296410;
+			public const int search_badge = 2131296410;
 			
 			// aapt resource value: 0x7F09009B
-			public const int search_go_btn = 2131296411;
+			public const int search_bar = 2131296411;
 			
 			// aapt resource value: 0x7F09009C
-			public const int search_mag_icon = 2131296412;
+			public const int search_button = 2131296412;
 			
 			// aapt resource value: 0x7F09009D
-			public const int search_plate = 2131296413;
+			public const int search_close_btn = 2131296413;
 			
 			// aapt resource value: 0x7F09009E
-			public const int search_src_text = 2131296414;
+			public const int search_edit_frame = 2131296414;
 			
 			// aapt resource value: 0x7F09009F
-			public const int search_voice_btn = 2131296415;
-			
-			// aapt resource value: 0x7F0900A1
-			public const int selected = 2131296417;
+			public const int search_go_btn = 2131296415;
 			
 			// aapt resource value: 0x7F0900A0
-			public const int select_dialog_listview = 2131296416;
+			public const int search_mag_icon = 2131296416;
+			
+			// aapt resource value: 0x7F0900A1
+			public const int search_plate = 2131296417;
+			
+			// aapt resource value: 0x7F0900A2
+			public const int search_src_text = 2131296418;
+			
+			// aapt resource value: 0x7F0900A3
+			public const int search_voice_btn = 2131296419;
+			
+			// aapt resource value: 0x7F0900A5
+			public const int selected = 2131296421;
+			
+			// aapt resource value: 0x7F0900A4
+			public const int select_dialog_listview = 2131296420;
 			
 			// aapt resource value: 0x7F090004
 			public const int SHIFT = 2131296260;
 			
-			// aapt resource value: 0x7F0900A2
-			public const int shortcut = 2131296418;
-			
-			// aapt resource value: 0x7F0900A3
-			public const int showCustom = 2131296419;
-			
-			// aapt resource value: 0x7F0900A4
-			public const int showHome = 2131296420;
-			
-			// aapt resource value: 0x7F0900A5
-			public const int showTitle = 2131296421;
-			
 			// aapt resource value: 0x7F0900A6
-			public const int smallLabel = 2131296422;
+			public const int shortcut = 2131296422;
 			
 			// aapt resource value: 0x7F0900A7
-			public const int snackbar_action = 2131296423;
+			public const int showCustom = 2131296423;
 			
 			// aapt resource value: 0x7F0900A8
-			public const int snackbar_text = 2131296424;
+			public const int showHome = 2131296424;
 			
 			// aapt resource value: 0x7F0900A9
-			public const int snap = 2131296425;
+			public const int showTitle = 2131296425;
 			
 			// aapt resource value: 0x7F0900AA
-			public const int snapMargins = 2131296426;
+			public const int smallLabel = 2131296426;
 			
 			// aapt resource value: 0x7F0900AB
-			public const int spacer = 2131296427;
+			public const int snackbar_action = 2131296427;
 			
 			// aapt resource value: 0x7F0900AC
-			public const int split_action_bar = 2131296428;
+			public const int snackbar_text = 2131296428;
 			
 			// aapt resource value: 0x7F0900AD
-			public const int src_atop = 2131296429;
+			public const int snap = 2131296429;
 			
 			// aapt resource value: 0x7F0900AE
-			public const int src_in = 2131296430;
+			public const int snapMargins = 2131296430;
 			
 			// aapt resource value: 0x7F0900AF
-			public const int src_over = 2131296431;
+			public const int spacer = 2131296431;
 			
 			// aapt resource value: 0x7F0900B0
-			public const int start = 2131296432;
+			public const int split_action_bar = 2131296432;
 			
 			// aapt resource value: 0x7F0900B1
-			public const int stretch = 2131296433;
+			public const int src_atop = 2131296433;
 			
 			// aapt resource value: 0x7F0900B2
-			public const int submenuarrow = 2131296434;
+			public const int src_in = 2131296434;
 			
 			// aapt resource value: 0x7F0900B3
-			public const int submit_area = 2131296435;
+			public const int src_over = 2131296435;
+			
+			// aapt resource value: 0x7F0900B4
+			public const int start = 2131296436;
+			
+			// aapt resource value: 0x7F0900B5
+			public const int stretch = 2131296437;
+			
+			// aapt resource value: 0x7F0900B6
+			public const int submenuarrow = 2131296438;
+			
+			// aapt resource value: 0x7F0900B7
+			public const int submit_area = 2131296439;
 			
 			// aapt resource value: 0x7F090005
 			public const int SYM = 2131296261;
 			
-			// aapt resource value: 0x7F0900B4
-			public const int tabMode = 2131296436;
-			
-			// aapt resource value: 0x7F0900B5
-			public const int tag_transition_group = 2131296437;
-			
-			// aapt resource value: 0x7F0900B6
-			public const int tag_unhandled_key_event_manager = 2131296438;
-			
-			// aapt resource value: 0x7F0900B7
-			public const int tag_unhandled_key_listeners = 2131296439;
-			
 			// aapt resource value: 0x7F0900B8
-			public const int text = 2131296440;
+			public const int tabMode = 2131296440;
 			
 			// aapt resource value: 0x7F0900B9
-			public const int text2 = 2131296441;
-			
-			// aapt resource value: 0x7F0900BE
-			public const int textinput_counter = 2131296446;
-			
-			// aapt resource value: 0x7F0900BF
-			public const int textinput_error = 2131296447;
-			
-			// aapt resource value: 0x7F0900C0
-			public const int textinput_helper_text = 2131296448;
+			public const int tag_transition_group = 2131296441;
 			
 			// aapt resource value: 0x7F0900BA
-			public const int textSpacerNoButtons = 2131296442;
+			public const int tag_unhandled_key_event_manager = 2131296442;
 			
 			// aapt resource value: 0x7F0900BB
-			public const int textSpacerNoTitle = 2131296443;
+			public const int tag_unhandled_key_listeners = 2131296443;
 			
 			// aapt resource value: 0x7F0900BC
-			public const int textStart = 2131296444;
+			public const int text = 2131296444;
 			
 			// aapt resource value: 0x7F0900BD
-			public const int text_input_password_toggle = 2131296445;
-			
-			// aapt resource value: 0x7F0900C1
-			public const int time = 2131296449;
+			public const int text2 = 2131296445;
 			
 			// aapt resource value: 0x7F0900C2
-			public const int title = 2131296450;
+			public const int textinput_counter = 2131296450;
 			
 			// aapt resource value: 0x7F0900C3
-			public const int titleDividerNoCustom = 2131296451;
+			public const int textinput_error = 2131296451;
 			
 			// aapt resource value: 0x7F0900C4
-			public const int title_template = 2131296452;
+			public const int textinput_helper_text = 2131296452;
+			
+			// aapt resource value: 0x7F0900BE
+			public const int textSpacerNoButtons = 2131296446;
+			
+			// aapt resource value: 0x7F0900BF
+			public const int textSpacerNoTitle = 2131296447;
+			
+			// aapt resource value: 0x7F0900C0
+			public const int textStart = 2131296448;
+			
+			// aapt resource value: 0x7F0900C1
+			public const int text_input_password_toggle = 2131296449;
 			
 			// aapt resource value: 0x7F0900C5
-			public const int toolbar = 2131296453;
+			public const int time = 2131296453;
 			
 			// aapt resource value: 0x7F0900C6
-			public const int top = 2131296454;
+			public const int title = 2131296454;
 			
 			// aapt resource value: 0x7F0900C7
-			public const int topPanel = 2131296455;
+			public const int titleDividerNoCustom = 2131296455;
 			
 			// aapt resource value: 0x7F0900C8
-			public const int touch_outside = 2131296456;
+			public const int title_template = 2131296456;
 			
 			// aapt resource value: 0x7F0900C9
-			public const int transition_current_scene = 2131296457;
+			public const int toolbar = 2131296457;
 			
 			// aapt resource value: 0x7F0900CA
-			public const int transition_layout_save = 2131296458;
+			public const int top = 2131296458;
 			
 			// aapt resource value: 0x7F0900CB
-			public const int transition_position = 2131296459;
+			public const int topPanel = 2131296459;
 			
 			// aapt resource value: 0x7F0900CC
-			public const int transition_scene_layoutid_cache = 2131296460;
+			public const int touch_outside = 2131296460;
 			
 			// aapt resource value: 0x7F0900CD
-			public const int transition_transform = 2131296461;
+			public const int transition_current_scene = 2131296461;
 			
 			// aapt resource value: 0x7F0900CE
-			public const int tvtxt = 2131296462;
+			public const int transition_layout_save = 2131296462;
 			
 			// aapt resource value: 0x7F0900CF
-			public const int uniform = 2131296463;
+			public const int transition_position = 2131296463;
 			
 			// aapt resource value: 0x7F0900D0
-			public const int unlabeled = 2131296464;
+			public const int transition_scene_layoutid_cache = 2131296464;
 			
 			// aapt resource value: 0x7F0900D1
-			public const int up = 2131296465;
+			public const int transition_transform = 2131296465;
 			
 			// aapt resource value: 0x7F0900D2
-			public const int useLogo = 2131296466;
+			public const int tvtxt = 2131296466;
 			
 			// aapt resource value: 0x7F0900D3
-			public const int view_offset_helper = 2131296467;
+			public const int uniform = 2131296467;
 			
 			// aapt resource value: 0x7F0900D4
-			public const int visible = 2131296468;
+			public const int unlabeled = 2131296468;
 			
 			// aapt resource value: 0x7F0900D5
-			public const int webview = 2131296469;
+			public const int up = 2131296469;
 			
 			// aapt resource value: 0x7F0900D6
-			public const int withText = 2131296470;
+			public const int useLogo = 2131296470;
 			
 			// aapt resource value: 0x7F0900D7
-			public const int wrap_content = 2131296471;
+			public const int view_offset_helper = 2131296471;
+			
+			// aapt resource value: 0x7F0900D8
+			public const int visible = 2131296472;
+			
+			// aapt resource value: 0x7F0900D9
+			public const int webview = 2131296473;
+			
+			// aapt resource value: 0x7F0900DA
+			public const int withText = 2131296474;
+			
+			// aapt resource value: 0x7F0900DB
+			public const int wrap_content = 2131296475;
 			
 			static Id()
 			{
@@ -4409,59 +5956,62 @@ namespace Gallog
 			// aapt resource value: 0x7F0C0039
 			public const int mtrl_layout_snackbar_include = 2131492921;
 			
-			// aapt resource value: 0x7F0C003A
-			public const int myorgfragment = 2131492922;
-			
 			// aapt resource value: 0x7F0C003B
-			public const int nav_header_main = 2131492923;
+			public const int myorgfragment = 2131492923;
+			
+			// aapt resource value: 0x7F0C003A
+			public const int my_dialog_layout = 2131492922;
 			
 			// aapt resource value: 0x7F0C003C
-			public const int notification_action = 2131492924;
+			public const int nav_header_main = 2131492924;
 			
 			// aapt resource value: 0x7F0C003D
-			public const int notification_action_tombstone = 2131492925;
+			public const int notification_action = 2131492925;
 			
 			// aapt resource value: 0x7F0C003E
-			public const int notification_template_custom_big = 2131492926;
+			public const int notification_action_tombstone = 2131492926;
 			
 			// aapt resource value: 0x7F0C003F
-			public const int notification_template_icon_group = 2131492927;
+			public const int notification_template_custom_big = 2131492927;
 			
 			// aapt resource value: 0x7F0C0040
-			public const int notification_template_part_chronometer = 2131492928;
+			public const int notification_template_icon_group = 2131492928;
 			
 			// aapt resource value: 0x7F0C0041
-			public const int notification_template_part_time = 2131492929;
+			public const int notification_template_part_chronometer = 2131492929;
 			
 			// aapt resource value: 0x7F0C0042
-			public const int orgfragment = 2131492930;
+			public const int notification_template_part_time = 2131492930;
 			
 			// aapt resource value: 0x7F0C0043
-			public const int searchfragment = 2131492931;
+			public const int orgfragment = 2131492931;
 			
 			// aapt resource value: 0x7F0C0044
-			public const int select_dialog_item_material = 2131492932;
+			public const int searchfragment = 2131492932;
 			
 			// aapt resource value: 0x7F0C0045
-			public const int select_dialog_multichoice_material = 2131492933;
+			public const int select_dialog_item_material = 2131492933;
 			
 			// aapt resource value: 0x7F0C0046
-			public const int select_dialog_singlechoice_material = 2131492934;
+			public const int select_dialog_multichoice_material = 2131492934;
 			
 			// aapt resource value: 0x7F0C0047
-			public const int shipsfragment = 2131492935;
+			public const int select_dialog_singlechoice_material = 2131492935;
 			
 			// aapt resource value: 0x7F0C0048
-			public const int storesfragment = 2131492936;
+			public const int shipsfragment = 2131492936;
 			
 			// aapt resource value: 0x7F0C0049
-			public const int support_simple_spinner_dropdown_item = 2131492937;
+			public const int storesfragment = 2131492937;
 			
 			// aapt resource value: 0x7F0C004A
-			public const int tradefragment = 2131492938;
+			public const int support_simple_spinner_dropdown_item = 2131492938;
 			
 			// aapt resource value: 0x7F0C004B
-			public const int tradeportfragment = 2131492939;
+			public const int tradefragment = 2131492939;
+			
+			// aapt resource value: 0x7F0C004C
+			public const int tradeportfragment = 2131492940;
 			
 			static Layout()
 			{
@@ -4659,40 +6209,43 @@ namespace Gallog
 			public const int fab_transformation_sheet_behavior = 2131689518;
 			
 			// aapt resource value: 0x7F0F002F
-			public const int hide_bottom_view_on_scroll_behavior = 2131689519;
+			public const int hello = 2131689519;
 			
 			// aapt resource value: 0x7F0F0030
-			public const int mtrl_chip_close_icon_content_description = 2131689520;
+			public const int hide_bottom_view_on_scroll_behavior = 2131689520;
 			
 			// aapt resource value: 0x7F0F0031
-			public const int navigation_drawer_close = 2131689521;
+			public const int mtrl_chip_close_icon_content_description = 2131689521;
 			
 			// aapt resource value: 0x7F0F0032
-			public const int navigation_drawer_open = 2131689522;
+			public const int navigation_drawer_close = 2131689522;
 			
 			// aapt resource value: 0x7F0F0033
-			public const int password_toggle_content_description = 2131689523;
+			public const int navigation_drawer_open = 2131689523;
 			
 			// aapt resource value: 0x7F0F0034
-			public const int path_password_eye = 2131689524;
+			public const int password_toggle_content_description = 2131689524;
 			
 			// aapt resource value: 0x7F0F0035
-			public const int path_password_eye_mask_strike_through = 2131689525;
+			public const int path_password_eye = 2131689525;
 			
 			// aapt resource value: 0x7F0F0036
-			public const int path_password_eye_mask_visible = 2131689526;
+			public const int path_password_eye_mask_strike_through = 2131689526;
 			
 			// aapt resource value: 0x7F0F0037
-			public const int path_password_strike_through = 2131689527;
+			public const int path_password_eye_mask_visible = 2131689527;
 			
 			// aapt resource value: 0x7F0F0038
-			public const int search_menu_title = 2131689528;
+			public const int path_password_strike_through = 2131689528;
 			
 			// aapt resource value: 0x7F0F0039
-			public const int status_bar_notification_info_overflow = 2131689529;
+			public const int search_menu_title = 2131689529;
 			
 			// aapt resource value: 0x7F0F003A
-			public const int title_activity_webview = 2131689530;
+			public const int status_bar_notification_info_overflow = 2131689530;
+			
+			// aapt resource value: 0x7F0F003B
+			public const int title_activity_webview = 2131689531;
 			
 			static String()
 			{
@@ -5407,805 +6960,808 @@ namespace Gallog
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131755240;
 			
 			// aapt resource value: 0x7F1000E9
-			public const int TextAppearance_AppCompat = 2131755241;
+			public const int SpotsDialogDefault = 2131755241;
 			
 			// aapt resource value: 0x7F1000EA
-			public const int TextAppearance_AppCompat_Body1 = 2131755242;
+			public const int TextAppearance_AppCompat = 2131755242;
 			
 			// aapt resource value: 0x7F1000EB
-			public const int TextAppearance_AppCompat_Body2 = 2131755243;
+			public const int TextAppearance_AppCompat_Body1 = 2131755243;
 			
 			// aapt resource value: 0x7F1000EC
-			public const int TextAppearance_AppCompat_Button = 2131755244;
+			public const int TextAppearance_AppCompat_Body2 = 2131755244;
 			
 			// aapt resource value: 0x7F1000ED
-			public const int TextAppearance_AppCompat_Caption = 2131755245;
+			public const int TextAppearance_AppCompat_Button = 2131755245;
 			
 			// aapt resource value: 0x7F1000EE
-			public const int TextAppearance_AppCompat_Display1 = 2131755246;
+			public const int TextAppearance_AppCompat_Caption = 2131755246;
 			
 			// aapt resource value: 0x7F1000EF
-			public const int TextAppearance_AppCompat_Display2 = 2131755247;
+			public const int TextAppearance_AppCompat_Display1 = 2131755247;
 			
 			// aapt resource value: 0x7F1000F0
-			public const int TextAppearance_AppCompat_Display3 = 2131755248;
+			public const int TextAppearance_AppCompat_Display2 = 2131755248;
 			
 			// aapt resource value: 0x7F1000F1
-			public const int TextAppearance_AppCompat_Display4 = 2131755249;
+			public const int TextAppearance_AppCompat_Display3 = 2131755249;
 			
 			// aapt resource value: 0x7F1000F2
-			public const int TextAppearance_AppCompat_Headline = 2131755250;
+			public const int TextAppearance_AppCompat_Display4 = 2131755250;
 			
 			// aapt resource value: 0x7F1000F3
-			public const int TextAppearance_AppCompat_Inverse = 2131755251;
+			public const int TextAppearance_AppCompat_Headline = 2131755251;
 			
 			// aapt resource value: 0x7F1000F4
-			public const int TextAppearance_AppCompat_Large = 2131755252;
+			public const int TextAppearance_AppCompat_Inverse = 2131755252;
 			
 			// aapt resource value: 0x7F1000F5
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131755253;
+			public const int TextAppearance_AppCompat_Large = 2131755253;
 			
 			// aapt resource value: 0x7F1000F6
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131755254;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131755254;
 			
 			// aapt resource value: 0x7F1000F7
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131755255;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131755255;
 			
 			// aapt resource value: 0x7F1000F8
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131755256;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131755256;
 			
 			// aapt resource value: 0x7F1000F9
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131755257;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131755257;
 			
 			// aapt resource value: 0x7F1000FA
-			public const int TextAppearance_AppCompat_Medium = 2131755258;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131755258;
 			
 			// aapt resource value: 0x7F1000FB
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131755259;
+			public const int TextAppearance_AppCompat_Medium = 2131755259;
 			
 			// aapt resource value: 0x7F1000FC
-			public const int TextAppearance_AppCompat_Menu = 2131755260;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131755260;
 			
 			// aapt resource value: 0x7F1000FD
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131755261;
+			public const int TextAppearance_AppCompat_Menu = 2131755261;
 			
 			// aapt resource value: 0x7F1000FE
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131755262;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131755262;
 			
 			// aapt resource value: 0x7F1000FF
-			public const int TextAppearance_AppCompat_Small = 2131755263;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131755263;
 			
 			// aapt resource value: 0x7F100100
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131755264;
+			public const int TextAppearance_AppCompat_Small = 2131755264;
 			
 			// aapt resource value: 0x7F100101
-			public const int TextAppearance_AppCompat_Subhead = 2131755265;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131755265;
 			
 			// aapt resource value: 0x7F100102
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131755266;
+			public const int TextAppearance_AppCompat_Subhead = 2131755266;
 			
 			// aapt resource value: 0x7F100103
-			public const int TextAppearance_AppCompat_Title = 2131755267;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131755267;
 			
 			// aapt resource value: 0x7F100104
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131755268;
+			public const int TextAppearance_AppCompat_Title = 2131755268;
 			
 			// aapt resource value: 0x7F100105
-			public const int TextAppearance_AppCompat_Tooltip = 2131755269;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131755269;
 			
 			// aapt resource value: 0x7F100106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131755270;
+			public const int TextAppearance_AppCompat_Tooltip = 2131755270;
 			
 			// aapt resource value: 0x7F100107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131755271;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131755271;
 			
 			// aapt resource value: 0x7F100108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131755272;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131755272;
 			
 			// aapt resource value: 0x7F100109
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131755273;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131755273;
 			
 			// aapt resource value: 0x7F10010A
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131755274;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131755274;
 			
 			// aapt resource value: 0x7F10010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131755275;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131755275;
 			
 			// aapt resource value: 0x7F10010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131755276;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131755276;
 			
 			// aapt resource value: 0x7F10010D
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131755277;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131755277;
 			
 			// aapt resource value: 0x7F10010E
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131755278;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131755278;
 			
 			// aapt resource value: 0x7F10010F
-			public const int TextAppearance_AppCompat_Widget_Button = 2131755279;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131755279;
 			
 			// aapt resource value: 0x7F100110
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131755280;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131755280;
 			
 			// aapt resource value: 0x7F100111
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131755281;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131755281;
 			
 			// aapt resource value: 0x7F100112
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131755282;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131755282;
 			
 			// aapt resource value: 0x7F100113
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131755283;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131755283;
 			
 			// aapt resource value: 0x7F100114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131755284;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131755284;
 			
 			// aapt resource value: 0x7F100115
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131755285;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131755285;
 			
 			// aapt resource value: 0x7F100116
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131755286;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131755286;
 			
 			// aapt resource value: 0x7F100117
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131755287;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131755287;
 			
 			// aapt resource value: 0x7F100118
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131755288;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131755288;
 			
 			// aapt resource value: 0x7F100119
-			public const int TextAppearance_Compat_Notification = 2131755289;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131755289;
 			
 			// aapt resource value: 0x7F10011A
-			public const int TextAppearance_Compat_Notification_Info = 2131755290;
+			public const int TextAppearance_Compat_Notification = 2131755290;
 			
 			// aapt resource value: 0x7F10011B
-			public const int TextAppearance_Compat_Notification_Line2 = 2131755291;
+			public const int TextAppearance_Compat_Notification_Info = 2131755291;
 			
 			// aapt resource value: 0x7F10011C
-			public const int TextAppearance_Compat_Notification_Time = 2131755292;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131755292;
 			
 			// aapt resource value: 0x7F10011D
-			public const int TextAppearance_Compat_Notification_Title = 2131755293;
+			public const int TextAppearance_Compat_Notification_Time = 2131755293;
 			
 			// aapt resource value: 0x7F10011E
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131755294;
+			public const int TextAppearance_Compat_Notification_Title = 2131755294;
 			
 			// aapt resource value: 0x7F10011F
-			public const int TextAppearance_Design_Counter = 2131755295;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131755295;
 			
 			// aapt resource value: 0x7F100120
-			public const int TextAppearance_Design_Counter_Overflow = 2131755296;
+			public const int TextAppearance_Design_Counter = 2131755296;
 			
 			// aapt resource value: 0x7F100121
-			public const int TextAppearance_Design_Error = 2131755297;
+			public const int TextAppearance_Design_Counter_Overflow = 2131755297;
 			
 			// aapt resource value: 0x7F100122
-			public const int TextAppearance_Design_HelperText = 2131755298;
+			public const int TextAppearance_Design_Error = 2131755298;
 			
 			// aapt resource value: 0x7F100123
-			public const int TextAppearance_Design_Hint = 2131755299;
+			public const int TextAppearance_Design_HelperText = 2131755299;
 			
 			// aapt resource value: 0x7F100124
-			public const int TextAppearance_Design_Snackbar_Message = 2131755300;
+			public const int TextAppearance_Design_Hint = 2131755300;
 			
 			// aapt resource value: 0x7F100125
-			public const int TextAppearance_Design_Tab = 2131755301;
+			public const int TextAppearance_Design_Snackbar_Message = 2131755301;
 			
 			// aapt resource value: 0x7F100126
-			public const int TextAppearance_MaterialComponents_Body1 = 2131755302;
+			public const int TextAppearance_Design_Tab = 2131755302;
 			
 			// aapt resource value: 0x7F100127
-			public const int TextAppearance_MaterialComponents_Body2 = 2131755303;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131755303;
 			
 			// aapt resource value: 0x7F100128
-			public const int TextAppearance_MaterialComponents_Button = 2131755304;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131755304;
 			
 			// aapt resource value: 0x7F100129
-			public const int TextAppearance_MaterialComponents_Caption = 2131755305;
+			public const int TextAppearance_MaterialComponents_Button = 2131755305;
 			
 			// aapt resource value: 0x7F10012A
-			public const int TextAppearance_MaterialComponents_Chip = 2131755306;
+			public const int TextAppearance_MaterialComponents_Caption = 2131755306;
 			
 			// aapt resource value: 0x7F10012B
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131755307;
+			public const int TextAppearance_MaterialComponents_Chip = 2131755307;
 			
 			// aapt resource value: 0x7F10012C
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131755308;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131755308;
 			
 			// aapt resource value: 0x7F10012D
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131755309;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131755309;
 			
 			// aapt resource value: 0x7F10012E
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131755310;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131755310;
 			
 			// aapt resource value: 0x7F10012F
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131755311;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131755311;
 			
 			// aapt resource value: 0x7F100130
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131755312;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131755312;
 			
 			// aapt resource value: 0x7F100131
-			public const int TextAppearance_MaterialComponents_Overline = 2131755313;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131755313;
 			
 			// aapt resource value: 0x7F100132
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131755314;
+			public const int TextAppearance_MaterialComponents_Overline = 2131755314;
 			
 			// aapt resource value: 0x7F100133
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131755315;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131755315;
 			
 			// aapt resource value: 0x7F100134
-			public const int TextAppearance_MaterialComponents_Tab = 2131755316;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131755316;
 			
 			// aapt resource value: 0x7F100135
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131755317;
+			public const int TextAppearance_MaterialComponents_Tab = 2131755317;
 			
 			// aapt resource value: 0x7F100136
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131755318;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131755318;
 			
 			// aapt resource value: 0x7F100137
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131755319;
-			
-			// aapt resource value: 0x7F100168
-			public const int ThemeOverlay_AppCompat = 2131755368;
-			
-			// aapt resource value: 0x7F100169
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131755369;
-			
-			// aapt resource value: 0x7F10016A
-			public const int ThemeOverlay_AppCompat_Dark = 2131755370;
-			
-			// aapt resource value: 0x7F10016B
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131755371;
-			
-			// aapt resource value: 0x7F10016C
-			public const int ThemeOverlay_AppCompat_Dialog = 2131755372;
-			
-			// aapt resource value: 0x7F10016D
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131755373;
-			
-			// aapt resource value: 0x7F10016E
-			public const int ThemeOverlay_AppCompat_Light = 2131755374;
-			
-			// aapt resource value: 0x7F10016F
-			public const int ThemeOverlay_MaterialComponents = 2131755375;
-			
-			// aapt resource value: 0x7F100170
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131755376;
-			
-			// aapt resource value: 0x7F100171
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131755377;
-			
-			// aapt resource value: 0x7F100172
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131755378;
-			
-			// aapt resource value: 0x7F100173
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131755379;
-			
-			// aapt resource value: 0x7F100174
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131755380;
-			
-			// aapt resource value: 0x7F100175
-			public const int ThemeOverlay_MaterialComponents_Light = 2131755381;
-			
-			// aapt resource value: 0x7F100176
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131755382;
-			
-			// aapt resource value: 0x7F100177
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131755383;
-			
-			// aapt resource value: 0x7F100178
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755384;
-			
-			// aapt resource value: 0x7F100179
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131755385;
-			
-			// aapt resource value: 0x7F10017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755386;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131755319;
 			
 			// aapt resource value: 0x7F100138
-			public const int Theme_AppCompat = 2131755320;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131755320;
 			
-			// aapt resource value: 0x7F100139
-			public const int Theme_AppCompat_CompactMenu = 2131755321;
+			// aapt resource value: 0x7F100169
+			public const int ThemeOverlay_AppCompat = 2131755369;
 			
-			// aapt resource value: 0x7F10013A
-			public const int Theme_AppCompat_DayNight = 2131755322;
+			// aapt resource value: 0x7F10016A
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131755370;
 			
-			// aapt resource value: 0x7F10013B
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131755323;
+			// aapt resource value: 0x7F10016B
+			public const int ThemeOverlay_AppCompat_Dark = 2131755371;
 			
-			// aapt resource value: 0x7F10013C
-			public const int Theme_AppCompat_DayNight_Dialog = 2131755324;
+			// aapt resource value: 0x7F10016C
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131755372;
 			
-			// aapt resource value: 0x7F10013F
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131755327;
+			// aapt resource value: 0x7F10016D
+			public const int ThemeOverlay_AppCompat_Dialog = 2131755373;
 			
-			// aapt resource value: 0x7F10013D
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131755325;
+			// aapt resource value: 0x7F10016E
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131755374;
 			
-			// aapt resource value: 0x7F10013E
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131755326;
+			// aapt resource value: 0x7F10016F
+			public const int ThemeOverlay_AppCompat_Light = 2131755375;
 			
-			// aapt resource value: 0x7F100140
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131755328;
+			// aapt resource value: 0x7F100170
+			public const int ThemeOverlay_MaterialComponents = 2131755376;
 			
-			// aapt resource value: 0x7F100141
-			public const int Theme_AppCompat_Dialog = 2131755329;
+			// aapt resource value: 0x7F100171
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131755377;
 			
-			// aapt resource value: 0x7F100144
-			public const int Theme_AppCompat_DialogWhenLarge = 2131755332;
+			// aapt resource value: 0x7F100172
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131755378;
 			
-			// aapt resource value: 0x7F100142
-			public const int Theme_AppCompat_Dialog_Alert = 2131755330;
+			// aapt resource value: 0x7F100173
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131755379;
 			
-			// aapt resource value: 0x7F100143
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131755331;
+			// aapt resource value: 0x7F100174
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131755380;
 			
-			// aapt resource value: 0x7F100145
-			public const int Theme_AppCompat_Light = 2131755333;
+			// aapt resource value: 0x7F100175
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131755381;
 			
-			// aapt resource value: 0x7F100146
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131755334;
+			// aapt resource value: 0x7F100176
+			public const int ThemeOverlay_MaterialComponents_Light = 2131755382;
 			
-			// aapt resource value: 0x7F100147
-			public const int Theme_AppCompat_Light_Dialog = 2131755335;
+			// aapt resource value: 0x7F100177
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131755383;
 			
-			// aapt resource value: 0x7F10014A
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131755338;
+			// aapt resource value: 0x7F100178
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131755384;
 			
-			// aapt resource value: 0x7F100148
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131755336;
+			// aapt resource value: 0x7F100179
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755385;
 			
-			// aapt resource value: 0x7F100149
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131755337;
-			
-			// aapt resource value: 0x7F10014B
-			public const int Theme_AppCompat_Light_NoActionBar = 2131755339;
-			
-			// aapt resource value: 0x7F10014C
-			public const int Theme_AppCompat_NoActionBar = 2131755340;
-			
-			// aapt resource value: 0x7F10014D
-			public const int Theme_Design = 2131755341;
-			
-			// aapt resource value: 0x7F10014E
-			public const int Theme_Design_BottomSheetDialog = 2131755342;
-			
-			// aapt resource value: 0x7F10014F
-			public const int Theme_Design_Light = 2131755343;
-			
-			// aapt resource value: 0x7F100150
-			public const int Theme_Design_Light_BottomSheetDialog = 2131755344;
-			
-			// aapt resource value: 0x7F100151
-			public const int Theme_Design_Light_NoActionBar = 2131755345;
-			
-			// aapt resource value: 0x7F100152
-			public const int Theme_Design_NoActionBar = 2131755346;
-			
-			// aapt resource value: 0x7F100153
-			public const int Theme_MaterialComponents = 2131755347;
-			
-			// aapt resource value: 0x7F100154
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131755348;
-			
-			// aapt resource value: 0x7F100155
-			public const int Theme_MaterialComponents_Bridge = 2131755349;
-			
-			// aapt resource value: 0x7F100156
-			public const int Theme_MaterialComponents_CompactMenu = 2131755350;
-			
-			// aapt resource value: 0x7F100157
-			public const int Theme_MaterialComponents_Dialog = 2131755351;
-			
-			// aapt resource value: 0x7F10015A
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131755354;
-			
-			// aapt resource value: 0x7F100158
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131755352;
-			
-			// aapt resource value: 0x7F100159
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131755353;
-			
-			// aapt resource value: 0x7F10015B
-			public const int Theme_MaterialComponents_Light = 2131755355;
-			
-			// aapt resource value: 0x7F10015C
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131755356;
-			
-			// aapt resource value: 0x7F10015D
-			public const int Theme_MaterialComponents_Light_Bridge = 2131755357;
-			
-			// aapt resource value: 0x7F10015E
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131755358;
-			
-			// aapt resource value: 0x7F10015F
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131755359;
-			
-			// aapt resource value: 0x7F100160
-			public const int Theme_MaterialComponents_Light_Dialog = 2131755360;
-			
-			// aapt resource value: 0x7F100163
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131755363;
-			
-			// aapt resource value: 0x7F100161
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131755361;
-			
-			// aapt resource value: 0x7F100162
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131755362;
-			
-			// aapt resource value: 0x7F100164
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131755364;
-			
-			// aapt resource value: 0x7F100165
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131755365;
-			
-			// aapt resource value: 0x7F100166
-			public const int Theme_MaterialComponents_NoActionBar = 2131755366;
-			
-			// aapt resource value: 0x7F100167
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131755367;
+			// aapt resource value: 0x7F10017A
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131755386;
 			
 			// aapt resource value: 0x7F10017B
-			public const int Widget_AppCompat_ActionBar = 2131755387;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755387;
+			
+			// aapt resource value: 0x7F100139
+			public const int Theme_AppCompat = 2131755321;
+			
+			// aapt resource value: 0x7F10013A
+			public const int Theme_AppCompat_CompactMenu = 2131755322;
+			
+			// aapt resource value: 0x7F10013B
+			public const int Theme_AppCompat_DayNight = 2131755323;
+			
+			// aapt resource value: 0x7F10013C
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131755324;
+			
+			// aapt resource value: 0x7F10013D
+			public const int Theme_AppCompat_DayNight_Dialog = 2131755325;
+			
+			// aapt resource value: 0x7F100140
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131755328;
+			
+			// aapt resource value: 0x7F10013E
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131755326;
+			
+			// aapt resource value: 0x7F10013F
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131755327;
+			
+			// aapt resource value: 0x7F100141
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131755329;
+			
+			// aapt resource value: 0x7F100142
+			public const int Theme_AppCompat_Dialog = 2131755330;
+			
+			// aapt resource value: 0x7F100145
+			public const int Theme_AppCompat_DialogWhenLarge = 2131755333;
+			
+			// aapt resource value: 0x7F100143
+			public const int Theme_AppCompat_Dialog_Alert = 2131755331;
+			
+			// aapt resource value: 0x7F100144
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131755332;
+			
+			// aapt resource value: 0x7F100146
+			public const int Theme_AppCompat_Light = 2131755334;
+			
+			// aapt resource value: 0x7F100147
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131755335;
+			
+			// aapt resource value: 0x7F100148
+			public const int Theme_AppCompat_Light_Dialog = 2131755336;
+			
+			// aapt resource value: 0x7F10014B
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131755339;
+			
+			// aapt resource value: 0x7F100149
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131755337;
+			
+			// aapt resource value: 0x7F10014A
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131755338;
+			
+			// aapt resource value: 0x7F10014C
+			public const int Theme_AppCompat_Light_NoActionBar = 2131755340;
+			
+			// aapt resource value: 0x7F10014D
+			public const int Theme_AppCompat_NoActionBar = 2131755341;
+			
+			// aapt resource value: 0x7F10014E
+			public const int Theme_Design = 2131755342;
+			
+			// aapt resource value: 0x7F10014F
+			public const int Theme_Design_BottomSheetDialog = 2131755343;
+			
+			// aapt resource value: 0x7F100150
+			public const int Theme_Design_Light = 2131755344;
+			
+			// aapt resource value: 0x7F100151
+			public const int Theme_Design_Light_BottomSheetDialog = 2131755345;
+			
+			// aapt resource value: 0x7F100152
+			public const int Theme_Design_Light_NoActionBar = 2131755346;
+			
+			// aapt resource value: 0x7F100153
+			public const int Theme_Design_NoActionBar = 2131755347;
+			
+			// aapt resource value: 0x7F100154
+			public const int Theme_MaterialComponents = 2131755348;
+			
+			// aapt resource value: 0x7F100155
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131755349;
+			
+			// aapt resource value: 0x7F100156
+			public const int Theme_MaterialComponents_Bridge = 2131755350;
+			
+			// aapt resource value: 0x7F100157
+			public const int Theme_MaterialComponents_CompactMenu = 2131755351;
+			
+			// aapt resource value: 0x7F100158
+			public const int Theme_MaterialComponents_Dialog = 2131755352;
+			
+			// aapt resource value: 0x7F10015B
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131755355;
+			
+			// aapt resource value: 0x7F100159
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131755353;
+			
+			// aapt resource value: 0x7F10015A
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131755354;
+			
+			// aapt resource value: 0x7F10015C
+			public const int Theme_MaterialComponents_Light = 2131755356;
+			
+			// aapt resource value: 0x7F10015D
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131755357;
+			
+			// aapt resource value: 0x7F10015E
+			public const int Theme_MaterialComponents_Light_Bridge = 2131755358;
+			
+			// aapt resource value: 0x7F10015F
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131755359;
+			
+			// aapt resource value: 0x7F100160
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131755360;
+			
+			// aapt resource value: 0x7F100161
+			public const int Theme_MaterialComponents_Light_Dialog = 2131755361;
+			
+			// aapt resource value: 0x7F100164
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131755364;
+			
+			// aapt resource value: 0x7F100162
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131755362;
+			
+			// aapt resource value: 0x7F100163
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131755363;
+			
+			// aapt resource value: 0x7F100165
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131755365;
+			
+			// aapt resource value: 0x7F100166
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131755366;
+			
+			// aapt resource value: 0x7F100167
+			public const int Theme_MaterialComponents_NoActionBar = 2131755367;
+			
+			// aapt resource value: 0x7F100168
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131755368;
 			
 			// aapt resource value: 0x7F10017C
-			public const int Widget_AppCompat_ActionBar_Solid = 2131755388;
+			public const int Widget_AppCompat_ActionBar = 2131755388;
 			
 			// aapt resource value: 0x7F10017D
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131755389;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131755389;
 			
 			// aapt resource value: 0x7F10017E
-			public const int Widget_AppCompat_ActionBar_TabText = 2131755390;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131755390;
 			
 			// aapt resource value: 0x7F10017F
-			public const int Widget_AppCompat_ActionBar_TabView = 2131755391;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131755391;
 			
 			// aapt resource value: 0x7F100180
-			public const int Widget_AppCompat_ActionButton = 2131755392;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131755392;
 			
 			// aapt resource value: 0x7F100181
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131755393;
+			public const int Widget_AppCompat_ActionButton = 2131755393;
 			
 			// aapt resource value: 0x7F100182
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131755394;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131755394;
 			
 			// aapt resource value: 0x7F100183
-			public const int Widget_AppCompat_ActionMode = 2131755395;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131755395;
 			
 			// aapt resource value: 0x7F100184
-			public const int Widget_AppCompat_ActivityChooserView = 2131755396;
+			public const int Widget_AppCompat_ActionMode = 2131755396;
 			
 			// aapt resource value: 0x7F100185
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131755397;
+			public const int Widget_AppCompat_ActivityChooserView = 2131755397;
 			
 			// aapt resource value: 0x7F100186
-			public const int Widget_AppCompat_Button = 2131755398;
-			
-			// aapt resource value: 0x7F10018C
-			public const int Widget_AppCompat_ButtonBar = 2131755404;
-			
-			// aapt resource value: 0x7F10018D
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131755405;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131755398;
 			
 			// aapt resource value: 0x7F100187
-			public const int Widget_AppCompat_Button_Borderless = 2131755399;
+			public const int Widget_AppCompat_Button = 2131755399;
 			
-			// aapt resource value: 0x7F100188
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131755400;
-			
-			// aapt resource value: 0x7F100189
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131755401;
-			
-			// aapt resource value: 0x7F10018A
-			public const int Widget_AppCompat_Button_Colored = 2131755402;
-			
-			// aapt resource value: 0x7F10018B
-			public const int Widget_AppCompat_Button_Small = 2131755403;
+			// aapt resource value: 0x7F10018D
+			public const int Widget_AppCompat_ButtonBar = 2131755405;
 			
 			// aapt resource value: 0x7F10018E
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131755406;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131755406;
+			
+			// aapt resource value: 0x7F100188
+			public const int Widget_AppCompat_Button_Borderless = 2131755400;
+			
+			// aapt resource value: 0x7F100189
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131755401;
+			
+			// aapt resource value: 0x7F10018A
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131755402;
+			
+			// aapt resource value: 0x7F10018B
+			public const int Widget_AppCompat_Button_Colored = 2131755403;
+			
+			// aapt resource value: 0x7F10018C
+			public const int Widget_AppCompat_Button_Small = 2131755404;
 			
 			// aapt resource value: 0x7F10018F
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131755407;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131755407;
 			
 			// aapt resource value: 0x7F100190
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131755408;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131755408;
 			
 			// aapt resource value: 0x7F100191
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131755409;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131755409;
 			
 			// aapt resource value: 0x7F100192
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131755410;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131755410;
 			
 			// aapt resource value: 0x7F100193
-			public const int Widget_AppCompat_EditText = 2131755411;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131755411;
 			
 			// aapt resource value: 0x7F100194
-			public const int Widget_AppCompat_ImageButton = 2131755412;
+			public const int Widget_AppCompat_EditText = 2131755412;
 			
 			// aapt resource value: 0x7F100195
-			public const int Widget_AppCompat_Light_ActionBar = 2131755413;
+			public const int Widget_AppCompat_ImageButton = 2131755413;
 			
 			// aapt resource value: 0x7F100196
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131755414;
+			public const int Widget_AppCompat_Light_ActionBar = 2131755414;
 			
 			// aapt resource value: 0x7F100197
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131755415;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131755415;
 			
 			// aapt resource value: 0x7F100198
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131755416;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131755416;
 			
 			// aapt resource value: 0x7F100199
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131755417;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131755417;
 			
 			// aapt resource value: 0x7F10019A
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131755418;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131755418;
 			
 			// aapt resource value: 0x7F10019B
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131755419;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131755419;
 			
 			// aapt resource value: 0x7F10019C
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131755420;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131755420;
 			
 			// aapt resource value: 0x7F10019D
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131755421;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131755421;
 			
 			// aapt resource value: 0x7F10019E
-			public const int Widget_AppCompat_Light_ActionButton = 2131755422;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131755422;
 			
 			// aapt resource value: 0x7F10019F
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131755423;
+			public const int Widget_AppCompat_Light_ActionButton = 2131755423;
 			
 			// aapt resource value: 0x7F1001A0
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131755424;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131755424;
 			
 			// aapt resource value: 0x7F1001A1
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131755425;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131755425;
 			
 			// aapt resource value: 0x7F1001A2
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131755426;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131755426;
 			
 			// aapt resource value: 0x7F1001A3
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131755427;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131755427;
 			
 			// aapt resource value: 0x7F1001A4
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131755428;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131755428;
 			
 			// aapt resource value: 0x7F1001A5
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131755429;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131755429;
 			
 			// aapt resource value: 0x7F1001A6
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131755430;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131755430;
 			
 			// aapt resource value: 0x7F1001A7
-			public const int Widget_AppCompat_Light_PopupMenu = 2131755431;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131755431;
 			
 			// aapt resource value: 0x7F1001A8
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131755432;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131755432;
 			
 			// aapt resource value: 0x7F1001A9
-			public const int Widget_AppCompat_Light_SearchView = 2131755433;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131755433;
 			
 			// aapt resource value: 0x7F1001AA
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131755434;
+			public const int Widget_AppCompat_Light_SearchView = 2131755434;
 			
 			// aapt resource value: 0x7F1001AB
-			public const int Widget_AppCompat_ListMenuView = 2131755435;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131755435;
 			
 			// aapt resource value: 0x7F1001AC
-			public const int Widget_AppCompat_ListPopupWindow = 2131755436;
+			public const int Widget_AppCompat_ListMenuView = 2131755436;
 			
 			// aapt resource value: 0x7F1001AD
-			public const int Widget_AppCompat_ListView = 2131755437;
+			public const int Widget_AppCompat_ListPopupWindow = 2131755437;
 			
 			// aapt resource value: 0x7F1001AE
-			public const int Widget_AppCompat_ListView_DropDown = 2131755438;
+			public const int Widget_AppCompat_ListView = 2131755438;
 			
 			// aapt resource value: 0x7F1001AF
-			public const int Widget_AppCompat_ListView_Menu = 2131755439;
+			public const int Widget_AppCompat_ListView_DropDown = 2131755439;
 			
 			// aapt resource value: 0x7F1001B0
-			public const int Widget_AppCompat_PopupMenu = 2131755440;
+			public const int Widget_AppCompat_ListView_Menu = 2131755440;
 			
 			// aapt resource value: 0x7F1001B1
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131755441;
+			public const int Widget_AppCompat_PopupMenu = 2131755441;
 			
 			// aapt resource value: 0x7F1001B2
-			public const int Widget_AppCompat_PopupWindow = 2131755442;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131755442;
 			
 			// aapt resource value: 0x7F1001B3
-			public const int Widget_AppCompat_ProgressBar = 2131755443;
+			public const int Widget_AppCompat_PopupWindow = 2131755443;
 			
 			// aapt resource value: 0x7F1001B4
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131755444;
+			public const int Widget_AppCompat_ProgressBar = 2131755444;
 			
 			// aapt resource value: 0x7F1001B5
-			public const int Widget_AppCompat_RatingBar = 2131755445;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131755445;
 			
 			// aapt resource value: 0x7F1001B6
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131755446;
+			public const int Widget_AppCompat_RatingBar = 2131755446;
 			
 			// aapt resource value: 0x7F1001B7
-			public const int Widget_AppCompat_RatingBar_Small = 2131755447;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131755447;
 			
 			// aapt resource value: 0x7F1001B8
-			public const int Widget_AppCompat_SearchView = 2131755448;
+			public const int Widget_AppCompat_RatingBar_Small = 2131755448;
 			
 			// aapt resource value: 0x7F1001B9
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131755449;
+			public const int Widget_AppCompat_SearchView = 2131755449;
 			
 			// aapt resource value: 0x7F1001BA
-			public const int Widget_AppCompat_SeekBar = 2131755450;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131755450;
 			
 			// aapt resource value: 0x7F1001BB
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131755451;
+			public const int Widget_AppCompat_SeekBar = 2131755451;
 			
 			// aapt resource value: 0x7F1001BC
-			public const int Widget_AppCompat_Spinner = 2131755452;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131755452;
 			
 			// aapt resource value: 0x7F1001BD
-			public const int Widget_AppCompat_Spinner_DropDown = 2131755453;
+			public const int Widget_AppCompat_Spinner = 2131755453;
 			
 			// aapt resource value: 0x7F1001BE
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131755454;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131755454;
 			
 			// aapt resource value: 0x7F1001BF
-			public const int Widget_AppCompat_Spinner_Underlined = 2131755455;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131755455;
 			
 			// aapt resource value: 0x7F1001C0
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131755456;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131755456;
 			
 			// aapt resource value: 0x7F1001C1
-			public const int Widget_AppCompat_Toolbar = 2131755457;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131755457;
 			
 			// aapt resource value: 0x7F1001C2
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131755458;
+			public const int Widget_AppCompat_Toolbar = 2131755458;
 			
 			// aapt resource value: 0x7F1001C3
-			public const int Widget_Compat_NotificationActionContainer = 2131755459;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131755459;
 			
 			// aapt resource value: 0x7F1001C4
-			public const int Widget_Compat_NotificationActionText = 2131755460;
+			public const int Widget_Compat_NotificationActionContainer = 2131755460;
 			
 			// aapt resource value: 0x7F1001C5
-			public const int Widget_Design_AppBarLayout = 2131755461;
+			public const int Widget_Compat_NotificationActionText = 2131755461;
 			
 			// aapt resource value: 0x7F1001C6
-			public const int Widget_Design_BottomNavigationView = 2131755462;
+			public const int Widget_Design_AppBarLayout = 2131755462;
 			
 			// aapt resource value: 0x7F1001C7
-			public const int Widget_Design_BottomSheet_Modal = 2131755463;
+			public const int Widget_Design_BottomNavigationView = 2131755463;
 			
 			// aapt resource value: 0x7F1001C8
-			public const int Widget_Design_CollapsingToolbar = 2131755464;
+			public const int Widget_Design_BottomSheet_Modal = 2131755464;
 			
 			// aapt resource value: 0x7F1001C9
-			public const int Widget_Design_FloatingActionButton = 2131755465;
+			public const int Widget_Design_CollapsingToolbar = 2131755465;
 			
 			// aapt resource value: 0x7F1001CA
-			public const int Widget_Design_NavigationView = 2131755466;
+			public const int Widget_Design_FloatingActionButton = 2131755466;
 			
 			// aapt resource value: 0x7F1001CB
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131755467;
+			public const int Widget_Design_NavigationView = 2131755467;
 			
 			// aapt resource value: 0x7F1001CC
-			public const int Widget_Design_Snackbar = 2131755468;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131755468;
 			
 			// aapt resource value: 0x7F1001CD
-			public const int Widget_Design_TabLayout = 2131755469;
+			public const int Widget_Design_Snackbar = 2131755469;
 			
 			// aapt resource value: 0x7F1001CE
-			public const int Widget_Design_TextInputLayout = 2131755470;
+			public const int Widget_Design_TabLayout = 2131755470;
 			
 			// aapt resource value: 0x7F1001CF
-			public const int Widget_MaterialComponents_BottomAppBar = 2131755471;
+			public const int Widget_Design_TextInputLayout = 2131755471;
 			
 			// aapt resource value: 0x7F1001D0
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131755472;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131755472;
 			
 			// aapt resource value: 0x7F1001D1
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131755473;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131755473;
 			
 			// aapt resource value: 0x7F1001D2
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131755474;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131755474;
 			
 			// aapt resource value: 0x7F1001D3
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131755475;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131755475;
 			
 			// aapt resource value: 0x7F1001D4
-			public const int Widget_MaterialComponents_Button = 2131755476;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131755476;
 			
 			// aapt resource value: 0x7F1001D5
-			public const int Widget_MaterialComponents_Button_Icon = 2131755477;
+			public const int Widget_MaterialComponents_Button = 2131755477;
 			
 			// aapt resource value: 0x7F1001D6
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131755478;
+			public const int Widget_MaterialComponents_Button_Icon = 2131755478;
 			
 			// aapt resource value: 0x7F1001D7
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131755479;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131755479;
 			
 			// aapt resource value: 0x7F1001D8
-			public const int Widget_MaterialComponents_Button_TextButton = 2131755480;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131755480;
 			
 			// aapt resource value: 0x7F1001D9
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131755481;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131755481;
 			
 			// aapt resource value: 0x7F1001DA
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131755482;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131755482;
 			
 			// aapt resource value: 0x7F1001DB
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131755483;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131755483;
 			
 			// aapt resource value: 0x7F1001DC
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131755484;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131755484;
 			
 			// aapt resource value: 0x7F1001DD
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131755485;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131755485;
 			
 			// aapt resource value: 0x7F1001DE
-			public const int Widget_MaterialComponents_CardView = 2131755486;
-			
-			// aapt resource value: 0x7F1001E3
-			public const int Widget_MaterialComponents_ChipGroup = 2131755491;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131755486;
 			
 			// aapt resource value: 0x7F1001DF
-			public const int Widget_MaterialComponents_Chip_Action = 2131755487;
-			
-			// aapt resource value: 0x7F1001E0
-			public const int Widget_MaterialComponents_Chip_Choice = 2131755488;
-			
-			// aapt resource value: 0x7F1001E1
-			public const int Widget_MaterialComponents_Chip_Entry = 2131755489;
-			
-			// aapt resource value: 0x7F1001E2
-			public const int Widget_MaterialComponents_Chip_Filter = 2131755490;
+			public const int Widget_MaterialComponents_CardView = 2131755487;
 			
 			// aapt resource value: 0x7F1001E4
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131755492;
+			public const int Widget_MaterialComponents_ChipGroup = 2131755492;
+			
+			// aapt resource value: 0x7F1001E0
+			public const int Widget_MaterialComponents_Chip_Action = 2131755488;
+			
+			// aapt resource value: 0x7F1001E1
+			public const int Widget_MaterialComponents_Chip_Choice = 2131755489;
+			
+			// aapt resource value: 0x7F1001E2
+			public const int Widget_MaterialComponents_Chip_Entry = 2131755490;
+			
+			// aapt resource value: 0x7F1001E3
+			public const int Widget_MaterialComponents_Chip_Filter = 2131755491;
 			
 			// aapt resource value: 0x7F1001E5
-			public const int Widget_MaterialComponents_NavigationView = 2131755493;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131755493;
 			
 			// aapt resource value: 0x7F1001E6
-			public const int Widget_MaterialComponents_Snackbar = 2131755494;
+			public const int Widget_MaterialComponents_NavigationView = 2131755494;
 			
 			// aapt resource value: 0x7F1001E7
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131755495;
+			public const int Widget_MaterialComponents_Snackbar = 2131755495;
 			
 			// aapt resource value: 0x7F1001E8
-			public const int Widget_MaterialComponents_TabLayout = 2131755496;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131755496;
 			
 			// aapt resource value: 0x7F1001E9
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131755497;
+			public const int Widget_MaterialComponents_TabLayout = 2131755497;
 			
 			// aapt resource value: 0x7F1001EA
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131755498;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131755498;
 			
 			// aapt resource value: 0x7F1001EB
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755499;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131755499;
 			
 			// aapt resource value: 0x7F1001EC
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131755500;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755500;
 			
 			// aapt resource value: 0x7F1001ED
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755501;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131755501;
 			
 			// aapt resource value: 0x7F1001EE
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131755502;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755502;
 			
 			// aapt resource value: 0x7F1001EF
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131755503;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131755503;
 			
 			// aapt resource value: 0x7F1001F0
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131755504;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131755504;
 			
 			// aapt resource value: 0x7F1001F1
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131755505;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131755505;
 			
 			// aapt resource value: 0x7F1001F2
-			public const int Widget_MaterialComponents_Toolbar = 2131755506;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131755506;
 			
 			// aapt resource value: 0x7F1001F3
-			public const int Widget_Support_CoordinatorLayout = 2131755507;
+			public const int Widget_MaterialComponents_Toolbar = 2131755507;
+			
+			// aapt resource value: 0x7F1001F4
+			public const int Widget_Support_CoordinatorLayout = 2131755508;
 			
 			static Style()
 			{
@@ -6220,37 +7776,37 @@ namespace Gallog
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300A4,0x7F0300A9,0x7F0300AA,0x7F0300B5,0x7F0300DF,0x7F0300E4,0x7F0300E9,0x7F0300EA,0x7F0300EC,0x7F0300F6,0x7F030100,0x7F030123,0x7F03012F,0x7F030140,0x7F030144,0x7F030145,0x7F030173,0x7F030176,0x7F0301BB,0x7F0301C5 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030037,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F0300A8,0x7F0300AD,0x7F0300AE,0x7F0300B9,0x7F0300E3,0x7F0300E8,0x7F0300ED,0x7F0300EE,0x7F0300F0,0x7F0300FA,0x7F030104,0x7F030127,0x7F030133,0x7F030144,0x7F030148,0x7F030149,0x7F030177,0x7F03017A,0x7F0301BF,0x7F0301C9 }
 			public static int[] ActionBar = new int[] {
-					2130903089,
-					2130903090,
-					2130903091,
-					2130903185,
-					2130903186,
-					2130903187,
-					2130903188,
+					2130903093,
+					2130903094,
+					2130903095,
 					2130903189,
 					2130903190,
-					2130903204,
-					2130903209,
-					2130903210,
-					2130903221,
-					2130903263,
-					2130903268,
-					2130903273,
-					2130903274,
-					2130903276,
-					2130903286,
-					2130903296,
-					2130903331,
-					2130903343,
-					2130903360,
+					2130903191,
+					2130903192,
+					2130903193,
+					2130903194,
+					2130903208,
+					2130903213,
+					2130903214,
+					2130903225,
+					2130903267,
+					2130903272,
+					2130903277,
+					2130903278,
+					2130903280,
+					2130903290,
+					2130903300,
+					2130903335,
+					2130903347,
 					2130903364,
-					2130903365,
-					2130903411,
-					2130903414,
-					2130903483,
-					2130903493};
+					2130903368,
+					2130903369,
+					2130903415,
+					2130903418,
+					2130903487,
+					2130903497};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -6357,14 +7913,14 @@ namespace Gallog
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007E,0x7F0300DF,0x7F030176,0x7F0301C5 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030082,0x7F0300E3,0x7F03017A,0x7F0301C9 }
 			public static int[] ActionMode = new int[] {
-					2130903089,
-					2130903090,
-					2130903166,
-					2130903263,
-					2130903414,
-					2130903493};
+					2130903093,
+					2130903094,
+					2130903170,
+					2130903267,
+					2130903418,
+					2130903497};
 			
 			// aapt resource value: 0x0
 			public const int ActionMode_background = 0;
@@ -6384,10 +7940,10 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300BA,0x7F0300F7 }
+			// aapt resource value: { 0x7F0300BE,0x7F0300FB }
 			public static int[] ActivityChooserView = new int[] {
-					2130903226,
-					2130903287};
+					2130903230,
+					2130903291};
 			
 			// aapt resource value: 0x0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -6395,16 +7951,16 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030052,0x7F030053,0x7F03011A,0x7F03011B,0x7F03012C,0x7F03015B,0x7F03015C }
+			// aapt resource value: { 0x10100F2,0x7F030056,0x7F030057,0x7F03011E,0x7F03011F,0x7F030130,0x7F03015F,0x7F030160 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903122,
-					2130903123,
-					2130903322,
-					2130903323,
-					2130903340,
-					2130903387,
-					2130903388};
+					2130903126,
+					2130903127,
+					2130903326,
+					2130903327,
+					2130903344,
+					2130903391,
+					2130903392};
 			
 			// aapt resource value: 0x0
 			public const int AlertDialog_android_layout = 0;
@@ -6487,21 +8043,21 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300B5,0x7F0300BB,0x7F030115 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300B9,0x7F0300BF,0x7F030119 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903221,
-					2130903227,
-					2130903317};
+					2130903225,
+					2130903231,
+					2130903321};
 			
-			// aapt resource value: { 0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C }
+			// aapt resource value: { 0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903401,
-					2130903402,
-					2130903403,
-					2130903404};
+					2130903405,
+					2130903406,
+					2130903407,
+					2130903408};
 			
 			// aapt resource value: 0x0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -6530,10 +8086,10 @@ namespace Gallog
 			// aapt resource value: 0x4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030113,0x7F030114 }
+			// aapt resource value: { 0x7F030117,0x7F030118 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903315,
-					2130903316};
+					2130903319,
+					2130903320};
 			
 			// aapt resource value: 0x0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -6544,12 +8100,12 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F030166,0x7F0301B9,0x7F0301BA }
+			// aapt resource value: { 0x1010119,0x7F03016A,0x7F0301BD,0x7F0301BE }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903398,
-					2130903481,
-					2130903482};
+					2130903402,
+					2130903485,
+					2130903486};
 			
 			// aapt resource value: 0x0
 			public const int AppCompatImageView_android_src = 0;
@@ -6563,12 +8119,12 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301B6,0x7F0301B7,0x7F0301B8 }
+			// aapt resource value: { 0x1010142,0x7F0301BA,0x7F0301BB,0x7F0301BC }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903478,
-					2130903479,
-					2130903480};
+					2130903482,
+					2130903483,
+					2130903484};
 			
 			// aapt resource value: 0x0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -6613,19 +8169,19 @@ namespace Gallog
 			// aapt resource value: 0x0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300CE,0x7F0300D1,0x7F030108,0x7F030116,0x7F030196 }
+			// aapt resource value: { 0x1010034,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F030034,0x7F0300D2,0x7F0300D5,0x7F03010C,0x7F03011A,0x7F03019A }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903084,
-					2130903085,
-					2130903086,
-					2130903087,
 					2130903088,
-					2130903246,
-					2130903249,
-					2130903304,
-					2130903318,
-					2130903446};
+					2130903089,
+					2130903090,
+					2130903091,
+					2130903092,
+					2130903250,
+					2130903253,
+					2130903308,
+					2130903322,
+					2130903450};
 			
 			// aapt resource value: 0x0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -6660,14 +8216,10 @@ namespace Gallog
 			// aapt resource value: 0x10
 			public const int AppCompatTextView_textAllCaps = 16;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030054,0x7F030055,0x7F03005F,0x7F030064,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300AB,0x7F0300AD,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300E9,0x7F0300F5,0x7F030118,0x7F030119,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030137,0x7F030138,0x7F030139,0x7F03013F,0x7F030141,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030163,0x7F030164,0x7F03017A,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AC,0x7F0301AD,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301D1,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030025,0x7F030026,0x7F030027,0x7F030028,0x7F030029,0x7F03002F,0x7F030042,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030058,0x7F030059,0x7F030063,0x7F030068,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030092,0x7F0300A1,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AF,0x7F0300B1,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300ED,0x7F0300F9,0x7F03011C,0x7F03011D,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030126,0x7F03013B,0x7F03013C,0x7F03013D,0x7F030143,0x7F030145,0x7F03014C,0x7F03014D,0x7F03014E,0x7F03014F,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F030167,0x7F030168,0x7F03017E,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301B0,0x7F0301B1,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301D5,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
-					2130903040,
-					2130903041,
-					2130903042,
-					2130903043,
 					2130903044,
 					2130903045,
 					2130903046,
@@ -6677,10 +8229,10 @@ namespace Gallog
 					2130903050,
 					2130903051,
 					2130903052,
+					2130903053,
 					2130903054,
 					2130903055,
 					2130903056,
-					2130903057,
 					2130903058,
 					2130903059,
 					2130903060,
@@ -6694,95 +8246,99 @@ namespace Gallog
 					2130903068,
 					2130903069,
 					2130903070,
+					2130903071,
+					2130903072,
 					2130903073,
 					2130903074,
-					2130903075,
-					2130903076,
 					2130903077,
-					2130903083,
-					2130903102,
-					2130903116,
-					2130903117,
-					2130903118,
-					2130903119,
+					2130903078,
+					2130903079,
+					2130903080,
+					2130903081,
+					2130903087,
+					2130903106,
 					2130903120,
+					2130903121,
+					2130903122,
+					2130903123,
 					2130903124,
-					2130903125,
-					2130903135,
-					2130903140,
-					2130903172,
-					2130903173,
-					2130903174,
-					2130903175,
+					2130903128,
+					2130903129,
+					2130903139,
+					2130903144,
 					2130903176,
 					2130903177,
 					2130903178,
 					2130903179,
 					2130903180,
+					2130903181,
 					2130903182,
-					2130903197,
-					2130903206,
-					2130903207,
-					2130903208,
+					2130903183,
+					2130903184,
+					2130903186,
+					2130903201,
+					2130903210,
 					2130903211,
-					2130903213,
-					2130903216,
+					2130903212,
+					2130903215,
 					2130903217,
-					2130903218,
-					2130903219,
 					2130903220,
-					2130903273,
-					2130903285,
-					2130903320,
-					2130903321,
+					2130903221,
+					2130903222,
+					2130903223,
+					2130903224,
+					2130903277,
+					2130903289,
 					2130903324,
 					2130903325,
-					2130903326,
-					2130903327,
 					2130903328,
 					2130903329,
 					2130903330,
-					2130903351,
-					2130903352,
-					2130903353,
-					2130903359,
-					2130903361,
-					2130903368,
-					2130903369,
-					2130903370,
-					2130903371,
-					2130903379,
-					2130903380,
-					2130903381,
-					2130903382,
-					2130903395,
-					2130903396,
-					2130903418,
-					2130903457,
-					2130903458,
-					2130903459,
-					2130903460,
+					2130903331,
+					2130903332,
+					2130903333,
+					2130903334,
+					2130903355,
+					2130903356,
+					2130903357,
+					2130903363,
+					2130903365,
+					2130903372,
+					2130903373,
+					2130903374,
+					2130903375,
+					2130903383,
+					2130903384,
+					2130903385,
+					2130903386,
+					2130903399,
+					2130903400,
+					2130903422,
+					2130903461,
 					2130903462,
 					2130903463,
 					2130903464,
-					2130903465,
+					2130903466,
+					2130903467,
 					2130903468,
 					2130903469,
-					2130903495,
-					2130903496,
-					2130903497,
-					2130903498,
-					2130903505,
-					2130903507,
-					2130903508,
+					2130903472,
+					2130903473,
+					2130903499,
+					2130903500,
+					2130903501,
+					2130903502,
 					2130903509,
-					2130903510,
 					2130903511,
 					2130903512,
 					2130903513,
 					2130903514,
 					2130903515,
-					2130903516};
+					2130903516,
+					2130903517,
+					2130903518,
+					2130903519,
+					2130903520};
 			
 			// aapt resource value: 0x2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -7147,14 +8703,14 @@ namespace Gallog
 			// aapt resource value: 0x120
 			public const int AppCompatTheme_windowNoTitle = 288;
 			
-			// aapt resource value: { 0x7F030034,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300E5 }
+			// aapt resource value: { 0x7F030038,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300E9 }
 			public static int[] BottomAppBar = new int[] {
-					2130903092,
-					2130903235,
-					2130903236,
-					2130903237,
-					2130903238,
-					2130903269};
+					2130903096,
+					2130903239,
+					2130903240,
+					2130903241,
+					2130903242,
+					2130903273};
 			
 			// aapt resource value: 0x0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -7174,18 +8730,18 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300B5,0x7F0300FA,0x7F0300FC,0x7F0300FE,0x7F0300FF,0x7F030103,0x7F030104,0x7F030105,0x7F030107,0x7F03012B }
+			// aapt resource value: { 0x7F0300B9,0x7F0300FE,0x7F030100,0x7F030102,0x7F030103,0x7F030107,0x7F030108,0x7F030109,0x7F03010B,0x7F03012F }
 			public static int[] BottomNavigationView = new int[] {
-					2130903221,
-					2130903290,
-					2130903292,
+					2130903225,
 					2130903294,
-					2130903295,
+					2130903296,
+					2130903298,
 					2130903299,
-					2130903300,
-					2130903301,
 					2130903303,
-					2130903339};
+					2130903304,
+					2130903305,
+					2130903307,
+					2130903343};
 			
 			// aapt resource value: 0x0
 			public const int BottomNavigationView_elevation = 0;
@@ -7217,12 +8773,12 @@ namespace Gallog
 			// aapt resource value: 0x9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F030038,0x7F030039,0x7F03003B,0x7F03003C }
+			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F03003F,0x7F030040 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903096,
-					2130903097,
-					2130903099,
-					2130903100};
+					2130903100,
+					2130903101,
+					2130903103,
+					2130903104};
 			
 			// aapt resource value: 0x0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
@@ -7236,28 +8792,28 @@ namespace Gallog
 			// aapt resource value: 0x3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F030026 }
+			// aapt resource value: { 0x7F03002A }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903078};
+					2130903082};
 			
 			// aapt resource value: 0x0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903128,
-					2130903129,
-					2130903130,
-					2130903131,
 					2130903132,
 					2130903133,
-					2130903191,
-					2130903192,
-					2130903193,
-					2130903194,
-					2130903195};
+					2130903134,
+					2130903135,
+					2130903136,
+					2130903137,
+					2130903195,
+					2130903196,
+					2130903197,
+					2130903198,
+					2130903199};
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minHeight = 1;
@@ -7298,51 +8854,51 @@ namespace Gallog
 			// aapt resource value: 0x12
 			public const int CardView_contentPaddingTop = 18;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030061,0x7F030062,0x7F030063,0x7F030065,0x7F030066,0x7F030067,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F0300E3,0x7F0300ED,0x7F0300F1,0x7F03014D,0x7F030159,0x7F0301AE,0x7F0301B0 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030065,0x7F030066,0x7F030067,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030077,0x7F030078,0x7F030079,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030080,0x7F030081,0x7F0300E7,0x7F0300F1,0x7F0300F5,0x7F030151,0x7F03015D,0x7F0301B2,0x7F0301B4 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
 					16843039,
 					16843087,
 					16843237,
-					2130903137,
-					2130903138,
-					2130903139,
 					2130903141,
 					2130903142,
 					2130903143,
 					2130903145,
 					2130903146,
 					2130903147,
-					2130903148,
 					2130903149,
 					2130903150,
-					2130903155,
-					2130903156,
-					2130903157,
-					2130903159,
-					2130903160,
-					2130903161,
-					2130903162,
-					2130903163,
-					2130903164,
-					2130903165,
-					2130903267,
-					2130903277,
-					2130903281,
-					2130903373,
-					2130903385,
-					2130903470,
-					2130903472};
-			
-			// aapt resource value: { 0x7F030060,0x7F03006F,0x7F030070,0x7F030071,0x7F03015D,0x7F03015E }
-			public static int[] ChipGroup = new int[] {
-					2130903136,
 					2130903151,
 					2130903152,
 					2130903153,
+					2130903154,
+					2130903159,
+					2130903160,
+					2130903161,
+					2130903163,
+					2130903164,
+					2130903165,
+					2130903166,
+					2130903167,
+					2130903168,
+					2130903169,
+					2130903271,
+					2130903281,
+					2130903285,
+					2130903377,
 					2130903389,
-					2130903390};
+					2130903474,
+					2130903476};
+			
+			// aapt resource value: { 0x7F030064,0x7F030073,0x7F030074,0x7F030075,0x7F030161,0x7F030162 }
+			public static int[] ChipGroup = new int[] {
+					2130903140,
+					2130903155,
+					2130903156,
+					2130903157,
+					2130903393,
+					2130903394};
 			
 			// aapt resource value: 0x0
 			public const int ChipGroup_checkedChip = 0;
@@ -7464,24 +9020,24 @@ namespace Gallog
 			// aapt resource value: 0x33
 			public const int Chip_textStartPadding = 51;
 			
-			// aapt resource value: { 0x7F030081,0x7F030082,0x7F03009C,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F03014E,0x7F030150,0x7F03016E,0x7F0301BB,0x7F0301BC,0x7F0301C6 }
+			// aapt resource value: { 0x7F030085,0x7F030086,0x7F0300A0,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F030152,0x7F030154,0x7F030172,0x7F0301BF,0x7F0301C0,0x7F0301CA }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903169,
-					2130903170,
-					2130903196,
-					2130903228,
-					2130903229,
-					2130903230,
-					2130903231,
+					2130903173,
+					2130903174,
+					2130903200,
 					2130903232,
 					2130903233,
 					2130903234,
-					2130903374,
-					2130903376,
-					2130903406,
-					2130903483,
-					2130903484,
-					2130903494};
+					2130903235,
+					2130903236,
+					2130903237,
+					2130903238,
+					2130903378,
+					2130903380,
+					2130903410,
+					2130903487,
+					2130903488,
+					2130903498};
 			
 			// aapt resource value: 0x0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -7513,10 +9069,10 @@ namespace Gallog
 			// aapt resource value: 0x9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F03010E,0x7F03010F }
+			// aapt resource value: { 0x7F030112,0x7F030113 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903310,
-					2130903311};
+					2130903314,
+					2130903315};
 			
 			// aapt resource value: 0x0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -7542,11 +9098,11 @@ namespace Gallog
 			// aapt resource value: 0x15
 			public const int CollapsingToolbarLayout_toolbarId = 21;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030027 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F03002B }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903079};
+					2130903083};
 			
 			// aapt resource value: 0x2
 			public const int ColorStateListItem_alpha = 2;
@@ -7557,11 +9113,11 @@ namespace Gallog
 			// aapt resource value: 0x0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030056,0x7F030057 }
+			// aapt resource value: { 0x1010107,0x7F03005A,0x7F03005B }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903126,
-					2130903127};
+					2130903130,
+					2130903131};
 			
 			// aapt resource value: 0x0
 			public const int CompoundButton_android_button = 0;
@@ -7572,23 +9128,23 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F030106,0x7F03016D }
+			// aapt resource value: { 0x7F03010A,0x7F030171 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903302,
-					2130903405};
+					2130903306,
+					2130903409};
 			
 			// aapt resource value: 0x0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F03010B,0x7F03010C,0x7F03010D,0x7F030110,0x7F030111,0x7F030112 }
+			// aapt resource value: { 0x10100B3,0x7F03010F,0x7F030110,0x7F030111,0x7F030114,0x7F030115,0x7F030116 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903307,
-					2130903308,
-					2130903309,
+					2130903311,
 					2130903312,
 					2130903313,
-					2130903314};
+					2130903316,
+					2130903317,
+					2130903318};
 			
 			// aapt resource value: 0x0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -7614,10 +9170,10 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042 }
+			// aapt resource value: { 0x7F030045,0x7F030046 }
 			public static int[] DesignTheme = new int[] {
-					2130903105,
-					2130903106};
+					2130903109,
+					2130903110};
 			
 			// aapt resource value: 0x0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -7625,16 +9181,35 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030083,0x7F0300AE,0x7F0300DC,0x7F030162,0x7F0301B2 }
+			// aapt resource value: { 0x7F030000,0x7F030001,0x7F030002,0x7F030003 }
+			public static int[] Dialog = new int[] {
+					2130903040,
+					2130903041,
+					2130903042,
+					2130903043};
+			
+			// aapt resource value: 0x0
+			public const int Dialog_DialogSpotColor = 0;
+			
+			// aapt resource value: 0x1
+			public const int Dialog_DialogSpotCount = 1;
+			
+			// aapt resource value: 0x2
+			public const int Dialog_DialogTitleAppearance = 2;
+			
+			// aapt resource value: 0x3
+			public const int Dialog_DialogTitleText = 3;
+			
+			// aapt resource value: { 0x7F03002D,0x7F03002E,0x7F03003A,0x7F030087,0x7F0300B2,0x7F0300E0,0x7F030166,0x7F0301B6 }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903081,
-					2130903082,
-					2130903094,
-					2130903171,
-					2130903214,
-					2130903260,
-					2130903394,
-					2130903474};
+					2130903085,
+					2130903086,
+					2130903098,
+					2130903175,
+					2130903218,
+					2130903264,
+					2130903398,
+					2130903478};
 			
 			// aapt resource value: 0x0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -7660,21 +9235,21 @@ namespace Gallog
 			// aapt resource value: 0x7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300B5,0x7F0300C7,0x7F0300C8,0x7F0300E3,0x7F0300EB,0x7F030129,0x7F030143,0x7F03014D,0x7F030159,0x7F0301D0 }
+			// aapt resource value: { 0x7F030038,0x7F030039,0x7F030041,0x7F0300B9,0x7F0300CB,0x7F0300CC,0x7F0300E7,0x7F0300EF,0x7F03012D,0x7F030147,0x7F030151,0x7F03015D,0x7F0301D4 }
 			public static int[] FloatingActionButton = new int[] {
-					2130903092,
-					2130903093,
-					2130903101,
-					2130903221,
-					2130903239,
-					2130903240,
-					2130903267,
-					2130903275,
-					2130903337,
-					2130903363,
-					2130903373,
-					2130903385,
-					2130903504};
+					2130903096,
+					2130903097,
+					2130903105,
+					2130903225,
+					2130903243,
+					2130903244,
+					2130903271,
+					2130903279,
+					2130903341,
+					2130903367,
+					2130903377,
+					2130903389,
+					2130903508};
 			
 			// aapt resource value: 0x0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -7682,9 +9257,9 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F030037 }
+			// aapt resource value: { 0x7F03003B }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903095};
+					2130903099};
 			
 			// aapt resource value: 0x0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -7722,10 +9297,10 @@ namespace Gallog
 			// aapt resource value: 0x12
 			public const int FloatingActionButton_useCompatPadding = 18;
 			
-			// aapt resource value: { 0x7F030101,0x7F030117 }
+			// aapt resource value: { 0x7F030105,0x7F03011B }
 			public static int[] FlowLayout = new int[] {
-					2130903297,
-					2130903319};
+					2130903301,
+					2130903323};
 			
 			// aapt resource value: 0x0
 			public const int FlowLayout_itemSpacing = 0;
@@ -7733,27 +9308,27 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7 }
+			// aapt resource value: { 0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB }
 			public static int[] FontFamily = new int[] {
-					2130903250,
-					2130903251,
-					2130903252,
-					2130903253,
 					2130903254,
-					2130903255};
+					2130903255,
+					2130903256,
+					2130903257,
+					2130903258,
+					2130903259};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D0,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0301CF }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D4,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0301D3 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903248,
-					2130903256,
-					2130903257,
-					2130903258,
-					2130903503};
+					2130903252,
+					2130903260,
+					2130903261,
+					2130903262,
+					2130903507};
 			
 			// aapt resource value: 0x0
 			public const int FontFamilyFont_android_font = 0;
@@ -7803,11 +9378,11 @@ namespace Gallog
 			// aapt resource value: 0x5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300DB }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300DF }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903259};
+					2130903263};
 			
 			// aapt resource value: 0x0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -7880,17 +9455,17 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AA,0x7F0300AC,0x7F03012A,0x7F030158 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AE,0x7F0300B0,0x7F03012E,0x7F03015C }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903210,
-					2130903212,
-					2130903338,
-					2130903384};
+					2130903214,
+					2130903216,
+					2130903342,
+					2130903388};
 			
 			// aapt resource value: 0x2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -7949,24 +9524,24 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F03009F,0x7F0300EC,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F2,0x7F0300F3,0x7F03014D,0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030038,0x7F030039,0x7F0300A3,0x7F0300F0,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F0300F6,0x7F0300F7,0x7F030151,0x7F030173,0x7F030174 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903092,
-					2130903093,
-					2130903199,
-					2130903276,
-					2130903278,
-					2130903279,
+					2130903096,
+					2130903097,
+					2130903203,
 					2130903280,
 					2130903282,
 					2130903283,
-					2130903373,
-					2130903407,
-					2130903408};
+					2130903284,
+					2130903286,
+					2130903287,
+					2130903377,
+					2130903411,
+					2130903412};
 			
 			// aapt resource value: 0x3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -8016,10 +9591,10 @@ namespace Gallog
 			// aapt resource value: 0x15
 			public const int MaterialButton_strokeWidth = 21;
 			
-			// aapt resource value: { 0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x7F030173,0x7F030174 }
 			public static int[] MaterialCardView = new int[] {
-					2130903407,
-					2130903408};
+					2130903411,
+					2130903412};
 			
 			// aapt resource value: 0x0
 			public const int MaterialCardView_strokeColor = 0;
@@ -8027,40 +9602,40 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030068,0x7F030072,0x7F030076,0x7F030084,0x7F030085,0x7F03008B,0x7F03008C,0x7F03008D,0x7F0300B4,0x7F0300CF,0x7F030125,0x7F030126,0x7F030130,0x7F03014F,0x7F03015F,0x7F030192,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A5,0x7F0301AA,0x7F0301AB,0x7F0301AF }
+			// aapt resource value: { 0x7F030045,0x7F030046,0x7F03006C,0x7F030076,0x7F03007A,0x7F030088,0x7F030089,0x7F03008F,0x7F030090,0x7F030091,0x7F0300B8,0x7F0300D3,0x7F030129,0x7F03012A,0x7F030134,0x7F030153,0x7F030163,0x7F030196,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A9,0x7F0301AE,0x7F0301AF,0x7F0301B3 }
 			public static int[] MaterialComponentsTheme = new int[] {
-					2130903105,
-					2130903106,
-					2130903144,
-					2130903154,
+					2130903109,
+					2130903110,
+					2130903148,
 					2130903158,
-					2130903172,
-					2130903173,
-					2130903179,
-					2130903180,
-					2130903181,
-					2130903220,
-					2130903247,
-					2130903333,
-					2130903334,
-					2130903344,
-					2130903375,
-					2130903391,
-					2130903442,
-					2130903447,
-					2130903448,
-					2130903449,
-					2130903450,
+					2130903162,
+					2130903176,
+					2130903177,
+					2130903183,
+					2130903184,
+					2130903185,
+					2130903224,
+					2130903251,
+					2130903337,
+					2130903338,
+					2130903348,
+					2130903379,
+					2130903395,
+					2130903446,
 					2130903451,
 					2130903452,
 					2130903453,
 					2130903454,
 					2130903455,
 					2130903456,
-					2130903461,
-					2130903466,
-					2130903467,
-					2130903471};
+					2130903457,
+					2130903458,
+					2130903459,
+					2130903460,
+					2130903465,
+					2130903470,
+					2130903471,
+					2130903475};
 			
 			// aapt resource value: 0x0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -8185,7 +9760,7 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030090,0x7F0300F2,0x7F0300F3,0x7F030131,0x7F030157,0x7F0301CB }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030023,0x7F030024,0x7F03002C,0x7F030094,0x7F0300F6,0x7F0300F7,0x7F030135,0x7F03015B,0x7F0301CF }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -8200,16 +9775,16 @@ namespace Gallog
 					16843236,
 					16843237,
 					16843375,
-					2130903053,
-					2130903071,
-					2130903072,
-					2130903080,
-					2130903184,
-					2130903282,
-					2130903283,
-					2130903345,
-					2130903383,
-					2130903499};
+					2130903057,
+					2130903075,
+					2130903076,
+					2130903084,
+					2130903188,
+					2130903286,
+					2130903287,
+					2130903349,
+					2130903387,
+					2130903503};
 			
 			// aapt resource value: 0x13
 			public const int MenuItem_actionLayout = 19;
@@ -8280,7 +9855,7 @@ namespace Gallog
 			// aapt resource value: 0x22
 			public const int MenuItem_tooltipText = 34;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030142,0x7F030171 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030146,0x7F030175 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -8289,8 +9864,8 @@ namespace Gallog
 					16843055,
 					16843056,
 					16843057,
-					2130903362,
-					2130903409};
+					2130903366,
+					2130903413};
 			
 			// aapt resource value: 0x4
 			public const int MenuView_android_headerBackground = 4;
@@ -8319,20 +9894,20 @@ namespace Gallog
 			// aapt resource value: 0x8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300B5,0x7F0300DE,0x7F0300FA,0x7F0300FB,0x7F0300FD,0x7F0300FF,0x7F030102,0x7F030105,0x7F03012B }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300B9,0x7F0300E2,0x7F0300FE,0x7F0300FF,0x7F030101,0x7F030103,0x7F030106,0x7F030109,0x7F03012F }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903221,
-					2130903262,
-					2130903290,
-					2130903291,
-					2130903293,
+					2130903225,
+					2130903266,
+					2130903294,
 					2130903295,
-					2130903298,
-					2130903301,
-					2130903339};
+					2130903297,
+					2130903299,
+					2130903302,
+					2130903305,
+					2130903343};
 			
 			// aapt resource value: 0x0
 			public const int NavigationView_android_background = 0;
@@ -8370,15 +9945,15 @@ namespace Gallog
 			// aapt resource value: 0x11
 			public const int NavigationView_menu = 17;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030132 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030136 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903346};
+					2130903350};
 			
-			// aapt resource value: { 0x7F030168 }
+			// aapt resource value: { 0x7F03016C }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903400};
+					2130903404};
 			
 			// aapt resource value: 0x0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -8392,10 +9967,10 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030133,0x7F030136 }
+			// aapt resource value: { 0x7F030137,0x7F03013A }
 			public static int[] RecycleListView = new int[] {
-					2130903347,
-					2130903350};
+					2130903351,
+					2130903354};
 			
 			// aapt resource value: 0x0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -8403,19 +9978,19 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F03010A,0x7F03014C,0x7F030161,0x7F030167 }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300CD,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F03010E,0x7F030150,0x7F030165,0x7F03016B }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903241,
-					2130903242,
-					2130903243,
-					2130903244,
 					2130903245,
-					2130903306,
-					2130903372,
-					2130903393,
-					2130903399};
+					2130903246,
+					2130903247,
+					2130903248,
+					2130903249,
+					2130903310,
+					2130903376,
+					2130903397,
+					2130903403};
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -8450,39 +10025,39 @@ namespace Gallog
 			// aapt resource value: 0x10
 			public const int RecyclerView_stackFromEnd = 16;
 			
-			// aapt resource value: { 0x7F0300F8 }
+			// aapt resource value: { 0x7F0300FC }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903288};
+					2130903292};
 			
 			// aapt resource value: 0x0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F03003A }
+			// aapt resource value: { 0x7F03003E }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903098};
+					2130903102};
 			
 			// aapt resource value: 0x0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030077,0x7F03008F,0x7F0300A5,0x7F0300DD,0x7F0300F4,0x7F030109,0x7F030146,0x7F030147,0x7F030151,0x7F030152,0x7F030172,0x7F030177,0x7F0301D2 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03007B,0x7F030093,0x7F0300A9,0x7F0300E1,0x7F0300F8,0x7F03010D,0x7F03014A,0x7F03014B,0x7F030155,0x7F030156,0x7F030176,0x7F03017B,0x7F0301D6 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903159,
-					2130903183,
-					2130903205,
-					2130903261,
-					2130903284,
-					2130903305,
-					2130903366,
-					2130903367,
-					2130903377,
-					2130903378,
-					2130903410,
-					2130903415,
-					2130903506};
+					2130903163,
+					2130903187,
+					2130903209,
+					2130903265,
+					2130903288,
+					2130903309,
+					2130903370,
+					2130903371,
+					2130903381,
+					2130903382,
+					2130903414,
+					2130903419,
+					2130903510};
 			
 			// aapt resource value: 0x0
 			public const int SearchView_android_focusable = 0;
@@ -8535,16 +10110,16 @@ namespace Gallog
 			// aapt resource value: 0x16
 			public const int SearchView_voiceIcon = 22;
 			
-			// aapt resource value: { 0x7F03015F,0x7F030160 }
+			// aapt resource value: { 0x7F030163,0x7F030164 }
 			public static int[] Snackbar = new int[] {
-					2130903391,
-					2130903392};
+					2130903395,
+					2130903396};
 			
-			// aapt resource value: { 0x101011F,0x7F0300B5,0x7F030127 }
+			// aapt resource value: { 0x101011F,0x7F0300B9,0x7F03012B }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903221,
-					2130903335};
+					2130903225,
+					2130903339};
 			
 			// aapt resource value: 0x0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -8561,13 +10136,13 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030140 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030144 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903360};
+					2130903364};
 			
 			// aapt resource value: 0x3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -8618,22 +10193,22 @@ namespace Gallog
 			// aapt resource value: 0x1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03015A,0x7F030165,0x7F030178,0x7F030179,0x7F03017B,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301CC,0x7F0301CD,0x7F0301CE }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03015E,0x7F030169,0x7F03017C,0x7F03017D,0x7F03017F,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301D0,0x7F0301D1,0x7F0301D2 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903386,
-					2130903397,
-					2130903416,
-					2130903417,
-					2130903419,
-					2130903475,
-					2130903476,
-					2130903477,
-					2130903500,
-					2130903501,
-					2130903502};
+					2130903390,
+					2130903401,
+					2130903420,
+					2130903421,
+					2130903423,
+					2130903479,
+					2130903480,
+					2130903481,
+					2130903504,
+					2130903505,
+					2130903506};
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOff = 1;
@@ -8692,12 +10267,8 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030193,0x7F030194,0x7F030195 }
+			// aapt resource value: { 0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030197,0x7F030198,0x7F030199 }
 			public static int[] TabLayout = new int[] {
-					2130903420,
-					2130903421,
-					2130903422,
-					2130903423,
 					2130903424,
 					2130903425,
 					2130903426,
@@ -8716,9 +10287,13 @@ namespace Gallog
 					2130903439,
 					2130903440,
 					2130903441,
+					2130903442,
 					2130903443,
 					2130903444,
-					2130903445};
+					2130903445,
+					2130903447,
+					2130903448,
+					2130903449};
 			
 			// aapt resource value: 0x0
 			public const int TabLayout_tabBackground = 0;
@@ -8795,7 +10370,7 @@ namespace Gallog
 			// aapt resource value: 0x24
 			public const int TabLayout_tabUnboundedRipple = 36;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D1,0x7F030196 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D5,0x7F03019A }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -8808,8 +10383,8 @@ namespace Gallog
 					16843107,
 					16843108,
 					16843692,
-					2130903249,
-					2130903446};
+					2130903253,
+					2130903450};
 			
 			// aapt resource value: 0x10
 			public const int TextAppearance_android_fontFamily = 16;
@@ -8850,36 +10425,36 @@ namespace Gallog
 			// aapt resource value: 0x12
 			public const int TextAppearance_textAllCaps = 18;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300B8,0x7F0300B9,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300BC,0x7F0300BD,0x7F0300E4,0x7F0300E5,0x7F0300E6,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903107,
-					2130903108,
-					2130903109,
-					2130903110,
 					2130903111,
 					2130903112,
 					2130903113,
 					2130903114,
 					2130903115,
-					2130903200,
-					2130903201,
-					2130903202,
-					2130903203,
-					2130903224,
-					2130903225,
-					2130903264,
-					2130903265,
-					2130903266,
+					2130903116,
+					2130903117,
+					2130903118,
+					2130903119,
+					2130903204,
+					2130903205,
+					2130903206,
+					2130903207,
+					2130903228,
+					2130903229,
+					2130903268,
+					2130903269,
 					2130903270,
-					2130903271,
-					2130903272,
-					2130903354,
-					2130903355,
-					2130903356,
-					2130903357,
-					2130903358};
+					2130903274,
+					2130903275,
+					2130903276,
+					2130903358,
+					2130903359,
+					2130903360,
+					2130903361,
+					2130903362};
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_hint = 1;
@@ -8965,11 +10540,11 @@ namespace Gallog
 			// aapt resource value: 0x27
 			public const int TextInputLayout_passwordToggleTintMode = 39;
 			
-			// aapt resource value: { 0x1010034,0x7F0300B6,0x7F0300B7 }
+			// aapt resource value: { 0x1010034,0x7F0300BA,0x7F0300BB }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903222,
-					2130903223};
+					2130903226,
+					2130903227};
 			
 			// aapt resource value: 0x0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -8980,37 +10555,37 @@ namespace Gallog
 			// aapt resource value: 0x2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030051,0x7F03007F,0x7F030080,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030123,0x7F030124,0x7F030128,0x7F03012D,0x7F03012E,0x7F030140,0x7F030173,0x7F030174,0x7F030175,0x7F0301BB,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030055,0x7F030083,0x7F030084,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F030127,0x7F030128,0x7F03012C,0x7F030131,0x7F030132,0x7F030144,0x7F030177,0x7F030178,0x7F030179,0x7F0301BF,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C8 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903121,
-					2130903167,
-					2130903168,
-					2130903185,
-					2130903186,
-					2130903187,
-					2130903188,
+					2130903125,
+					2130903171,
+					2130903172,
 					2130903189,
 					2130903190,
-					2130903331,
-					2130903332,
+					2130903191,
+					2130903192,
+					2130903193,
+					2130903194,
+					2130903335,
 					2130903336,
-					2130903341,
-					2130903342,
-					2130903360,
-					2130903411,
-					2130903412,
-					2130903413,
-					2130903483,
-					2130903485,
-					2130903486,
+					2130903340,
+					2130903345,
+					2130903346,
+					2130903364,
+					2130903415,
+					2130903416,
+					2130903417,
 					2130903487,
-					2130903488,
 					2130903489,
 					2130903490,
 					2130903491,
-					2130903492};
+					2130903492,
+					2130903493,
+					2130903494,
+					2130903495,
+					2130903496};
 			
 			// aapt resource value: 0x0
 			public const int Toolbar_android_gravity = 0;
@@ -9099,19 +10674,19 @@ namespace Gallog
 			// aapt resource value: 0x28
 			public const int Toolbar_titleTextColor = 40;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030134,0x7F030135,0x7F0301B1 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030138,0x7F030139,0x7F0301B5 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903348,
-					2130903349,
-					2130903473};
+					2130903352,
+					2130903353,
+					2130903477};
 			
-			// aapt resource value: { 0x10100D4,0x7F030034,0x7F030035 }
+			// aapt resource value: { 0x10100D4,0x7F030038,0x7F030039 }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903092,
-					2130903093};
+					2130903096,
+					2130903097};
 			
 			// aapt resource value: 0x0
 			public const int ViewBackgroundHelper_android_background = 0;

@@ -8,7 +8,7 @@
      android:id="@+id/nav_trade"
      android:icon="@drawable/store_w"
      android:title="Trade Group" />
-     --><item android:id="@+id/nav_trading" android:icon="@drawable/trading" android:title="Trading" /><item android:id="@+id/nav_tradeports" android:icon="@drawable/tradeports" android:title="Trade Ports" /><item android:id="@+id/nav_commadaties" android:icon="@drawable/commadaties" android:title="Commadaties" /><item android:id="@+id/nav_mining" android:icon="@drawable/mining" android:title="Mining" /></group><item android:title="Databank Menu" /><group android:id="@+id/grp5" android:checkableBehavior="single"><!--
+     --><item android:id="@+id/nav_trading" android:icon="@drawable/trading" android:title="Trading" /><item android:id="@+id/nav_tradeports" android:icon="@drawable/tradeports" android:title="Trade Ports" /><item android:id="@+id/nav_commadaties" android:icon="@drawable/commadaties" android:title="Commadoties" /><item android:id="@+id/nav_mining" android:icon="@drawable/mining" android:title="Mining" /></group><item android:title="Databank Menu" /><group android:id="@+id/grp5" android:checkableBehavior="single"><!--
     <item
       android:id="@+id/nav_databank"
       android:icon="@drawable/dns_w"

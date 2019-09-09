@@ -38,6 +38,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "EDMTDialog": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "Microsoft.Net.Http.Headers": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -45,6 +49,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3-beta1, )"
+            },
+            "Plugin.CurrentActivity": {
+              "target": "Package",
+              "version": "[2.1.0.4, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[4.7.51, )"
             },
             "System.Linq": {
               "target": "Package",

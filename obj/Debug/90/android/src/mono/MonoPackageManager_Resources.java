@@ -3,9 +3,12 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Gallog.dll" comes first in this list. */
 		"Gallog.dll",
+		"EDMTDialog.dll",
 		"Microsoft.Extensions.Primitives.dll",
 		"Microsoft.Net.Http.Headers.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Refit.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
