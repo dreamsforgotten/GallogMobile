@@ -27,8 +27,7 @@ namespace GallogForms.Views
                 new HomeMenuItem {Id = MenuItemType.Trade, Title="Trading", Image="trading.png"},
                 new HomeMenuItem {Id = MenuItemType.TradePorts, Title="Tradeports", Image="tradeports.png"},
                 new HomeMenuItem {Id = MenuItemType.Commodities, Title="Commodoties", Image="commadaties.png"},
-                new HomeMenuItem {Id = MenuItemType.Commodities, Title="mining", Image="mining.png"},
-
+                new HomeMenuItem {Id = MenuItemType.Mining, Title="mining", Image="mining.png"},
                 new HomeMenuItem {Id = MenuItemType.Search, Title="Search", Image="search.png"},
                 new HomeMenuItem {Id = MenuItemType.Ships, Title="Ships", Image="ships.png"},
                 new HomeMenuItem {Id = MenuItemType.Components, Title="Components", Image="components.png"},
