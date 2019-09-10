@@ -4,12 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GallogForms.Views.AboutPage"
+             x:Class="GallogForms.Views.StoresPage"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>
-        <vm:AboutViewModel />
+        <vm:StoresViewModel />
     </ContentPage.BindingContext>
     
     <ContentPage.Resources>

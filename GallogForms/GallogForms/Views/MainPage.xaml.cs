@@ -33,11 +33,40 @@ namespace GallogForms.Views
                     case (int)MenuItemType.Home:
                         MenuPages.Add(id, new NavigationPage(new HomePage()));
                         break;
-                    case (int)MenuItemType.Browse:
+                    case (int)MenuItemType.Hangar:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;
-                    case (int)MenuItemType.About:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                    case (int)MenuItemType.MyOrg:
+                        MenuPages.Add(id, new NavigationPage(new MyOrgPage()));
+                        break;
+                    case (int)MenuItemType.Missions:
+                        MenuPages.Add(id, new NavigationPage(new MissionsPage()));
+                        break;
+                    case (int)MenuItemType.Trade:
+                        MenuPages.Add(id, new NavigationPage(new TradingPage()));
+                        break;
+                    case (int)MenuItemType.TradePorts:
+                        MenuPages.Add(id, new NavigationPage(new TradeportsPage()));
+                        break;
+                    case (int)MenuItemType.Commodities:
+                        MenuPages.Add(id, new NavigationPage(new CommoditiesPage()));
+                        break;
+
+                    case (int)MenuItemType.Mining:
+                        MenuPages.Add(id, new NavigationPage(new MiningPage()));
+                        break;
+                    case (int)MenuItemType.Search:
+                        MenuPages.Add(id, new NavigationPage(new SearchPage()));
+                        break;
+
+                    case (int)MenuItemType.Ships:
+                        MenuPages.Add(id, new NavigationPage(new ShipsPage()));
+                        break;
+                    case (int)MenuItemType.Stores:
+                        MenuPages.Add(id, new NavigationPage(new StoresPage()));
+                        break;
+                    case (int)MenuItemType.Components:
+                        MenuPages.Add(id, new NavigationPage(new ComponentsPage()));
                         break;
                 }
             }

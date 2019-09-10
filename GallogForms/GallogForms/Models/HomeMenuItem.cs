@@ -7,8 +7,17 @@ namespace GallogForms.Models
     public enum MenuItemType
     {
         Home,
-        Browse,
-        About
+        Hangar,
+        MyOrg,
+        Missions,
+        Trade,
+        TradePorts,
+        Commodities,
+        Mining,
+        Search,
+        Ships,
+        Components,
+        Stores
     }
     public class HomeMenuItem
     {

@@ -19,7 +19,7 @@ namespace GallogForms.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Hangar";
             Items = new ObservableCollection<Entry>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

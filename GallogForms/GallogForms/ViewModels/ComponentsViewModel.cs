@@ -5,11 +5,11 @@ using Xamarin.Forms;
 
 namespace GallogForms.ViewModels
 {
-    public class AboutViewModel : BaseViewModel
+    public class ComponentsViewModel : BaseViewModel
     {
-        public AboutViewModel()
+        public ComponentsViewModel()
         {
-            Title = "About";
+            Title = "Components";
 
             OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
         }

@@ -30,6 +30,12 @@
                     <x:String>Forth Item</x:String>
                     <x:String>Fifth Item</x:String>
                     <x:String>Sixth Item</x:String>
+                    <x:String>Seventh Item</x:String>
+                    <x:String>Eighth Item</x:String>
+                    <x:String>Ninth Item</x:String>
+                    <x:String>Tenth Item</x:String>
+                    <x:String>Elevnth Item</x:String>
+                    <x:String>Twelfth Item</x:String>
                 </x:Array>
             </d:ListView.ItemsSource>
             <ListView.ItemTemplate>
