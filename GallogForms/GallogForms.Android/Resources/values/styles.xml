@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
   <style name="MainTheme" parent="MainTheme.Base">
   </style>
   <!-- Base theme applied no matter what API -->
@@ -21,12 +19,11 @@
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
     <item name="colorControlNormal">#292e4c</item>
-    <item name="colorControlActivated">#4c293a</item>
-    <item name="colorSwitchThumbNormal">#6b6468</item>
-    <item name="android:colorActivatedHighlight">@color/primary_material_dark</item>
+    <item name="colorControlActivated">#4c29</item>
+    <item name="colorSwitchThumbNormal">#4c28</item>
+    <item name="android:colorActivatedHighlight">#4c28</item>
   </style>
-
   <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
-    <item name="colorAccent">#8b1284</item>
+    <item name="colorAccent">#FF4081</item>
   </style>
 </resources>

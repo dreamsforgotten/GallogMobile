@@ -7,10 +7,15 @@
              x:Class="GallogForms.Views.MenuPage"
              Title="Menu">
 
-    <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="Default">
-
-        <ListView x:Name="ListViewMenu"
-                    HasUnevenRows="True">
+    <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#292e4c">
+        <StackLayout BackgroundColor="#292e4c" Grid.Row="1" Orientation="Horizontal" Spacing="1" Margin="5.0">
+            <Image Source="logo_196.png" Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="Start" HeightRequest="100" WidthRequest="100" BackgroundColor="#292e4c" />
+            <Label Text="Gallog" TextColor="White" FontAttributes="Bold" FontSize="42" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#292e4c">
+            <Label Text="Your Galaxy Transversed" TextColor="White" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+        <ListView x:Name="ListViewMenu" HasUnevenRows="True" BackgroundColor="#35260d">
             <d:ListView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Item 1</x:String>
@@ -22,8 +27,8 @@
                     <ViewCell>
                         <Grid Padding="10">
                             <StackLayout Orientation="Horizontal">
-                            <Image Source="{Binding Image}"/>
-                            <Label VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding Title}" d:Text="{Binding .}" TextColor="White" FontFamily="zekton_regular.ttf#Zekton Rg" FontSize="20"/>
+                                <Image Source="{Binding Image}"/>
+                                <Label VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding Title}" d:Text="{Binding .}" TextColor="White" FontFamily="zekton_regular.ttf#Zekton Rg" FontSize="20"/>
                             </StackLayout>
                         </Grid>
                     </ViewCell>
