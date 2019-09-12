@@ -8,10 +8,10 @@ namespace GallogForms.Models
     public class ShipList
     {
         public string message { get; set; }
-        public Ship[] ships { get; set; }
+        public ShipCatalog[] ships { get; set; }
     }
 
-    public class Ship
+    public class ShipCatalog
     {
         public string id { get; set; }
         public string name { get; set; }
