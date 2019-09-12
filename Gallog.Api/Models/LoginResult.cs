@@ -6,9 +6,8 @@ using System.Text;
 namespace Gallog.Api.Models
 {
     [ApiPath("login")]
-    public class LoginResult
+    public class LoginResult : ApiQueryable
     {
-        public string message { get; set; }
         public string response { get; set; }
         public string jwt { get; set; }
     }

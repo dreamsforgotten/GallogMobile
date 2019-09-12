@@ -42,6 +42,13 @@ namespace Gallog.Api
             }
         }
 
+
+        /// <summary>
+        /// Logs into the system.  If successful, stores the JSON Web Token in the client (in memory only)
+        /// </summary>
+        /// <param name="email"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
         public async Task<LoginResult> LoginAsync(string email, string password)
         {
             var body = new { email, password };
@@ -50,12 +57,23 @@ namespace Gallog.Api
             return response;
         }
 
-        public async Task<T> GetItemAsync<T>(string name)
+        /// <summary>
+        /// Gets a specific item based on the model passed to it. Must be a class that implements ApiQueryable
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="name">Name / slug of the item you want</param>
+        /// <returns></returns>
+        public async Task<T> GetItemAsync<T>(string name) where T : ApiQueryable
         {
             return await PostAsync<T>($"{GetPath<T>()}/{name}");
         }
 
-        public async Task<T> GetItemsAsync<T>()
+        /// <summary>
+        /// Gets items from the api.  Must be a class that implements ApiQueryable
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public async Task<T> GetItemsAsync<T>() where T : ApiQueryable
         {
             return await PostAsync<T>($"{GetPath<T>()}");
         }
@@ -71,13 +89,13 @@ namespace Gallog.Api
             return null;
         }
 
-        public async Task<T> PostAsync<T>(string path)
+        public async Task<T> PostAsync<T>(string path) where T : ApiQueryable
         {
             var response = await Client.PostAsync(path, JwtContent);
             return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
         }
 
-        public async Task<T> PostAsync<T>(object body, string path)
+        public async Task<T> PostAsync<T>(object body, string path) where T : ApiQueryable
         {
             var response = await Client.PostAsync(path,
                 new StringContent(JsonConvert.SerializeObject(body), Encoding.UTF8, "application/json"));

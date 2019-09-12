@@ -6,9 +6,8 @@ using Gallog.Api.Attributes;
 namespace Gallog.Api.Models
 {
     [ApiPath("tradeports")]
-    public class TradeportList
+    public class TradeportList : ApiQueryable
     {
-        public string message { get; set; }
         public TradeportCatalog[] tradeports { get; set; }
     }
 

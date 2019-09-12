@@ -7,16 +7,14 @@ namespace Gallog.Api.Models
 {
 
     [ApiPath("resources")]
-    public class ResourceList
+    public class ResourceList : ApiQueryable
     {
-        public string message { get; set; }
         public Resource[] resources { get; set; }
     }
 
     [ApiPath("resources")]
-    public class ResourceResponse
+    public class ResourceResponse : ApiQueryable
     {
-        public string message { get; set; }
         public Resource resource { get; set; }
     }
 

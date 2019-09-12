@@ -6,9 +6,8 @@ using Gallog.Api.Attributes;
 namespace Gallog.Api.Models
 {
     [ApiPath("ships")]
-    public class ShipResponse
+    public class ShipResponse : ApiQueryable
     {
-        public string message { get; set; }
         public Ship ship { get; set; }
     }
 
