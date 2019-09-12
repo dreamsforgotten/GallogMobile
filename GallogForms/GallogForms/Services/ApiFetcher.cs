@@ -10,23 +10,19 @@ using Newtonsoft.Json;
 namespace GallogForms.Services
 {
     public static class ApiFetcher
-        {
+    {
+        private static readonly HttpClient Client = new HttpClient {BaseAddress = new Uri("https://api.gallog.co/api/")};
+
         public static string Token
         {
             get => Xamarin.Essentials.Preferences.Get(nameof(Token), "");
             set => Xamarin.Essentials.Preferences.Set(nameof(Token), value);
         }
+
         public static string RefreshToken
         {
             get => Xamarin.Essentials.Preferences.Get(nameof(RefreshToken), "");
             set => Xamarin.Essentials.Preferences.Set(nameof(RefreshToken), value);
-        }
-
-        public class Post
-        {
-            public int Id { get; set; }
-            public string Title { get; set; }
-            public string Body { get;set; }
         }
 
         /*   public static async Task PostBasicAsync(object content, )
@@ -45,37 +41,27 @@ namespace GallogForms.Services
 
                    return JsonConvert.DeserializeObject<ApiList>(await w.GetStringAsync("entries")).entries;
                }*/
-        private static async Task PostBasicAsync(object content)
-        {
-            using (var client = new HttpClient())
-            var  Url = "https://api.gallog.com/ships/"
-            using (var request = new HttpRequestMessage(HttpMethod.Post, Url))
-            {
-                var json = JsonConvert.SerializeObject(content);
-                using (var stringContent = new StringContent(json, Encoding.UTF8, "application/json"))
-                {
-                    request.Content = stringContent;
 
-                    using (var response = await client
-                        .SendAsync(request, HttpCompletionOption.ResponseHeadersRead)
-                        .ConfigureAwait(false))
-                    {
-                        response.EnsureSuccessStatusCode();
-                    }
-                }
-            }
-        }
-    }
+
 
         public static async Task<LoginResult> LoginAsync(string email, string password)
         {
-
+            var body = new {email = email, password = password};
+            return await PostAsync<LoginResult>(body, "login");
         }
 
         public static async Task<ShipList> GetShipsAsync(string jwt)
         {
-
+            var body = new {jwt = jwt};
+            return await PostAsync<ShipList>(body, "ships");
         }
 
-    }
+        public static async Task<T> PostAsync<T>(object body, string path) where T : class
+        {
+            var response = await Client.PostAsync(path,
+                new StringContent(JsonConvert.SerializeObject(body), Encoding.UTF8, "application/json"));
+            return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
+        }
+
+}
 }
