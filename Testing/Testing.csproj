@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Gallog.Api\Gallog.Api.csproj" />
     <ProjectReference Include="..\GallogForms\GallogForms\GallogForms.csproj" />
   </ItemGroup>
 

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Gallog.Api.Attributes;
 
-namespace GallogForms.Models
+namespace Gallog.Api.Models
 {
-
+    [ApiPath("tradeports")]
     public class Tradeport
     {
         public string message { get; set; }

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Gallog.Api.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GallogForms.Models
+namespace Gallog.Api.Models
 {
-
+    [ApiPath("login")]
     public class LoginResult
     {
         public string message { get; set; }

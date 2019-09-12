@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Gallog.Api.Attributes;
 
-namespace GallogForms.Models
+namespace Gallog.Api.Models
 {
-
+    [ApiPath("ships")]
     public class ShipResponse
     {
         public string message { get; set; }

@@ -1,16 +1,19 @@
-﻿using System;
+﻿using Gallog.Api.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GallogForms.Models
+namespace Gallog.Api.Models
 {
 
+    [ApiPath("resources")]
     public class ResourceList
     {
         public string message { get; set; }
         public Resource[] resources { get; set; }
     }
 
+    [ApiPath("resources")]
     public class ResourceResponse
     {
         public string message { get; set; }
