@@ -13,7 +13,7 @@ namespace Testing
         {
             
             var ship = ApiFetcher.GetShipAsync("idris").Result;
-            Console.WriteLine($"{ship.ship.name}");
+            Console.WriteLine($"{ship.name}");
 
             Console.Read();
         }

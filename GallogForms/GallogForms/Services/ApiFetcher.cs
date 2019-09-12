@@ -61,9 +61,29 @@ namespace GallogForms.Services
             return await PostAsync<ShipList>("ships");
         }
 
-        public static async Task<ShipResponse> GetShipAsync(string ship)
+        public static async Task<Ship> GetShipAsync(string ship)
         {
-            return await PostAsync<ShipResponse>("ships/" + ship);
+            return (await PostAsync<ShipResponse>($"ships/{ship}")).ship;
+        }
+
+        public static async Task<ResourceList> GetResourcesAsync()
+        {
+            return await PostAsync<ResourceList>("resources");
+        }
+
+        public static async Task<Resource> GetResourceAsync(string resource)
+        {
+            return (await PostAsync<ResourceResponse>($"resources/{resource}")).resource;
+        }
+
+        public static async Task<TradeportList> GetTradeportsAsync()
+        {
+            return await PostAsync<TradeportList>("tradeports");
+        }
+
+        public static async Task<Tradeport> GetTradeportAsync(string port)
+        {
+            return await PostAsync<Tradeport>($"tradeports/{port}");
         }
 
         public static async Task<T> PostAsync<T>(string path) where T : class
