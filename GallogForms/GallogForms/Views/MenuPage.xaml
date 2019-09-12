@@ -7,15 +7,16 @@
              x:Class="GallogForms.Views.MenuPage"
              Title="Menu">
 
-    <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#292e4c">
-        <StackLayout BackgroundColor="#292e4c" Grid.Row="1" Orientation="Horizontal" Spacing="1" Margin="5.0">
-            <Image Source="logo_196.png" Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="Start" HeightRequest="100" WidthRequest="100" BackgroundColor="#292e4c" />
-            <Label Text="Gallog" TextColor="White" FontAttributes="Bold" FontSize="42" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" />
+    <StackLayout VerticalOptions="Fill" BackgroundColor="#292e4c">
+        <StackLayout Orientation="Horizontal" BackgroundColor="#292e4c" >
+            <Image Source="logo_196.png" Margin="20,0,0,0" Aspect="AspectFit" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="96" WidthRequest="96" BackgroundColor="#292e4c" />
+            <Label Text="Gallog" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontAttributes="Bold" FontSize="42" Margin="30,0,0,0" HorizontalOptions="Fill" VerticalOptions="Center" />
         </StackLayout>
-        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#292e4c">
-            <Label Text="Your Galaxy Transversed" TextColor="White" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+        <StackLayout Spacing="0" Padding="0" VerticalOptions="FillAndExpand" BackgroundColor="#292e4c">
+            <BoxView HorizontalOptions="StartAndExpand" VerticalOptions="Center" HeightRequest="10" WidthRequest="100" BackgroundColor="#292e4c" />
+            <Label Text="Your Galaxy Transversed" TextColor="White" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
         </StackLayout>
-        <ListView x:Name="ListViewMenu" HasUnevenRows="True" BackgroundColor="#35260d">
+        <ListView x:Name="ListViewMenu" HasUnevenRows="True" BackgroundColor="#302c25">
             <d:ListView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Item 1</x:String>
@@ -28,7 +29,7 @@
                         <Grid Padding="10">
                             <StackLayout Orientation="Horizontal">
                                 <Image Source="{Binding Image}"/>
-                                <Label VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding Title}" d:Text="{Binding .}" TextColor="White" FontFamily="zekton_regular.ttf#Zekton Rg" FontSize="20"/>
+                                <Label VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding Title}" d:FontFamily="Segoe UI" TextColor="White" FontFamily="zekton_regular.ttf#Zekton Rg" FontSize="20"/>
                             </StackLayout>
                         </Grid>
                     </ViewCell>
