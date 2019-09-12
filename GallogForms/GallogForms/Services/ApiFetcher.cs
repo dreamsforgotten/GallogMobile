@@ -19,5 +19,15 @@ namespace GallogForms.Services
             }
         }
 
+        public static async Task<LoginResult> LoginAsync(string email, string password)
+        {
+
+        }
+
+        public static async Task<ShipList> GetShipsAsync(string jwt)
+        {
+
+        }
+
     }
 }
