@@ -133,8 +133,8 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.FFImageLoading">
-      <Version>2.4.11.982</Version>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.FFImageLoading.Forms">
       <Version>2.4.11.982</Version>
