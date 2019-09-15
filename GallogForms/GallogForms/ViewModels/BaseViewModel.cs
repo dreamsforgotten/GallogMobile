@@ -4,15 +4,18 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
+using Gallog.Api;
+using Gallog.Api.Models;
 
 using GallogForms.Models;
 using GallogForms.Services;
+using Gallog.Api.Services;
 
 namespace GallogForms.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
+        public IDataStore<Gallog.Api.Models.ShipList> DataStore => DependencyService.Get<IDataStore<Gallog.Api.Models.ShipList>>() ?? new ShipDataStore();
 
         bool isBusy = false;
         public bool IsBusy
@@ -26,6 +29,14 @@ namespace GallogForms.ViewModels
         {
             get { return title; }
             set { SetProperty(ref title, value); }
+        }
+
+        String shipname = string.Empty;
+    
+        public string ShipName
+        {
+            get { return shipname; }
+            set { SetProperty(ref shipname, value); }
         }
 
         protected bool SetProperty<T>(ref T backingStore, T value,

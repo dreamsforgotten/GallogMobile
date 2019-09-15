@@ -21,8 +21,30 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
+
+
+
+    <StackLayout BackgroundColor="White">
+        <ListView x:Name="ListView1" RowHeight="60">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="8,0,8,0">
+                            <Label Text="{Binding ArticleTitle}" TextColor="#000" FontSize="14" LineBreakMode="TailTruncation" />
+                            <ffimageloading:CachedImage x:Name="{Binding ArtileTitle}"
+                            <Label Text="{Binding description}" TextColor="#000" LineBreakMode="TailTruncation" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+
+
+
     <Grid>
-        <Grid.RowDefinitions>
+        <Grid.RowDefinitions>d
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
