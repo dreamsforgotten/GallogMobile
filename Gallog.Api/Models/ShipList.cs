@@ -14,18 +14,17 @@ namespace Gallog.Api.Models
 
     public class ShipCatalog
     {
-        [JsonProperty("id")]
-        public string Id { get; set; }
-        [JsonProperty("name")]
-        public string Name { get; set; }
-        [JsonProperty("uri")]
-        public string Uri { get; set; }
-        public string rsi_id { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public string uri { get; set; }
+        public int rsi_id { get; set; }
         public string img { get; set; }
         public string mfr { get; set; }
         public string flyable { get; set; }
         public string scu { get; set; }
         public string value { get; set; }
-    }
+    }  
+
+    
 
 }
