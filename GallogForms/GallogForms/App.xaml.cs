@@ -13,7 +13,6 @@ namespace GallogForms
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new MainPage();
         }
 

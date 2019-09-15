@@ -22,7 +22,7 @@
     </ContentPage.Resources>
 
     <StackLayout BackgroundColor="White">
-        <ListView ItemsSource="{Binding Items}" RowHeight="60">
+        <ListView ItemsSource="{Binding Items}" x:Name="ShipList" RowHeight="60">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

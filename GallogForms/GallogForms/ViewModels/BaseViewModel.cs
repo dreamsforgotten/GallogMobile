@@ -15,8 +15,6 @@ namespace GallogForms.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        //public IDataStore<Gallog.Api.Models.ShipList> DataStore => DependencyService.Get<IDataStore<Gallog.Api.Models.ShipList>>() ?? new ShipDataStore();
-
         bool isBusy = false;
         public bool IsBusy
         {
@@ -31,13 +29,6 @@ namespace GallogForms.ViewModels
             set { SetProperty(ref title, value); }
         }
 
-        String shipname = string.Empty;
-    
-        public string ShipName
-        {
-            get { return shipname; }
-            set { SetProperty(ref shipname, value); }
-        }
 
         protected bool SetProperty<T>(ref T backingStore, T value,
             [CallerMemberName]string propertyName = "",

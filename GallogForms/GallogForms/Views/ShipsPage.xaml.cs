@@ -13,6 +13,7 @@ namespace GallogForms.Views
         public ShipsPage()
         {
             InitializeComponent();
+            
         }
     }
 }
