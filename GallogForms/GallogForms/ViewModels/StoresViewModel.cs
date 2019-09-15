@@ -12,7 +12,7 @@ namespace GallogForms.ViewModels
         public StoresViewModel()
         {
             Title = "Stores";
-            BaseViewModel.Name = "name";
+            //BaseViewModel.Name = "name";
 
             OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://www.gallog.co/stores/")));
         }

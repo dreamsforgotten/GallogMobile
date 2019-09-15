@@ -15,7 +15,7 @@ namespace GallogForms.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Gallog.Api.Models.ShipList> DataStore => DependencyService.Get<IDataStore<Gallog.Api.Models.ShipList>>() ?? new ShipDataStore();
+        //public IDataStore<Gallog.Api.Models.ShipList> DataStore => DependencyService.Get<IDataStore<Gallog.Api.Models.ShipList>>() ?? new ShipDataStore();
 
         bool isBusy = false;
         public bool IsBusy
