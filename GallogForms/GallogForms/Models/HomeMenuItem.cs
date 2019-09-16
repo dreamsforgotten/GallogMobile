@@ -17,7 +17,8 @@ namespace GallogForms.Models
         Search,
         Ships,
         Components,
-        Stores
+        Stores,
+        Splash
     }
     public class HomeMenuItem
     {

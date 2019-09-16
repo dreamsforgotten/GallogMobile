@@ -23,6 +23,9 @@
     <Compile Update="Views\HangarPage.xaml.cs">
       <DependentUpon>HangarPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\SplashPage.xaml.cs">
+      <DependentUpon>SplashPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\MissionsPage.xaml.cs">
       <DependentUpon>MissionsPage.xaml</DependentUpon>
     </Compile>

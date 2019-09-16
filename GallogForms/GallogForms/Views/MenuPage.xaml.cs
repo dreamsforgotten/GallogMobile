@@ -31,8 +31,8 @@ namespace GallogForms.Views
                 new HomeMenuItem {Id = MenuItemType.Search, Title="Search", Image="search.png"},
                 new HomeMenuItem {Id = MenuItemType.Ships, Title="Ships", Image="ships.png"},
                 new HomeMenuItem {Id = MenuItemType.Components, Title="Components", Image="components.png"},
-                new HomeMenuItem {Id = MenuItemType.Stores, Title="Stores", Image="store_w.png"}
-
+                new HomeMenuItem {Id = MenuItemType.Stores, Title="Stores", Image="store_w.png"},
+                new HomeMenuItem {Id = MenuItemType.Splash}
             };
 
             ListViewMenu.ItemsSource = menuItems;
