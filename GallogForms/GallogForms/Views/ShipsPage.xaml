@@ -7,6 +7,7 @@
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="GallogForms.Views.ShipsPage"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
+             BackgroundColor="#292e4c"
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>
@@ -21,19 +22,29 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <StackLayout BackgroundColor="White">
-        <ListView ItemsSource="{Binding Items}" x:Name="ShipList" RowHeight="60">
+
+
+    <StackLayout BackgroundColor="#292e4c" VerticalOptions="Fill">
+        <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
+            <Image Source="logo_196.png" HorizontalOptions="Start" HeightRequest="50" />
+            <Button Text="Show Me The Ships" Command="{Binding LoadItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
+            <Image Source="logo_196.png" HorizontalOptions="End" HeightRequest="50" />
+
+        </Grid>
+        <ListView ItemsSource="{Binding Items}" RowHeight="60">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Vertical" Padding="8,0,8,0">
-                            <Label Text="{Binding name}" TextColor="#000" FontSize="14" LineBreakMode="TailTruncation" />
+                            <Label Text="{Binding name}" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
                             <ffimageloading:CachedImage Source=""/>
-                            <Label Text="{Binding value}" TextColor="#000" LineBreakMode="TailTruncation" />
+                            <Label Text="{Binding value}" TextColor="White" LineBreakMode="TailTruncation" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <ActivityIndicator IsRunning="{Binding IsBusy}"/>
     </StackLayout>
+   
 </ContentPage>
