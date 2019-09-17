@@ -2,7 +2,6 @@
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using GallogForms.ViewModels;
 
 namespace GallogForms.Views
 {
@@ -14,6 +13,7 @@ namespace GallogForms.Views
         public ShipsPage()
         {
             InitializeComponent();
+            
         }
     }
 }
