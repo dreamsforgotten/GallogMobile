@@ -9,23 +9,53 @@ using System.Net.Http;
 using System.Collections.ObjectModel;
 using Gallog.Api;
 using Xamarin.Forms;
+using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace GallogForms.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
         private GallogClient _gallogClient;
-        public ObservableCollection<LoginResult> Items { get; set; }
-        public Command LoadItemsCommand { get; set; }
+        private string Username;
+        private string Password;
+        
+        public Command LoginCommand { get; set; }
         public LoginViewModel()
         {
             Title = "Login";
-            Items = new ObservableCollection<LoginResult>();
+            
             _gallogClient = new GallogClient();
+            LoginCommand = new Command(async () => await ExecuteLoginCommand(), () => !IsBusy);
+
 
 
         }
 
+        async Task ExecuteLoginCommand()
+        {
+            if (IsBusy)
+                return;
+
+            IsBusy = true;
+
+            try
+            {
+                LoginCommand.ChangeCanExecute();
+                {
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+    
     }
 }
 

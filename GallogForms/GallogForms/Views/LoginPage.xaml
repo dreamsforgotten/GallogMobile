@@ -22,14 +22,39 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid>
-        <AbsoluteLayout HorizontalOptions="CenterAndExpand">
-            <Label Text="Login" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+    <StackLayout>
+        <Grid>
+            <AbsoluteLayout HorizontalOptions="CenterAndExpand">
+                <Label Text="Login" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    FontFamily="zekton_regular.ttf#Zekton Rg"
                    TextColor="White"/>
-        </AbsoluteLayout>
-    </Grid>
-    
+            </AbsoluteLayout>
+        </Grid>
+        <StackLayout>
+            <Grid Padding="0,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Username" HorizontalOptions="CenterAndExpand" TextColor="white" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="0" Grid.Column="0"  />
+                <Entry Text="{Binding username}" WidthRequest="150" TextColor="White"  HorizontalOptions="CenterAndExpand" BackgroundColor="Black" Grid.Row="1" Grid.Column="0" />
+                <Label Text="Password" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg"  Grid.Row="0" Grid.Column="1" />
+                <Entry Text="{Binding password}" IsPassword="True" WidthRequest="150" HorizontalOptions="CenterAndExpand" BackgroundColor="Black" Grid.Row="1" Grid.Column="1" />
+            </Grid>
+        </StackLayout>
+        <StackLayout Padding="10,10,10,10">
+            <Grid>
+                <Button Command="LoginCommand" Text="Login to Gallog" TextColor="white" FontFamily="zekton_regular.ttf#Zekton Rg" CornerRadius="10" BackgroundColor="#252629" />
+            </Grid>
+        </StackLayout>
+    </StackLayout>
+
+
+
 </ContentPage>

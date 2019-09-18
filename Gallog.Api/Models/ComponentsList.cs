@@ -6,8 +6,7 @@ using Gallog.Api.Attributes;
 namespace Gallog.Api.Models
 {
     [ApiPath("components")]
-
-    public class Components : ApiQueryable
+    public class ComponentsList : ApiQueryable
     {
         public Componenttype[] componentTypes { get; set; }
     

@@ -7,7 +7,7 @@ namespace Gallog.Api.Models
 {
     [ApiPath("commodities")]
 
-    public class Commodities : ApiQueryable
+    public class CommoditiesList : ApiQueryable
     {
             public Commodity[] commodities { get; set; }
         }
