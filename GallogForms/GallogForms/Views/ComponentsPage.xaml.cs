@@ -14,7 +14,7 @@ namespace GallogForms.Views
         public ComponentsPage()
         {
             InitializeComponent();
-            BindingContext = new Components();
+            BindingContext = new ComponentsList();
         }
     }
 }

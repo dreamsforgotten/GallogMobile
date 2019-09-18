@@ -10,7 +10,6 @@ namespace Gallog.Api.Models
     {
         public ShipCatalog[] ships { get; set; }
     }
-
     public class ShipCatalog
     {
         public int id { get; set; }

@@ -9,9 +9,6 @@ namespace Gallog.Api.Models
 
     public class Missions : ApiQueryable
     {
-        
-            public string message { get; set; }
-            public object mission { get; set; }
             public Mission[] missions { get; set; }
         
 

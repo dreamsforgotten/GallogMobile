@@ -50,7 +50,7 @@
         </StackLayout>
         <StackLayout Padding="10,10,10,10">
             <Grid>
-                <Button Command="LoginCommand" Text="Login to Gallog" TextColor="white" FontFamily="zekton_regular.ttf#Zekton Rg" CornerRadius="10" BackgroundColor="#252629" />
+                <Button Text="Login to Gallog" TextColor="white" FontFamily="zekton_regular.ttf#Zekton Rg" CornerRadius="10" BackgroundColor="#252629" />
             </Grid>
         </StackLayout>
     </StackLayout>

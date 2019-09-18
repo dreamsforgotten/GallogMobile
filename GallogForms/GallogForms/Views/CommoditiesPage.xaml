@@ -7,6 +7,7 @@
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="GallogForms.Views.CommoditiesPage"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
+             BackgroundColor="#292e4c"
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>
@@ -25,14 +26,14 @@
 
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
-            <Button Text="Load Commoditites" Command="{Binding LoadItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
+            <Button Text="Refresh Commoditites" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
         </Grid>
         <ListView ItemsSource="{Binding Items}" RowHeight="60" BackgroundColor="#252629">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Vertical" Padding="8,0,8,0" BackgroundColor="#252629">
-                            <Label Text="{Binding mfr}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
+                            <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
                             <!-- <ffimageloading:CachedImage Source=""/> -->
                             <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
                         </StackLayout>
