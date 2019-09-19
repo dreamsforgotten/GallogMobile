@@ -34,7 +34,7 @@
                         <StackLayout Orientation="Horizontal" Padding="8,0,8,0" BackgroundColor="#252629">
                             <Label Text="{Binding mfr}" FontFamily="zekton_regular.ttf#Zekton Rg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
                             <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
-                            <Image Source="{Binding img, StringFormat='http://www.gallog.co/img/ships/{0:F0}'}" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="300" WidthRequest="300" />
+                            <Image Source="{Binding img}" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="300" WidthRequest="300" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

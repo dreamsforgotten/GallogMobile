@@ -20,6 +20,7 @@ namespace GallogForms.ViewModels
         public ObservableCollection<ShipCatalog> Items { get; set; }
 
         public Command RefreshItemsCommand { get; set; }
+        public string full_URL;
         public ShipsViewModel()
         {
             Title = "Ships";
@@ -45,6 +46,15 @@ namespace GallogForms.ViewModels
                 
                 foreach (var item in items.ships.ToList())
                 {
+                    if (item.img == "")
+                    {
+                       //were're fucked
+                    }
+                    else
+                    {
+                        full_URL = "https://gallog.co/img/ships/" + item.img;
+                        item.img = full_URL;
+                    }
                     Items.Add(item);
                 }
 
