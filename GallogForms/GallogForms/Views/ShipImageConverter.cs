@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Text;
 using Xamarin.Forms;
 
-namespace GallogForms.Images
+namespace GallogForms.Views
 {
     public class ShipImageConverter<T> : IValueConverter
     {
