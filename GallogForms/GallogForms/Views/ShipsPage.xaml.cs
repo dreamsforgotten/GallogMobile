@@ -1,4 +1,5 @@
-﻿using GallogForms.ViewModels;
+﻿using Gallog.Api.Models;
+using GallogForms.ViewModels;
 using System;
 using System.ComponentModel;
 using Xamarin.Forms;
@@ -15,6 +16,7 @@ namespace GallogForms.Views
         {
             InitializeComponent();
             BindingContext = new ShipsViewModel();
+            BindingContext = new ShipImageConverter<ShipList>();
         }
     }
 }

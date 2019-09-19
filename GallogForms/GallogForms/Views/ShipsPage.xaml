@@ -19,11 +19,11 @@
             <Color x:Key="Primary">#2196F3</Color>
             <Color x:Key="Accent">#96d1ff</Color>
             <Color x:Key="LightTextColor">#999999</Color>
+            <!-- <local:ShipImageConverter xKey="FUCKFUCKFUCKFUCKFUCK" /> -->
+          <!--  <vm:ShipImageConverter x:Key="ShipImageConverter" /> -->
         </ResourceDictionary>
-    </ContentPage.Resources>
-
-
-
+    </ContentPage.Resources> 
+    
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
             <Button Text="Show Me The Ships" Command="{Binding LoadItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
@@ -35,6 +35,7 @@
                         <StackLayout Orientation="Vertical" Padding="8,0,8,0" BackgroundColor="#252629">
                             <Label Text="{Binding mfr}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
                             <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
+                          <!--  <Image Source="{Binding img, Converter={StaticResource ShipImageConverter}}" /> -->
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

@@ -18,8 +18,8 @@ namespace GallogForms.ViewModels
     {
         private GallogClient _gallogClient;
         public ObservableCollection<ShipCatalog> Items { get; set; }
-        public Command RefreshItemsCommand { get; set; }
 
+        public Command RefreshItemsCommand { get; set; }
         public ShipsViewModel()
         {
             Title = "Ships";
@@ -40,10 +40,14 @@ namespace GallogForms.ViewModels
             {
                 Items.Clear();
                 var items = await _gallogClient.GetItemsAsync<ShipList>();
+                var shipimage = new ListView();
+              
+                
                 foreach (var item in items.ships.ToList())
                 {
                     Items.Add(item);
                 }
+
             }
             catch (Exception ex)
             {

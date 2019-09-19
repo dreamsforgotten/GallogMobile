@@ -22,7 +22,4 @@ namespace Gallog.Api.Models
         public string scu { get; set; }
         public string value { get; set; }
     }  
-
-    
-
 }
