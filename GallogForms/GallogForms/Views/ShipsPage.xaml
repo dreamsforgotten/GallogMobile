@@ -25,7 +25,7 @@
     
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
-            <Button Text="Show Me The Ships" Command="{Binding LoadItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
+            <Button Text="Show Me The Ships" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
         </Grid> 
         <ListView ItemsSource="{Binding Items}" RowHeight="60" BackgroundColor="#252629">
             <ListView.ItemTemplate>
