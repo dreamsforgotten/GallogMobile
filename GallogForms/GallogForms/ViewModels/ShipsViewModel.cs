@@ -3,7 +3,6 @@ using System.Windows.Input;
 using System.Net.Http;
 using Gallog.Api.Models;
 using Gallog.Api;
-
 using Xamarin.Forms;
 using Refit;
 using System.Collections.Generic;
@@ -55,12 +54,24 @@ namespace GallogForms.ViewModels
                         full_URL = "https://gallog.co/img/ships/" + item.img;
                         item.img = full_URL;
                     }
+                    if (item.flyable == "1")
+                    {
+                        item.flyable = "Flyable";
+                    }
+                    else
+                    {
+                        item.flyable = "Not Flyable";
+                    }
+                    if (item.value == "0.00")
+                    {
+                        item.value = "Price Tag Says Broke";
+                    }
+                    if (item.value == "")
+                    {
+                        item.value = "Price Tag Says Broke";
+                    }
+                    
                     Items.Add(item);
-             //       Image image = new Image
-             //       {
-             //           Source = ImageSource.FromUri(new Uri(item.img))
-            //        };
-             //       flexlayout.Children.Add(image);
                 }
 
             }
