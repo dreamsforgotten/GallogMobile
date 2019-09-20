@@ -16,7 +16,7 @@
             <BoxView HorizontalOptions="StartAndExpand" VerticalOptions="Center" HeightRequest="10" WidthRequest="100" BackgroundColor="#292e4c" />
             <Label Text="Your Galaxy Transversed" TextColor="White" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
         </StackLayout>
-        <ListView x:Name="ListViewMenu" HasUnevenRows="True" BackgroundColor="#302c25">
+        <ListView x:Name="ListViewMenu" HasUnevenRows="True" BackgroundColor="#252629">
             <d:ListView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Item 1</x:String>

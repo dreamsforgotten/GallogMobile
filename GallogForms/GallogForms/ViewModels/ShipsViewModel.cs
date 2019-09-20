@@ -18,6 +18,7 @@ namespace GallogForms.ViewModels
     {
         private GallogClient _gallogClient;
         public ObservableCollection<ShipCatalog> Items { get; set; }
+        public FlexLayout flexlayout;
 
         public Command RefreshItemsCommand { get; set; }
         public string full_URL;
@@ -27,6 +28,7 @@ namespace GallogForms.ViewModels
             Items = new ObservableCollection<ShipCatalog>();
             _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy-Spky5pbZhJCkyN-MT9RA6ap_yD9ezRxCxo");
             RefreshItemsCommand = new Command(async() => await ExecuteRefreshItemsCommand(), () => !IsBusy);
+            flexlayout = new FlexLayout();
             LoadItems();
         }
         private async void LoadItems()
@@ -41,14 +43,12 @@ namespace GallogForms.ViewModels
             {
                 Items.Clear();
                 var items = await _gallogClient.GetItemsAsync<ShipList>();
-                var shipimage = new ListView();
-              
                 
                 foreach (var item in items.ships.ToList())
                 {
                     if (item.img == "")
                     {
-                       //were're fucked
+                        item.img = "were're fucked here";
                     }
                     else
                     {
@@ -56,6 +56,11 @@ namespace GallogForms.ViewModels
                         item.img = full_URL;
                     }
                     Items.Add(item);
+             //       Image image = new Image
+             //       {
+             //           Source = ImageSource.FromUri(new Uri(item.img))
+            //        };
+             //       flexlayout.Children.Add(image);
                 }
 
             }
@@ -85,7 +90,21 @@ namespace GallogForms.ViewModels
                 var items = await _gallogClient.GetItemsAsync<ShipList>();
                 foreach (var item in items.ships.ToList())
                 {
+                    if (item.img == "")
+                    {
+                        item.img = "were're fucked here";
+                    }
+                    else
+                    {
+                        full_URL = "https://gallog.co/img/ships/" + item.img;
+                        item.img = full_URL;
+                    }
                     Items.Add(item);
+                /*    Image image = new Image
+                    {
+                        Source = ImageSource.FromUri(new Uri(item.img))
+                    };
+                    flexlayout.Children.Add(image);*/
                 }
             }
             catch (Exception ex)

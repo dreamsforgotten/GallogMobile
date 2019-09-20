@@ -21,26 +21,41 @@
             <Color x:Key="Accent">#96d1ff</Color>
             <Color x:Key="LightTextColor">#999999</Color>
         </ResourceDictionary>
-    </ContentPage.Resources> 
-    
+    </ContentPage.Resources>
+
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
             <Button Text="Refresh The Ships" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
         </Grid>
-        <ListView ItemsSource="{Binding Items}" RowHeight="60" BackgroundColor="#252629">
+        <!--   <StackLayout>
+            <Grid>
+        <ScrollView>
+            <FlexLayout x:Name="flexLayout"
+                        Wrap="Wrap"
+                        JustifyContent="SpaceAround" />
+        </ScrollView>
+
+        <ActivityIndicator x:Name="activityIndicator"
+                           IsRunning="True"
+                           VerticalOptions="Center" />
+         </Grid>
+        </StackLayout>-->
+
+        <ListView ItemsSource="{Binding Items}" RowHeight="500" BackgroundColor="#252629">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Orientation="Horizontal" Padding="8,0,8,0" BackgroundColor="#252629">
-                            <Label Text="{Binding mfr}" FontFamily="zekton_regular.ttf#Zekton Rg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
-                            <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
-                            <Image Source="{Binding img}" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="300" WidthRequest="300" />
+                        <StackLayout Orientation="Vertical" Padding="0,0,0,0" BackgroundColor="#252629">
+                                <Image Source="{Binding img}" HeightRequest="300" WidthRequest="300" HorizontalOptions="Center" />
+                                <Label Text="{Binding mfr}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                            <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                            <Label Text="{Binding flyable}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                            <Label Text="{Binding value}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="CenterAndExpand" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <ActivityIndicator IsRunning="{Binding IsBusy}"/>
+        <ActivityIndicator IsRunning="{Binding IsBusy}"/> 
     </StackLayout>
-   
 </ContentPage>
