@@ -23,6 +23,10 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="galloglogo" Icon="logo.png" Priority="0" Order="Secondary" />
+    </ContentPage.ToolbarItems>
+
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
             <Button Text="Refresh The Ships" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
@@ -36,13 +40,13 @@
                             <Image Source="{Binding img}" HeightRequest="300" WidthRequest="300" HorizontalOptions="Center" />
                             <Label Text="{Binding mfr}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
                             <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
-                            <Label Text="{Binding flyable}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="red" FontSize="22" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
-                            <Label Text="{Binding value}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#bb9924" FontSize="22" LineBreakMode="TailTruncation" HorizontalOptions="CenterAndExpand" />
+                            <Label Text="{Binding flyable}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="22" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                            <Label Text="{Binding value}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#995814" FontSize="22" LineBreakMode="TailTruncation" HorizontalOptions="CenterAndExpand" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <ActivityIndicator IsRunning="{Binding IsBusy}"/>
+        <ActivityIndicator Color="#995814" IsRunning="{Binding IsBusy}"/>
     </StackLayout>
 </ContentPage>

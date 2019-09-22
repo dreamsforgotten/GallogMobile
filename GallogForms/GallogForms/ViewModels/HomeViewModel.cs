@@ -8,7 +8,7 @@ namespace GallogForms.ViewModels
     {
         public HomeViewModel()
         {
-            Title = "Gallog";
+            Title = "Galactic Logistics";
         }
     }
 }

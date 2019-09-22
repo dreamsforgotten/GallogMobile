@@ -34,7 +34,6 @@
                     <ViewCell>
                         <StackLayout Orientation="Vertical" Padding="8,0,8,0" BackgroundColor="#252629">
                             <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
-                            <!-- <ffimageloading:CachedImage Source=""/> -->
                             <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
                         </StackLayout>
                     </ViewCell>
