@@ -19,6 +19,25 @@ namespace GallogForms.ViewModels
         private GallogClient _gallogClient;
         public ObservableCollection<ShipCatalog> Items { get; set; }
 
+        private ShipCatalog _selectedShip { get; set; }
+        public ShipCatalog SelectedShip
+        {
+            get { return _selectedShip; }
+            set
+            {
+                if (_selectedShip != value)
+                {
+                    _selectedShip = value;
+                    ExpandOrCollapseSelectedItem();
+                }
+            }
+        }
+
+        private void ExpandOrCollapseSelectedItem()
+        {
+            Items.Where(t => t.id == SelectedShip.id).FirstOrDefault().IsVisible =
+                !SelectedShip.IsVisible;
+        }
         public Command RefreshItemsCommand { get; set; }
         public string full_URL;
         public string tempColor;
@@ -49,7 +68,7 @@ namespace GallogForms.ViewModels
                 {
                     if (item.img == "")
                     {
-                        item.img = "were're fucked here";
+                        item.img = "ph.png";
                     }
                     else
                     {
@@ -69,19 +88,14 @@ namespace GallogForms.ViewModels
                     }
                     if (item.value == "0.00")
                     {
-                        item.value = "Price Tag Says Broke";
+                        item.value = "Price Says Broke";
                     }
                     if (item.value == "")
                     {
-                        item.value = "Price Tag Says Broke";
+                        item.value = "Price Null";
                     }
 
                     Items.Add(item);
-
-                    //details1 = "Ship Name:  " + item.name + "  " + "Ship Manufacturer:  " + item.mfr;
-                    //details2 = "Ship Price:  " + item.value + "  " + "Is Flyable?:  " + item.flyable;
-                    //item.Details1 = details1;
-                    //item.Details2 = details2;
                 }
 
             }
@@ -114,7 +128,7 @@ namespace GallogForms.ViewModels
                 {
                     if (item.img == "")
                     {
-                        item.img = "were're fucked here";
+                        item.img = "ph.png";
                     }
                     else
                     {
@@ -124,25 +138,24 @@ namespace GallogForms.ViewModels
                     if (item.flyable == "1")
                     {
                         item.flyable = "Yes";
+                        item.color = "#7bf964";
+
                     }
                     else
                     {
                         item.flyable = "No";
+                        item.color = "#dc494e";
                     }
                     if (item.value == "0.00")
                     {
-                        item.value = "Price Tag Says Broke";
+                        item.value = "Price Says Broke";
                     }
                     if (item.value == "")
                     {
-                        item.value = "Price Tag Says Broke";
+                        item.value = "Price Null";
                     }
 
                     Items.Add(item);
-                    //details1 = "Ship Name:  " + item.name + "  " + "Ship Manufacturer:  " + item.mfr;
-                    //details2 = "Ship Price:  " + item.value + "  " + "Is Flyable?:  " + item.flyable;
-                    //item.Details1 = details1;
-                    //item.Details2 = details2;
 
                 }
 

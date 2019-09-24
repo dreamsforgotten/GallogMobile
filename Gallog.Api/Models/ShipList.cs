@@ -1,6 +1,8 @@
 ﻿using Gallog.Api.Attributes;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace Gallog.Api.Models
@@ -10,8 +12,15 @@ namespace Gallog.Api.Models
     {
         public ShipCatalog[] ships { get; set; }
     }
-    public class ShipCatalog
+    public class ShipCatalog : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged; 
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChangedEventHandler handler = PropertyChanged;
+            handler?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
         public int id { get; set; }
         public string name { get; set; }
         public string uri { get; set; }
@@ -22,6 +31,19 @@ namespace Gallog.Api.Models
         public string scu { get; set; }
         public string value { get; set; }
         public string color { get; set; }
+        public bool _isVisible { get; set; }
+        public bool IsVisible
+        {
+            get { return _isVisible; }
+            set
+            {
+                if (_isVisible != value)
+                {
+                    _isVisible = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
     }
 
 
