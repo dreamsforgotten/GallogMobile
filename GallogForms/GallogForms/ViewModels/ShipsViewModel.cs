@@ -21,6 +21,7 @@ namespace GallogForms.ViewModels
 
         public Command RefreshItemsCommand { get; set; }
         public string full_URL;
+        public string tempColor;
         public ShipsViewModel()
         {
             Title = "Ships";
@@ -58,10 +59,13 @@ namespace GallogForms.ViewModels
                     if (item.flyable == "1")
                     {
                         item.flyable = "Yes";
+                        item.color = "#7bf964";
+                        
                     }
                     else
                     {
                         item.flyable = "No";
+                        item.color = "#dc494e";
                     }
                     if (item.value == "0.00")
                     {

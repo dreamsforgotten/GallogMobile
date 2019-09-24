@@ -28,16 +28,16 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <StackLayout BackgroundColor="#292e4c" VerticalOptions="Fill">
+    <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
             <Button Text="Refresh The Ships" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
         </Grid>
         <ScrollView>
-            <ListView ItemsSource="{Binding Items}" x:Name="listView" HasUnevenRows="True" RowHeight="500" BackgroundColor="#252629">
+            <ListView ItemsSource="{Binding Items}" Margin="5,5,5,5" x:Name="listView" HasUnevenRows="True" RowHeight="500" BackgroundColor="#252629">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                            <StackLayout x:Name="cell" Orientation="Vertical" Padding="5,10,5,5" BackgroundColor="Black">
+                            <StackLayout x:Name="cell" Orientation="Vertical" Padding="10,10,10,10" BackgroundColor="Black">
                                 <StackLayout BackgroundColor="#252629">
                                     <Grid BackgroundColor="#1c1d1e">
                                         <Grid.RowDefinitions>
@@ -52,10 +52,11 @@
                                         <Label Text="{Binding mfr}" d:Text="Ship Price sample price Is Flyable? Flyable" HorizontalOptions="End" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="19" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="0" />
                                         <Label Text="{Binding name}" d:Text="Ship Price sample price Is Flyable? Flyable" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="19" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="1" />
                                         <Label Text="{Binding value}" d:Text="Ship Price sample price Is Flyable? Flyable" HorizontalOptions="End" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="19" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="0" />
-                                        <Label Text="{Binding flyable, StringFormat='Is Flyable?  {0:F0}'}" d:Text="Ship Price sample price Is Flyable? Flyable" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#995814" FontSize="19" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="1" />
+                                        <Label Text="Flyable?" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1f9" FontSize="19" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="1" />
+                                        <Label Text="{Binding flyable}" d:Text="Ship Price sample price Is Flyable? Flyable" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="{Binding color}" FontSize="19" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="1" />
                                     </Grid>
-                                    <StackLayout BackgroundColor="#252629">
-                                        <Image Source="{Binding img}" HorizontalOptions="Center"></Image>
+                                    <StackLayout BackgroundColor="#252629" Padding="5,10,5,10">
+                                        <Image Source="{Binding img}" HorizontalOptions="CenterAndExpand"/>
                                     </StackLayout>
                                     <!--<Grid BackgroundColor="#292e4c">
                                     <Grid.RowDefinitions>
