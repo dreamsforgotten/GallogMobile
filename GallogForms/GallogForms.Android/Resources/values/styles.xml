@@ -23,7 +23,7 @@
     <item name="colorSwitchThumbNormal">#4c28</item>
     <item name="android:colorActivatedHighlight">#4c28</item>
   </style>
-  <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+  <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Dialog">
     <item name="colorAccent">#FF4081</item>
   </style>
 </resources>

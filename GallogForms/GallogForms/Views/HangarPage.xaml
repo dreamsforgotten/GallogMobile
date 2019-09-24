@@ -11,9 +11,13 @@
              BackgroundImageSource="crusader.jpg">
     
     <ContentPage.BindingContext>
-        <vm:HangarViewModel />
+        <vm:ShipsViewModel />
     </ContentPage.BindingContext>
-    
+
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Icon="logo.png"/>
+        </ContentPage.ToolbarItems>
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#2196F3</Color>
@@ -22,13 +26,26 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid>
-        <AbsoluteLayout HorizontalOptions="CenterAndExpand">
-            <Label Text="Gallog Ship List" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
-                   HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center"
-                   TextColor="White"/>
-        </AbsoluteLayout>
-    </Grid>
-    
+    <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
+        <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
+            <Button Text="Refresh The Ships" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
+        </Grid>
+
+        <ListView ItemsSource="{Binding Items}" BackgroundColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="0,0,0,0" BackgroundColor="#292e4c">
+                            <Image Source="{Binding img}" d:Source="ph.png" BackgroundColor="Black" HorizontalOptions="Center" />
+                                <Label Text="{Binding details1}" d:Text="Ship Name Ship Manufacturer" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                            <StackLayout IsVisible="{Binding IsVisible}">
+                                <Label Text="{Binding details2}" d:Text="Ship Price sample price Is Flyable? Flyable" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="22" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ActivityIndicator Color="#995814" IsRunning="{Binding IsBusy}"/>
+    </StackLayout>
 </ContentPage>

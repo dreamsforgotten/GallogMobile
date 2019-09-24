@@ -13,6 +13,10 @@
         <vm:SearchViewModel />
     </ContentPage.BindingContext>
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="logo.png"/>
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#2196F3</Color>
@@ -20,8 +24,6 @@
             <Color x:Key="LightTextColor">#999999</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
-
-
 
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">

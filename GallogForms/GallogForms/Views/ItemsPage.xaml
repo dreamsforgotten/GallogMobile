@@ -7,12 +7,12 @@
              x:Class="GallogForms.Views.ItemsPage"
              Title="{Binding Title}"
              x:Name="BrowseItemsPage">
+  
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
+  </ContentPage.ToolbarItems>
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
-    </ContentPage.ToolbarItems>
-
-    <StackLayout>
+  <StackLayout>
         <ListView x:Name="ItemsListView"
                 ItemsSource="{Binding Items}"
                 VerticalOptions="FillAndExpand"

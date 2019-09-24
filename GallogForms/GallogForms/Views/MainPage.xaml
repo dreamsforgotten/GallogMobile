@@ -9,7 +9,7 @@
 
     <MasterDetailPage.Master>
         <views:MenuPage />
-    </MasterDetailPage.Master>
+    </MasterDetailPage.Master>    
 
     <MasterDetailPage.Detail>
         <NavigationPage>

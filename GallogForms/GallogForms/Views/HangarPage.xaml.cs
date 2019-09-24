@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GallogForms.ViewModels;
+using System;
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,7 +14,7 @@ namespace GallogForms.Views
         public HangarPage()
         {
             InitializeComponent();
-
-        }
+            BindingContext = new ShipsViewModel();
+        }        
     }
 }

@@ -8,14 +8,14 @@
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
              Title="{Binding Title}" 
              BackgroundImageSource="Weed.png" Scale="1.4">
-    
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="logo.png"/>
+    </ContentPage.ToolbarItems>
+
     <ContentPage.BindingContext>
         <vm:HomeViewModel />
     </ContentPage.BindingContext>
-
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Name="galloglogo" Icon="logo.png" Priority="0" Order="Secondary" />
-    </ContentPage.ToolbarItems>
 
     <Grid Padding="0,120,0,0">
         <Grid.RowDefinitions>

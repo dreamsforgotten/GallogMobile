@@ -5808,26 +5808,26 @@ namespace GallogForms.Droid
 			// aapt resource value: 0x7f020058
 			public const int avd_hide_password = 2130837592;
 			
-			// aapt resource value: 0x7f02014e
-			public const int avd_hide_password_1 = 2130837838;
-			
 			// aapt resource value: 0x7f02014f
-			public const int avd_hide_password_2 = 2130837839;
+			public const int avd_hide_password_1 = 2130837839;
 			
 			// aapt resource value: 0x7f020150
-			public const int avd_hide_password_3 = 2130837840;
+			public const int avd_hide_password_2 = 2130837840;
+			
+			// aapt resource value: 0x7f020151
+			public const int avd_hide_password_3 = 2130837841;
 			
 			// aapt resource value: 0x7f020059
 			public const int avd_show_password = 2130837593;
 			
-			// aapt resource value: 0x7f020151
-			public const int avd_show_password_1 = 2130837841;
-			
 			// aapt resource value: 0x7f020152
-			public const int avd_show_password_2 = 2130837842;
+			public const int avd_show_password_1 = 2130837842;
 			
 			// aapt resource value: 0x7f020153
-			public const int avd_show_password_3 = 2130837843;
+			public const int avd_show_password_2 = 2130837843;
+			
+			// aapt resource value: 0x7f020154
+			public const int avd_show_password_3 = 2130837844;
 			
 			// aapt resource value: 0x7f02005a
 			public const int commadaties = 2130837594;
@@ -6519,11 +6519,11 @@ namespace GallogForms.Droid
 			// aapt resource value: 0x7f02013f
 			public const int notification_icon_background = 2130837823;
 			
-			// aapt resource value: 0x7f02014c
-			public const int notification_template_icon_bg = 2130837836;
-			
 			// aapt resource value: 0x7f02014d
-			public const int notification_template_icon_low_bg = 2130837837;
+			public const int notification_template_icon_bg = 2130837837;
+			
+			// aapt resource value: 0x7f02014e
+			public const int notification_template_icon_low_bg = 2130837838;
 			
 			// aapt resource value: 0x7f020140
 			public const int notification_tile_bg = 2130837824;
@@ -6532,34 +6532,37 @@ namespace GallogForms.Droid
 			public const int notify_panel_notification_icon_bg = 2130837825;
 			
 			// aapt resource value: 0x7f020142
-			public const int search = 2130837826;
+			public const int ph = 2130837826;
 			
 			// aapt resource value: 0x7f020143
-			public const int ships = 2130837827;
+			public const int search = 2130837827;
 			
 			// aapt resource value: 0x7f020144
-			public const int side_nav_bar = 2130837828;
+			public const int ships = 2130837828;
 			
 			// aapt resource value: 0x7f020145
-			public const int store_w = 2130837829;
+			public const int side_nav_bar = 2130837829;
 			
 			// aapt resource value: 0x7f020146
-			public const int tooltip_frame_dark = 2130837830;
+			public const int store_w = 2130837830;
 			
 			// aapt resource value: 0x7f020147
-			public const int tooltip_frame_light = 2130837831;
+			public const int tooltip_frame_dark = 2130837831;
 			
 			// aapt resource value: 0x7f020148
-			public const int tradeports = 2130837832;
+			public const int tooltip_frame_light = 2130837832;
 			
 			// aapt resource value: 0x7f020149
-			public const int trading = 2130837833;
+			public const int tradeports = 2130837833;
 			
 			// aapt resource value: 0x7f02014a
-			public const int Weed = 2130837834;
+			public const int trading = 2130837834;
 			
 			// aapt resource value: 0x7f02014b
-			public const int xamarin_logo = 2130837835;
+			public const int Weed = 2130837835;
+			
+			// aapt resource value: 0x7f02014c
+			public const int xamarin_logo = 2130837836;
 			
 			static Drawable()
 			{

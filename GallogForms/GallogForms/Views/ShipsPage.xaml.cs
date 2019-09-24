@@ -12,6 +12,7 @@ namespace GallogForms.Views
     [DesignTimeVisible(false)]
     public partial class ShipsPage : ContentPage
     {
+
         public ShipsPage()
         {
             InitializeComponent();
