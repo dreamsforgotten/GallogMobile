@@ -15,7 +15,6 @@ namespace GallogForms.Views
         public CommoditiesPage()
         {
             InitializeComponent();
-            BindingContext = new CommoditiesList();
         }
     }
 }

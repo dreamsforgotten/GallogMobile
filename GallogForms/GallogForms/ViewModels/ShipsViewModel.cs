@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Windows.Input;
-using System.Net.Http;
 using Gallog.Api.Models;
 using Gallog.Api;
 using Xamarin.Forms;
-using Refit;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Linq;
-using GallogForms.Views;
+using System.Collections.Generic;
 
 namespace GallogForms.ViewModels
 {
@@ -18,6 +14,7 @@ namespace GallogForms.ViewModels
     {
         private GallogClient _gallogClient;
         public ObservableCollection<ShipCatalog> Items { get; set; }
+        public ObservableCollection<shipmatrix> ExtItems { get; set; }
 
         private ShipCatalog _selectedShip { get; set; }
         public ShipCatalog SelectedShip
@@ -28,6 +25,7 @@ namespace GallogForms.ViewModels
                 if (_selectedShip != value)
                 {
                     _selectedShip = value;
+                    LoadExtendedItems();
                     ExpandOrCollapseSelectedItem();
                 }
             }
@@ -39,18 +37,21 @@ namespace GallogForms.ViewModels
                 !SelectedShip.IsVisible;
         }
         public Command RefreshItemsCommand { get; set; }
+
         public string full_URL;
         public string tempColor;
         public ShipsViewModel()
         {
             Title = "Ships";
             Items = new ObservableCollection<ShipCatalog>();
-            _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy-Spky5pbZhJCkyN-MT9RA6ap_yD9ezRxCxo");
+            ExtItems = new ObservableCollection<shipmatrix>();
+
+         //   _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy-Spky5pbZhJCkyN-MT9RA6ap_yD9ezRxCxo");
+            _gallogClient = new GallogClient();
             RefreshItemsCommand = new Command(async () => await ExecuteRefreshItemsCommand(), () => !IsBusy);
 
             LoadItems();
         }
-
         private async void LoadItems()
         {
             if (IsBusy)
@@ -63,9 +64,8 @@ namespace GallogForms.ViewModels
             {
                 Items.Clear();
                 var items = await _gallogClient.GetItemsAsync<ShipList>();
-
-                foreach (var item in items.ships.ToList())
-                {
+                    foreach (var item in items.ships.ToList())
+                    {
                     if (item.img == "")
                     {
                         item.img = "ph.png";
@@ -96,8 +96,7 @@ namespace GallogForms.ViewModels
                     }
 
                     Items.Add(item);
-                }
-
+                    }
             }
             catch (Exception ex)
             {
@@ -108,6 +107,31 @@ namespace GallogForms.ViewModels
                 IsBusy = false;
                 RefreshItemsCommand.ChangeCanExecute();
 
+            }
+        }
+
+        public async void LoadExtendedItems()
+        {
+            if (IsBusy)
+                return;
+
+            IsBusy = true;
+            try
+            {
+                ExtItems.Clear();
+                var items = await _gallogClient.GetItemAsync<ShipResponse>(SelectedShip.name);
+                foreach (var item in items.ship.ToList())
+                {                   
+                    ExtItems.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+            }
+            finally
+            {
+                IsBusy = false;
             }
         }
 

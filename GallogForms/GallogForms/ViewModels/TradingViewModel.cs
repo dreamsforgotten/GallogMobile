@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Gallog.Api;
+using Gallog.Api.Models;
+using System;
+using System.Collections.ObjectModel;
 using System.Windows.Input;
 
 using Xamarin.Forms;
@@ -7,13 +10,14 @@ namespace GallogForms.ViewModels
 {
     public class TradingViewModel : BaseViewModel
     {
+        private GallogClient _gallogClient;
+        public ObservableCollection<TradeRoutes> Items { get; set; }
         public TradingViewModel()
         {
+            Items = new ObservableCollection<TradeRoutes>();
+
             Title = "Trading";
-
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://www.gallog.co/trading/")));
         }
-
-        public ICommand OpenWebCommand { get; }
+        
     }
 }

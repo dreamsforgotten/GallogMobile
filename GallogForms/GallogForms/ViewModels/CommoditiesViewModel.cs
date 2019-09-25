@@ -1,13 +1,11 @@
-﻿using Gallog.Api;
+﻿using System;
 using Gallog.Api.Models;
-using System;
+using Gallog.Api;
+using Xamarin.Forms;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Input;
-
-using Xamarin.Forms;
 
 namespace GallogForms.ViewModels
 {
@@ -16,6 +14,7 @@ namespace GallogForms.ViewModels
         private GallogClient _gallogClient;
         public ObservableCollection<Commodity> Items { get; set; }
         public Command RefreshItemsCommand { get; set; }
+        public string full_URL;
 
         public CommoditiesViewModel()
         {
@@ -32,14 +31,23 @@ namespace GallogForms.ViewModels
                 return;
 
             IsBusy = true;
+            RefreshItemsCommand.ChangeCanExecute();
 
             try
             {
-                RefreshItemsCommand.ChangeCanExecute();
                 Items.Clear();
                 var items = await _gallogClient.GetItemsAsync<CommoditiesList>();
                 foreach (var item in items.commodities.ToList())
                 {
+                    if (item.icon == "")
+                    {
+                       
+                    }
+                    else
+                    {
+                        full_URL = "https://www.gallog.co/img/svg/" + item.icon;
+                        item.icon = full_URL;
+                    }
                     Items.Add(item);
                 }
             }
@@ -60,10 +68,10 @@ namespace GallogForms.ViewModels
                 return;
 
             IsBusy = true;
+            RefreshItemsCommand.ChangeCanExecute();
 
             try
             {
-                RefreshItemsCommand.ChangeCanExecute();
                 Items.Clear();
                 var items = await _gallogClient.GetItemsAsync<CommoditiesList>();
                 foreach (var item in items.commodities.ToList())

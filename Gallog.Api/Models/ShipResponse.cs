@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text;
 using Gallog.Api.Attributes;
 
@@ -11,18 +13,38 @@ namespace Gallog.Api.Models
         public Ship ship { get; set; }
     }
 
-    public class Ship
+    public class Ship : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChangedEventHandler handler = PropertyChanged;
+            handler?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
         public int id { get; set; }
         public string name { get; set; }
         public string uri { get; set; }
         public string image { get; set; }
         public string value { get; set; }
         public int scu { get; set; }
-        public Shipmatrix shipmatrix { get; set; }
+        public string color { get; set; }
+        public bool _isVisible { get; set; }
+        public bool IsVisible
+        {
+            get { return _isVisible; }
+            set
+            {
+                if (_isVisible != value)
+                {
+                    _isVisible = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+        public shipmatrix shipmatrix { get; set; }
     }
 
-    public class Shipmatrix
+    public class shipmatrix
     {
         public string length { get; set; }
         public string beam { get; set; }

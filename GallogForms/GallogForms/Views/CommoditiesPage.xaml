@@ -5,6 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"             
              x:Class="GallogForms.Views.CommoditiesPage"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
              BackgroundColor="#292e4c"
@@ -37,8 +39,19 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Vertical" Padding="8,0,8,0" BackgroundColor="#252629">
-                            <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
-                            <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="14" LineBreakMode="TailTruncation" />
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto" />                               
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="Start" TextColor="White" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="0" />
+                                <Label Text="{Binding type}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="0" />
+                                <ffimageloadingsvg:SvgCachedImage DownsampleToViewSize="True" Source="{Binding icon}" HorizontalOptions="End" Grid.Row="1" Grid.Column="2"/>
+                            </Grid>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

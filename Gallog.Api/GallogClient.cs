@@ -13,11 +13,14 @@ namespace Gallog.Api
 {
     public class GallogClient : IGallogClient
     {
-        internal readonly HttpClient Client = new HttpClient { BaseAddress = new Uri("https://api.gallog.co/api/") };
+        internal readonly HttpClient Client = new HttpClient { BaseAddress = new Uri("https://api.gallog.co/v1/") };
         /// <summary>
         /// JSON Web Token to use with the client
         /// </summary>
         public string Jwt { get; set; }
+        public int Scu { get; set; }
+        public int Uec { get; set; }
+        public object[] Commodities { get; set; }
         public GallogClient()
         {
 
@@ -42,6 +45,8 @@ namespace Gallog.Api
             }
         }
 
+      
+
 
         /// <summary>
         /// Logs into the system.  If successful, stores the JSON Web Token in the client (in memory only)
@@ -57,6 +62,27 @@ namespace Gallog.Api
             return response;
         }
 
+        public async Task<TradeRoutes> RoutesFilterAsync(string shipUri, int uec)
+        {
+            var body = new { shipUri, uec};
+            var results = await PostAsync<TradeRoutes>(body, "trade/routes");
+            Scu = results.scu;
+            Uec = results.uec;
+            Commodities = results.commodities;
+            return results;
+
+        }
+
+        public async Task<TradeRoutes> RoutesAsync(string shipUri, int uec, string startUri, string endUri)
+        {
+            var body = new { shipUri, uec, startUri, endUri };
+            var results = await PostAsync<TradeRoutes>(body, "trade/routes");
+            Scu = results.scu;
+            Uec = results.uec;
+            Commodities = results.commodities;
+            return results;
+
+        }
         /// <summary>
         /// Gets a specific item based on the model passed to it. Must be a class that implements ApiQueryable
         /// </summary>
