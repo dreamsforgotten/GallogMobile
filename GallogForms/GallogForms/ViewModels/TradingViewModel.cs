@@ -44,7 +44,7 @@ namespace GallogForms.ViewModels
             Ports = new ObservableCollection<TradeportCatalog>();
             Items = new ObservableCollection<ShipCatalog>();
             _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy-Spky5pbZhJCkyN-MT9RA6ap_yD9ezRxCxo");
-            PostRouteData = new Command(async () => await ExecutePostRouteData(), () => !IsBusy);
+          //  PostRouteData = new Command(async () => await ExecutePostRouteData(), () => !IsBusy);
 
             LoadItems();
         }
@@ -58,7 +58,7 @@ namespace GallogForms.ViewModels
             try
             {
                 var routes = await _gallogClient.RoutesAsync(shipUri, uec);
-                foreach (var route in routes.)
+               // foreach (var route in routes.)
 
 
 

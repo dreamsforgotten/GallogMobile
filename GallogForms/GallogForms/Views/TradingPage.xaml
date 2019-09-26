@@ -5,9 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-             xmlns:cnv=""
+             xmlns:cnv="clr-namespace:GallogForms.Services"
              x:Class="GallogForms.Views.TradingPage"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
+             BackgroundColor="#1c1d1e"
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>
@@ -25,9 +26,33 @@
             <Color x:Key="LightTextColor">#999999</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
-    <StackLayout>
-        <Picker ItemsSource="{Binding Items}" SelectedItem=""/>
+    <StackLayout Orientation="Vertical" Padding="5,5,5,5">
+        <Label BackgroundColor="#1c1d1e" FontFamily="zekton_regular.ttf#Zekton Rg" Text="Gallog Trade Route Calculator" VerticalOptions="Center" HorizontalOptions="Center" TextColor="#fecc59"/>
+        <StackLayout>
+            <Grid Padding="5,5,5,5" BackgroundColor="Black">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Text="Pick Your Ship!" FontSize="16" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1f9" HorizontalOptions="Center"/>
+                <Label Text="{Binding Items.uri}" d:Text="shipUri" Grid.Row="1" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="Center" FontSize="10" d:FontSize="10" TextColor="White" />
+            </Grid>
+        </StackLayout>
+        <StackLayout Padding="5,5,5,5">
+            <Picker ItemsSource="{Binding Items.name}" HeightRequest="40" FontFamily="zekton_regular.ttf#Zekton Rg" d:ItemsSource="Ship Name" SelectedItem="{Binding SelectedShip}" BackgroundColor="#252629" TextColor="#64c1f9" Grid.Row="0" Grid.Column="0"/>
+        </StackLayout>
+        <StackLayout>
+            <Grid Padding="5,5,5,5" BackgroundColor="Black">
+                <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Text="Optional Pick Tradeports" FontSize="15" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1f9" HorizontalOptions="Center"/>
+                <Label Text="{Binding Items.uri}" d:Text="portUri" FontFamily="zekton_regular.ttf#Zekton Rg" d:FontSize="10" HorizontalOptions="Center" Grid.Row="1" TextColor="White" />
+            </Grid>
+        </StackLayout>
+        <StackLayout Padding="5,5,5,5">
+            <Picker ItemsSource="{Binding Ports.name}" FontFamily="zekton_regular.ttf#Zekton Rg" d:ItemsSource="TradePort" SelectedItem="{Binding SelectdPort}" BackgroundColor="#252629" TextColor="#64c1f9" Grid.Row="1" Grid.Column="0"/>
+        </StackLayout>
     </StackLayout>
-    
-    
+
 </ContentPage>
