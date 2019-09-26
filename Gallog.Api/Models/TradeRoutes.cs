@@ -9,6 +9,7 @@ namespace Gallog.Api.Models
 
     public class TradeRoutes : ApiQueryable
     {
+            public string ship { get; set; }
             public int scu { get; set; }
             public int uec { get; set; }
             public object[] commodities { get; set; }

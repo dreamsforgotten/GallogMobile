@@ -13,7 +13,7 @@ namespace Gallog.Api
 {
     public class GallogClient : IGallogClient
     {
-        internal readonly HttpClient Client = new HttpClient { BaseAddress = new Uri("https://api.gallog.co/v1/") };
+        internal readonly HttpClient Client = new HttpClient { BaseAddress = new Uri("https://api.gallog.co/api/") };
         /// <summary>
         /// JSON Web Token to use with the client
         /// </summary>
@@ -62,18 +62,15 @@ namespace Gallog.Api
             return response;
         }
 
-        public async Task<TradeRoutes> RoutesFilterAsync(string shipUri, int uec)
+        public async Task<TradeRoutes> RoutesAsync(string shipUri, int uec)
         {
             var body = new { shipUri, uec};
             var results = await PostAsync<TradeRoutes>(body, "trade/routes");
-            Scu = results.scu;
-            Uec = results.uec;
-            Commodities = results.commodities;
             return results;
 
         }
 
-        public async Task<TradeRoutes> RoutesAsync(string shipUri, int uec, string startUri, string endUri)
+        public async Task<TradeRoutes> RoutesFilterAsync(string shipUri, int uec, string startUri, string endUri)
         {
             var body = new { shipUri, uec, startUri, endUri };
             var results = await PostAsync<TradeRoutes>(body, "trade/routes");

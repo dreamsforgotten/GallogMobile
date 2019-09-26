@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using Gallog.Api.Attributes;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace Gallog.Api.Models
 {
     [ApiPath("tradeports")]
-    public class TradeportList : ApiQueryable
+    public class TradeportList : ApiQueryable 
     {
         public TradeportCatalog[] tradeports { get; set; }
     }

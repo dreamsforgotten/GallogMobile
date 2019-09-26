@@ -14,7 +14,8 @@ namespace GallogForms.ViewModels
     {
         private GallogClient _gallogClient;
         public ObservableCollection<ShipCatalog> Items { get; set; }
-        public ObservableCollection<shipmatrix> ExtItems { get; set; }
+     //   public ObservableCollection<shipmatrix> ExtItems { get; set; }
+
 
         private ShipCatalog _selectedShip { get; set; }
         public ShipCatalog SelectedShip
@@ -25,7 +26,7 @@ namespace GallogForms.ViewModels
                 if (_selectedShip != value)
                 {
                     _selectedShip = value;
-                    LoadExtendedItems();
+                        
                     ExpandOrCollapseSelectedItem();
                 }
             }
@@ -44,10 +45,9 @@ namespace GallogForms.ViewModels
         {
             Title = "Ships";
             Items = new ObservableCollection<ShipCatalog>();
-            ExtItems = new ObservableCollection<shipmatrix>();
+         //   ExtItems = new ObservableCollection<shipmatrix>();
 
-         //   _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy-Spky5pbZhJCkyN-MT9RA6ap_yD9ezRxCxo");
-            _gallogClient = new GallogClient();
+           _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy-Spky5pbZhJCkyN-MT9RA6ap_yD9ezRxCxo");
             RefreshItemsCommand = new Command(async () => await ExecuteRefreshItemsCommand(), () => !IsBusy);
 
             LoadItems();
@@ -110,30 +110,30 @@ namespace GallogForms.ViewModels
             }
         }
 
-        public async void LoadExtendedItems()
-        {
-            if (IsBusy)
-                return;
+        //public async void LoadExtendedItems()
+        //{
+        //    if (IsBusy)
+        //        return;
 
-            IsBusy = true;
-            try
-            {
-                ExtItems.Clear();
-                var items = await _gallogClient.GetItemAsync<ShipResponse>(SelectedShip.name);
-                foreach (var item in items.ship.ToList())
-                {                   
-                    ExtItems.Add(item);
-                }
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex);
-            }
-            finally
-            {
-                IsBusy = false;
-            }
-        }
+        //    IsBusy = true;
+        //    try
+        //    {
+        //        ExtItems.Clear();
+        //        var items = await _gallogClient.GetItemAsync<ShipResponse>(SelectedShip.name);
+        //        foreach (var item in items.ship.ToList())
+        //        {                   
+        //            ExtItems.Add(item);
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Debug.WriteLine(ex);
+        //    }
+        //    finally
+        //    {
+        //        IsBusy = false;
+        //    }
+        //}
 
         async Task ExecuteRefreshItemsCommand()
         {
