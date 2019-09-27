@@ -14,7 +14,6 @@ namespace GallogForms.ViewModels
     {
         private GallogClient _gallogClient;
         public ObservableCollection<ShipCatalog> Items { get; set; }
-     //   public ObservableCollection<shipmatrix> ExtItems { get; set; }
 
 
         private ShipCatalog _selectedShip { get; set; }
@@ -26,7 +25,6 @@ namespace GallogForms.ViewModels
                 if (_selectedShip != value)
                 {
                     _selectedShip = value;
-                        
                     ExpandOrCollapseSelectedItem();
                 }
             }

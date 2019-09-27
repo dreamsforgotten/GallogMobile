@@ -15,7 +15,7 @@
     <item name="colorPrimaryDark">#995814</item>
     <!-- colorAccent is used as the default value for colorControlActivated
          which is used to tint widgets -->
-    <item name="colorAccent">#8b1284</item>
+    <item name="colorAccent">#64c1f9</item>
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
     <item name="colorControlNormal">#292e4c</item>
@@ -24,6 +24,6 @@
     <item name="android:colorActivatedHighlight">#4c28</item>
   </style>
   <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Dialog">
-    <item name="colorAccent">#FF4081</item>
+    <item name="colorAccent">#64c1f9</item>
   </style>
 </resources>

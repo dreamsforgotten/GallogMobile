@@ -8,26 +8,40 @@ namespace GallogForms
     class SliderDemo : ContentPage
     {
         private double StepValue;
-        private Slider SliderMain;
+        private Slider SliderUec;
 
         public SliderDemo()
         {
             StepValue = 100.0;
 
-            SliderMain = new Slider
+            Label UecCount = new Label
             {
-                Maximum = 100000000000.0f,
-                Minimum = 1000.0f,
-                Value = 0.0f,
+                Text = "Total Uec",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.CenterAndExpand
+            };
+
+            Label display = new Label
+            {
+                Text = "(uninitalized)",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.CenterAndExpand
+            };
+
+            SliderUec = new Slider
+            {
+                Maximum = 1000000.0, 
+                Minimum = 100.0,
+                Value = 100.0,
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
 
-            SliderMain.ValueChanged += OnSliderValueChanged;
+            SliderUec.ValueChanged += OnSliderValueChanged;
 
             Content = new StackLayout
             {
-                Children = { SliderMain },
+                Children = { SliderUec },
                 Orientation = StackOrientation.Horizontal,
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand
@@ -37,7 +51,7 @@ namespace GallogForms
         void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
         {
             var newStep = Math.Round(e.NewValue / StepValue);
-            SliderMain.Value = newStep * StepValue;
+            SliderUec.Value = newStep * StepValue;
         }
     }
 }

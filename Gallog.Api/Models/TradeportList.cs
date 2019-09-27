@@ -23,6 +23,7 @@ namespace Gallog.Api.Models
         public string objname { get; set; }
         public int objectId { get; set; }
         public string objicon { get; set; }
+        public string entry { get; set; }
     }
 
 }

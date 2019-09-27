@@ -19,6 +19,7 @@ namespace Gallog.Api
         /// </summary>
         public string Jwt { get; set; }
         public int Scu { get; set; }
+        public string Ships { get; set; }
         public int Uec { get; set; }
         public object[] Commodities { get; set; }
         public GallogClient()
@@ -74,9 +75,6 @@ namespace Gallog.Api
         {
             var body = new { shipUri, uec, startUri, endUri };
             var results = await PostAsync<TradeRoutes>(body, "trade/routes");
-            Scu = results.scu;
-            Uec = results.uec;
-            Commodities = results.commodities;
             return results;
 
         }
