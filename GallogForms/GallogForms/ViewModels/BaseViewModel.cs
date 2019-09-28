@@ -15,6 +15,7 @@ namespace GallogForms.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
+        private readonly Dictionary<string, object> _values = new Dictionary<String, object>();
         bool isBusy = false;
         public bool IsBusy
         {
@@ -45,6 +46,31 @@ namespace GallogForms.ViewModels
 
         #region INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public T GetProperty<T>([CallerMemberName] string propertyName = "")
+        {
+            EnsureElement<T>(propertyName);
+            return (T)_values[propertyName];
+        }
+
+        public void SetProperty<T>(object value, [CallerMemberName] string propertyName = "")
+        {
+            EnsureElement<T>(propertyName);
+            if (_values[propertyName] == value)
+            {
+                return;
+            }
+            _values[propertyName] = value;
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        private void EnsureElement<T>(string propertyName)
+        {
+            if (!_values.ContainsKey(propertyName))
+            {
+                _values.Add(propertyName, default(T));
+            }
+        }
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             var changed = PropertyChanged;
@@ -53,6 +79,7 @@ namespace GallogForms.ViewModels
 
             changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
         #endregion
     }
 }

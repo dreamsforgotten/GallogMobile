@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
@@ -16,31 +17,62 @@ namespace GallogForms.ViewModels
     {
         public ObservableCollection<TradeportCatalog> Ports { get; set; }
         public ObservableCollection<ShipCatalog> Items { get; set; }
-        private TradeportCatalog _selectedPort { get; set; }
+        private TradeportCatalog _selectedStartPort { get; set; }
+        private TradeportCatalog _selectedEndPort { get; set; }
         private ShipCatalog _selectedShip { get; set; }
         private TradeRoutes _tradeRoutes { get; set; }
         public Command PostRouteData { get; set; }
 
         private GallogClient _gallogClient;
-
-
-        // public string shipUri;
-        // public string portUri;
-        // public string _ship;
-        public int _scu;
-        int uec = int.MinValue;
-        public int UEC
+        string shipuri = string.Empty;
+        public string shipUri
         {
-            get => uec;
+            get => shipuri;
             set
             {
-                if (uec == value)
+                if (shipuri == value)
                     return;
 
-                uec = value;
-                OnPropertyChanged(nameof(UEC));
-
+                shipuri = value;
+                OnPropertyChanged(nameof(shipUri));
             }
+        }
+
+        string starturi = string.Empty;
+        public string startUri
+        {
+            get => starturi;
+            set
+            {
+                if (starturi == value)
+                    return;
+
+                starturi = value;
+                OnPropertyChanged(nameof(startUri));
+            }
+        }
+        string enduri = string.Empty;
+        public string endUri
+                {
+            get => enduri;
+            set
+            {
+                if (enduri == value)
+                    return;
+
+                enduri = value;
+                OnPropertyChanged(nameof(endUri));
+            }
+        }
+
+        public int _scu;
+
+        public int UEC = 0;
+
+        public int uec
+        {
+            get => GetProperty<int>();
+            set => SetProperty<int>(value);
         }
 
         string entrytxt = string.Empty;
@@ -53,8 +85,10 @@ namespace GallogForms.ViewModels
                     return;
 
                 entrytxt = value;
+                uec = Int32.Parse(value);
                 OnPropertyChanged(nameof(EntryTxt));
                 OnPropertyChanged(nameof(DisplayName));
+
             }
         }
 
@@ -66,23 +100,37 @@ namespace GallogForms.ViewModels
                 if (_selectedShip != value)
                 {
                     _selectedShip = value;
-                    //   _selectedShip.uri = shipUri;
-                    OnPropertyChanged();
+                    _selectedShip.uri = shipUri;
+                    OnPropertyChanged(nameof(SelectedShip));
 
                 }
             }
         }
 
-        public TradeportCatalog SelectedPort
+        public TradeportCatalog SelectedStartPort
         {
-            get { return _selectedPort; }
+            get { return _selectedStartPort; }
             set
             {
-                if (_selectedPort != value)
+                if (_selectedStartPort != value)
                 {
-                    _selectedPort = value;
-                    //   _selectedPort.uri = portUri;
-                    OnPropertyChanged();
+                    _selectedStartPort = value;
+                    _selectedStartPort.uri = startUri;
+                    OnPropertyChanged(nameof(SelectedStartPort));
+                }
+            }
+        }
+
+        public TradeportCatalog SelectedEndPort
+        {
+            get { return _selectedEndPort; }
+            set
+            {
+                if (_selectedEndPort != value)
+                {
+                    _selectedEndPort = value;
+                    _selectedEndPort.uri = endUri;
+                    OnPropertyChanged(nameof(SelectedEndPort));
                 }
             }
         }
@@ -96,7 +144,7 @@ namespace GallogForms.ViewModels
                 {
                     _tradeRoutes = value;
                     {
-                        OnPropertyChanged();
+                        OnPropertyChanged(nameof(TradeRoutes));
                     }
                 }
             }
@@ -150,7 +198,7 @@ namespace GallogForms.ViewModels
                 IsBusy = false;
                 
             }
-        }      
+        }
 
     }
 }

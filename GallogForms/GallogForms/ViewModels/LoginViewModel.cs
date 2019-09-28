@@ -17,7 +17,24 @@ namespace GallogForms.ViewModels
     public class LoginViewModel : BaseViewModel
     {
         private GallogClient _gallogClient;
-        private string Username;
+
+        string username = string.Empty;
+        public string Username
+        {
+            get => username;
+            set
+            {
+                if (username == value)
+                    return;
+
+                username = value;
+                OnPropertyChanged(nameof(Username));
+                OnPropertyChanged(nameof(DisplayName));
+            }
+        }
+    
+        public string DisplayName => $" Your username is{username}";
+
         private string Password;
         
         public Command LoginCommand { get; set; }
@@ -27,9 +44,6 @@ namespace GallogForms.ViewModels
             
             _gallogClient = new GallogClient();
             LoginCommand = new Command(async () => await ExecuteLoginCommand(), () => !IsBusy);
-
-
-
         }
 
         async Task ExecuteLoginCommand()
