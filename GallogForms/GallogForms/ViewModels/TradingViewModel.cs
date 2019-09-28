@@ -100,7 +100,7 @@ namespace GallogForms.ViewModels
                 if (_selectedShip != value)
                 {
                     _selectedShip = value;
-                    _selectedShip.uri = shipUri;
+                    shipUri = _selectedShip.uri;
                     OnPropertyChanged(nameof(SelectedShip));
 
                 }
@@ -115,7 +115,7 @@ namespace GallogForms.ViewModels
                 if (_selectedStartPort != value)
                 {
                     _selectedStartPort = value;
-                    _selectedStartPort.uri = startUri;
+                    startUri = _selectedStartPort.uri; 
                     OnPropertyChanged(nameof(SelectedStartPort));
                 }
             }
@@ -129,7 +129,7 @@ namespace GallogForms.ViewModels
                 if (_selectedEndPort != value)
                 {
                     _selectedEndPort = value;
-                    _selectedEndPort.uri = endUri;
+                    endUri = _selectedEndPort.uri;
                     OnPropertyChanged(nameof(SelectedEndPort));
                 }
             }
