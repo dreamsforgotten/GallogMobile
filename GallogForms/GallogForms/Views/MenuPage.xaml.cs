@@ -20,7 +20,8 @@ namespace GallogForms.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Home, Title="Home", Image="home.png"},
+                new HomeMenuItem {Id = MenuItemType.Home, Title="Home", Image="homew.png"},
+                new HomeMenuItem {Id = MenuItemType.Login, Title ="Login", Image="home.png"},
                 new HomeMenuItem {Id = MenuItemType.Hangar, Title="Hangar", Image="flight_takeoff_b.png"},
                 new HomeMenuItem {Id = MenuItemType.MyOrg, Title="My Org", Image="account_b.png"},
                 new HomeMenuItem {Id = MenuItemType.Missions, Title="Missions", Image="missions.png"},

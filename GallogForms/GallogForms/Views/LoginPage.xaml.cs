@@ -16,7 +16,6 @@ namespace GallogForms.Views
         {
             InitializeComponent();
             BindingContext = new LoginViewModel();
-            BindingContext = new LoginResult();
         }
     }
 }

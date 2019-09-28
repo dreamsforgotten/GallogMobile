@@ -17,26 +17,100 @@ namespace GallogForms.ViewModels
     public class LoginViewModel : BaseViewModel
     {
         private GallogClient _gallogClient;
+        public ObservableCollection<LoginResult> Jwtcode { get; set; }
 
-        string username = string.Empty;
+        string _userName = string.Empty;
         public string Username
         {
-            get => username;
+            get => _userName;
             set
             {
-                if (username == value)
+                if (_userName == value)
                     return;
-
-                username = value;
+                _userName = value;
+                username = _userName;
                 OnPropertyChanged(nameof(Username));
                 OnPropertyChanged(nameof(DisplayName));
             }
         }
-    
-        public string DisplayName => $" Your username is{username}";
 
-        private string Password;
-        
+        string _passWord = string.Empty;
+        public string Password
+        {
+            get => _passWord;
+            set
+            {
+                if (_passWord == value)
+                    return;
+
+                _passWord = value;
+                password = _passWord;
+                OnPropertyChanged(nameof(Password));
+                OnPropertyChanged(nameof(DisplayPassword));
+            }
+        }
+
+        string _jwt = string.Empty;
+        public string Jwt
+        {
+            get => _jwt;
+            set
+            {
+                if (_jwt == value)
+                    return;
+
+                _jwt = value;
+                OnPropertyChanged(nameof(Jwt));
+                OnPropertyChanged(nameof(DisplayJwt));
+            }
+        }
+
+        string _username = string.Empty;
+        public string username
+        {
+            get => _username;
+            set
+            {
+                if (_username == value)
+                    return;
+
+                _username = value;
+                OnPropertyChanged(nameof(username));
+            }
+        }
+
+        string _password = string.Empty;
+        public string password
+        {
+            get => _password;
+            set
+            {
+                if (_password == value)
+                    return;
+
+                _password = value;
+                OnPropertyChanged(nameof(password));
+            }
+        }
+
+        string _response = string.Empty;
+        public string Response
+        {
+            get => _response;
+            set
+            {
+                if (_response == value)
+                    return;
+
+                _response = value;
+                OnPropertyChanged(nameof(Response));
+            }
+        }
+
+        public string DisplayJwt => $" SuperSecret JWT is: {Jwt}";
+        public string DisplayName => $" Your username is: {Username}";
+        public string DisplayPassword => $" Your Password is: {Password}";
+        public string DisplayResponse => $" Server says {Response}";
         public Command LoginCommand { get; set; }
         public LoginViewModel()
         {
@@ -44,6 +118,7 @@ namespace GallogForms.ViewModels
             
             _gallogClient = new GallogClient();
             LoginCommand = new Command(async () => await ExecuteLoginCommand(), () => !IsBusy);
+            Jwtcode = new ObservableCollection<LoginResult>();
         }
 
         async Task ExecuteLoginCommand()
@@ -57,7 +132,9 @@ namespace GallogForms.ViewModels
             {
                 LoginCommand.ChangeCanExecute();
                 {
-
+                    var responses = await _gallogClient.LoginAsync(username, password);
+                    Jwt = responses.jwt;
+                    Response = responses.response;
                 }
             }
             catch (Exception ex)
@@ -67,9 +144,9 @@ namespace GallogForms.ViewModels
             finally
             {
                 IsBusy = false;
+
             }
         }
-    
     }
 }
 

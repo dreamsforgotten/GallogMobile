@@ -21,9 +21,9 @@ namespace GallogForms.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages.Add((int)MenuItemType.Splash, new NavigationPage(new SplashPage()));
+            //MenuPages.Add((int)MenuItemType.Splash, new NavigationPage(new SplashPage()));
            // System.Threading.Thread.Sleep(1000);
-           // MenuPages.Add((int)MenuItemType.Home, new NavigationPage(new HomePage()));
+            MenuPages.Add((int)MenuItemType.Home, new NavigationPage(new HomePage()));
         }
 
         public async Task NavigateFromMenu(int id)
@@ -34,6 +34,9 @@ namespace GallogForms.Views
                 {
                     case (int)MenuItemType.Home:
                         MenuPages.Add(id, new NavigationPage(new HomePage()));
+                        break;
+                    case (int)MenuItemType.Login:
+                        MenuPages.Add(id, new NavigationPage(new LoginPage()));
                         break;
                     case (int)MenuItemType.Hangar:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));

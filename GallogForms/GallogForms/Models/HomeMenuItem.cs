@@ -7,6 +7,7 @@ namespace GallogForms.Models
     public enum MenuItemType
     {
         Home,
+        Login,
         Hangar,
         MyOrg,
         Missions,
