@@ -21,8 +21,8 @@ namespace GallogForms.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            //MenuPages.Add((int)MenuItemType.Splash, new NavigationPage(new SplashPage()));
-           // System.Threading.Thread.Sleep(1000);
+            MenuPages.Add((int)MenuItemType.Splash, new NavigationPage(new SplashPage()));
+            System.Threading.Thread.Sleep(1000);
             MenuPages.Add((int)MenuItemType.Home, new NavigationPage(new HomePage()));
         }
 
