@@ -13,10 +13,14 @@ namespace GallogForms.ViewModels
     public class ShipsViewModel : BaseViewModel
     {
         private GallogClient _gallogClient;
+
+
+
         public ObservableCollection<ShipCatalog> Items { get; set; }
-
-
+        public Command RefreshItemsCommand { get; set; }
         private ShipCatalog _selectedShip { get; set; }
+        public string full_URL;
+        public string tempColor;
         public ShipCatalog SelectedShip
         {
             get { return _selectedShip; }
@@ -35,10 +39,10 @@ namespace GallogForms.ViewModels
             Items.Where(t => t.id == SelectedShip.id).FirstOrDefault().IsVisible =
                 !SelectedShip.IsVisible;
         }
-        public Command RefreshItemsCommand { get; set; }
 
-        public string full_URL;
-        public string tempColor;
+
+
+
         public ShipsViewModel()
         {
             Title = "Ships";
@@ -50,6 +54,10 @@ namespace GallogForms.ViewModels
 
             LoadItems();
         }
+
+
+
+
         private async void LoadItems()
         {
             if (IsBusy)

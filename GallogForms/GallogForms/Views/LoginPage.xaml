@@ -26,18 +26,11 @@
             <Color x:Key="LightTextColor">#999999</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
-
     <StackLayout>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="15" />
-                <RowDefinition Height="15" />
-            </Grid.RowDefinitions>
-            <Label Grid.Row="0" />
-        </Grid>
-        <Grid VerticalOptions="Center">
-            <AbsoluteLayout HorizontalOptions="CenterAndExpand" Padding="10,2,10,10">
-                <Label Text="Login" BackgroundColor="#252629" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+        <StackLayout>
+        <Grid VerticalOptions="Center" Margin="5,10,5,5" Padding="5,5,5,5">
+            <AbsoluteLayout HorizontalOptions="CenterAndExpand">
+                <Label Text="Login" BackgroundColor="#252629" HorizontalOptions="CenterAndExpand" WidthRequest="200" VerticalOptions="CenterAndExpand"
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    FontSize="Large"
@@ -45,43 +38,24 @@
                    TextColor="White"/>
             </AbsoluteLayout>
         </Grid>
-        <StackLayout>
-            <Grid Padding="10,10,10,10">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="2*" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Label Text="Username" BackgroundColor="#252629" HorizontalOptions="CenterAndExpand" TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="1" Grid.Column="0"  />
-                <Entry Text="{Binding Username}" WidthRequest="150" HeightRequest="50" TextColor="Black"  HorizontalOptions="CenterAndExpand" BackgroundColor="White" Grid.Row="2" Grid.Column="0" />
-                <Label Text="Password" HorizontalOptions="CenterAndExpand" BackgroundColor="#252629" TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg"  Grid.Row="1" Grid.Column="1" />
-                <Entry Text="{Binding Password}" IsPassword="True" WidthRequest="150" TextColor="Black" HorizontalOptions="CenterAndExpand" BackgroundColor="White" Grid.Row="2" Grid.Column="1" />
-                <Button Text="Login to Gallog" Padding="20,20,20,20" WidthRequest="200" Command="{Binding LoginCommand}" HeightRequest="56" TextColor="#64c1f9" FontFamily="zekton_regular.ttf#Zekton Rg" CornerRadius="10" BackgroundColor="#252629" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
-            </Grid>
-        </StackLayout>
-        <StackLayout Padding="1,1,1,1">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto"  />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto"  />
-                </Grid.RowDefinitions>
-                <Label Text="{Binding DisplayName}" TextColor="White" BackgroundColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
-                <Label Text="{Binding DisplayPassword}" TextColor="White" BackgroundColor="Black" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
-                <Label Text="{Binding DisplayJwt}" TextColor="White" BackgroundColor="Black" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />
-                <Label Text="{Binding username}" TextColor="White" BackgroundColor="Black" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" />
-                <Label Text="{Binding DisplayResponse}" TextColor="White" BackgroundColor="Black" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" />
-            </Grid>
-
-
+            <StackLayout>
+                <Grid Margin="5,10,5,5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Label Text="Username" BackgroundColor="#252629" WidthRequest="200" TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                    <Entry Text="{Binding Username}" BackgroundColor="Cornsilk" WidthRequest="200" TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
+                    <Label Text="Password" BackgroundColor="#252629" WidthRequest="200" TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" />
+                    <Entry Text="{Binding Password}" IsPassword="True" BackgroundColor="Cornsilk" WidthRequest="200" TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" />
+                    <Button Text="Login to Gallog" BackgroundColor="Black" HorizontalOptions="CenterAndExpand"  TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" />
+                </Grid>
+            </StackLayout>
         </StackLayout>
     </StackLayout>
 

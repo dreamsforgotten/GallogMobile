@@ -17,11 +17,12 @@ namespace Gallog.Api
         /// <summary>
         /// JSON Web Token to use with the client
         /// </summary>
+        /// 
+        public object[] Commodities { get; set; }
+        public string Ships { get; set; }
         public string Jwt { get; set; }
         public int Scu { get; set; }
-        public string Ships { get; set; }
         public int Uec { get; set; }
-        public object[] Commodities { get; set; }
         public GallogClient()
         {
 

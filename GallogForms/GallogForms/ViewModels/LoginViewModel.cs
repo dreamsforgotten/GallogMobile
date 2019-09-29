@@ -16,9 +16,6 @@ namespace GallogForms.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
-        private GallogClient _gallogClient;
-        public ObservableCollection<LoginResult> Jwtcode { get; set; }
-
         string _userName = string.Empty;
         public string Username
         {
@@ -111,7 +108,17 @@ namespace GallogForms.ViewModels
         public string DisplayName => $" Your username is: {Username}";
         public string DisplayPassword => $" Your Password is: {Password}";
         public string DisplayResponse => $" Server says {Response}";
+
+        public ObservableCollection<LoginResult> Jwtcode { get; set; }
         public Command LoginCommand { get; set; }
+
+        private GallogClient _gallogClient;
+
+
+
+
+
+
         public LoginViewModel()
         {
             Title = "Login";
@@ -120,6 +127,11 @@ namespace GallogForms.ViewModels
             LoginCommand = new Command(async () => await ExecuteLoginCommand(), () => !IsBusy);
             Jwtcode = new ObservableCollection<LoginResult>();
         }
+
+
+
+
+
 
         async Task ExecuteLoginCommand()
         {
