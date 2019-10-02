@@ -7,6 +7,9 @@
     <OldToolsVersion>2.0</OldToolsVersion>
     <Platforms>AnyCPU;x86</Platforms>
     <PackageId>GallogMobile</PackageId>
+    <Product>Gallog Mobile</Product>
+    <Company>ForgottenDreams</Company>
+    <Authors>Dreamsforgotten</Authors>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>pdbonly</DebugType>
@@ -23,8 +26,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="LiveXAML" Version="2.1.73" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.6.0" />
     <PackageReference Include="Naxam.Layouts.FlexLayout" Version="1.0.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="sameerIOTApps.Plugin.SecureStorage" Version="2.5.0" />
     <PackageReference Include="SkiaSharp.Extended" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />

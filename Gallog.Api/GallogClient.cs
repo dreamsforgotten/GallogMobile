@@ -8,7 +8,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-
+using Plugin.SecureStorage;
 namespace Gallog.Api
 {
     public class GallogClient : IGallogClient
@@ -18,16 +18,13 @@ namespace Gallog.Api
         /// JSON Web Token to use with the client
         /// </summary>
         /// 
-        public object[] Commodities { get; set; }
-        public string Ships { get; set; }
         public string Jwt { get; set; }
-        public int Scu { get; set; }
-        public int Uec { get; set; }
         public GallogClient()
         {
 
         }
-
+        
+        public string JwtToken { get; set; }
         /// <summary>
         /// Initializes the client with a known JSON Web Token
         /// </summary>
@@ -60,19 +57,20 @@ namespace Gallog.Api
         {
             var body = new { email, password };
             var response =  await PostAsync<LoginResult>(body, "login");
+            CrossSecureStorage.Current.SetValue("SessionToken", response.jwt);
             Jwt = response.jwt;
             return response;
         }
 
-        public async Task<TradeRoutes> RoutesAsync(string shipUri, int uec)
-        {
-            var body = new { shipUri, uec};
-            var results = await PostAsync<TradeRoutes>(body, "trade/routes");
-            return results;
+        //public async Task<TradeRoutes> RoutesAsync(string shipUri, int uec)
+        //{
+        //    var body = new { shipUri, uec};
+        //    var results = await PostAsync<TradeRoutes>(body, "trade/routes");
+        //    return results;
 
-        }
+        //}
 
-        public async Task<TradeRoutes> RoutesFilterAsync(string shipUri, int uec, string startUri, string endUri)
+        public async Task<TradeRoutes> RoutesAsync(string shipUri, int uec, string startUri, string endUri)
         {
             var body = new { shipUri, uec, startUri, endUri };
             var results = await PostAsync<TradeRoutes>(body, "trade/routes");
@@ -111,6 +109,18 @@ namespace Gallog.Api
             return null;
         }
 
+        public async Task<T> PostAsyncDynamic<T>(string path) where T : ApiQueryable
+        {
+            dynamic response = await Client.PostAsync(path, JwtContent);
+            return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
+        }
+
+        public async Task<T> PostAsyncDynamic<T>(object body, string path) where T : ApiQueryable
+        {
+            dynamic response = await Client.PostAsync(path,
+                new StringContent(JsonConvert.SerializeObject(body), Encoding.UTF8, "application/json"));
+            return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
+        }
         public async Task<T> PostAsync<T>(string path) where T : ApiQueryable
         {
             var response = await Client.PostAsync(path, JwtContent);

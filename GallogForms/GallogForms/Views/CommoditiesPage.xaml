@@ -48,8 +48,8 @@
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <Label Text="{Binding name}" d:Text="Binding Name" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="Start" TextColor="White" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="0" />
-                                <Label Text="{Binding type}" d:Text="Binding Type" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="0" />
+                                <!--<Label Text="{Binding name}" d:Text="Binding Name" FontFamily="zekton_regular.ttf#Zekton Rg" HorizontalOptions="Start" TextColor="White" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="0" />-->
+                                <!--<Label Text="{Binding type}" d:Text="Binding Type" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="0" />-->
                                 <ffimageloadingsvg:SvgCachedImage DownsampleToViewSize="True" Source="{Binding icon}" HorizontalOptions="End" Grid.Row="1" Grid.Column="2"/>
                             </Grid>
                         </StackLayout>

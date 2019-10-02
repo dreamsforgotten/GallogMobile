@@ -12,7 +12,7 @@ namespace Gallog.Api.Models
         public Commodity[] commodities { get; set; }
     }
 
-    public class Commodity
+    public class Commodity1
     {
         public int id { get; set; }
         public string name { get; set; }

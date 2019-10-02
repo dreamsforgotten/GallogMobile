@@ -46,9 +46,8 @@ namespace GallogForms.ViewModels
                 OnPropertyChanged(nameof(DisplayPassword));
             }
         }
-
         string _jwt = string.Empty;
-        public string Jwt
+        public string jwt
         {
             get => _jwt;
             set
@@ -57,7 +56,7 @@ namespace GallogForms.ViewModels
                     return;
 
                 _jwt = value;
-                OnPropertyChanged(nameof(Jwt));
+                OnPropertyChanged(nameof(jwt));
                 OnPropertyChanged(nameof(DisplayJwt));
             }
         }
@@ -104,18 +103,13 @@ namespace GallogForms.ViewModels
             }
         }
 
-        public string DisplayJwt => $" SuperSecret JWT is: {Jwt}";
+        public string DisplayJwt => $" SuperSecret JWT is: {jwt}";
         public string DisplayName => $" Your username is: {Username}";
         public string DisplayPassword => $" Your Password is: {Password}";
         public string DisplayResponse => $" Server says {Response}";
-
-        public ObservableCollection<LoginResult> Jwtcode { get; set; }
         public Command LoginCommand { get; set; }
 
         private GallogClient _gallogClient;
-
-
-
 
 
 
@@ -125,11 +119,7 @@ namespace GallogForms.ViewModels
             
             _gallogClient = new GallogClient();
             LoginCommand = new Command(async () => await ExecuteLoginCommand(), () => !IsBusy);
-            Jwtcode = new ObservableCollection<LoginResult>();
         }
-
-
-
 
 
 
@@ -145,8 +135,8 @@ namespace GallogForms.ViewModels
                 LoginCommand.ChangeCanExecute();
                 {
                     var responses = await _gallogClient.LoginAsync(username, password);
-                    Jwt = responses.jwt;
-                    Response = responses.response;
+                    jwt = responses.jwt;
+                    Response = responses.message;                   
                 }
             }
             catch (Exception ex)
@@ -156,6 +146,7 @@ namespace GallogForms.ViewModels
             finally
             {
                 IsBusy = false;
+                LoginCommand.ChangeCanExecute();
 
             }
         }
