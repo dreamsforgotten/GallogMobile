@@ -29,14 +29,16 @@
     </ContentPage.Resources>
 
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
+        <SearchBar Placeholder="Filter..." TextChanged="SearchBar_OnTextChanged"></SearchBar>
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
-            <Button Text="Refresh The Ships" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
+            <!--<Button Text="Refresh The Ships" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />-->
         </Grid>
         <ScrollView>
             <ListView ItemsSource="{Binding Items}" 
                       Margin="5,5,5,5" 
-                      x:Name="listView" 
+                      x:Name="ShipsView" 
                       HasUnevenRows="True" 
+                      IsPullToRefreshEnabled="True"
                       RowHeight="500" 
                       BackgroundColor="#252629" 
                       CachingStrategy="RecycleElement">
@@ -45,20 +47,10 @@
                 <DataTemplate>
                     <ViewCell>
                             <StackLayout x:Name="cell" Orientation="Vertical" Padding="10,10,10,10" BackgroundColor="Black">
-                                <StackLayout BackgroundColor="#252629">
-                                    <Grid BackgroundColor="#1c1d1e">
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="Auto"/>
-                                            <!--<RowDefinition Height="Auto"/>-->
-                                        </Grid.RowDefinitions>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                        </Grid.ColumnDefinitions>
-                                        <!--<StackLayout IsVisible="{Binding Source={x:Reference listView}, Path=SelectedItem, Converter={StaticResource EqualsParameterContextConverter}, ConverterParameter={x:Reference cell}}" />-->
-                                        <Label Text="{Binding mfr}" HorizontalOptions="CenterAndExpand" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="0" />
-                                        <Label Text="{Binding name}" HorizontalOptions="CenterAndExpand" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="1" />
-                                    </Grid>
+                                <!--<StackLayout BackgroundColor="#252629">-->
+                                    <!--<Grid BackgroundColor="#1c1d1e">                                        
+                                        --><!--<StackLayout IsVisible="{Binding Source={x:Reference listView}, Path=SelectedItem, Converter={StaticResource EqualsParameterContextConverter}, ConverterParameter={x:Reference cell}}" />--><!--                                        
+                                    </Grid>-->
                                     <StackLayout BackgroundColor="#252629" Padding="5,10,5,10">
                                         <Image Source="{Binding img}" HorizontalOptions="CenterAndExpand"/>
                                     </StackLayout>
@@ -66,21 +58,25 @@
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="Auto"/>
                                             <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
                                         </Grid.RowDefinitions>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*"/>
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
-                                        <Label Text="{Binding value}" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="19" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="0" />
-                                        <Label Text="Flyable?" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1f9" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="1" />
-                                        <Label Text="{Binding flyable}" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="{Binding color}" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="1" />
-                                        <Label Text="Cargo Cap:" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="0" />
-                                        <Label Text="{Binding scu}" HorizontalOptions="End" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="18" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="0" />
+                                    <Label Text="{Binding mfr}" HorizontalOptions="CenterAndExpand" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="0" />
+                                    <Label Text="{Binding name}" HorizontalOptions="CenterAndExpand" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="1" />
+                                    <Label Text="{Binding value}" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="0" />
+                                        <Label Text="Flyable?" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1f9" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="1" />
+                                        <Label Text="{Binding flyable}" HorizontalOptions="EndAndExpand" FontFamily="zekton_regular.ttf#Zekton Rg" BackgroundColor="{Binding bgcolor}" TextColor="{Binding color}" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="1" Grid.Column="1" />
+                                        <Label Text="Cargo Cap:" HorizontalOptions="Start" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="2" Grid.Column="0" />
+                                        <Label Text="{Binding scu}" HorizontalOptions="End" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="2" Grid.Column="0" />
                                     </Grid>
-                                    <Grid IsVisible="{Binding IsVisible}" BackgroundColor="#1c1d1e">
+                                    <!--<Grid IsVisible="{Binding IsVisible}" BackgroundColor="#1c1d1e">
                                         
-                                    </Grid>
-                                </StackLayout>
+                                    </Grid>-->
+                                <!--</StackLayout>-->
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

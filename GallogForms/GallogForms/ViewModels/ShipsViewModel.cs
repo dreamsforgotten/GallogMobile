@@ -9,6 +9,7 @@ using System.Linq;
 using GallogForms.Models;
 using System.Collections.Generic;
 using Plugin.SecureStorage;
+using System.Windows.Input;
 
 namespace GallogForms.ViewModels
 {
@@ -55,8 +56,6 @@ namespace GallogForms.ViewModels
         }
 
 
-
-
         public ShipsViewModel()
         {
             Title = "Ships";
@@ -68,9 +67,8 @@ namespace GallogForms.ViewModels
             RefreshItemsCommand = new Command(async () => await ExecuteRefreshItemsCommand(), () => !IsBusy);
 
             LoadItems();
-        }
-
-
+        }       
+        
 
 
         private async void LoadItems()
@@ -99,13 +97,15 @@ namespace GallogForms.ViewModels
                     if (item.flyable == "1")
                     {
                         item.flyable = "Yes";
-                        item.color = "#7bf964";
+                        item.color = "Black";
+                        item.bgcolor = "#7bf964";
                         
                     }
                     else
                     {
                         item.flyable = "No";
-                        item.color = "#dc494e";
+                        item.color = "White";
+                        item.bgcolor = "#dc494e";
                     }
                     if (item.value == "0.00")
                     {
@@ -155,7 +155,6 @@ namespace GallogForms.ViewModels
         //        IsBusy = false;
         //    }
         //}
-
         async Task ExecuteRefreshItemsCommand()
         {
             if (IsBusy)

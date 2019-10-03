@@ -30,6 +30,7 @@ namespace Gallog.Api.Models
         public string flyable { get; set; }
         public string scu { get; set; }
         public string value { get; set; }
+        public string bgcolor { get; set; }
         public string color { get; set; }
         public bool _isVisible { get; set; }
         public bool IsVisible
