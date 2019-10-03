@@ -16,7 +16,7 @@ namespace GallogForms.ViewModels
     public class TradingViewModel : BaseViewModel
     {
         public ObservableCollection<TradeportCatalog> Ports { get; set; }
-        public ObservableCollection<Commodity> TradeResults { get; set; }
+        public ObservableCollection<Commodity> Trades { get; set; }
         public ObservableCollection<ShipCatalog> Items { get; set; }
         private TradeportCatalog _selectedStartPort { get; set; }
         private TradeportCatalog _selectedEndPort { get; set; }
@@ -298,7 +298,7 @@ namespace GallogForms.ViewModels
             Title = "Trading";
             Ports = new ObservableCollection<TradeportCatalog>();
             Items = new ObservableCollection<ShipCatalog>();
-            TradeResults = new ObservableCollection<Commodity>();
+            Trades = new ObservableCollection<Commodity>();
             _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy-Spky5pbZhJCkyN-MT9RA6ap_yD9ezRxCxo");
             PostRouteData = new Command(async () => await ExecutePostRouteData(), () => !IsBusy);
             LoadItems();
@@ -314,30 +314,11 @@ namespace GallogForms.ViewModels
 
             try
             {
-                TradeResults.Clear();
+                Trades.Clear();
                 var items = await _gallogClient.RoutesAsync(shipUri, uec, startUri, endUri);
                 foreach (var item in items.commodities.ToList())
                 {
-                    TradeResults.Add(item);
-                    //var name = results.commodities.name;
-                    //var tradeport_source = results.tradeport_source;
-                    //var tradeport = results.tradeport;
-                    //var timestamp = results.timestamp;
-                    //var units = results.unit;
-                    //var total = results.total;
-                    //var buy = results.buy;
-                    //var sell = results.sell;
-                    //var profit = results.profit;
-                    //var margin = results.margin;
-                    //Name = name;
-                    //Tradeport_source = tradeport_source;
-                    //Tradeport = tradeport;
-                    //Units = units;
-                    //Total = total;
-                    //Profit = profit;
-                    //Buy = buy;
-                    //Sell = sell;
-                    //Margin = margin;
+                    Trades.Add(item);
                 }
                 
 

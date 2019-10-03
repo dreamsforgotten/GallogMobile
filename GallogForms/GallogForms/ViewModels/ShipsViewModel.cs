@@ -61,9 +61,9 @@ namespace GallogForms.ViewModels
             Title = "Ships";
             Items = new ObservableCollection<ShipCatalog>();
             //   ExtItems = new ObservableCollection<shipmatrix>();
-            var sessionToken = CrossSecureStorage.Current.GetValue("SessionToken");
-            jwt = sessionToken;
-            _gallogClient = new GallogClient(jwt);
+            //var sessionToken = CrossSecureStorage.Current.GetValue("SessionToken");
+            //jwt = sessionToken;
+            _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy - Spky5pbZhJCkyN - MT9RA6ap_yD9ezRxCxo");
             RefreshItemsCommand = new Command(async () => await ExecuteRefreshItemsCommand(), () => !IsBusy);
 
             LoadItems();

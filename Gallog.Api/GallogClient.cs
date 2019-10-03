@@ -108,19 +108,6 @@ namespace Gallog.Api
             }
             return null;
         }
-
-        public async Task<T> PostAsyncDynamic<T>(string path) where T : ApiQueryable
-        {
-            dynamic response = await Client.PostAsync(path, JwtContent);
-            return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
-        }
-
-        public async Task<T> PostAsyncDynamic<T>(object body, string path) where T : ApiQueryable
-        {
-            dynamic response = await Client.PostAsync(path,
-                new StringContent(JsonConvert.SerializeObject(body), Encoding.UTF8, "application/json"));
-            return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
-        }
         public async Task<T> PostAsync<T>(string path) where T : ApiQueryable
         {
             var response = await Client.PostAsync(path, JwtContent);

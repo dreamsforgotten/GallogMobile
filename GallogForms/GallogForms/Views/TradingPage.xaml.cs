@@ -2,8 +2,8 @@
 using GallogForms.ViewModels;
 using System;
 using System.ComponentModel;
+using System.Linq;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace GallogForms.Views
 {
@@ -15,6 +15,16 @@ namespace GallogForms.Views
         public TradingPage()
         {
             InitializeComponent();
+            BindingContext = new TradingViewModel();
+        }
+        //void SearchBar_OnTextChanged(object sender, TextChangedEventArgs e)
+        //{
+        //    var _container = BindingContext as TradingViewModel;
+
+        //    if (string.IsNullOrWhiteSpace(e.NewTextValue))
+        //       TradingView.ItemsSource = _container.Items;
+        //  else
+        //  TradingView.ItemsSource = _container.Items.Where(i => i.name.ToLower().Contains(e.NewTextValue));
         }
     }
-}
+}                  

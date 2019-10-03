@@ -20,7 +20,7 @@ namespace GallogForms.Views
             BindingContext = new ShipsViewModel();
         }
 
-        void SearchBar_OnTextChanged(object sender, Xamarin.Forms.TextChangedEventArgs e)
+        void SearchBar_OnTextChanged(object sender, TextChangedEventArgs e)
         {
             var _container = BindingContext as ShipsViewModel;
             ShipsView.BeginRefresh();

@@ -55,7 +55,6 @@
                     <Entry Text="{Binding Password}" IsPassword="True" BackgroundColor="Cornsilk" WidthRequest="200" TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" />
                     <Button Text="Login to Gallog" Command="{Binding LoginCommand}" BackgroundColor="Black" HorizontalOptions="CenterAndExpand"  TextColor="#64c1f9" FontSize="Large" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" />
                 </Grid>
-                <Label Text="{Binding Reponse}" TextColor="White" BackgroundColor="Black" d:Text="Response:"/>
             </StackLayout>
         </StackLayout>
     </StackLayout>

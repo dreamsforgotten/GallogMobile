@@ -12,13 +12,10 @@ namespace Gallog.Api.Models
 
     public class TradeRoutes : ApiQueryable
     {
-        public string ship { get; set; }
-        public int scu { get; set; }
-        public int uec { get; set; }
-        public IList<Commodity> commodities { get; set; }
+        public Commodity[] commodities { get; set; }
     }
 
-    public class Commodity
+    public class Commodity : ApiQueryable
     {
         public int id { get; set; }
         public int tid { get; set; }
