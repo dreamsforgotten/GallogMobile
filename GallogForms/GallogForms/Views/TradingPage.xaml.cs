@@ -25,6 +25,6 @@ namespace GallogForms.Views
         //       TradingView.ItemsSource = _container.Items;
         //  else
         //  TradingView.ItemsSource = _container.Items.Where(i => i.name.ToLower().Contains(e.NewTextValue));
-        }
+        
     }
 }                  

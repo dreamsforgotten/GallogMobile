@@ -111,7 +111,7 @@ namespace GallogForms.ViewModels
                     {
                         item.value = "Price Says Broke";
                     }
-                    if (item.value == "")
+                    if (item.value == null)
                     {
                         item.value = "Price Null";
                     }
@@ -182,19 +182,21 @@ namespace GallogForms.ViewModels
                     if (item.flyable == "1")
                     {
                         item.flyable = "Yes";
-                        item.color = "#7bf964";
+                        item.color = "Black";
+                        item.bgcolor = "#7bf964";
 
                     }
                     else
                     {
                         item.flyable = "No";
-                        item.color = "#dc494e";
+                        item.color = "White";
+                        item.bgcolor = "#dc494e";
                     }
                     if (item.value == "0.00")
                     {
                         item.value = "Price Says Broke";
                     }
-                    if (item.value == "")
+                    if (item.value == null)
                     {
                         item.value = "Price Null";
                     }

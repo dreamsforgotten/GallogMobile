@@ -1,4 +1,5 @@
 ﻿using Gallog.Api.Models;
+using GallogForms.Interfaces;
 using GallogForms.ViewModels;
 using System;
 using System.ComponentModel;
@@ -32,5 +33,21 @@ namespace GallogForms.Views
 
             ShipsView.EndRefresh();
         }
+
+        //protected  void OnAppearing()
+        //{
+        //    base.OnAppearing();
+
+        //    DependencyService.Get<ILodingPageService>()
+        //         .InitLoadingPage(new LoadingIndicatorPage1());
+        //    DependencyService.Get<ILodingPageService>().ShowLoadingPage();
+
+        //    Device.StartTimer(TimeSpan.FromSeconds(3), () =>
+        //    {
+        //        DependencyService.Get<ILodingPageService>().HideLoadingPage();
+
+        //        return false;
+        //    });
+        //}
     }
 }
