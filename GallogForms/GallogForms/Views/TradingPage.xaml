@@ -11,7 +11,7 @@
              x:Name="Root"
              xmlns:slid="clr-namespace:GallogForms"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
-             BackgroundColor="#1c1d1e"
+             BackgroundColor="#292826"
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>
@@ -31,39 +31,38 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <StackLayout>
-        <StackLayout BackgroundColor="#1c1d1e" Padding="5,5,5,5" Orientation="Vertical">
+        <StackLayout BackgroundColor="#292826" Padding="5,5,5,5" Orientation="Vertical">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="26" />
                 </Grid.RowDefinitions>
-                <Label BackgroundColor="#1c1d1e" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" FontSize="18" Text="Gallog Trade Route Calculator" VerticalOptions="Center" HorizontalOptions="Center" TextColor="#fecc59" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Label BackgroundColor="#292826" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" FontSize="18" Text="Gallog Trade Route Calculator" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
             </Grid>
         </StackLayout>
         <StackLayout>
-            <Grid VerticalOptions="FillAndExpand">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="50"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <Picker Title="Pick Your Ship:" x:Name="TradingView" TitleColor="#64c1f9" WidthRequest="250" HorizontalOptions="Center" TextColor="#64c1f9" ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" d:ItemsSource="Ship Name" SelectedItem="{Binding SelectedShip}" BackgroundColor="#252629" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
-                    <Label Text="Filter by Port" FontSize="12" TextColor="#fecc59" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />
-                    <Picker ItemsSource="{Binding Ports}" Title="Starting Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#64c1f9" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" d:ItemsSource="TradePort" SelectedItem="{Binding SelectedStartPort}" BackgroundColor="#252629" TextColor="#64c1f9" Grid.Row="3" Grid.Column="0" />
-                    <Picker ItemsSource="{Binding Ports}" Title="Ending Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#64c1f9" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" d:ItemsSource="TradePort"  SelectedItem="{Binding SelectedEndPort}" BackgroundColor="#252629" TextColor="#64c1f9" Grid.Row="3" Grid.Column="1"/>
-                    <Entry Text="{Binding EntryTxt}" HeightRequest="200" WidthRequest="200" Keyboard="Numeric" VerticalOptions="CenterAndExpand" TextColor="#64c1f9" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" FontSize="14" Margin="5,5,5,5" Grid.Row="4" Grid.Column="0"/>
-                    <Label d:Text="Uec" VerticalOptions="Center" Text="{Binding DisplayName}" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1f9" FontSize="16" HorizontalOptions="Center" Grid.Row="4" Grid.Column="1"/>
-                    <Label BackgroundColor="#1c1d1e" VerticalOptions="Start" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" Text="Enter UEC Here" FontSize="12"  HorizontalOptions="Center" TextColor="#fecc59" Grid.Row="4" Grid.Column="0" />
-                    <Button Text="Submit" Command="{Binding PostRouteData}" IsVisible="True" IsEnabled="True" TextColor="#fecc59" CornerRadius="20" BackgroundColor="Black" FontSize="13" HeightRequest="40" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" />
-                    <!--<Button Text="Submit Filtered" TextColor="#fecc59" CornerRadius="20" BackgroundColor="Black" FontSize="13" HeightRequest="40"  Grid.Row="6" Grid.Column="1" />-->
-                </Grid>
+            <Grid VerticalOptions="Fill">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <!--<RowDefinition Height="Auto"/>-->
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Picker Title="Pick Your Ship:" x:Name="TradingView" TitleColor="#0f194c" WidthRequest="300" HorizontalOptions="Center" TextColor="#64c1f9" ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="Ship Name" SelectedItem="{Binding SelectedShip}" BackgroundColor="#64c1f9" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <!--<Label Text="Filter by Port" FontSize="12" TextColor="White" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />-->
+                <Picker ItemsSource="{Binding Ports}" Title="Starting Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#0f194c" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="TradePort" SelectedItem="{Binding SelectedStartPort}" BackgroundColor="#64c1f9" TextColor="#0f194c" Grid.Row="1" Grid.Column="0" />
+                <Picker ItemsSource="{Binding Ports}" Title="Ending Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#0f194c" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="TradePort"  SelectedItem="{Binding SelectedEndPort}" BackgroundColor="#64c1f9" TextColor="#0f194c" Grid.Row="1" Grid.Column="1"/>
+                <Entry Text="{Binding EntryTxt}" Keyboard="Numeric" BackgroundColor="#64c1f9" WidthRequest="120" HeightRequest="40" VerticalOptions="CenterAndExpand" TextColor="White" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" FontSize="14" Grid.Row="2" Grid.Column="0"/>
+                <Label d:Text="Uec" VerticalOptions="Center" Text="{Binding DisplayName}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="White" FontSize="19" HorizontalOptions="Center" Grid.Row="2" Grid.Column="1"/>
+                <Label VerticalOptions="Start" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" Text="Enter UEC Here" FontSize="16"  HorizontalOptions="Center" TextColor="#0f194c" Grid.Row="2" Grid.Column="0" />
+            </Grid>
+            <Button Text="Submit" Command="{Binding PostRouteData}" IsVisible="True" IsEnabled="True" TextColor="#0f194c" CornerRadius="10" BackgroundColor="#64c1f9" FontSize="13" FontAttributes="Bold" HorizontalOptions="Center" HeightRequest="35" BorderWidth="2" BorderColor="Black" Grid.Row="1" />
+            
+            <!--<Button Text="Submit Filtered" TextColor="#fecc59" CornerRadius="20" BackgroundColor="Black" FontSize="13" HeightRequest="40"  Grid.Row="6" Grid.Column="1" />-->
+             
             <!--<ScrollView VerticalOptions="FillAndExpand" Orientation="Vertical">
                 <ListView HasUnevenRows="True" 
                       BackgroundColor="#252629" 

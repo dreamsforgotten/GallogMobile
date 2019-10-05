@@ -6538,49 +6538,55 @@ namespace GallogForms.Droid
 			public const int ph = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int scrap = 2131165524;
+			public const int rounded_corners = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int search = 2131165525;
+			public const int scrap = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int shipretrieve = 2131165526;
+			public const int search = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int ships = 2131165527;
+			public const int shipretrieve = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int side_nav_bar = 2131165528;
+			public const int ships = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int stash = 2131165529;
+			public const int side_nav_bar = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int store_w = 2131165530;
+			public const int stash = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int tooltip_frame_dark = 2131165531;
+			public const int store_w = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int tooltip_frame_light = 2131165532;
+			public const int tooltip_frame_dark = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int tradeports = 2131165533;
+			public const int tooltip_frame_light = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int trading = 2131165534;
+			public const int tradebutton = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int vice = 2131165535;
+			public const int tradeports = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int waste = 2131165536;
+			public const int trading = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int Weed = 2131165537;
+			public const int vice = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int xamarin_logo = 2131165538;
+			public const int waste = 2131165538;
+			
+			// aapt resource value: 0x7F070163
+			public const int Weed = 2131165539;
+			
+			// aapt resource value: 0x7F070164
+			public const int xamarin_logo = 2131165540;
 			
 			static Drawable()
 			{
