@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:vm="clr-namespace:GallogForms.ViewModels"
+             x:Class="GallogForms.Views.AddShipPage"
+             BackgroundColor="AliceBlue">
+
+    <ContentPage.BindingContext>
+        <vm:AddShipViewModel />
+    </ContentPage.BindingContext>
+
+
+
+    <StackLayout Orientation="Vertical">
+        <SearchBar x:Name="ListViewFilter" Text="Add To Your Fleet!"
+                   TextChanged="ListViewFilter_TextChanged" 
+                   BackgroundColor="Azure"
+                   IsVisible="True"
+                   />
+        <ListView x:Name="SuggestedShipView" 
+                      ItemsSource="{Binding Items}"
+                  ItemTapped="SuggestedShipView_ItemTapped"
+                      BackgroundColor="Silver">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout x:Name="cell" Orientation="Vertical" HeightRequest="40" BackgroundColor="Black">
+                            <Grid BackgroundColor="#a98b4b">
+                                <Grid.RowDefinitions>
+                                </Grid.RowDefinitions>
+                                <Label Text="{Binding name}" HorizontalOptions="Start" VerticalOptions="Start" TextColor="Black" FontSize="20" FontAttributes="Bold" LineBreakMode="TailTruncation" Grid.Row="1" />
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Back To Hangar" HorizontalOptions="Center" VerticalOptions="End" Clicked="NavigateButton_OnClicked" />
+    </StackLayout>
+</ContentPage>

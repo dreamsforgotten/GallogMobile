@@ -11,7 +11,7 @@
              BackgroundImageSource="crusader.jpg">
     
     <ContentPage.BindingContext>
-        <vm:ShipsViewModel />
+        <vm:HangarViewModel />
     </ContentPage.BindingContext>
 
         <ContentPage.ToolbarItems>
@@ -28,19 +28,17 @@
 
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
-            <Button Text="Refresh The Ships" Command="{Binding RefreshItemsCommand}" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
+            <Button Text="Add ships to your Hangar" Clicked="Button_Clicked" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
         </Grid>
-
-        <ListView ItemsSource="{Binding Items}" BackgroundColor="Black">
+        <ListView x:Name="myHangarList"
+            ItemsSource="{Binding Hangers}" BackgroundColor="Black">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Vertical" Padding="0,0,0,0" BackgroundColor="#292e4c">
                             <Image Source="{Binding img}" d:Source="ph.png" BackgroundColor="Black" HorizontalOptions="Center" />
-                                <Label Text="{Binding details1}" d:Text="Ship Name Ship Manufacturer" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
-                            <StackLayout IsVisible="{Binding IsVisible}">
-                                <Label Text="{Binding details2}" d:Text="Ship Price sample price Is Flyable? Flyable" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="#64c1be" FontSize="22" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
-                            </StackLayout>
+                            <Label Text="{Binding name}" d:Text="Ship Name" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                            <Label Text="{Binding mfr}" d:Text="Ship Name" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

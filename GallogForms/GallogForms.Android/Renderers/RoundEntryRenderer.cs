@@ -12,14 +12,14 @@ using Android.Widget;
 using GallogForms.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
-using Picker = Xamarin.Forms .Picker;
-[assembly: ExportRenderer(typeof(Picker), typeof(GallogForms.Droid.Renderers.CustomPickerRenderer))]
+using Entry = Xamarin.Forms .Entry;
+[assembly: ExportRenderer(typeof(Entry), typeof(GallogForms.Droid.Renderers.TextViewCustomRenderer))]
 namespace GallogForms.Droid.Renderers
 {
     [Obsolete]
-    public class CustomPickerRenderer : PickerRenderer
+    public class TextViewCustomRenderer : EntryRenderer
     {
-        protected override void OnElementChanged(ElementChangedEventArgs<Picker> e)
+        protected override void OnElementChanged(ElementChangedEventArgs<Entry> e)
         {
             base.OnElementChanged(e);
             if (Control != null)

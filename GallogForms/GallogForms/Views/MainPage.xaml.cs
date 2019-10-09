@@ -39,7 +39,7 @@ namespace GallogForms.Views
                         MenuPages.Add(id, new NavigationPage(new LoginPage()));
                         break;
                     case (int)MenuItemType.Hangar:
-                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                        MenuPages.Add(id, new NavigationPage(new HangarPage()));
                         break;
                     case (int)MenuItemType.MyOrg:
                         MenuPages.Add(id, new NavigationPage(new MyOrgPage()));

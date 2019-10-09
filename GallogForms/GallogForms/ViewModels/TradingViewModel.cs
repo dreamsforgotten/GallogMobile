@@ -305,7 +305,7 @@ namespace GallogForms.ViewModels
         }
 
         public async Task ExecutePostRouteData()
-          {
+        {
             if (IsBusy)
                 return;
 
@@ -349,8 +349,14 @@ namespace GallogForms.ViewModels
                 var items = await _gallogClient.GetItemsAsync<ShipList>();
                 var ports = await _gallogClient.GetItemsAsync<TradeportList>();
                 foreach (var item in items.ships.ToList())
-                {                
-                   Items.Add(item);
+                {
+                    int a = 0;
+                    if (item.scu != null && item.scu != "0")
+
+                    {
+                        item.role = "Cargo";
+                        Items.Add(item);
+                    }
                 }
                 foreach (var port in ports.tradeports.ToList())
                     {

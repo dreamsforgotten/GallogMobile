@@ -2,7 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Runtime.CompilerServices;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 
 namespace Gallog.Api.Models
@@ -32,6 +34,7 @@ namespace Gallog.Api.Models
         public string value { get; set; }
         public string bgcolor { get; set; }
         public string color { get; set; }
+        public string role { get; set; }
         public bool _isVisible { get; set; }
         public bool IsVisible
         {
@@ -45,6 +48,7 @@ namespace Gallog.Api.Models
                 }
             }
         }
+
     }
 
 

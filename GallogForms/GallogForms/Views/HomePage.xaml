@@ -21,10 +21,10 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto" />
-            <RowDefinition Height="150" />
+            <RowDefinition Height="280" />
         </Grid.RowDefinitions>
-        <Label Text="Welcome to" FontSize="14" TextColor="white" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="0"/>
-        <Label Text="Galactic Logistics Mobile" FontSize="14" TextColor="white" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="1"/>
+        <Label Text="Welcome to" FontSize="24" TextColor="white" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="0"/>
+        <Label Text="Galactic Logistics Mobile" FontSize="20" TextColor="white" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="1"/>
         <Image Source="logo_196.png" VerticalOptions="Center" HeightRequest="90" Grid.Row="2" />
     </Grid>
 

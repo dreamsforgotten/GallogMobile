@@ -10,10 +10,11 @@
              x:Class="GallogForms.Views.TradingPage"
              x:Name="Root"
              xmlns:slid="clr-namespace:GallogForms"
+             xmlns:custom="clr-namespace:GallogForms.Controls"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
              BackgroundColor="#292826"
              Title="{Binding Title}">
-    
+
     <ContentPage.BindingContext>
         <vm:TradingViewModel />
     </ContentPage.BindingContext>
@@ -51,15 +52,19 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <Picker Title="Pick Your Ship:" x:Name="TradingView" TitleColor="#0f194c" WidthRequest="300" HorizontalOptions="Center" TextColor="#64c1f9" ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="Ship Name" SelectedItem="{Binding SelectedShip}" BackgroundColor="#64c1f9" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <vm:CurvedCornersPicker CurvedCornerRadius="80" CurvedBackGroundColor="White" TitleColor="#0f194c" FontFamily="zekton_regular.ttf#Zekton Rg" WidthRequest="300" HorizontalOptions="Center" BackgroundColor="#64c1f9" FontAttributes="Bold" Title="Pick Your Ship" SelectedItem="{Binding SelectedShip}"  ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" HeightRequest="45" TextColor="White" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Image Source="arrow.png" Grid.Row="0" Grid.Column="0" Margin="0,0,60,0" Grid.ColumnSpan="2" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
+                <!--<Picker Title="Pick Your Ship:" x:Name="TradingView" TitleColor="#0f194c" WidthRequest="300" HorizontalOptions="Center" TextColor="#64c1f9" ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="Ship Name" SelectedItem="{Binding SelectedShip}" BackgroundColor="#64c1f9" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />-->
                 <!--<Label Text="Filter by Port" FontSize="12" TextColor="White" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />-->
-                <Picker ItemsSource="{Binding Ports}" Title="Starting Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#0f194c" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="TradePort" SelectedItem="{Binding SelectedStartPort}" BackgroundColor="#64c1f9" TextColor="#0f194c" Grid.Row="1" Grid.Column="0" />
-                <Picker ItemsSource="{Binding Ports}" Title="Ending Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#0f194c" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="TradePort"  SelectedItem="{Binding SelectedEndPort}" BackgroundColor="#64c1f9" TextColor="#0f194c" Grid.Row="1" Grid.Column="1"/>
-                <Entry Text="{Binding EntryTxt}" Keyboard="Numeric" BackgroundColor="#64c1f9" WidthRequest="120" HeightRequest="40" VerticalOptions="CenterAndExpand" TextColor="White" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" FontSize="14" Grid.Row="2" Grid.Column="0"/>
+                <vm:CurvedCornersPicker CurvedCornerRadius="10" CurvedBackGroundColor="#64c1f9" ItemsSource="{Binding Ports}" Title="Starting Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#0f194c" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" SelectedItem="{Binding SelectedStartPort}" TextColor="#64c1f9" Grid.Row="1" Grid.Column="0" />
+                <vm:CurvedCornersPicker CurvedCornerRadius="10" CurvedBackGroundColor="#64c1f9" ItemsSource="{Binding Ports}" Title="Ending Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#0f194c" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" SelectedItem="{Binding SelectedEndPort}" TextColor="#64c1f9" Grid.Row="1" Grid.Column="1"/>
+                <Image Source="arrow.png" Grid.Row="1" Grid.Column="0" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
+                <Image Source="arrow.png" Grid.Row="1" Grid.Column="1" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
+                <Entry Text="{Binding EntryTxt}" Keyboard="Numeric" Placeholder="Enter UEC" BackgroundColor="#64c1f9" WidthRequest="120" HeightRequest="40" VerticalOptions="CenterAndExpand" TextColor="Black" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" FontSize="14" Grid.Row="2" Grid.Column="0"/>
                 <Label d:Text="Uec" VerticalOptions="Center" Text="{Binding DisplayName}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="White" FontSize="19" HorizontalOptions="Center" Grid.Row="2" Grid.Column="1"/>
-                <Label VerticalOptions="Start" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" Text="Enter UEC Here" FontSize="16"  HorizontalOptions="Center" TextColor="#0f194c" Grid.Row="2" Grid.Column="0" />
+                <!--<Label VerticalOptions="Center" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" Text="Enter UEC Here" FontSize="16"  HorizontalOptions="Center" TextColor="Gray" Grid.Row="2" Grid.Column="0" />-->
             </Grid>
-            <Button Text="Submit" Command="{Binding PostRouteData}" IsVisible="True" IsEnabled="True" TextColor="#0f194c" CornerRadius="10" BackgroundColor="#64c1f9" FontSize="13" FontAttributes="Bold" HorizontalOptions="Center" HeightRequest="35" BorderWidth="2" BorderColor="Black" Grid.Row="1" />
+            <Button Text="Submit" Command="{Binding PostRouteData}" IsVisible="True" IsEnabled="True" TextColor="#64c1f9" CornerRadius="10" BackgroundColor="#1f253f" FontSize="13" FontAttributes="Bold" HorizontalOptions="Center" HeightRequest="35" BorderWidth="2" BorderColor="Black" Grid.Row="1" />
             
             <!--<Button Text="Submit Filtered" TextColor="#fecc59" CornerRadius="20" BackgroundColor="Black" FontSize="13" HeightRequest="40"  Grid.Row="6" Grid.Column="1" />-->
              
