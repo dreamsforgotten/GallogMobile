@@ -13,41 +13,26 @@ using Gallog.Api.Models;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using Gallogforms.ViewModels;
+using System.ComponentModel;
+using System.Diagnostics;
 
 namespace GallogForms.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddShipPage : ContentPage
     {
-        public ObservableCollection<ShipCatalog> ships { get; set; }
+
+
         public AddShipPage()
         {
             InitializeComponent();
             BindingContext = new AddShipViewModel();
         }
 
-        void ListViewFilter_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            var _container = BindingContext as AddShipViewModel;
-            SuggestedShipView.BeginRefresh();
-
-            if (string.IsNullOrWhiteSpace(e.NewTextValue))
-                SuggestedShipView.ItemsSource = _container.Items;
-            else
-                SuggestedShipView.ItemsSource = _container.Items.Where(i => i.name.ToLower().Contains(e.NewTextValue));
-
-            SuggestedShipView.EndRefresh();
-        }
-
-        private void SuggestedShipView_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            var ship = e.Item as string;
-            var _container = BindingContext as AddShipViewModel;
-            _container.chosenShip.Add(ship);
-        }
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new HangarPage());
-        }        
+        }
+
     }
 }

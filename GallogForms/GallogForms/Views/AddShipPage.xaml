@@ -4,6 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:dataSource="clr-namespace:Syncfusion.DataSource;assembly=Syncfusion.DataSource.Portable"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
              x:Class="GallogForms.Views.AddShipPage"
              BackgroundColor="AliceBlue">
@@ -12,32 +15,63 @@
         <vm:AddShipViewModel />
     </ContentPage.BindingContext>
 
+    <ContentPage.Content>
+        <listView:SfListView x:Name="listView3" ItemSize="70" ItemsSource="{Binding Items}" >
+            <listView:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid x:Name="grid" RowSpacing="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="250" />
+                                    <RowDefinition Height="250" />
+                                </Grid.RowDefinitions>
+                                <!--<Grid RowSpacing="1">-->
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <BoxView BackgroundColor="Black" Margin="5,5,5,5" Grid.Row="0" Grid.Column="0 " Grid.RowSpan="2" />
+                                    <ffimageloading:CachedImage Source="{Binding img}" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center"
+                                    HeightRequest="500" WidthRequest="300"/>
+                                    <BoxView BackgroundColor="#747474" Margin="5,5,5,5" Grid.Row="0" Grid.Column="1" />
+                                    <BoxView BackgroundColor="#747474" Margin="5,5,5,5" Grid.Row="1" Grid.Column="1" />
+                                <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="Black" BackgroundColor="#747474" FontSize="21" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="1" />
+                                <Label Text="{Binding mfr}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="Black" BackgroundColor="#747474" FontSize="21" LineBreakMode="TailTruncation" Grid.Row="1"  Grid.Column="1"/>
+                                    <!--<Grid Grid.Column="1"
+                                    RowSpacing="1"
+                                    VerticalOptions="Center">-->
+                                        <!--<Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
 
+                                        <Label Text="{Binding name}"/>
+                                        <Label Grid.Row="1" Text="{Binding ContactNumber}"/>
+                                    </Grid>-->
+                                    <!--<Picker Grid.Column="2" x:Name="picker" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="200"
+                                                ItemsSource="{Binding Source={x:Reference listView}, Path=BindingContext.PickerItems}"
+                                                SelectedIndex="{Binding PickerSelectedIndex}">
+                                    </Picker>-->
+                                <!--</Grid>-->
+                                <!--<StackLayout Grid.Row="1" BackgroundColor="Gray" HeightRequest="1"/>-->
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </listView:SfListView.ItemTemplate>
+        </listView:SfListView>
+    </ContentPage.Content>
+</ContentPage>
 
-    <StackLayout Orientation="Vertical">
+<!--<StackLayout Orientation="Vertical">
         <SearchBar x:Name="ListViewFilter" Text="Add To Your Fleet!"
                    TextChanged="ListViewFilter_TextChanged" 
                    BackgroundColor="Azure"
                    IsVisible="True"
                    />
-        <ListView x:Name="SuggestedShipView" 
-                      ItemsSource="{Binding Items}"
-                  ItemTapped="SuggestedShipView_ItemTapped"
-                      BackgroundColor="Silver">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout x:Name="cell" Orientation="Vertical" HeightRequest="40" BackgroundColor="Black">
-                            <Grid BackgroundColor="#a98b4b">
-                                <Grid.RowDefinitions>
-                                </Grid.RowDefinitions>
-                                <Label Text="{Binding name}" HorizontalOptions="Start" VerticalOptions="Start" TextColor="Black" FontSize="20" FontAttributes="Bold" LineBreakMode="TailTruncation" Grid.Row="1" />
-                            </Grid>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        <Button Text="Back To Hangar" HorizontalOptions="Center" VerticalOptions="End" Clicked="NavigateButton_OnClicked" />
-    </StackLayout>
-</ContentPage>
+        
+    </StackLayout>-->
+<!--</ContentPage>-->

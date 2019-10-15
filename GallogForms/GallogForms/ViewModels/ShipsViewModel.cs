@@ -15,12 +15,16 @@ namespace GallogForms.ViewModels
 {
     public class ShipsViewModel : BaseViewModel
     {
-        private GallogClient _gallogClient;
         public ObservableCollection<ShipCatalog> Items { get; set; }
         public Command RefreshItemsCommand { get; set; }
         private ShipCatalog _selectedShip { get; set; }
-        public string full_URL;
+
+        private GallogClient _gallogClient;
+
         public string tempColor;
+
+        public string full_URL;
+
         public ShipCatalog SelectedShip
         {
             get { return _selectedShip; }
@@ -40,20 +44,20 @@ namespace GallogForms.ViewModels
                 !SelectedShip.IsVisible;
         }
 
-        string _jwt = string.Empty;
-        public Array jwtsecret;
-        public string jwt
-        {
-            get => _jwt;
-            set
-            {
-                if (_jwt == value)
-                    return;
+        //string _jwt = string.Empty;
+        //public Array jwtsecret;
+        //public string jwt
+        //{
+        //    get => _jwt;
+        //    set
+        //    {
+        //        if (_jwt == value)
+        //            return;
 
-                _jwt = value;
-                OnPropertyChanged(nameof(jwt));
-            }
-        }
+        //        _jwt = value;
+        //        OnPropertyChanged(nameof(jwt));
+        //    }
+        //}
 
 
         public ShipsViewModel()

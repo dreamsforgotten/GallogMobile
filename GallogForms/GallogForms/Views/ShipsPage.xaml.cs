@@ -33,21 +33,5 @@ namespace GallogForms.Views
 
             ShipsView.EndRefresh();
         }
-
-        //protected  void OnAppearing()
-        //{
-        //    base.OnAppearing();
-
-        //    DependencyService.Get<ILodingPageService>()
-        //         .InitLoadingPage(new LoadingIndicatorPage1());
-        //    DependencyService.Get<ILodingPageService>().ShowLoadingPage();
-
-        //    Device.StartTimer(TimeSpan.FromSeconds(3), () =>
-        //    {
-        //        DependencyService.Get<ILodingPageService>().HideLoadingPage();
-
-        //        return false;
-        //    });
-        //}
     }
 }

@@ -30,20 +30,20 @@
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
             <Button Text="Add ships to your Hangar" Clicked="Button_Clicked" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
         </Grid>
-        <ListView x:Name="myHangarList"
-            ItemsSource="{Binding Hangers}" BackgroundColor="Black">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Orientation="Vertical" Padding="0,0,0,0" BackgroundColor="#292e4c">
+            <ListView x:Name="myHangarList"
+                      BackgroundColor="Black">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Padding="0,0,0,0" BackgroundColor="#292e4c">
                             <Image Source="{Binding img}" d:Source="ph.png" BackgroundColor="Black" HorizontalOptions="Center" />
                             <Label Text="{Binding name}" d:Text="Ship Name" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
                             <Label Text="{Binding mfr}" d:Text="Ship Name" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
                         </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         <ActivityIndicator Color="#995814" IsRunning="{Binding IsBusy}"/>
     </StackLayout>
 </ContentPage>

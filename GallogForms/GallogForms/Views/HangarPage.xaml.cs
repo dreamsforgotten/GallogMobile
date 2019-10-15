@@ -13,22 +13,23 @@ namespace GallogForms.Views
     [DesignTimeVisible(false)]
     public partial class HangarPage : ContentPage
     {
-        List<string> Hangars = new List<string>();
         public HangarPage()
         {
 
             InitializeComponent();
             BindingContext = new HangarViewModel();
-            ListViewFilter();
-
         }
-        public void ListViewFilter()
+        void Populate_myHangarList(object sender, TextChangedEventArgs e)
         {
-            var _container = BindingContext as AddShipViewModel;
+            var _container = BindingContext as ShipsViewModel;
             myHangarList.BeginRefresh();
-            var _container2 = BindingContext as AddShipViewModel;
-            var Items = _container2.chosenShip;
-            myHangarList.ItemsSource = _container.Items.Where(i => i.name.ToLower().Contains(Items.ToString()));
+
+            //if (String.IsNullOrWhiteSpace(e.ToString()))
+            //    myHangarList.ItemsSource = _container.Items;
+            //else
+            //myHangarList.ItemsSource = _container.Items.Where(i => i.name.ToLower().Contains(e.ToString()));
+            myHangarList.ItemsSource = _container.Items;
+
             myHangarList.EndRefresh();
         }
 

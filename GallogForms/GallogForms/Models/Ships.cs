@@ -1,20 +1,22 @@
-﻿using Gallog.Api.Attributes;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.IO;
+using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
 
-namespace Gallog.Api.Models
+namespace GallogForms.Models
 {
-    [ApiPath("ships")]
-    public class ShipList : ApiQueryable
+    public class Ships 
     {
-        public ShipCatalog[] ships { get; set; }
+        public ShipListView[] shipsview { get; set; }
     }
-    public class ShipCatalog : INotifyPropertyChanged
+
+
+    public class ShipListView : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
@@ -22,7 +24,6 @@ namespace Gallog.Api.Models
             PropertyChangedEventHandler handler = PropertyChanged;
             handler?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
         public int id { get; set; }
         public string name { get; set; }
         public string uri { get; set; }
@@ -36,18 +37,18 @@ namespace Gallog.Api.Models
         public string color { get; set; }
         public string role { get; set; }
         private bool _selectedItem { get; set; }
-        //public bool SelectedItem
-        //{
-        //    get { return _selectedItem; }
-        //    set
-        //    {
-        //        if (_selectedItem != value)
-        //        {
-        //            _selectedItem = value;
-        //            OnPropertyChanged();
-        //        }
-        //    }
-        //}
+        public bool SelectedItem
+        {
+            get { return _selectedItem; }
+            set
+            {
+                if (_selectedItem != value)
+                {
+                    _selectedItem = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
         private bool _isVisible { get; set; }
         public bool IsVisible
         {
@@ -61,8 +62,8 @@ namespace Gallog.Api.Models
                 }
             }
         }
-
     }
 
-
 }
+
+
