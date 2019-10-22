@@ -1,4 +1,5 @@
-﻿using GallogForms.ViewModels;
+﻿using GallogForms.Models;
+using GallogForms.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,25 +18,15 @@ namespace GallogForms.Views
         {
 
             InitializeComponent();
-            BindingContext = new HangarViewModel();
-        }
-        void Populate_myHangarList(object sender, TextChangedEventArgs e)
-        {
-            var _container = BindingContext as ShipsViewModel;
-            myHangarList.BeginRefresh();
+            BindingContext = new AddShipViewModel();
+            //var _container = BindingContext as AddShipViewModel;
+            //myHangarList.ItemsSource = _container.Items.Where(i => i.IsVisible == true);
 
-            //if (String.IsNullOrWhiteSpace(e.ToString()))
-            //    myHangarList.ItemsSource = _container.Items;
-            //else
-            //myHangarList.ItemsSource = _container.Items.Where(i => i.name.ToLower().Contains(e.ToString()));
-            myHangarList.ItemsSource = _container.Items;
-
-            myHangarList.EndRefresh();
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-                await Navigation.PushAsync(new AddShipPage());
-            }
+            await Navigation.PushAsync(new AddShipPage());
+        }
     }
 }

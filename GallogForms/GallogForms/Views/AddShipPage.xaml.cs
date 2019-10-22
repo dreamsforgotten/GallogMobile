@@ -28,11 +28,9 @@ namespace GallogForms.Views
             InitializeComponent();
             BindingContext = new AddShipViewModel();
         }
-
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new HangarPage());
         }
-
     }
 }

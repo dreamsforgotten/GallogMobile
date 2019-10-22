@@ -1,6 +1,7 @@
 ﻿using Gallog.Api;
 using Gallog.Api.Models;
 using Gallogforms.ViewModels;
+using GallogForms.Interfaces;
 using GallogForms.Models;
 using System;
 using System.Collections.Generic;
@@ -15,20 +16,48 @@ namespace GallogForms.ViewModels
     public class AddShipViewModel : BaseViewModel, INotifyPropertyChanged
     {
         public ObservableCollection<ShipCatalog> Items { get; set; }
-        public ObservableCollection<Ships> shipinfo { get; set; }
+        public IEnumerable<Ships> MyHangarListData { get; set; }
+        private ShipCatalog _selectedItem { get; set; }
+
         public GallogClient _gallogClient;
+        public List<IShipCatalog> SC = new List<IShipCatalog>();
+
         public string full_URL;
+
+        public ShipCatalog SelectedItem {
+                get { return _selectedItem; }
+                set
+                {
+                    if (_selectedItem != value)
+                    {
+                    _selectedItem = value;
+                    OnPropertyChanged(nameof(SelectedItem));
+                    ExecuteSelectedItems();
+                    }
+                }
+        }
+
+        public void ExecuteSelectedItems()
+        {
+            Items.Where(t => t.id == SelectedItem.id).FirstOrDefault().IsVisible =
+                 !SelectedItem.IsVisible;
+        }
 
 
 
 
         public AddShipViewModel()
-        {
+        {   
             Title = "Add To Fleet";
             Items = new ObservableCollection<ShipCatalog>();
             _gallogClient = new GallogClient("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuZ2FsbG9nLmNvIiwiYXVkIjoiaHR0cDpcL1wvYXBpLmdhbGxvZy5jbyIsImlhdCI6MTM1Njk5OTUyNCwibmJmIjoxMzU3MDAwMDAwLCJkYXRhIjp7ImlkIjo1NywidXNlcm5hbWUiOiJQYXJhIiwiaGFuZGxlIjoiUGFyYSIsImVtYWlsIjoicGFyYWJvbGE5NDlAZ21haWwuY29tIn19.bRpI9hVy-Spky5pbZhJCkyN-MT9RA6ap_yD9ezRxCxo");
             LoadItems();
         }
+
+
+
+
+       
 
 
         private async void LoadItems()

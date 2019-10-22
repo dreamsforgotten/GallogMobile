@@ -11,10 +11,10 @@ namespace Gallog.Api.Models
 {
     [ApiPath("ships")]
     public class ShipList : ApiQueryable
-    {
+    { 
         public ShipCatalog[] ships { get; set; }
     }
-    public class ShipCatalog : INotifyPropertyChanged
+    public class ShipCatalog : INotifyPropertyChanged, IShipCatalog
     {
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
@@ -36,18 +36,18 @@ namespace Gallog.Api.Models
         public string color { get; set; }
         public string role { get; set; }
         private bool _selectedItem { get; set; }
-        //public bool SelectedItem
-        //{
-        //    get { return _selectedItem; }
-        //    set
-        //    {
-        //        if (_selectedItem != value)
-        //        {
-        //            _selectedItem = value;
-        //            OnPropertyChanged();
-        //        }
-        //    }
-        //}
+        public bool SelectedItem
+        {
+            get { return _selectedItem; }
+            set
+            {
+                if (_selectedItem != value)
+                {
+                    _selectedItem = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
         private bool _isVisible { get; set; }
         public bool IsVisible
         {
@@ -61,6 +61,8 @@ namespace Gallog.Api.Models
                 }
             }
         }
+
+
 
     }
 

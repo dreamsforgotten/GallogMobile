@@ -33,39 +33,44 @@
     </ContentPage.Resources>
     <StackLayout>
         <StackLayout BackgroundColor="#292826" Padding="5,5,5,5" Orientation="Vertical">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="26" />
-                </Grid.RowDefinitions>
-                <Label BackgroundColor="#292826" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" FontSize="18" Text="Gallog Trade Route Calculator" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
-            </Grid>
+            <Frame OutlineColor="#d1dccc" BackgroundColor="Transparent" HasShadow="False" Padding="2,2,2,2">
+                <Grid Padding="2,2,2,2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="26" />
+                    </Grid.RowDefinitions>
+                    <Label BackgroundColor="#292826" HeightRequest="20" FontFamily="D-DIN.ttf#D-DIN" FontSize="18" Text="Gallog Trade Route Calculator" VerticalOptions="Center" HorizontalOptions="Center" TextColor="#c8c8c6" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+                </Grid>
+            </Frame>
         </StackLayout>
         <StackLayout>
-            <Grid VerticalOptions="Fill">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <!--<RowDefinition Height="Auto"/>-->
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <vm:CurvedCornersPicker CurvedCornerRadius="80" CurvedBackGroundColor="White" TitleColor="#0f194c" FontFamily="zekton_regular.ttf#Zekton Rg" WidthRequest="300" HorizontalOptions="Center" BackgroundColor="#64c1f9" FontAttributes="Bold" Title="Pick Your Ship" SelectedItem="{Binding SelectedShip}"  ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" HeightRequest="45" TextColor="White" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
-                <Image Source="arrow.png" Grid.Row="0" Grid.Column="0" Margin="0,0,60,0" Grid.ColumnSpan="2" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
-                <!--<Picker Title="Pick Your Ship:" x:Name="TradingView" TitleColor="#0f194c" WidthRequest="300" HorizontalOptions="Center" TextColor="#64c1f9" ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="Ship Name" SelectedItem="{Binding SelectedShip}" BackgroundColor="#64c1f9" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />-->
-                <!--<Label Text="Filter by Port" FontSize="12" TextColor="White" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />-->
-                <vm:CurvedCornersPicker CurvedCornerRadius="10" CurvedBackGroundColor="#64c1f9" ItemsSource="{Binding Ports}" Title="Starting Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#0f194c" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" SelectedItem="{Binding SelectedStartPort}" TextColor="#64c1f9" Grid.Row="1" Grid.Column="0" />
-                <vm:CurvedCornersPicker CurvedCornerRadius="10" CurvedBackGroundColor="#64c1f9" ItemsSource="{Binding Ports}" Title="Ending Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#0f194c" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" SelectedItem="{Binding SelectedEndPort}" TextColor="#64c1f9" Grid.Row="1" Grid.Column="1"/>
-                <Image Source="arrow.png" Grid.Row="1" Grid.Column="0" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
-                <Image Source="arrow.png" Grid.Row="1" Grid.Column="1" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
-                <Entry Text="{Binding EntryTxt}" Keyboard="Numeric" Placeholder="Enter UEC" BackgroundColor="#64c1f9" WidthRequest="120" HeightRequest="40" VerticalOptions="CenterAndExpand" TextColor="Black" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" FontSize="14" Grid.Row="2" Grid.Column="0"/>
-                <Label d:Text="Uec" VerticalOptions="Center" Text="{Binding DisplayName}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="White" FontSize="19" HorizontalOptions="Center" Grid.Row="2" Grid.Column="1"/>
-                <!--<Label VerticalOptions="Center" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" Text="Enter UEC Here" FontSize="16"  HorizontalOptions="Center" TextColor="Gray" Grid.Row="2" Grid.Column="0" />-->
-            </Grid>
-            <Button Text="Submit" Command="{Binding PostRouteData}" IsVisible="True" IsEnabled="True" TextColor="#64c1f9" CornerRadius="10" BackgroundColor="#1f253f" FontSize="13" FontAttributes="Bold" HorizontalOptions="Center" HeightRequest="35" BorderWidth="2" BorderColor="Black" Grid.Row="1" />
-            
+            <Frame OutlineColor="#d1dccc" BackgroundColor="Transparent" HasShadow="False" Padding="2,2,2,2">
+                <Grid VerticalOptions="Fill">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <!--<RowDefinition Height="Auto"/>-->
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <vm:CurvedCornersPicker CurvedCornerRadius="10" CurvedBackGroundColor="#1f253f" TitleColor="#c8c8c6" FontFamily="D-DIN.ttf#D-DIN" WidthRequest="300" HorizontalOptions="Center" FontAttributes="Bold" Title="Pick Your Ship" SelectedItem="{Binding SelectedShip}"  ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" HeightRequest="45" TextColor="#c8c8c6" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                    <Image Source="arrow.png" Grid.Row="0" Grid.Column="0" Margin="0,0,60,0" Grid.ColumnSpan="2" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
+                    <!--<Picker Title="Pick Your Ship:" x:Name="TradingView" TitleColor="#0f194c" WidthRequest="300" HorizontalOptions="Center" TextColor="#64c1f9" ItemsSource="{Binding Items}" ItemDisplayBinding="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" d:ItemsSource="Ship Name" SelectedItem="{Binding SelectedShip}" BackgroundColor="#64c1f9" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />-->
+                    <!--<Label Text="Filter by Port" FontSize="12" TextColor="White" HorizontalOptions="Center" FontFamily="zekton_regular.ttf#Zekton Rg" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />-->
+                    <vm:CurvedCornersPicker CurvedCornerRadius="10" CurvedBackGroundColor="#1f253f" ItemsSource="{Binding Ports}" Title="Starting Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#c8c8c6" ItemDisplayBinding="{Binding name}" FontFamily="D-DIN.ttf#D-DIN" FontAttributes="Bold" SelectedItem="{Binding SelectedStartPort}" TextColor="#64c1f9" Grid.Row="1" Grid.Column="0" />
+                    <vm:CurvedCornersPicker CurvedCornerRadius="10" CurvedBackGroundColor="#1f253f" ItemsSource="{Binding Ports}" Title="Ending Port:" HorizontalOptions="CenterAndExpand" WidthRequest="250" TitleColor="#c8c8c6" ItemDisplayBinding="{Binding name}" FontFamily="D-DIN.ttf#D-DIN" FontAttributes="Bold" SelectedItem="{Binding SelectedEndPort}" TextColor="#64c1f9" Grid.Row="1" Grid.Column="1"/>
+                    <Image Source="arrow.png" Grid.Row="1" Grid.Column="0" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
+                    <Image Source="arrow.png" Grid.Row="1" Grid.Column="1" HeightRequest="20" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="End" />
+                    <Entry Text="{Binding EntryTxt}" Keyboard="Numeric" Placeholder="Enter UEC" WidthRequest="120" HeightRequest="40" VerticalOptions="CenterAndExpand" BackgroundColor="#292826" TextColor="#c8c8c6" PlaceholderColor="#c8c8c6" HorizontalOptions="Center" FontFamily="D-DIN.ttf#D-DIN" FontAttributes="Bold" FontSize="14" Grid.Row="2" Grid.Column="0"/>
+                    <Label d:Text="Uec" VerticalOptions="Center" Text="{Binding DisplayName}" FontFamily="D-DIN.ttf#D-DIN" FontAttributes="Bold" TextColor="#c8c8c6" FontSize="19" HorizontalOptions="Center" Grid.Row="2" Grid.Column="1"/>
+                    <!--<Label VerticalOptions="Center" HeightRequest="20" FontFamily="zekton_regular.ttf#Zekton Rg" Text="Enter UEC Here" FontSize="16"  HorizontalOptions="Center" TextColor="Gray" Grid.Row="2" Grid.Column="0" />-->
+                </Grid>
+            </Frame>
+            <Frame OutlineColor="#d1dccc" BackgroundColor="Transparent" HasShadow="False" Padding="2,2,2,2">
+                <Button Text="Submit" Command="{Binding PostRouteData}" IsVisible="True" IsEnabled="True" TextColor="#212741" CornerRadius="10" BackgroundColor="#64c1f9" FontSize="14" FontFamily="D-DIN.ttf#D-DIN" FontAttributes="Bold" HorizontalOptions="Center" HeightRequest="33" BorderWidth="2" BorderColor="Black" Grid.Row="1" />
+            </Frame>
             <!--<Button Text="Submit Filtered" TextColor="#fecc59" CornerRadius="20" BackgroundColor="Black" FontSize="13" HeightRequest="40"  Grid.Row="6" Grid.Column="1" />-->
              
             <!--<ScrollView VerticalOptions="FillAndExpand" Orientation="Vertical">

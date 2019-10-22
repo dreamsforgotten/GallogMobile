@@ -6,12 +6,13 @@
              mc:Ignorable="d"
              x:Class="GallogForms.Views.HangarPage"
              xmlns:vm="clr-namespace:GallogForms.ViewModels"
+             xmlns:cnv="clr-namespace:GallogForms.Services"
              Title="{Binding Title}"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              BackgroundImageSource="crusader.jpg">
     
     <ContentPage.BindingContext>
-        <vm:HangarViewModel />
+        <vm:AddShipViewModel />
     </ContentPage.BindingContext>
 
         <ContentPage.ToolbarItems>
@@ -23,24 +24,36 @@
             <Color x:Key="Primary">#2196F3</Color>
             <Color x:Key="Accent">#96d1ff</Color>
             <Color x:Key="LightTextColor">#999999</Color>
+            <cnv:EqualsParameterContextConverter x:Key="EqualsParameterContextConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
 
     <StackLayout BackgroundColor="#252629" VerticalOptions="Fill">
         <Grid HorizontalOptions="FillAndExpand" Padding="4,4,4,4">
-            <Button Text="Add ships to your Hangar" Clicked="Button_Clicked" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="zekton_regular.ttf#Zekton Rg" IsVisible="True" />
+            <Button Text="Add ships to your Hangar" Clicked="Button_Clicked" IsEnabled="True" HorizontalOptions="Center" TextColor="White" BackgroundColor="#252629" CornerRadius="10" FontFamily="D-DIN.ttf#D-DIN" IsVisible="True" />
         </Grid>
             <ListView x:Name="myHangarList"
+                      RowHeight="500"
+                      HasUnevenRows="True"
+                      ItemsSource="{Binding Items}"
+                      IsPullToRefreshEnabled="True"
                       BackgroundColor="Black">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
                             <StackLayout Orientation="Vertical" Padding="0,0,0,0" BackgroundColor="#292e4c">
-                            <Image Source="{Binding img}" d:Source="ph.png" BackgroundColor="Black" HorizontalOptions="Center" />
-                            <Label Text="{Binding name}" d:Text="Ship Name" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
-                            <Label Text="{Binding mfr}" d:Text="Ship Name" FontFamily="zekton_regular.ttf#Zekton Rg" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
-                        </StackLayout>
-                        </ViewCell>
+                                <Image Source="{Binding img}" d:Source="ph.png" BackgroundColor="Black" HorizontalOptions="Center" />
+                                <Label Text="{Binding name}"  d:Text="Ship Name" FontFamily="D-DIN.ttf#D-DIN" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                                <Label Text="{Binding mfr}" d:Text="Ship Name" FontFamily="D-DIN.ttf#D-DIN" TextColor="White" FontSize="24" LineBreakMode="TailTruncation" HorizontalOptions="Center" />
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

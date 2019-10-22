@@ -16,62 +16,42 @@
     </ContentPage.BindingContext>
 
     <ContentPage.Content>
-        <listView:SfListView x:Name="listView3" ItemSize="70" ItemsSource="{Binding Items}" >
-            <listView:SfListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <ViewCell.View>
-                            <Grid x:Name="grid" RowSpacing="1">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="250" />
-                                    <RowDefinition Height="250" />
-                                </Grid.RowDefinitions>
-                                <!--<Grid RowSpacing="1">-->
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <BoxView BackgroundColor="Black" Margin="5,5,5,5" Grid.Row="0" Grid.Column="0 " Grid.RowSpan="2" />
-                                    <ffimageloading:CachedImage Source="{Binding img}" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
-                                    VerticalOptions="Center"
-                                    HorizontalOptions="Center"
-                                    HeightRequest="500" WidthRequest="300"/>
-                                    <BoxView BackgroundColor="#747474" Margin="5,5,5,5" Grid.Row="0" Grid.Column="1" />
-                                    <BoxView BackgroundColor="#747474" Margin="5,5,5,5" Grid.Row="1" Grid.Column="1" />
-                                <Label Text="{Binding name}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="Black" BackgroundColor="#747474" FontSize="21" LineBreakMode="TailTruncation" Grid.Row="0" Grid.Column="1" />
-                                <Label Text="{Binding mfr}" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="Black" BackgroundColor="#747474" FontSize="21" LineBreakMode="TailTruncation" Grid.Row="1"  Grid.Column="1"/>
-                                    <!--<Grid Grid.Column="1"
-                                    RowSpacing="1"
-                                    VerticalOptions="Center">-->
-                                        <!--<Grid.RowDefinitions>
-                                            <RowDefinition Height="*" />
-                                            <RowDefinition Height="*" />
-                                        </Grid.RowDefinitions>
-
-                                        <Label Text="{Binding name}"/>
-                                        <Label Grid.Row="1" Text="{Binding ContactNumber}"/>
-                                    </Grid>-->
-                                    <!--<Picker Grid.Column="2" x:Name="picker" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="200"
-                                                ItemsSource="{Binding Source={x:Reference listView}, Path=BindingContext.PickerItems}"
-                                                SelectedIndex="{Binding PickerSelectedIndex}">
-                                    </Picker>-->
-                                <!--</Grid>-->
-                                <!--<StackLayout Grid.Row="1" BackgroundColor="Gray" HeightRequest="1"/>-->
-                            </Grid>
-                        </ViewCell.View>
-                    </ViewCell>
-                </DataTemplate>
-            </listView:SfListView.ItemTemplate>
-        </listView:SfListView>
+        <StackLayout>
+            <ScrollView>
+                <ListView ItemsSource="{Binding Items}"
+                          SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+                          HasUnevenRows="True" >
+                    <d:ListView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Item One</x:String>
+                            <x:String>Item Two</x:String>
+                            <x:String>Item Three</x:String>
+                            <x:String>Item Four</x:String>
+                            <x:String>Item Five</x:String>
+                        </x:Array>
+                    </d:ListView.ItemsSource>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout>
+                                        <Grid RowSpacing="1">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="60" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+                                            <BoxView BackgroundColor="#747474" Margin="5,5,5,5" Grid.Row="0" />
+                                            <Label Text="{Binding mfr}" Margin="5,5,5,5"  d:Text="Aegis" HorizontalOptions="Center" VerticalOptions="StartAndExpand" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="White" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="0" />
+                                            <Label Text="{Binding name}" Margin="5,5,5,5" d:Text="Eclipse" HorizontalOptions="Center" VerticalOptions="End" FontFamily="zekton_regular.ttf#Zekton Rg" FontAttributes="Bold" TextColor="White" FontSize="20" LineBreakMode="TailTruncation" Grid.Row="0" />
+                                        </Grid>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
 
-<!--<StackLayout Orientation="Vertical">
-        <SearchBar x:Name="ListViewFilter" Text="Add To Your Fleet!"
-                   TextChanged="ListViewFilter_TextChanged" 
-                   BackgroundColor="Azure"
-                   IsVisible="True"
-                   />
-        
-    </StackLayout>-->
-<!--</ContentPage>-->
