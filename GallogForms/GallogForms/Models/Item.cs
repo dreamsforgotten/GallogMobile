@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace GallogForms.Models
+﻿namespace GallogForms.Models
 {
     public class Item
     {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Gallog.Api.Models
+﻿namespace Gallog.Api.Models
 {
     public class Item
     {

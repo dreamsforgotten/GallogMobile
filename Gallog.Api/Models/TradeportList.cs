@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Gallog.Api.Attributes;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
+﻿using Gallog.Api.Attributes;
 
 namespace Gallog.Api.Models
 {

@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 using GallogForms.Models;
 
 namespace GallogForms.ViewModels

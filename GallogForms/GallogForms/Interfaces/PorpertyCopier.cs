@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GallogForms.Interfaces
+﻿namespace GallogForms.Interfaces
 {
     public class PropertyCopier<TParent, TChild> where TParent : class
                                              where TChild : class

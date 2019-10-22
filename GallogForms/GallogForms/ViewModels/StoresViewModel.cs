@@ -1,23 +1,18 @@
 ﻿using System;
-using System.Windows.Input;
-using System.Net.Http;
 using Gallog.Api.Models;
 using Gallog.Api;
 
 using Xamarin.Forms;
-using Refit;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Diagnostics;
-using System.Linq;
 
 namespace GallogForms.ViewModels
 {
- //   private GallogClient _gallogClient;
- //   public ObservableCollection<ShipCatalog> Items { get; set; }
+    //   private GallogClient _gallogClient;
+    //   public ObservableCollection<ShipCatalog> Items { get; set; }
 
- //   public Command RefreshItemsCommand { get; set; }
+    //   public Command RefreshItemsCommand { get; set; }
     public class StoresViewModel : BaseViewModel
     {
         private GallogClient _gallogClient;

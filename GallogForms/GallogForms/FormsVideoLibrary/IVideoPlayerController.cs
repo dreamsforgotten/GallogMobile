@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GallogForms.FormsVideoLibrary
 {
-        public interface IVideoPlayerController
+    public interface IVideoPlayerController
         {
             VideoStatus Status { set; get; }
 

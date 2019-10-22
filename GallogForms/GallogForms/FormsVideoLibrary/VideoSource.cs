@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace GallogForms.FormsVideoLibrary
 {
-        [TypeConverter(typeof(VideoSourceConverter))]
+    [TypeConverter(typeof(VideoSourceConverter))]
         public abstract class VideoSource : Element
         {
             public static VideoSource FromUri(string uri)

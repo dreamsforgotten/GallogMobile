@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Globalization;
 using Xamarin.Forms;
 
-namespace GallogForms.Services 
+namespace GallogForms.Services
 {
     class EqualsParameterContextConverter : IValueConverter
         {

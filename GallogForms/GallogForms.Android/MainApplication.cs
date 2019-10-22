@@ -1,24 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using Android.App;
-using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Plugin.CurrentActivity;
 
 
 namespace GallogForms.Droid
 {
-        //Do not delete thise file! It was here because plugins depend on it. 
-        //If you have an existing Application class you can merte the two together
-        //if you have existing assembly:Application, you can remove them.
+    //Do not delete thise file! It was here because plugins depend on it. 
+    //If you have an existing Application class you can merte the two together
+    //if you have existing assembly:Application, you can remove them.
 #if DEBUG
-        [Application(Debuggable = true)]
+    [Application(Debuggable = true)]
 #else
 	[Application(Debuggable = false)]
 #endif

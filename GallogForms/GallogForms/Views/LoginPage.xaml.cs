@@ -1,9 +1,6 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 using GallogForms.ViewModels;
-using Gallog.Api.Models;
 
 namespace GallogForms.Views
 {

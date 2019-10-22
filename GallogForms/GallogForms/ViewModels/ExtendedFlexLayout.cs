@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-    
+﻿
 using System.Collections;
 using Xamarin.Forms;
 
-    namespace GallogForms.ViewModels
-    {
-        public class ExtendedFlexLayout : FlexLayout
+namespace GallogForms.ViewModels
+{
+    public class ExtendedFlexLayout : FlexLayout
         {
             public static readonly BindableProperty ItemsSourceProperty = BindableProperty.Create(nameof(ItemsSource), typeof(IEnumerable), typeof(ExtendedFlexLayout), propertyChanged: OnItemsSourceChanged);
             public static readonly BindableProperty ItemTemplateProperty = BindableProperty.Create(nameof(ItemTemplate), typeof(DataTemplate), typeof(ExtendedFlexLayout));

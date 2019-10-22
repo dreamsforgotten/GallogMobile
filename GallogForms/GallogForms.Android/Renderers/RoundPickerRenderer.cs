@@ -1,6 +1,5 @@
 ﻿using Android.Graphics;
 using Android.Graphics.Drawables;
-using Android.Support.V4.Content;
 using Android.Views;
 using GallogForms.Controls;
 using GallogForms.Droid;

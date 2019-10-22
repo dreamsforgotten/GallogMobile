@@ -1,8 +1,4 @@
 ﻿using System;
-using System.IO;
-using GallogForms;
-using GallogForms.Services;
-using GallogForms.Models;
 using Gallog.Api.Models;
 using Gallog.Api;
 

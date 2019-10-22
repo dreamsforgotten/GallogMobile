@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace GallogForms.FormsVideoLibrary
 {
-        public class UriVideoSource : VideoSource
+    public class UriVideoSource : VideoSource
         {
             public static readonly BindableProperty UriProperty =
                 BindableProperty.Create(nameof(Uri), typeof(string), typeof(UriVideoSource));

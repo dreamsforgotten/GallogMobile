@@ -3,14 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-using Xamarin.Forms;
-using Gallog.Api;
-using Gallog.Api.Models;
-
-using GallogForms.Models;
-using GallogForms.Services;
-using Gallog.Api.Services;
-
 namespace GallogForms.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged

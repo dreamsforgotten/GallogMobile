@@ -1,7 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-using GallogForms.Services;
+﻿using Xamarin.Forms;
 using GallogForms.Views;
 
 namespace GallogForms

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Windows.Input;
-using Xamarin.Forms;
-
-namespace GallogForms.ViewModels
+﻿namespace GallogForms.ViewModels
 {
     public class SplashViewModel : BaseViewModel
     {

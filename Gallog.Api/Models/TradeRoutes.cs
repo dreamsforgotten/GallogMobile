@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text;
-using Gallog.Api.Attributes;
-using Xamarin.Forms;
+﻿using Gallog.Api.Attributes;
 
 namespace Gallog.Api.Models
 {

@@ -1,11 +1,6 @@
 ﻿using Gallog.Api.Attributes;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.IO;
 using System.Runtime.CompilerServices;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Text;
 
 namespace Gallog.Api.Models
 {

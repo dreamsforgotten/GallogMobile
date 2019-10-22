@@ -1,7 +1,5 @@
 ﻿using Gallog.Api;
 using Gallog.Api.Models;
-using Gallogforms.ViewModels;
-using GallogForms.Interfaces;
 using GallogForms.Models;
 using System;
 using System.Collections.Generic;
@@ -9,7 +7,6 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
-using Xamarin.Forms;
 
 namespace GallogForms.ViewModels
 {

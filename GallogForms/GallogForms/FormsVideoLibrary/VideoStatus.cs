@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GallogForms.FormsVideoLibrary
+﻿namespace GallogForms.FormsVideoLibrary
 {
     public enum VideoStatus
     {

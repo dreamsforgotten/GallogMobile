@@ -4,10 +4,6 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
-
-using GallogForms.Models;
-using GallogForms.Services;
-using GallogForms.Views;
 using Entry = GallogForms.Models.Entry;
 
 namespace GallogForms.ViewModels
